@@ -138,14 +138,8 @@ const searchParams = new URLSearchParams(window.location.search);
   }
   
 function clearSearchResults(component) {
-  // try to find results in component first, then in topnav
-  let searchResults = component.querySelector('.search-results');
-  if (!searchResults) {
-    const topNav = document.querySelector('.feds-topnav.has-blog-nav-search');
-    if (topNav) {
-      searchResults = topNav.querySelector('.search-results');
-    }
-  }
+  // looks for the results in theshadow dom first else it will fallback to the light dom
+  let searchResults = component.shadowRoot?.querySelector('.search-results') || component.querySelector('.search-results');
   if (searchResults) {
     searchResults.innerHTML = '';
   }
@@ -163,14 +157,8 @@ function clearSearch(component) {
   
 async function renderResults(component, config, filteredData, searchTerms) {
   clearSearchResults(component);
-  // try to find results in component first, then in topnav
-  let searchResults = component.querySelector('.search-results');
-  if (!searchResults) {
-    const topNav = document.querySelector('.feds-topnav.has-blog-nav-search');
-    if (topNav) {
-      searchResults = topNav.querySelector('.search-results');
-    }
-  }
+  // looks for the results in theshadow dom first else it will fallback to the light dom
+  let searchResults = component.shadowRoot?.querySelector('.search-results') || component.querySelector('.search-results');
   if (!searchResults) return;
   
   const headingTag = searchResults.dataset.h;
@@ -280,8 +268,6 @@ function searchInput(component, config) {
     input.setAttribute('aria-label', searchPlaceholder);
 
   // Debug logging
-  
-  
     input.addEventListener('input', (e) => {
     
     handleSearch(e, component, config);
@@ -301,8 +287,6 @@ function searchInput(component, config) {
     }
   }, true);
 
-  
-  
     return input;
   }
   
@@ -354,17 +338,17 @@ function searchBox(component, config) {
   
 class BlogSearch extends HTMLElement {
   async connectedCallback() {
-    
+    // shadow dom gets created first
+    this.attachShadow({ mode: 'open' });
     
     await loadMiloUtils();
     
-    
-    // Load CSS
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = '/web-components/search/blog-search.css';
-    document.head.appendChild(link);
-    
+    // the css gets loaded int othe shadow dom
+    const cssResponse = await fetch('/web-components/search/blog-search.css');
+    const cssText = await cssResponse.text();
+    const styleSheet = new CSSStyleSheet();
+    await styleSheet.replace(cssText);
+    this.shadowRoot.adoptedStyleSheets = [styleSheet]; 
     
     const placeholders = await fetchPlaceholders();
     const source = this.getAttribute('data-source') || '/en/query-index.json';
@@ -375,21 +359,22 @@ class BlogSearch extends HTMLElement {
     if (isNavSearch) {
       this.classList.add('nav-search');
       
-      // For nav search, place input in topnav and keep icon/results in component
+      // For nav search, everything goes in Shadow DOM but uses positioning to span full width
       const topNav = document.querySelector('.feds-topnav');
       if (topNav) {
         topNav.classList.add('has-blog-nav-search');
-        const input = searchInput(this, { source, placeholders });
+        
+        // creates nav-search-container which is important for the positioning
+        const searchContainer = document.createElement('div');
+        searchContainer.className = 'nav-search-container';
+        
         const icon = searchIcon();
-        
-        // Add input and results directly to topnav
+        const input = searchInput(this, { source, placeholders });
         const results = searchResultsContainer(this);
-        topNav.appendChild(input);
-        topNav.appendChild(results);
         
-        // Keep only icon in the component
-        this.innerHTML = '';
-        this.append(icon);
+        // adds all elements to the shadow dom
+        searchContainer.append(icon, input, results);
+        this.shadowRoot.appendChild(searchContainer);
         
         // Set up nav-specific behavior
         icon.addEventListener('click', (e) => {
@@ -403,9 +388,10 @@ class BlogSearch extends HTMLElement {
           }
         });
 
-        // Close search when clicking outside
+        // closes search when clicking outside (check both shadow and light DOM)
         document.addEventListener('click', (e) => {
-          if (!this.contains(e.target) && !input.contains(e.target)) {
+          const clickedInsideComponent = this.contains(e.target) || this.shadowRoot.contains(e.target);
+          if (!clickedInsideComponent) {
             this.classList.remove('expanded');
             clearSearch(this);
             input.value = '';
@@ -420,30 +406,30 @@ class BlogSearch extends HTMLElement {
           }
         });
       } else {
-        // Fallback to normal behavior
-        this.innerHTML = '';
-        this.append(
+        // Fallback to normal behavior in Shadow DOM
+        this.shadowRoot.append(
           searchBox(this, { source, placeholders }),
           searchResultsContainer(this),
         );
       }
     } else {
-      this.innerHTML = '';
-      this.append(
+      // Regular search - all in Shadow DOM
+      this.shadowRoot.append(
         searchBox(this, { source, placeholders }),
         searchResultsContainer(this),
       );
     }
 
     if (searchParams.get('q')) {
-      const input = this.querySelector('input');
-      input.value = searchParams.get('q');
-      input.dispatchEvent(new Event('input'));
-          
+      const input = this.shadowRoot.querySelector('input') || this.querySelector('input');
+      if (input) {
+        input.value = searchParams.get('q');
+        input.dispatchEvent(new Event('input'));
+      }
     }
 
     if (typeof decorateIcons === 'function') {
-      decorateIcons(this);
+      decorateIcons(this.shadowRoot);
     }
     
   }
