@@ -214,6 +214,7 @@ header nav.has-blog-nav-search {
 /* styling of the result items */
 .nav-search-container .search-results > li {
   border: 1px solid #dadada;
+  border-radius: 4px;
   list-style-type: none;
 }
 
@@ -221,13 +222,15 @@ header nav.has-blog-nav-search {
   display: flex;
   height: 140px;
   width: 100%;
+  border-radius: 4px;
   font-size: 16px;
   background-color: transparent;
   color: currentcolor;
   cursor: pointer;
   text-decoration: none;
-  justify-content: center;
+  justify-content: flex-start;
   box-sizing: border-box;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-search-container .search-results > li > a:hover,
