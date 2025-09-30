@@ -195,7 +195,7 @@ function filterData(searchTerms, data) {
     const metaContents = `${result.title} ${result.description} ${result.path.split('/').pop()}`.toLowerCase();
 
     if (title.includes(fullPhrase)) {
-      exactMatches.push({minIdx: metaContents.indexOf(fullPhrase), result});
+      exactMatches.push({minIdx: title.indexOf(fullPhrase), result});
       return;
     }
 
@@ -211,7 +211,7 @@ function filterData(searchTerms, data) {
       const idx = title.indexOf(term);
       if (idx >= 0) {
         matchCount++;
-        if (mindIdx === -1 || idx < mindIdx) minIdx = idx;
+        if (minIdx === -1 || idx < mindIdx) minIdx = idx;
       }
     });
 
