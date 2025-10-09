@@ -21,7 +21,7 @@ export const SITE = {
   team: 'Adobe Developers Blog Team',
   authorsRoot: '/en/authors',
   topicsRoot: '/en/topics',
-  prodLibsPath: 'https://milo.adobe.com/libs', // Use '/libs' if your live site maps '/libs' to milo's origin.
+  prodLibsPath: '/libs', // Use '/libs' if your live site maps '/libs' to milo's origin.
   articleCard: {
     breakpoints: [{ media: '(min-width: 600px)', width: '420' }, { width: '200' }]
   },
