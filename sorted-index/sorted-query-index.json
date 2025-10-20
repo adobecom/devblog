@@ -1,8 +1,21 @@
 {
-  "total": 63,
+  "total": 64,
   "offset": 0,
-  "limit": 63,
+  "limit": 64,
   "data": [
+    {
+      "path": "/en/publish/2025/10/learnings-from-vibe-coding-with-cursor-and-the-adobe-express-add-on-mcp-server",
+      "image": "/en/publish/2025/10/media_1e6cc7e214666b75f80601b5b44fe976f3eaa7712.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "From Idea to Product: Learnings from Vibe Coding with Cursor and the Adobe Express Add-On MCP Server",
+      "author": "Ruben Rincon",
+      "description": "Ruben Rincon is Group Product Manager for the Adobe Developer Platform and leads the Developer Experience team.",
+      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"add-on-mcp-server\",\"adobe-express-add-ons\",\"mcp-server\",\"add-on-development\",\"vibe-coding\",\"AI\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1760950206",
+      "Removed from Medium?": ""
+    },
     {
       "path": "/en/publish/2025/09/introducing-the-adobe-express-add-on-dev-mcp-server-beta",
       "image": "/en/publish/2025/09/media_18c6423a5b81077de25d9a90bfcb427e9ec1fc38c.jpg?width=1200&format=pjpg&optimize=medium",
@@ -837,5 +850,5 @@
     "Removed from Medium?"
   ],
   ":type": "sheet",
-  "generatedAt": "2025-10-14T04:28:48.551Z"
+  "generatedAt": "2025-10-20T16:31:32.362Z"
 }
