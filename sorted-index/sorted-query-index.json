@@ -1,8 +1,21 @@
 {
-  "total": 64,
+  "total": 65,
   "offset": 0,
-  "limit": 64,
+  "limit": 65,
   "data": [
+    {
+      "path": "/en/publish/2025/11/adobe-express-add-on-platform-updates-fall-2025-digest",
+      "image": "/en/publish/2025/11/media_1df98951dad0e6150a392c28ab82bbd9cf70ea235.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Adobe Express Add-on Platform Updates: Fall 2025 Digest",
+      "author": "Taylor Krusen",
+      "description": "An exciting flurry of updates has come to the Adobe Express add-on platform over recent months: new text and layout controls, richer media metadata, workflow ...",
+      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-add-ons\",\"mcp-server\",\"add-on-development\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1762520328",
+      "Removed from Medium?": ""
+    },
     {
       "path": "/en/publish/2025/10/learnings-from-vibe-coding-with-cursor-and-the-adobe-express-add-on-mcp-server",
       "image": "/en/publish/2025/10/media_1e6cc7e214666b75f80601b5b44fe976f3eaa7712.jpg?width=1200&format=pjpg&optimize=medium",
@@ -850,5 +863,5 @@
     "Removed from Medium?"
   ],
   ":type": "sheet",
-  "generatedAt": "2025-11-07T14:25:35.817Z"
+  "generatedAt": "2025-11-07T16:29:05.594Z"
 }
