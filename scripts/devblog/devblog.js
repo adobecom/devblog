@@ -21,6 +21,7 @@ export const SITE = {
   team: 'Adobe Developers Blog Team',
   authorsRoot: '/en/authors',
   topicsRoot: '/en/topics',
+  taggedRoot: '/en/tagged',
   prodLibsPath: '/libs', // Use '/libs' if your live site maps '/libs' to milo's origin.
   articleCard: {
     breakpoints: [{ media: '(min-width: 600px)', width: '420' }, { width: '200' }]
@@ -520,6 +521,8 @@ export async function buildDevblogAutoBlocks() {
     buildAuthorPage(mainEl);
   } else if(window.location.pathname.match(/\/topics\//)) {
     buildTopicPage(mainEl);
+  } else if(window.location.pathname.match(/\/tagged\//)) {
+    // tagged redirect handled by tagged-redirect blog
   } else if(window.location.pathname === '/') {
     // homepage
   } else {
