@@ -510,6 +510,15 @@ function watchAutoLinks() {
   });
 }
 
+function redirectTaggedPath() {
+  // Catch-all redirect for /tagged/*
+  // Doing it at the CDN level would be better but it's easier
+  // to manage here. If moving to CDN note one exception for now,
+  // defined in the redirects sheet
+  const tag = window.location.pathname.match(/tagged\/(.*)/)[1];
+  window.location = `/en/topics/${tag}`;
+}
+
 export async function buildDevblogAutoBlocks() {
   fixImportedContent();
   addLangRoot();
@@ -520,6 +529,8 @@ export async function buildDevblogAutoBlocks() {
     buildAuthorPage(mainEl);
   } else if(window.location.pathname.match(/\/topics\//)) {
     buildTopicPage(mainEl);
+  } else if(window.location.pathname.match(/\/tagged\//)) {
+    redirectTaggedPath();
   } else if(window.location.pathname === '/') {
     // homepage
   } else if(window.location.pathname.match(/\/search$/)) {

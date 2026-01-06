@@ -1,8 +1,86 @@
 {
-  "total": 62,
+  "total": 68,
   "offset": 0,
-  "limit": 62,
+  "limit": 68,
   "data": [
+    {
+      "path": "/en/publish/2025/12/adobe-express-add-on-platform-updates-winter-2025-digest",
+      "image": "/en/publish/2025/12/media_143a92fd72064af8a4eb5794fa8fb2f0ee40e45e0.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Adobe Express Add-on Platform Updates: Winter 2025 Digest",
+      "author": "Taylor Krusen",
+      "description": "This was an exciting quarter for add-on developers. Code Playground had a big overhaul, new experimental document APIs introduced new text and image workflows, and ...",
+      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1766146208",
+      "Removed from Medium?": ""
+    },
+    {
+      "path": "/en/publish/2025/12/self-service-public-profile-management-for-adobe-developers",
+      "image": "/en/publish/2025/12/media_14403fac9216de0745ee674fdbe0389fba25936e4.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Self-Service Public Profile Management for Adobe Developers",
+      "author": "Madhur Sharma",
+      "description": "This article is for you if you publish plugins, integrations, applications, or solutions on the Adobe Exchange Marketplace, or public add-ons for Adobe Express.",
+      "tags": "[\"adobe-exchange-marketplace\",\"adobe-express\",\"adobe-express-add-ons\",\"add-on-development\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1765885326",
+      "Removed from Medium?": ""
+    },
+    {
+      "path": "/en/publish/2025/12/uxp-arrives-in-premiere-a-new-era-for-plugin-development",
+      "image": "/en/publish/2025/12/media_16fb76c13ccdb8b86d8f2e8f53a95f94ceca1e3f1.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "UXP Arrives in Premiere: A New Era for Plugin Development",
+      "author": "Arvind Sridhar",
+      "description": "We’re thrilled to announce that the Unified Extensibility Platform (UXP) has officially graduated from beta and is now available in Adobe Premiere 25.6!",
+      "tags": "[\"uxp\",\"premiere\",\"extensibility\",\"plugin-development\",\"unified-extensibility-platform\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1765873613",
+      "Removed from Medium?": ""
+    },
+    {
+      "path": "/en/publish/2025/11/adobe-express-add-on-platform-updates-fall-2025-digest",
+      "image": "/en/publish/2025/11/media_1df98951dad0e6150a392c28ab82bbd9cf70ea235.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Adobe Express Add-on Platform Updates: Fall 2025 Digest",
+      "author": "Taylor Krusen",
+      "description": "An exciting flurry of updates has come to the Adobe Express add-on platform over recent months: new text and layout controls, richer media metadata, workflow ...",
+      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-add-ons\",\"mcp-server\",\"add-on-development\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1762683629",
+      "Removed from Medium?": ""
+    },
+    {
+      "path": "/en/publish/2025/10/learnings-from-vibe-coding-with-cursor-and-the-adobe-express-add-on-mcp-server",
+      "image": "/en/publish/2025/10/media_1e6cc7e214666b75f80601b5b44fe976f3eaa7712.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "From Idea to Product: Learnings from Vibe Coding with Cursor and the Adobe Express Add-On MCP Server",
+      "author": "Ruben Rincon",
+      "description": "Ruben Rincon is Group Product Manager for the Adobe Developer Platform and leads the Developer Experience team.",
+      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"add-on-mcp-server\",\"adobe-express-add-ons\",\"mcp-server\",\"add-on-development\",\"vibe-coding\",\"AI\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1761762527",
+      "Removed from Medium?": ""
+    },
+    {
+      "path": "/en/publish/2025/09/introducing-the-adobe-express-add-on-dev-mcp-server-beta",
+      "image": "/en/publish/2025/09/media_18c6423a5b81077de25d9a90bfcb427e9ec1fc38c.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Introducing the Adobe Express Add-on Dev MCP Server (Beta)",
+      "author": "Colene Chow",
+      "description": "The Adobe Express Add-on Dev MCP Server Beta is now available as a free tool designed to enhance your developer workflow.",
+      "tags": "[\"adobe-express\",\"MCP-server\",\"adobe-express-add-ons\",\"add-on-development\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1762855783",
+      "Removed from Medium?": ""
+    },
     {
       "path": "/en/publish/2025/08/inside-ai-collaborate-s-24-hour-adobe-express-add-on-hackathon",
       "image": "/en/publish/2025/08/media_1ef79620dc5b1ad70a20666c50352185979eca05f.jpg?width=1200&format=pjpg&optimize=medium",
@@ -52,7 +130,7 @@
       "tags": "[\"aem-assets\",\"aem\",\"figma\",\"dam\",\"connector\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1756403266",
+      "lastModified": "1757374385",
       "Removed from Medium?": ""
     },
     {
@@ -143,7 +221,7 @@
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-creative-cloud\",\"extensibility\",\"developer\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1747320664",
+      "lastModified": "1758130563",
       "Removed from Medium?": ""
     },
     {
@@ -824,5 +902,5 @@
     "Removed from Medium?"
   ],
   ":type": "sheet",
-  "generatedAt": "2025-08-28T18:34:44.639Z"
+  "generatedAt": "2026-01-02T04:06:11.851Z"
 }
