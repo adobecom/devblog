@@ -5,3 +5,5 @@ folders:
   /en/authors: /en/generic-author
   /en/topics: /en/generic-topics
   /tagged: /en/generic-tagged
+  /en/gnav: /gnav
+  /en/footer: /footer
