@@ -230,7 +230,7 @@ const { loadArea, setConfig, getMetadata } = await import(`${miloLibs}/utils/uti
   console.log('Search web component imported and registered');
   
   // Then inject search into navigation after Milo loads
-  const topNav = document.querySelector('.feds-topnav') || 
+  const topNav = document.querySelector('.feds-topnav') ||
   
   console.log('Injecting search into navigation. Target element:', topNav);
   const searchElement = document.createElement('blog-search');
