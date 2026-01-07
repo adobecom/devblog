@@ -6,4 +6,5 @@ folders:
   /en/topics: /en/generic-topics
   /tagged: /en/generic-tagged
   /en/gnav: /gnav
-  /en/footer: /footer
+  /en/footer.plain: /footer
+  /en/placeholders: /placeholders
