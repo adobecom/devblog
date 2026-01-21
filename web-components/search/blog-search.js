@@ -117,6 +117,25 @@ async function renderResult(result, searchTerms, titleTag) {
     }
     a.append(wrapper);
   }
+  // This is for the tag of the search result
+  if (result.tags) {
+    try {
+      const tagsArray = JSON.parse(result.tags);
+      if (tagsArray.length && tagsArray.length > 0) {
+        const tagElement = document.createElement('span');
+        tagElement.className = 'search-result-tags';
+        tagElement.textContent = tagsArray[0].toUpperCase().replace(/-/g, ' ');
+        a.append(tagElement);
+      }
+    } catch (e) {
+      if (result.tags) {
+        const tagElement = document.createElement('span');
+        tagElement.className = 'search-result-tag';
+        tagElement.textContent = tagsArray[0].toUpperCase().replace(/-/g, ' ');
+        a.append(tagElement);
+      }
+    }
+  }
   if (result.title) {
     const title = document.createElement(titleTag);
     title.className = 'search-result-title';
