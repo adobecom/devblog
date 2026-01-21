@@ -30,7 +30,7 @@ const CONFIG = {
   },
   locales: {
     '': { ietf: 'en-US', tk: 'hah7vzn.css' },
-    en: { ietf: 'en-US', tk: 'hah7vzn.css' },
+    //en: { ietf: 'en-US', tk: 'hah7vzn.css' },
     //de: { ietf: 'de', tk: 'hah7vzn.css' },
     //ko: { ietf: 'ko', tk: 'zfo3ouc' },
     //es: { ietf: 'es', tk: 'oln4yqj.css' },
@@ -184,7 +184,7 @@ function overrideMiloBlocks() {
 function decorateTopicPage() {
   if (window.location.href.includes('/topics/')) {
     const sections = [...document.querySelectorAll('main > div')];
-    if (sections.length = 1) {
+    if (sections.length === 1) {
       const articleFeed = document.querySelector('main div .article-feed');
       if (!articleFeed) return;
       const newSection = document.createElement('div');
@@ -224,13 +224,19 @@ const { loadArea, setConfig, getMetadata } = await import(`${miloLibs}/utils/uti
   await buildDevblogAutoBlocks();
   overrideMiloBlocks();
   await loadArea();
+
+  const logoLink = document.querySelector('a.feds-logo');
+  if (logoLink) {
+    logoLink.href = '/';
+    console.log('Logo link updated to:', logoLink.href);
+  }
   
   // Import and register search web component first
   await import('../web-components/search/blog-search.js');
   console.log('Search web component imported and registered');
   
   // Then inject search into navigation after Milo loads
-  const topNav = document.querySelector('.feds-topnav') ||
+  const topNav = document.querySelector('.feds-topnav');
   
   console.log('Injecting search into navigation. Target element:', topNav);
   const searchElement = document.createElement('blog-search');
