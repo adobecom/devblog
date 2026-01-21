@@ -531,7 +531,7 @@ export async function buildDevblogAutoBlocks() {
     buildTopicPage(mainEl);
   } else if(window.location.pathname.match(/\/tagged\//)) {
     redirectTaggedPath();
-  } else if(window.location.pathname === '/') {
+  } else if(window.location.pathname === '/' || window.location.pathname.match(/^\/en\/?$/)) {
     // homepage
   } else if(window.location.pathname.match(/\/search$/)) {
     // search page- leave search page as is
