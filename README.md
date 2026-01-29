@@ -1,3 +1,11 @@
+# TODO
+
+- Review this
+- Add Repository info, owners
+- Add info: local development, origin URLs, aem.live
+- Code: sorted index, scripts, post-processing
+- Content: redirect, generic pages
+
 ## Developing
 1. Install the [Helix CLI](https://github.com/adobe/helix-cli): `sudo npm install -g @adobe/helix-cli`
 1. Run `hlx up` this repo's folder. (opens your browser at `http://localhost:3000`)
