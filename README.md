@@ -31,7 +31,7 @@ The code can take longer to be updated as seen from the client side, I think aro
 
 ## /libs serves Milo code
 
-On that last URL, `/libs` is mounted at the CDN level to serve Milo code directly,
+On the public URL, `/libs` is mounted at the CDN level to serve Milo code directly,
 mapping for example https://blog.developer.adobe.com/libs/blocks/article-feed/article-feed.js
 to https://main--milo--adobecom.aem.live/libs/blocks/article-feed/article-feed.js
 
@@ -74,7 +74,7 @@ Two blocks have `post-process` in their name, they run after the standard Milo b
 to tweak their outputs. The mapping to those blocks is defined in the 
 [devblog.js](./scripts/devblog/devblog.js) script.
 
-## Redirects
+## Redirects
 
 Many redirects are defined in the `redirects` sheet in the content, as URLs have
 changed compared to the previous website.
@@ -86,7 +86,7 @@ That redirects sheet does include some comments in extra columns to help mainten
 Only its first two columns are used by EDS. Formatting is also ignored, which can also
 be useful.
 
-## Generic pages, folder mapping
+## Generic pages, folder mapping
 
 The `folders` section of [fstab.yaml](./fstab.yaml) currently defines three 
 [mapped folders](https://www.aem.live/developer/folder-mapping) for the authors,
