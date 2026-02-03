@@ -5,4 +5,4 @@ node_modules/*
 .DS_Store
 .idea
 sorted-index/analyze-tags.js
-AGENTS.md
+agents/*
