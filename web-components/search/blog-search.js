@@ -230,7 +230,7 @@ function filterData(searchTerms, data) {
       const idx = title.indexOf(term);
       if (idx >= 0) {
         matchCount++;
-        if (minIdx === -1 || idx < mindIdx) minIdx = idx;
+        if (minIdx === -1 || idx < minIdx) minIdx = idx;
       }
     });
 
