@@ -2,6 +2,8 @@ import { getLibs } from '../../scripts/devblog/devblog.js';
 
 // These will be loaded dynamically in the functions that need them
 let createOptimizedPicture, decorateIcons, fetchPlaceholders;
+let currentRenderId = 0;
+let searchDebounceTimer;
 
 async function loadMiloUtils() {
   if (!createOptimizedPicture) {
@@ -131,7 +133,7 @@ async function renderResult(result, searchTerms, titleTag) {
       if (result.tags) {
         const tagElement = document.createElement('span');
         tagElement.className = 'search-result-tag';
-        tagElement.textContent = tagsArray[0].toUpperCase().replace(/-/g, ' ');
+        tagElement.textContent = result.tags.toUpperCase().replace(/-/g, ' ');
         a.append(tagElement);
       }
     }
@@ -175,6 +177,8 @@ function clearSearch(component) {
 }
 
 async function renderResults(component, config, filteredData, searchTerms) {
+  const renderId = ++currentRenderId;
+
   clearSearchResults(component);
   // looks for the results in theshadow dom first else it will fallback to the light dom
   let searchResults = component.shadowRoot?.querySelector('.search-results') || component.querySelector('.search-results');
@@ -184,11 +188,20 @@ async function renderResults(component, config, filteredData, searchTerms) {
 
   if (filteredData.length) {
     searchResults.classList.remove('no-results');
-    for (const result of filteredData) {
-      const li = await renderResult(result, searchTerms, headingTag);
-      searchResults.append(li);
-    }
+    
+    // Render all results in parallel
+    const results = await Promise.all(
+      filteredData.map(result => renderResult(result, searchTerms, headingTag))
+    );
+    
+    // Check if this render is still current (not cancelled by a newer search)
+    if (renderId !== currentRenderId) return;  // ← ADD THIS CHECK
+    
+    // Append all results at once
+    results.forEach(li => searchResults.append(li));
   } else {
+    if (renderId !== currentRenderId) return;  // ← ADD THIS CHECK ALSO
+
     const noResultsMessage = document.createElement('li');
     searchResults.classList.add('no-results');
     noResultsMessage.textContent = config.placeholders.searchNoResults || 'No results found.';
@@ -254,13 +267,29 @@ function filterData(searchTerms, data) {
       foundInMeta.push({minIdx, result, matchCount });
     }
   });
-  return [
+  // First, sort everything
+  const sorted = [
     ...exactMatches.sort((a, b) => a.minIdx - b.minIdx),
     ...phraseMatches.sort((a, b) => a.minIdx - b.minIdx),
     ...foundInHeader.sort((a, b) => b.matchCount - a.matchCount || a.minIdx - b.minIdx),
     ...foundInMeta.sort((a, b) => b.matchCount - a.matchCount || a.minIdx - b.minIdx),
-  ].map((item) => item.result);
+  ];
+
+  // Then deduplicate by title, keeping first occurrence (best ranked)
+  const seen = new Set();
+  const uniqueResults = [];
+  
+  sorted.forEach(item => {
+    const key = item.result.title.toLowerCase();  // Note: item.result.title, not item.title
+    if (!seen.has(key)) {
+      seen.add(key);
+      uniqueResults.push(item.result);  // Push the actual result, not the wrapper
+    }
+  });
+  
+  return uniqueResults;
 }
+
 
 async function handleSearch(e, component, config) {
   const searchValue = e.target.value;
@@ -305,7 +334,12 @@ function searchInput(component, config) {
   input.setAttribute('aria-label', searchPlaceholder);
 
   input.addEventListener('input', (e) => {
-    handleSearch(e, component, config);
+    const currentTarget = e.target;  // Capture the input element reference
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = setTimeout(() => {
+      // Create a fake event object with the target
+      handleSearch({ target: currentTarget }, component, config);
+    }, 300);
   });
 
   input.addEventListener('keyup', (e) => {
