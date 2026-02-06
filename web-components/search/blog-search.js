@@ -290,7 +290,6 @@ function filterData(searchTerms, data) {
   return uniqueResults;
 }
 
-
 async function handleSearch(e, component, config) {
   const searchValue = e.target.value;
 
@@ -376,28 +375,12 @@ function searchBox(component, config) {
 
   // Check if this is a nav search variant
   if (component.classList.contains('nav-search')) {
-    // Add click handler for icon to expand search
-    icon.addEventListener('click', (e) => {
-      e.stopPropagation();
-      component.classList.toggle('expanded');
-      if (component.classList.contains('expanded')) {
-        setTimeout(() => input.focus(), 300);
-      }
-    });
-
-    // Close search when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!component.contains(e.target)) {
-        component.classList.remove('expanded');
-        clearSearch(component);
-      }
-    });
-
     // Close search on escape key
     input.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
-        component.classList.remove('expanded');
         clearSearch(component);
+        input.value = '';
+        input.blur();
       }
     });
   }
@@ -454,33 +437,12 @@ class BlogSearch extends HTMLElement {
         searchContainer.append(icon, input, results);
         this.shadowRoot.appendChild(searchContainer);
         
-        // Set up nav-specific behavior
-        icon.addEventListener('click', (e) => {
-          e.stopPropagation();
-          this.classList.toggle('expanded');
-          if (this.classList.contains('expanded')) {
-            setTimeout(() => input.focus(), 300);
-          } else {
-            clearSearch(this);
-            input.value = '';
-          }
-        });
-
-        // closes search when clicking outside (check both shadow and light DOM)
-        document.addEventListener('click', (e) => {
-          const clickedInsideComponent = this.contains(e.target) || this.shadowRoot.contains(e.target);
-          if (!clickedInsideComponent) {
-            this.classList.remove('expanded');
-            clearSearch(this);
-            input.value = '';
-          }
-        });
-
         // Close search on escape key
         input.addEventListener('keydown', (e) => {
           if (e.key === 'Escape') {
-            this.classList.remove('expanded');
             clearSearch(this);
+            input.value = '';
+            input.blur();
           }
         });
       } else {

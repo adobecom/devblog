@@ -1,8 +1,17 @@
 /* search box */
 blog-search .search-box {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 1ch;
+    position: relative;
+    width: 100%;
+  }
+
+  blog-search .search-box .icon-search {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: 1;
+    display: flex;
     align-items: center;
   }
   
@@ -11,7 +20,7 @@ blog-search .search-box {
     display: block;
     width: 100%;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0.5em 0.5em 44px;
     border-radius: 4px;
     border: 1px solid var(--dark-color);
     background-color: var(--background-color);
@@ -72,43 +81,35 @@ blog-search .search-box {
     border-radius: 50%;
   }
 
-/* nav variant - icon only initially */
+/* nav variant - always visible search bar in header */
 :host(.nav-search) {
   position: relative;
   padding: 0px 8px;
   margin-left: auto; /* Push to right side of nav */
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
   height: 100%;
-  cursor: pointer;
-  justify-items: center;
 }
 
 .nav-search-container {
   position: relative;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 100%;
+  max-width: 400px;
 }
 
 .nav-search-container .icon-search {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1;
   display: flex;
-  place-items: center;
-  justify-self: center;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 4px;
-  transition: background-color 0.2s;
   align-items: center;
-  justify-content: center;
-  min-width: 40px;
-  min-height: 40px;
-}
-
-.nav-search-container .icon-search:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  cursor: pointer;
+  padding: 0;
 }
 
 /* Ensure any container hosting the floating input establishes a positioning context */
@@ -120,30 +121,27 @@ header nav.has-blog-nav-search {
 
 /* Search input positioning from Shadow DOM */
 .nav-search-container input[type="search"] {
-  position: fixed;
-  justify-self: center;
-  top: var(--nav-height, 64px);
-  left: 50%;
-  width: 1437px;     /* can still be adjusted later on*/
-  transform: translateX(-50%) translateY(-10px);
+  width: 100%;
   height: 40px;
-  max-width: 1437px;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0s;
-  z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  padding: 12px 16px;
+  padding: 8px 16px 8px 44px;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 14px;
   box-sizing: border-box;
+  background-color: #f5f5f5;
+  transition: all 0.2s;
 }
 
-:host(.nav-search.expanded) .nav-search-container input[type="search"] {
-  opacity: 1;
-  visibility: visible;
-  transform: translateX(-50%) translateY(0);
+.nav-search-container input[type="search"]:hover {
+  border-color: #999;
+  background-color: #fff;
+}
+
+.nav-search-container input[type="search"]:focus {
+  outline: none;
+  border-color: #0265dc;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px rgba(2, 101, 220, 0.1);
 }
 
 /* Search results positioning from Shadow DOM */
@@ -154,16 +152,17 @@ header nav.has-blog-nav-search {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   position: fixed;
-  top: calc(var(--nav-height, 64px) + 40px);
+  top: var(--nav-height, 64px);
   left: 50%;
-  width: 1437px;
   transform: translateX(-50%);
-  max-height: 100vh;
+  width: 100%;
   max-width: 1437px;
+  max-height: calc(100vh - var(--nav-height, 64px));
   overflow-y: auto;
   background: white;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   z-index: 1001;
   padding: 20px;
@@ -196,14 +195,24 @@ header nav.has-blog-nav-search {
   }
 }
 
+
 @media (max-width: 1437px) {
-  .nav-search-container input[type="search"] {
-    width: 100%;
-  }
-  
   .nav-search-container .search-results {
-    width: 100%;
-    max-width: 100%;
+    width: calc(100% - 40px);
+    left: 20px;
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-search-container {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-search-container {
+    max-width: 200px;
   }
 }
 
