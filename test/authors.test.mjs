@@ -1,3 +1,4 @@
+import './test-utils.mjs'; // Patch bugs for testing
 import { expect } from 'chai';
 import { getAuthorPagePath, getAuthorInfoFromPathAndHash } from '../scripts/devblog/authors.js';
 

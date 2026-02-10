@@ -33,7 +33,7 @@ const expected = [
 ];
 
 import { expect } from 'chai';
-import compareNumbersInPaths from '../sorted-index/sort-paths.js';
+import compareNumbersInPaths from './sort-paths-wrapper.mjs';
 
 describe('Test chronological sorting of paths', () => {
   it(`Correctly sorts the paths`, () => {
