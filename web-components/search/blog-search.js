@@ -404,7 +404,7 @@ class BlogSearch extends HTMLElement {
 
     await loadMiloUtils();
     
-    // the css gets loaded int othe shadow dom
+    // the css gets loaded into the shadow dom
     const cssResponse = await fetch('/web-components/search/blog-search.css');
     const cssText = await cssResponse.text();
     const styleSheet = new CSSStyleSheet();
@@ -459,14 +459,6 @@ class BlogSearch extends HTMLElement {
         searchResultsContainer(this),
       );
     }
-
-    // if (searchParams.get('q')) {
-    //   const input = this.shadowRoot.querySelector('input') || this.querySelector('input');
-    //   if (input) {
-    //     input.value = searchParams.get('q');
-    //     input.dispatchEvent(new Event('input'));
-    //   }
-    // }
 
     if (typeof decorateIcons === 'function') {
       decorateIcons(this.shadowRoot);
