@@ -17,9 +17,9 @@ indices:
         value: |
           textContent(el)
       date:
-        select: head > meta[name="publication-date"]
+        select: head > meta[name="m_date"]
         value: |
-          dateValue(attribute(el, 'content'), 'MM-DD-YYYY')
+          dateValue(attribute(el, 'content'), 'YYYY-MM-DD')
       image:
         select: head > meta[property="og:image"]
         value: |
