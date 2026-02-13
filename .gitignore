@@ -4,3 +4,5 @@ logs/*
 node_modules/*
 .DS_Store
 .idea
+sorted-index/analyze-tags.js
+agents/*
