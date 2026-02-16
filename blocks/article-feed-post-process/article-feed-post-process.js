@@ -10,7 +10,39 @@ setLibs(SITE.prodLibsPath);
 const miloBlock = await import(`${getLibs()}/blocks/article-feed/article-feed.js`);
 const { loadStyle } = await import(`${getLibs()}/utils/utils.js`);
 
-function processArticleCard(card) {
+async function fetchArticleDate(url) {
+  try {
+    const resp = await fetch(url);
+    if (!resp.ok) return null;
+
+    const html = await resp.text();
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+
+    const publicationDate =
+      doc.querySelector('meta[name="publication-date"]')?.content;
+
+    const mDate =
+      doc.querySelector('meta[name="m_date"]')?.content;
+
+    const raw = publicationDate || mDate;
+    if (!raw) return null;
+
+    // format YYYY-MM-DD -> MM-DD-YYYY
+    const parts = raw.split('-');
+    if (parts.length === 3) {
+      
+      return `${parts[1]}-${parts[2]}-${parts[0]}`;
+    }
+
+    return raw;
+  } catch (e) {
+    console.warn('Date fetch failed:', url, e);
+    return null;
+  }
+}
+
+
+async function processArticleCard(card) {
   const eager = false;
   card.querySelectorAll('picture').forEach(pic => {
     const src = pic.querySelector('source').getAttribute('srcset');
@@ -29,6 +61,18 @@ function processArticleCard(card) {
       console.error('missing', div);
     }
   });
+
+  // Fill article date
+  const dateEl = card.querySelector('.article-card-date');
+
+  if (dateEl && !dateEl.textContent.trim()) {
+    const date = await fetchArticleDate(card.href);
+
+    if (date) {
+      dateEl.textContent = date;
+    }
+  }
+
 }
 
 function blockChanged(records, _observer) {
