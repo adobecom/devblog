@@ -1,7 +1,7 @@
 {
-  "total": 68,
+  "total": 70,
   "offset": 0,
-  "limit": 68,
+  "limit": 70,
   "data": [
     {
       "path": "/en/publish/2025/12/adobe-express-add-on-platform-updates-winter-2025-digest",
@@ -417,6 +417,32 @@
       "imageAlt": "︎",
       "robots": "",
       "lastModified": "1732899607",
+      "Removed from Medium?": ""
+    },
+    {
+      "path": "/en/publish/2024/02/c-and-the-next-30-years",
+      "image": "/en/publish/2024/02/media_1d05c99ec44fc0d706fd7f7b7fee20362cf47b844.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "C++ and The Next 30 Years",
+      "author": "David Sankel",
+      "description": "I delivered a keynote, C++ and the Next 30 Years, at the 2023 CPP-Summit conference in Beijing, China. Experiencing the culture, the people, and the ...",
+      "tags": "[\"Cpp\",\"cpp-at-adobe\",\"adobe-stlab\",\"adobe-engineering\",\"adobe\"]",
+      "imageAlt": "Tokyo cityscape",
+      "robots": "",
+      "lastModified": "1771628449",
+      "Removed from Medium?": ""
+    },
+    {
+      "path": "/en/publish/2024/02/trip-report-winter-iso-c-standards-meeting",
+      "image": "/en/publish/2024/02/media_15fd6d69d6fbb73e13c6f6985a61a7c952e99a38e.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Trip Report: Winter ISO C++ Standards Meeting in Tokyo",
+      "author": "David Sankel",
+      "description": "Ville wins the Sankel Award, a new [[nodiscard]] policy, and more.",
+      "tags": "[\"Cpp\",\"cpp-at-adobe\",\"adobe-stlab\",\"adobe-creative-cloud\",\"adobe\"]",
+      "imageAlt": "Tokyo cityscape",
+      "robots": "",
+      "lastModified": "1771627188",
       "Removed from Medium?": ""
     },
     {
@@ -902,5 +928,5 @@
     "Removed from Medium?"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-02-21T22:32:36.866Z"
+  "generatedAt": "2026-02-21T23:31:13.724Z"
 }
