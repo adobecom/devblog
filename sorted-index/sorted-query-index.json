@@ -1,7 +1,7 @@
 {
-  "total": 70,
+  "total": 71,
   "offset": 0,
-  "limit": 70,
+  "limit": 71,
   "data": [
     {
       "path": "/en/publish/2025/12/adobe-express-add-on-platform-updates-winter-2025-digest",
@@ -524,6 +524,19 @@
       "Removed from Medium?": ""
     },
     {
+      "path": "/en/publish/2023/09/trip-report-summer-iso-c-standards-meeting",
+      "image": "/en/publish/2023/09/media_132f755d25f270bfcecdaa606ce5cd09e59f91a84.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Trip Report: Summer ISO C++ Standards Meeting",
+      "author": "David Sankel",
+      "description": "The June 2023 ISO/IEC C++ Varna meeting was my first in-person standards meeting since COVID.",
+      "tags": "[\"Cpp\",\"cpp-at-adobe\",\"adobe-stlab\",\"adobe-creative-cloud\",\"adobe\"]",
+      "imageAlt": "Varna, Bulgaria",
+      "robots": "",
+      "lastModified": "1771866661",
+      "Removed from Medium?": ""
+    },
+    {
       "path": "/en/publish/2023/08/adobes-open-developer-platform-principles",
       "image": "/en/publish/2023/08/media_1b8a02134651a850cf60b03413a490e4c082ad907.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -928,5 +941,5 @@
     "Removed from Medium?"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-02-21T23:31:13.724Z"
+  "generatedAt": "2026-02-23T20:53:50.883Z"
 }
