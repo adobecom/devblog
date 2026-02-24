@@ -1,8 +1,21 @@
 {
-  "total": 72,
+  "total": 73,
   "offset": 0,
-  "limit": 72,
+  "limit": 73,
   "data": [
+    {
+      "path": "/en/publish/2026/02/building-adobe-express-add-ons-in-24-hours",
+      "image": "/en/publish/2026/02/media_18fed589e57236e20f3ef7c5a6d75c91d70dc0bb1.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Building Adobe Express Add‑ons in 24 Hours: Pixel Pluck’s Hackathon Story",
+      "author": "Keshav Kumar",
+      "description": "When our team first saw the announcement of an Adobe Express Add-ons for Enterprise hackathon through our college’s training and placement cell, we didn’t just ...",
+      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"hackathon\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1771930944",
+      "Removed from Medium?": ""
+    },
     {
       "path": "/en/publish/2026/02/building-the-agentic-web-with-adobe-experience-manager",
       "image": "/en/publish/2026/02/media_10857affba311a9dc54ce9b851148c604e4cb8aef.jpg?width=1200&format=pjpg&optimize=medium",
@@ -286,7 +299,7 @@
       "tags": "[\"adobe-commerce\",\"aem-developer\",\"edge-delivery-services\",\"composable-commerce\",\"adobe-experience-cloud\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1748360918",
+      "lastModified": "1771238856",
       "Removed from Medium?": ""
     },
     {
@@ -954,5 +967,5 @@
     "Removed from Medium?"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-02-24T11:46:19.538Z"
+  "generatedAt": "2026-02-24T13:23:13.166Z"
 }
