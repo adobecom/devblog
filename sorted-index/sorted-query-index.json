@@ -1,8 +1,21 @@
 {
-  "total": 71,
+  "total": 72,
   "offset": 0,
-  "limit": 71,
+  "limit": 72,
   "data": [
+    {
+      "path": "/en/publish/2026/02/building-the-agentic-web-with-adobe-experience-manager",
+      "image": "/en/publish/2026/02/media_10857affba311a9dc54ce9b851148c604e4cb8aef.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Building the Agentic Web with Adobe Experience Manager",
+      "author": "Sherrie Rohde",
+      "description": "If you’ve been building on the web for a while, this moment probably feels familiar.",
+      "tags": "[\"adobe-experience-manager\",\"AEM\",\"agentic-web\",\"adobe-experience-cloud\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1771924652",
+      "Removed from Medium?": ""
+    },
     {
       "path": "/en/publish/2025/12/adobe-express-add-on-platform-updates-winter-2025-digest",
       "image": "/en/publish/2025/12/media_143a92fd72064af8a4eb5794fa8fb2f0ee40e45e0.png?width=1200&format=pjpg&optimize=medium",
@@ -941,5 +954,5 @@
     "Removed from Medium?"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-02-23T20:53:50.883Z"
+  "generatedAt": "2026-02-24T09:59:29.232Z"
 }
