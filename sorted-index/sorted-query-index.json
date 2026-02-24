@@ -1,7 +1,7 @@
 {
-  "total": 74,
+  "total": 73,
   "offset": 0,
-  "limit": 74,
+  "limit": 73,
   "data": [
     {
       "path": "/en/publish/2026/02/building-adobe-express-add-ons-in-24-hours",
@@ -14,19 +14,6 @@
       "imageAlt": "",
       "robots": "",
       "lastModified": "1771930944",
-      "Removed from Medium?": ""
-    },
-    {
-      "path": "/en/publish/2026/02/inside-the-24-hour-adobe-express-add-ons-for-enterprise-hackathon",
-      "image": "/en/publish/2026/02/media_1047f69be51900e84eb2f81f4fa8caa30db435169.jpg?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "Inside the 24-hour Adobe Express Add-ons for Enterprise Hackathon",
-      "author": "Taylor Krusen",
-      "description": "In January 2026, Adobe partnered with Netaji Subhas University of Technology (NSUT) in Delhi to host the Adobe Express Add-ons for Enterprise Hackathon.",
-      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"extensibility\",\"hackathon\"]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1771949539",
       "Removed from Medium?": ""
     },
     {
@@ -980,5 +967,5 @@
     "Removed from Medium?"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-02-24T18:01:33.667Z"
+  "generatedAt": "2026-02-24T21:42:49.534Z"
 }
