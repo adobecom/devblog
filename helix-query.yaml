@@ -23,13 +23,13 @@ indices:
 
       # 🔽 Added for accurate metadata-based sorting (safe addition)
       sortDateTimestamp:
-        select: head > meta[name="publication-date"], head > meta[name="m_date"]
+        select: head > meta[name="publication-date"]
         value: |
-          parseTimestamp(
-            dateValue(attribute(el, 'content'), 'MM-DD-YYYY'),
-            'YYYY-MM-DD'
-          )
-
+          parseTimestamp(attribute(el, 'content'), 'MM-DD-YYYY')
+      sortDateTimestampLegacy:
+        select: head > meta[name="m_date"]
+        value: |
+          parseTimestamp(attribute(el, 'content'), 'YYYY-MM-DD')
       sortDate:
         select: head > meta[name="publication-date"], head > meta[name="m_date"]
         value: |
