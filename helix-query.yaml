@@ -20,6 +20,22 @@ indices:
         select: head > meta[name="publication-date"]
         value: |
           dateValue(attribute(el, 'content'), 'MM-DD-YYYY')
+
+      # 🔽 Added for accurate metadata-based sorting (safe addition)
+      sortDateTimestamp:
+        select: head > meta[name="publication-date"], head > meta[name="m_date"]
+        value: |
+          parseTimestamp(
+            dateValue(attribute(el, 'content'), 'MM-DD-YYYY'),
+            'YYYY-MM-DD'
+          )
+
+      sortDate:
+        select: head > meta[name="publication-date"], head > meta[name="m_date"]
+        value: |
+          attribute(el, 'content')
+      # 🔼 End of addition
+
       image:
         select: head > meta[property="og:image"]
         value: |
