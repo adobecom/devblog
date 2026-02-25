@@ -45,9 +45,9 @@
       "tags": "[\"adobe-experience-manager\",\"AEM\",\"agentic-web\",\"adobe-experience-cloud\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1772002499",
+      "lastModified": "1772002637",
       "Removed from Medium?": "",
-      "sortDateTimestamp": "",
+      "sortDateTimestamp": "1771891200",
       "sortDate": "2026-02-24",
       "sortDateTimestampLegacy": ""
     },
@@ -93,10 +93,10 @@
       "tags": "[\"uxp\",\"premiere\",\"extensibility\",\"plugin-development\",\"unified-extensibility-platform\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1765873613",
+      "lastModified": "1771238856",
       "Removed from Medium?": "",
-      "sortDateTimestamp": "",
-      "sortDate": "",
+      "sortDateTimestamp": "1765843200",
+      "sortDate": "2025-12-16",
       "sortDateTimestampLegacy": ""
     },
     {
@@ -493,10 +493,10 @@
       "tags": "[\"acrobat\",\"adobe-acrobat\",\"sdk\",\"adobe-document-cloud\",\"rest-api\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1732899607",
+      "lastModified": "1771238856",
       "Removed from Medium?": "",
-      "sortDateTimestamp": "",
-      "sortDate": "",
+      "sortDateTimestamp": "1722556800",
+      "sortDate": "2024-08-02",
       "sortDateTimestampLegacy": ""
     },
     {
@@ -1205,5 +1205,5 @@
     "sortDateTimestampLegacy"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-02-25T10:01:57.846Z"
+  "generatedAt": "2026-02-25T11:48:42.336Z"
 }
