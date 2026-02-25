@@ -9,15 +9,15 @@
       "date": "",
       "title": "Building Adobe Express Add‑ons in 24 Hours: Pixel Pluck’s Hackathon Story",
       "author": "Keshav Kumar",
-      "description": "When our team first saw the announcement of an Adobe Express Add-ons for Enterprise hackathon through our college’s training and placement cell, we didn’t just ...",
+      "description": "When our team first saw the announcement of an Adobe Express Add-ons for Enterprise hackathon (check out Adobe’s post about the event) through our college’s ...",
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"hackathon\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1771930944",
+      "lastModified": "1772009263",
       "Removed from Medium?": "",
       "sortDateTimestamp": "",
-      "sortDate": "",
-      "sortDateTimestampLegacy": ""
+      "sortDate": "2026-02-24",
+      "sortDateTimestampLegacy": "1771891200"
     },
     {
       "path": "/en/publish/2026/02/inside-the-24-hour-adobe-express-add-ons-for-enterprise-hackathon",
@@ -29,11 +29,11 @@
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"extensibility\",\"hackathon\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1771949539",
+      "lastModified": "1772010047",
       "Removed from Medium?": "",
       "sortDateTimestamp": "",
-      "sortDate": "",
-      "sortDateTimestampLegacy": ""
+      "sortDate": "2026-02-24",
+      "sortDateTimestampLegacy": "1771891200"
     },
     {
       "path": "/en/publish/2026/02/building-the-agentic-web-with-adobe-experience-manager",
@@ -1205,5 +1205,5 @@
     "sortDateTimestampLegacy"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-02-25T07:56:41.388Z"
+  "generatedAt": "2026-02-25T10:01:57.846Z"
 }
