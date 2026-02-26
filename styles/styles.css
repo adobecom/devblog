@@ -293,7 +293,7 @@ main + footer .feds-regionPicker-wrapper > .fragment p strong > a::after {
 }
 
 /* Homepage section titles */
-#more-articles, #top-stories, #top-stories +p {
+#more-articles, #all-articles, #top-stories, #top-stories +p {
   text-align: center;
 }
 
