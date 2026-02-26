@@ -1,7 +1,7 @@
 {
-  "total": 79,
+  "total": 77,
   "offset": 0,
-  "limit": 79,
+  "limit": 77,
   "data": [
     {
       "path": "/en/publish/2026/02/the-agentic-evolution-of-adobe-experience-manager",
@@ -404,22 +404,6 @@
       "sortDateTimestampLegacy": ""
     },
     {
-      "path": "/en/publish/2024/12/developer-spotlight-building-adobe-express-add-ons-with-prasanta-barman",
-      "image": "/en/publish/2024/12/media_1498501b36170d10004303aef9524335c1f165ed8.png?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "Developer Spotlight: Building Adobe Express Add-Ons with Prasanta Barman",
-      "author": "Colene Chow",
-      "description": "The Adobe Express developer community has been growing rapidly over the past year, and we have been blown away by the amount of talent that’s ...",
-      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-creative-cloud\",\"color-blindness\",\"accessibility\"]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1772109320",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1733443200",
-      "sortDate": "2024-12-06",
-      "sortDateTimestampLegacy": ""
-    },
-    {
       "path": "/en/publish/2024/11/behind-the-scenes-with-ammar-alim-devsecops-leader",
       "image": "/en/publish/2024/11/media_11b0905709ab24e95c7500d9cedd320b0e00da503.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -430,22 +414,6 @@
       "imageAlt": "︎",
       "robots": "",
       "lastModified": "1771238856",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1733356800",
-      "sortDate": "2024-12-05",
-      "sortDateTimestampLegacy": ""
-    },
-    {
-      "path": "/en/publish/2024/12/behind-the-scenes-with-ammar-alim-devsecops-leader",
-      "image": "/en/publish/2024/12/media_1376468abf23b493e7561481b434372b1e3a6a2cd.png?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "Behind the Scenes with Ammar Alim, DevSecOps Leader",
-      "author": "Renae Kang",
-      "description": "Adobe’s DevSecOps team creates innovative solutions that seamlessly integrate application and infrastructure security into Agile and DevOps workflows. By embedding security into these solutions from ...",
-      "tags": "[\"devsecops\",\"cloud-security\",\"security\",\"security-culture\",\"product-security\"]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1772108550",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1733356800",
       "sortDate": "2024-12-05",
@@ -1285,5 +1253,5 @@
     "sortDateTimestampLegacy"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-02-26T14:56:16.919Z"
+  "generatedAt": "2026-02-26T17:09:03.491Z"
 }
