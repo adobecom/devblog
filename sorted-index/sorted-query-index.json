@@ -58,7 +58,7 @@
       "path": "/en/publish/2026/02/building-adobe-express-add-ons-in-24-hours",
       "image": "/en/publish/2026/02/media_18fed589e57236e20f3ef7c5a6d75c91d70dc0bb1.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
-      "title": "Building Adobe Express Add‑ons in 24 Hours: Pixel Pluck’s Hackathon Story",
+      "title": "Building Adobe Express Add���ons in 24 Hours: Pixel Pluck’s Hackathon Story",
       "author": "Keshav Kumar",
       "description": "When our team first saw the announcement of an Adobe Express Add-ons for Enterprise hackathon (check out Adobe’s post about the event) through our college’s ...",
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"hackathon\"]",
@@ -200,12 +200,12 @@
       "tags": "[\"adobe-express-addons\",\"adobe-express\",\"ai\",\"hackathon\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1772606903",
+      "lastModified": "1772626940",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1756339200",
       "sortDate": "2025-08-28",
       "sortDateTimestampLegacy": "",
-      "updatedDate": "2026-03-04"
+      "updatedDate": ""
     },
     {
       "path": "/en/publish/2025/08/design-meets-dam-aem-assets-x-figma-a-turnkey-connector-is-here",
@@ -336,12 +336,12 @@
       "tags": "[\"ai\",\"platform\",\"adobe-experience-platform\",\"enterprise-ai\",\"machine-learning\"]",
       "imageAlt": "︎Some authors of the paper displaying the DSRI AI Incidents and Best Practices Paper Award won at the 39th Annual AAAI Conference on Artificial Intelligence.",
       "robots": "",
-      "lastModified": "1772607346",
+      "lastModified": "1772626839",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1743552000",
       "sortDate": "2025-04-02",
       "sortDateTimestampLegacy": "",
-      "updatedDate": "2026-02-23"
+      "updatedDate": ""
     },
     {
       "path": "/en/publish/2025/03/how-to-create-telemetry-dashboards-for-adobe-express-add-ons",
@@ -1399,5 +1399,5 @@
     "updatedDate"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-03-04T06:58:59.385Z"
+  "generatedAt": "2026-03-04T13:13:20.655Z"
 }
