@@ -30,6 +30,10 @@ indices:
         select: head > meta[name="publication-date"], head > meta[name="m_date"]
         value: |
           attribute(el, 'content')
+      updatedDate:
+        select: head > meta[name="updated_date"]
+        value: |
+          attribute(el, 'content')          
       # 🔼 End of addition
 
       image:
