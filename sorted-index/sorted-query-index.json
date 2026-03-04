@@ -1,24 +1,24 @@
 {
-  "total": 82,
+  "total": 81,
   "offset": 0,
-  "limit": 82,
+  "limit": 81,
   "data": [
     {
-      "path": "/en/publish/2026/03/from-local-to-live-how-to-publish-your-adobe-express-add-on",
-      "image": "/en/publish/2026/03/media_1afefda6e3ca7fa5f14ad6791e5177bd8a21bab1e.png?width=1200&format=pjpg&optimize=medium",
+      "path": "/en/publish/2025/08/inside-ai-collaborate-s-24-hour-adobe-express-add-on-hackathon",
+      "image": "/en/publish/2025/08/media_1ef79620dc5b1ad70a20666c50352185979eca05f.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
-      "title": "From Local to Live: How to Publish Your Adobe Express Add-on",
-      "author": "Ingo Eichel",
-      "description": "You’ve built your first Adobe Express add-on. It works perfectly on your local machine. Now comes the big question: How do you get it into ...",
-      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\"]",
+      "title": "Inside AI Collaborate's 24-Hour Adobe Express Add-On Hackathon",
+      "author": "Sayan Jain",
+      "description": "Sayan Jain is a recent graduate from Santa Clara University (SCU) in California, where he earned a double degree in Computer Science and Business. He ...",
+      "tags": "[\"adobe-express-addons\",\"adobe-express\",\"ai\",\"hackathon\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1772630013",
+      "lastModified": "1772606903",
       "Removed from Medium?": "",
-      "sortDateTimestamp": "1772582400",
-      "sortDate": "2026-03-04",
+      "sortDateTimestamp": "1756339200",
+      "sortDate": "2025-08-28",
       "sortDateTimestampLegacy": "",
-      "updatedDate": ""
+      "updatedDate": "2026-03-04"
     },
     {
       "path": "/en/publish/2026/02/new-app-builder-console-features-logs-ui-and-cdn-management",
@@ -208,23 +208,6 @@
       "updatedDate": ""
     },
     {
-      "path": "/en/publish/2025/08/inside-ai-collaborate-s-24-hour-adobe-express-add-on-hackathon",
-      "image": "/en/publish/2025/08/media_1ef79620dc5b1ad70a20666c50352185979eca05f.jpg?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "Inside AI Collaborate's 24-Hour Adobe Express Add-On Hackathon",
-      "author": "Sayan Jain",
-      "description": "Sayan Jain is a recent graduate from Santa Clara University (SCU) in California, where he earned a double degree in Computer Science and Business. He ...",
-      "tags": "[\"adobe-express-addons\",\"adobe-express\",\"ai\",\"hackathon\",\"extensibility\"]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1772626940",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1756339200",
-      "sortDate": "2025-08-28",
-      "sortDateTimestampLegacy": "",
-      "updatedDate": ""
-    },
-    {
       "path": "/en/publish/2025/08/design-meets-dam-aem-assets-x-figma-a-turnkey-connector-is-here",
       "image": "/en/publish/2025/08/media_1f87819badbe1cb78d4ed5e5dabcfd1113992f2a6.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -353,7 +336,7 @@
       "tags": "[\"ai\",\"platform\",\"adobe-experience-platform\",\"enterprise-ai\",\"machine-learning\"]",
       "imageAlt": "︎Some authors of the paper displaying the DSRI AI Incidents and Best Practices Paper Award won at the 39th Annual AAAI Conference on Artificial Intelligence.",
       "robots": "",
-      "lastModified": "1772626839",
+      "lastModified": "1771238856",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1743552000",
       "sortDate": "2025-04-02",
@@ -1416,5 +1399,5 @@
     "updatedDate"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-03-04T20:39:10.904Z"
+  "generatedAt": "2026-03-04T21:40:56.070Z"
 }
