@@ -37,6 +37,15 @@ function parseDateToTimestamp(dateStr) {
 }
 
 function getSortTimestamp(entry) {
+  // First try the updatedDate for sorting, if available and valid
+  if (entry.updatedDate) {
+    console.log(`Parsing updatedDate for "${entry.title}": ${entry.updatedDate}`);
+    const updatedTs = parseDateToTimestamp(entry.updatedDate);
+    if (updatedTs !== 0) {
+      return updatedTs;
+    }
+  }
+  
   //  Primary: sortDateTimestamp
   if (entry.sortDateTimestamp != null && !isNaN(entry.sortDateTimestamp)) {
     return parseInt(entry.sortDateTimestamp, 10);

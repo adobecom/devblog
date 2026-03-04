@@ -549,12 +549,14 @@ function formatLongMonthDate(date) {
 
   const jsDate = new Date(Date.UTC(year, month - 1, day));
 
-  const monthName = jsDate.toLocaleString('en-US', {
-    month: 'long',
+  const formattedDate = jsDate.toLocaleString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
     timeZone: 'UTC'
   });
 
-  return `${monthName}-${day}-${year}`;
+  return `${formattedDate}`;
 }
 
 // DevBlog override:
@@ -568,7 +570,7 @@ function formatLongMonthDate(date) {
  */
 function buildArticleCard(article, type = 'article', eager = false) {
   const {
-    title, h1, description, image, imageAlt, sortDate,
+    title, h1, description, image, imageAlt, sortDate, updatedDate
   } = article;
 
   const path = article.path.split('.')[0];
@@ -581,6 +583,15 @@ function buildArticleCard(article, type = 'article', eager = false) {
 
   const articleTax = getArticleTaxonomy(article);
   const categoryTag = getLinkForTopic(articleTax.category, path);
+  let dateDisplay = '';
+
+  if (updatedDate && sortDate) {
+    dateDisplay = `${formatLongMonthDate(updatedDate)} • First published ${formatLongMonthDate(sortDate)}`;
+  } else if (sortDate) {
+    dateDisplay = formatLongMonthDate(sortDate);
+  } else if (updatedDate) {
+    dateDisplay = formatLongMonthDate(updatedDate);
+  }
 
   card.innerHTML = `<div class="${type}-card-image">
       ${pictureTag}
@@ -591,7 +602,7 @@ function buildArticleCard(article, type = 'article', eager = false) {
       </p>
       <h3>${h1 || title}</h3>
       <p class="${type}-card-description">${description && description !== '0' ? description : ''}</p>
-      <p class="${type}-card-date">${formatLongMonthDate(sortDate)}
+      ${dateDisplay ? `<p class="${type}-card-date" style="text-transform: none;">${dateDisplay}</p>` : ''}
     </div>`;
   return card;
 }
