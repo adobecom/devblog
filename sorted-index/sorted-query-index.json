@@ -92,7 +92,7 @@
       "path": "/en/publish/2026/02/building-adobe-express-add-ons-in-24-hours",
       "image": "/en/publish/2026/02/media_18fed589e57236e20f3ef7c5a6d75c91d70dc0bb1.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
-      "title": "Building Adobe Express Add‑ons in 24 Hours: Pixel Pluck’s Hackathon Story",
+      "title": "Building Adobe Express Add���ons in 24 Hours: Pixel Pluck’s Hackathon Story",
       "author": "Keshav Kumar",
       "description": "When our team first saw the announcement of an Adobe Express Add-ons for Enterprise hackathon (check out Adobe’s post about the event) through our college’s ...",
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"hackathon\"]",
@@ -1433,5 +1433,5 @@
     "updatedDate"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-03-07T09:36:15.738Z"
+  "generatedAt": "2026-03-07T18:44:07.624Z"
 }
