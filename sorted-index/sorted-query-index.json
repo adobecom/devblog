@@ -1,7 +1,7 @@
 {
-  "total": 82,
+  "total": 83,
   "offset": 0,
-  "limit": 82,
+  "limit": 83,
   "data": [
     {
       "path": "/en/publish/2026/03/introducing-webview-ui-in-bolt-uxp-build-richer-adobe-plugins-faster",
@@ -149,7 +149,7 @@
       "tags": "[\"adobe-exchange-marketplace\",\"adobe-express\",\"adobe-express-add-ons\",\"add-on-development\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1772708190",
+      "lastModified": "1771238856",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1765843200",
       "sortDate": "2025-12-16",
@@ -459,6 +459,23 @@
       "Removed from Medium?": "",
       "sortDateTimestamp": "1734048000",
       "sortDate": "2024-12-13",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": ""
+    },
+    {
+      "path": "/en/publish/2024/11/developer-spotlight-building-adobe-express-add-ons-with-prasanta-barman",
+      "image": "/en/publish/2024/11/media_1c6b7463c28c543bad4fa8f8ae27eb3c5ce6a3f96.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Developer Spotlight: Building Adobe Express Add-Ons with Prasanta Barman",
+      "author": "Colene Chow",
+      "description": "The Adobe Express developer community has been growing rapidly over the past year, and we have been blown away by the amount of talent that’s ...",
+      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-creative-cloud\",\"color-blindness\",\"accessibility\"]",
+      "imageAlt": "︎",
+      "robots": "",
+      "lastModified": "1771238856",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1733443200",
+      "sortDate": "2024-12-06",
       "sortDateTimestampLegacy": "",
       "updatedDate": ""
     },
@@ -1252,7 +1269,7 @@
       "author": "Abhishek Jain",
       "description": "“This week’s guest post is co-authored by Abhishek Jain. Abhishek is a Lead Software Engineer who has been with Adobe since 2015.”",
       "tags": "[\"addons\",\"installation-failed\",\"extension\",\"adobe-exchange\",\"adobe-creative-cloud\"]",
-      "imageAlt": "���",
+      "imageAlt": "︎",
       "robots": "",
       "lastModified": "1771238856",
       "Removed from Medium?": "",
@@ -1416,5 +1433,5 @@
     "updatedDate"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-03-10T14:57:27.669Z"
+  "generatedAt": "2026-03-10T16:05:36.039Z"
 }
