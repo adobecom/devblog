@@ -5,7 +5,7 @@
   "data": [
     {
       "path": "/en/publish/2026/03/build-faster-with-the-adobe-express-developer-mcp-server",
-      "image": "/en/publish/2026/03/media_15194113e38faee198af32fe7f16b8714b096a6b2.png?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2026/03/media_109152d837b97c5b532215edd25478815d648ace4.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Build Faster with the Adobe Express Developer MCP Server",
       "author": "Kalyan Dechiraju",
@@ -13,7 +13,7 @@
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"mcp\",\"mcp-server\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1773654864",
+      "lastModified": "1773666618",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1773619200",
       "sortDate": "2026-03-16",
@@ -1416,5 +1416,5 @@
     "updatedDate"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-03-16T10:37:46.818Z"
+  "generatedAt": "2026-03-16T13:43:14.590Z"
 }
