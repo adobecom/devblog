@@ -1,7 +1,7 @@
 {
-  "total": 82,
+  "total": 83,
   "offset": 0,
-  "limit": 82,
+  "limit": 83,
   "data": [
     {
       "path": "/en/publish/2026/03/build-faster-with-the-adobe-express-developer-mcp-server",
@@ -14,6 +14,23 @@
       "imageAlt": "",
       "robots": "",
       "lastModified": "1773666618",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1773619200",
+      "sortDate": "2026-03-16",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": ""
+    },
+    {
+      "path": "/en/publish/2026/03/how-the-experience-modernization-agent-migrates-sites-to-edge-delivery-services",
+      "image": "/en/publish/2026/03/media_17f86b4d53528a2670391feba30d7243a81b30d28.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "How the Experience Modernization Agent Migrates Sites to Edge Delivery Services",
+      "author": "Sherrie Rohde",
+      "description": "The destination is usually clear. The architectural benefits are understood. What burns time is the mechanical work: decomposing existing pages into reusable blocks, reconstructing a ...",
+      "tags": "[\"adobe-experience-manager\",\"aem\",\"edge-delivery-services\",\"adobe-experience-cloud\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1773686830",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1773619200",
       "sortDate": "2026-03-16",
@@ -1416,5 +1433,5 @@
     "updatedDate"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-03-16T13:43:14.590Z"
+  "generatedAt": "2026-03-16T19:14:22.970Z"
 }
