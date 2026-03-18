@@ -83,6 +83,10 @@ export function addDevBlogBlockOverrides(overrides) {
     milo: 'article-feed',
     blog: 'article-feed-post-process',
   });
+  overrides.push({
+    milo: 'article-header',
+    blog: 'article-header-post-process',
+  });
   return overrides;
 }
 
@@ -403,13 +407,13 @@ async function buildArticleHeader(el) {
   const { codeRoot } = getConfig();
   const authorURL = getMetadata('author-url') || getAuthorPagePath(codeRoot, author);
   const publicationDate = getMetadata('publication-date');
-
+  const authorImageFilename = author.replace(/[^0-9a-z]/gi, '-').toLowerCase();
   const categoryTag = getLinkForTopic(category);
 
   const articleHeaderBlockEl = buildBlock('article-header', [
     [`<p>${categoryTag}</p>`],
     [h1],
-    [`<p>${authorURL ? `<a href="${authorURL}">${author}</a>` : author}</p>
+    [`<p>${authorURL ? `<a href="${authorURL}" data-author-image="/images/authors/${authorImageFilename}.png">${author}</a>` : author}</p>
       <p>${publicationDate}</p>`],
     [figure],
   ]);
