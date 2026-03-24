@@ -1,1 +1,19 @@
-/* No CSS here yet, but this file is required */
+.recommended-articles-small-content-wrapper .article-card .article-card-image {
+  width: 300px !important;
+  background-color: transparent !important;
+}
+
+.recommended-articles-small-content-wrapper .article-card .article-card-body {
+  padding: 10px;
+  width: 270px !important;
+}
+
+.recommended-articles-small-content-wrapper .article-card {
+  justify-content: center !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .recommended-articles-small-content-wrapper .article-card .article-card-image {
+    width: 350px !important;
+  }
+}

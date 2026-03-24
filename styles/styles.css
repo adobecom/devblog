@@ -46,6 +46,10 @@ figcaption {
  text-align: center;
 }
 
+.featured-article-card-body .featured-article-card-description {
+  -webkit-line-clamp: 3 !important;
+}
+
 main .section:first-of-type:not([class*='-spacing']) > .content:first-of-type {
   margin-top: var(--page-top-spacing);
 }
