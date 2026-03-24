@@ -1,7 +1,7 @@
 {
-  "total": 83,
+  "total": 84,
   "offset": 0,
-  "limit": 83,
+  "limit": 84,
   "data": [
     {
       "path": "/en/publish/2026/03/build-faster-with-the-adobe-express-developer-mcp-server",
@@ -1245,6 +1245,23 @@
       "updatedDate": ""
     },
     {
+      "path": "/en/publish/2026/03/image-behavior-test-1280-720",
+      "image": "/en/publish/2026/03/media_142918e546614f29261de1b0de574e14fa0fc846c.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Image Cropping & Layout Behavior Test – 1280 × 720",
+      "author": "Devblogs",
+      "description": "When analyzing the image behavior across the blog layout, the goal was not just to fix a visual issue — it was to understand how ...",
+      "tags": "[]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1774348687",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1584748800",
+      "sortDate": "2020-03-21",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": ""
+    },
+    {
       "path": "/en/publish/2020/01/learning-by-doing-porting-free-stock-search-from-cep-to-uxp-in-adobe-xd",
       "image": "/en/publish/2020/01/media_1be9bb884297a103d4a863f66c766ac3349ee9194.jpeg?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -1433,5 +1450,5 @@
     "updatedDate"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-03-17T19:13:02.367Z"
+  "generatedAt": "2026-03-24T10:53:01.444Z"
 }
