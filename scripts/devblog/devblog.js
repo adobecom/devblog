@@ -266,25 +266,48 @@ export async function decorateContent() {
   if (window.location.pathname.includes('/authors/')) return;
 
   imgEls.forEach((imgEl) => {
+    const parentEl = imgEl.closest('p');
+    if (!parentEl) return;
+
     const block = createTag('div', { class: 'figure' });
     const row = createTag('div');
     const caption = getImageCaption(imgEl);
-    const parentEl = imgEl.closest('p');
+
+    const wrapper = createTag('div', null, imgEl.cloneNode(true));
+    row.append(wrapper);
 
     if (caption) {
-      const picture = createTag('p', null, imgEl.cloneNode(true));
       const em = createTag('p', null, caption.cloneNode(true));
-      const wrapper = createTag('div');
-      wrapper.append(picture, em);
-      row.append(wrapper);
+      row.append(em);
       caption.remove();
-    } else {
-      const wrapper = createTag('div', null, imgEl.cloneNode(true));
-      row.append(wrapper);
     }
 
-    block.append(row.cloneNode(true));
-    parentEl.replaceWith(block);
+    block.append(row);
+
+    // Preserve text before and after image
+    const nodes = Array.from(parentEl.childNodes);
+    const imgIndex = nodes.indexOf(imgEl);
+
+    const beforeNodes = nodes.slice(0, imgIndex);
+    const afterNodes = nodes.slice(imgIndex + 1);
+
+    const fragment = document.createDocumentFragment();
+
+    if (beforeNodes.length) {
+      const beforeP = document.createElement('p');
+      beforeNodes.forEach(n => beforeP.appendChild(n.cloneNode(true)));
+      fragment.appendChild(beforeP);
+    }
+
+    fragment.appendChild(block);
+
+    if (afterNodes.length) {
+      const afterP = document.createElement('p');
+      afterNodes.forEach(n => afterP.appendChild(n.cloneNode(true)));
+      fragment.appendChild(afterP);
+    }
+
+    parentEl.replaceWith(fragment);
   });
 }
 
