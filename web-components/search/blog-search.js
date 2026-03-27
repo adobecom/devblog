@@ -290,6 +290,9 @@ function filterData(searchTerms, data) {
   return uniqueResults;
 }
 
+const topicMatch = window.location.pathname.match(/\/topics\/([^/?]+)/);
+const currentTopic = topicMatch ? topicMatch[1] : null;
+
 async function handleSearch(e, component, config) {
   const searchValue = e.target.value;
 
@@ -309,7 +312,21 @@ async function handleSearch(e, component, config) {
 
   try {
     const data = await fetchData(config.source);
-    const filteredData = filterData(searchTerms, data);
+    let scopedData = data;
+
+    if (currentTopic) {
+      scopedData = data.filter((item) => {
+        if (!item.tags) return false;
+        try {
+          const tags = JSON.parse(item.tags);
+          return tags.includes(currentTopic);
+        } catch {
+          return item.tags.includes(currentTopic);
+        }
+      });
+    }
+
+    const filteredData = filterData(searchTerms, scopedData);
     await renderResults(component, config, filteredData, searchTerms);
   } catch (error) {
     console.error('Error in handleSearch:', error);
