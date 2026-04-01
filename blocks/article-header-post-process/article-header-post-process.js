@@ -20,7 +20,12 @@ export default async function init(blockEl) {
 
   if (!authorImgDiv || !authorLink) return;
 
-  if (authorImgDiv.querySelector('img')) return;
+  // Exit if Milo already added image
+  const existingImg = authorImgDiv.querySelector('img');
+  if (existingImg) {
+    authorImgDiv.style.backgroundImage = 'none';
+    return;
+  }
 
   const authorName = authorLink.textContent.trim();
   const authorImageFilename = authorName.replace(/[^0-9a-z]/gi, '-').toLowerCase();
@@ -31,12 +36,16 @@ export default async function init(blockEl) {
   img.src = imageSrc;
 
   img.addEventListener('load', () => {
+    // Re-check to avoid duplicate if Milo added image
+    if (authorImgDiv.querySelector('img')) {
+      authorImgDiv.style.backgroundImage = 'none';
+      return;
+    }
     authorImgDiv.style.backgroundImage = 'none';
     authorImgDiv.appendChild(img);
   });
 
   img.addEventListener('error', () => {
-    // Fallback to .jpg if .png not found
     if (!img.src.endsWith('.jpg')) {
       img.src = imageSrc.replace('.png', '.jpg');
     }

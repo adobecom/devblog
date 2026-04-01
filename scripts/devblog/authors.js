@@ -12,34 +12,30 @@
 
 import { SITE } from './devblog.js';
 
-// Separate between the (almost) plain author name and its encoded part
-// so that the name is visible in the path, but we don't use it in decoding
-const partsSeparator = '#';
-
+// Removed base64; use simple slug for author name
 function getPageName(authorName) {
-  return `${authorName.replace(/[^0-9a-z]/gi, '_')}${partsSeparator}${encodeURIComponent(btoa(authorName))}`;
+  return authorName.toLowerCase().replace(/[^0-9a-z]/gi, '-');
 }
 
+// Removed decoding; reverse slug to name + fixed length bug
 function getAuthorName(pageName) {
-  const parts = pageName.split(partsSeparator);
-  if(parts.len < 2) {
-    return null;
-  }
-  try {
-    return atob(decodeURIComponent(parts[1]));
-  } catch(e) {
-    return null;
-  }
+  if (!pageName) return null;
+  // Convert slug to name (hyphens → spaces, capitalize words) => e.g. "ingo-eichel" → "Ingo Eichel"
+
+  return pageName
+    .replace(/-/g, ' ')
+    .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 function getImageFilename(authorName) {
-  return authorName?.trim().toLowerCase().replace(/[^0-9a-z]/gi, '-').replace(/-+/gi,'-').replace(/-$/gi,'');
+  return authorName?.trim().toLowerCase().replace(/[^0-9a-z]/gi, '-').replace(/-+/gi, '-').replace(/-$/gi, '');
 }
 
+// Use pathname only; extract author info + fixed length bug
 export function getAuthorInfoFromPathAndHash(pagePath) {
-  if(!pagePath) return {};
+  if (!pagePath) return {};
   const matchGroups = pagePath.match(/en\/authors\/(.*)/);
-  if(!matchGroups || matchGroups.len < 2) return {};
+  if (!matchGroups || matchGroups.length < 2) return {};
   const pageName = matchGroups[1];
   const authorName = getAuthorName(pageName);
   const info = {
@@ -52,4 +48,3 @@ export function getAuthorInfoFromPathAndHash(pagePath) {
 export function getAuthorPagePath(codeRoot, authorName) {
   return authorName ? `${codeRoot}${SITE.authorsRoot}/${getPageName(authorName)}` : null;
 }
-
