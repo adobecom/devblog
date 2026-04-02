@@ -308,3 +308,14 @@ pre {
 .centerHeading {
   text-align: center;
 }
+
+@media (min-width: 1200px) {
+  .featured-article-card-image {
+    height: 350px !important;
+    width: 55% !important;
+  }
+
+  .featured-article-card-body {
+    width: 45% !important;
+  }
+}
