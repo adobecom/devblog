@@ -9,7 +9,8 @@
     "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint .",
     "lint:css": "stylelint 'blocks/**/*.css' 'styles/*.css'",
-    "sort-index": "node sorted-index/sort-query-index.js"
+    "sort-index": "node sorted-index/sort-query-index.js",
+    "generate-rss": "node scripts/devblog/generate-rss.js"
   },
   "repository": {
     "type": "git",

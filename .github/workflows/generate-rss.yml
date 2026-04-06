@@ -1,0 +1,34 @@
+name: Generate RSS Feed
+
+on:
+  # Runs at :05 every hour — just after sort-query-index runs at :03
+  schedule:
+    - cron: '5 * * * *'
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  generate-rss:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate RSS feed
+        run: npm run generate-rss
+
+      - name: Commit and push rss.xml
+        run: |
+          git config user.name "GitHub Action (RSS feed generator)"
+          git config user.email "action@github.com"
+          git add rss.xml
+          git diff --staged --quiet || git commit -m "Update RSS feed - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          git push
