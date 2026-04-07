@@ -63,7 +63,13 @@ async function generateRss() {
     </item>`;
   });
 
-  const buildDate = new Date().toUTCString();
+  const latestTimestamp = data.reduce((max, post) => {
+    const ts = Number(post.lastModified || 0);
+    return ts > max ? ts : max;
+  }, 0);
+  const buildDate = latestTimestamp
+    ? new Date(latestTimestamp * 1000).toUTCString()
+    : new Date().toUTCString();
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
