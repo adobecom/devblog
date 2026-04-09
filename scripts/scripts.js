@@ -59,6 +59,106 @@ const OVERRIDE_MILO_BLOCKS = addDevBlogBlockOverrides([{
   lcpImg?.setAttribute('loading', 'eager');
 }());
 
+/* RSS TOOLTIP + COPY FEATURE */
+
+const RSS_SELECTOR = '.feds-nav a[href*="rss.xml"]';
+
+function showTooltipMessage(tooltip, message, duration = 2000) {
+  const original = tooltip.dataset.default;
+  tooltip.textContent = message;
+  tooltip.classList.add('show');
+
+  setTimeout(() => {
+    tooltip.textContent = original;
+    tooltip.classList.remove('show');
+  }, duration);
+}
+
+async function copyToClipboard(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.cssText = 'position:fixed;opacity:0';
+    document.body.appendChild(ta);
+    ta.select();
+    const ok = document.execCommand('copy');
+    document.body.removeChild(ta);
+    return ok;
+  }
+}
+
+function enhanceRSSLink(link) {
+  if (link.dataset.rssEnhanced) return;
+  link.dataset.rssEnhanced = 'true';
+  link.setAttribute('target', '_blank');
+
+  const navItem = link.closest('.feds-navItem') || link.parentElement;
+  navItem.style.position = 'relative';
+
+  const tooltip = document.createElement('div');
+  tooltip.className = 'rss-tooltip';
+  tooltip.textContent = 'Subscribe via RSS (Shift+Click to copy)';
+  tooltip.dataset.default = tooltip.textContent;
+
+  navItem.appendChild(tooltip);
+
+  // Hover
+  link.addEventListener('mouseenter', () => tooltip.classList.add('show'));
+  link.addEventListener('mouseleave', () => tooltip.classList.remove('show'));
+
+  // Click (Shift + Click = Copy)
+  link.addEventListener('click', async (e) => {
+    if (!e.shiftKey) return;
+
+    e.preventDefault();
+    const ok = await copyToClipboard(link.href);
+
+    showTooltipMessage(
+      tooltip,
+      ok ? 'Feed URL copied!' : 'Copy failed'
+    );
+
+    link.blur(); // FIX: remove orange border
+  });
+
+  // Keyboard (Shift + Enter)
+  link.addEventListener('keydown', async (e) => {
+    if (e.key !== 'Enter' || !e.shiftKey) return;
+    e.preventDefault();
+    const ok = await copyToClipboard(link.href);
+
+    showTooltipMessage(
+      tooltip,
+      ok ? 'Feed URL copied!' : 'Copy failed'
+    );
+
+    link.blur();
+  });
+}
+
+function initRSS() {
+  const el = document.querySelector(RSS_SELECTOR);
+  if (el) return enhanceRSSLink(el);
+
+  const observer = new MutationObserver(() => {
+    const rss = document.querySelector(RSS_SELECTOR);
+    if (rss) {
+      observer.disconnect();
+      enhanceRSSLink(rss);
+    }
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
+  setTimeout(() => observer.disconnect(), 10000);
+}
+
+initRSS();
+
+export { enhanceRSSLink };
+
 /*
  * ------------------------------------------------------------
  * Edit below at your own risk
@@ -230,11 +330,11 @@ const { loadArea, setConfig, getMetadata } = await import(`${miloLibs}/utils/uti
     logoLink.href = '/';
     console.log('Logo link updated to:', logoLink.href);
   }
-  
+
   // Import and register search web component first
   await import('../web-components/search/blog-search.js');
   console.log('Search web component imported and registered');
-  
+
   // Then inject search into navigation after Milo loads
   function waitForNav() {
     return new Promise((resolve) => {
@@ -248,26 +348,42 @@ const { loadArea, setConfig, getMetadata } = await import(`${miloLibs}/utils/uti
   }
 
   const topNav = await waitForNav();
-  
+
   console.log('Injecting search into navigation. Target element:', topNav);
   const searchElement = document.createElement('blog-search');
-  // Prefer placing search before the logo so it appears to the left of it
-  const logo = topNav?.querySelector('a.feds-logo');
-  if (logo) {
-    const containerChildWithLogo = Array.from(topNav.children).find((child) => child.contains(logo));
-    if (containerChildWithLogo) {
-      topNav.insertBefore(searchElement, containerChildWithLogo);
-      console.log('Search element inserted before logo:', searchElement);
-    } else {
-      // If logo isn't within a direct child, prepend as a safe default
-      topNav.insertBefore(searchElement, topNav.firstChild);
-      console.log('Search element prepended to topNav:', searchElement);
+
+  const nav = document.querySelector('.feds-nav');
+  const navWrapper = document.querySelector('.feds-nav-wrapper');
+
+  const mq = window.matchMedia('(max-width: 899px)');
+  const header = document.querySelector('header.global-navigation');
+
+  function moveSearch(e) {
+    if (!nav || !searchElement) return;
+
+    if (e.matches) { //mobile
+      if (topNav && navWrapper && searchElement.parentElement !== topNav) {
+        topNav.insertBefore(searchElement, navWrapper.nextSibling);
+      }
+    } else { //desktop
+      const rssItem = nav
+        .querySelector('.feds-navItem a[href*="rss.xml"], .feds-navItem button[daa-ll^="RSS"]')
+        ?.closest('.feds-navItem');
+
+      if (rssItem && searchElement.parentElement !== nav) {
+        nav.insertBefore(searchElement, rssItem);
+
+      } else if (!rssItem && searchElement.parentElement !== nav) {
+        nav.appendChild(searchElement);
+      }
     }
-  } else {
-    // Fallback: append if no logo was found
-    topNav.appendChild(searchElement);
-    console.log('Search element appended to topNav (logo not found):', searchElement);
+
+    if (header) header.classList.add('nav-ready');
   }
-  
+
+  moveSearch(mq);
+  mq.addEventListener('change', moveSearch);
+
   initSidekick();
+
 }());
