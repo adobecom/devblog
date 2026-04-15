@@ -13,7 +13,7 @@
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"mcp\",\"mcp-server\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1773666618",
+      "lastModified": "1776262862",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1773619200",
       "sortDate": "2026-03-16",
@@ -30,7 +30,7 @@
       "tags": "[\"adobe-experience-manager\",\"aem\",\"edge-delivery-services\",\"adobe-experience-cloud\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1773686830",
+      "lastModified": "1776263606",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1773619200",
       "sortDate": "2026-03-16",
@@ -47,7 +47,7 @@
       "tags": "[\"Adobe-UXP\",\"adobe-creative-cloud-plugins\",\"plugin-development\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1772791260",
+      "lastModified": "1776264178",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1772755200",
       "sortDate": "2026-03-06",
@@ -1416,5 +1416,5 @@
     "updatedDate"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-04-13T19:23:05.018Z"
+  "generatedAt": "2026-04-15T15:11:20.440Z"
 }
