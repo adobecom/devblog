@@ -1,8 +1,25 @@
 {
-  "total": 82,
+  "total": 83,
   "offset": 0,
-  "limit": 82,
+  "limit": 83,
   "data": [
+    {
+      "path": "/en/publish/2026/04/uxp-hybrid-plugins-now-available-for-premiere",
+      "image": "/en/publish/2026/04/media_12455fb0265b248f716b9853d39e20451f8da9df9.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "UXP Hybrid Plugins Now Available for Premiere",
+      "author": "Davide Barranca",
+      "description": "Extend Premiere plugins with high-performance C++ native code, joining Photoshop with this powerful new capability.",
+      "tags": "[\"uxp\",\"hybrid plugins\",\"C++\",\"native libraries\",\"premiere\",\"extensibility\",\"performance\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1776292715",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1776297600",
+      "sortDate": "2026-04-16",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": ""
+    },
     {
       "path": "/en/publish/2026/03/build-faster-with-the-adobe-express-developer-mcp-server",
       "image": "/en/publish/2026/03/media_109152d837b97c5b532215edd25478815d648ace4.png?width=1200&format=pjpg&optimize=medium",
@@ -1416,5 +1433,5 @@
     "updatedDate"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-04-15T15:11:20.440Z"
+  "generatedAt": "2026-04-15T22:51:19.538Z"
 }
