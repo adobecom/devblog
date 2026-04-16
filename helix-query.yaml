@@ -36,6 +36,15 @@ indices:
           attribute(el, 'content')          
       # 🔼 End of addition
 
+      adobeCloud:
+        select: head > meta[name="adobe-cloud"]
+        value: |
+          attribute(el, 'content')
+      adobeApp:
+        select: head > meta[name="adobe-app"]
+        value: |
+          attribute(el, 'content')
+          
       image:
         select: head > meta[property="og:image"]
         value: |
