@@ -31,18 +31,52 @@ function getImageFilename(authorName) {
   return authorName?.trim().toLowerCase().replace(/[^0-9a-z]/gi, '-').replace(/-+/gi, '-').replace(/-$/gi, '');
 }
 
+export function toSlug(str) {
+  return str
+    ?.toLowerCase()
+    .replace(/[^a-z0-9]/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
 // Use pathname only; extract author info + fixed length bug
-export function getAuthorInfoFromPathAndHash(pagePath) {
+export async function getAuthorInfoFromPathAndHash(pagePath) {
   if (!pagePath) return {};
   const matchGroups = pagePath.match(/en\/authors\/(.*)/);
   if (!matchGroups || matchGroups.length < 2) return {};
-  const pageName = matchGroups[1];
-  const authorName = getAuthorName(pageName);
-  const info = {
-    authorName,
-    authorImageFilename: getImageFilename(authorName)
+
+  const slug = matchGroups[1].replace(/\/$/, '');
+
+  try {
+    const res = await fetch('/sorted-index/sorted-query-index.json');
+    const data = await res.json();
+
+    const match = data.data.find((item) => {
+      const normalized = item.author
+        ?.toLowerCase()
+        .replace(/[^a-z0-9]/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/^-|-$/g, '');
+
+      return normalized === slug;
+    });
+
+    if (match?.author) {
+      return {
+        authorName: match.author, //EXACT STRING
+        authorImageFilename: slug,
+      };
+    }
+
+  } catch (e) {
+    console.warn('Author lookup failed:', e);
+  }
+
+  // fallback
+  return {
+    authorName: slug.replace(/-/g, ' '),
+    authorImageFilename: slug,
   };
-  return info;
 }
 
 export function getAuthorPagePath(codeRoot, authorName) {

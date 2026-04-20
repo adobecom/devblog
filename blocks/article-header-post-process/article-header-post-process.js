@@ -1,6 +1,7 @@
 // Post-process the result of the article-header
 // block to inject the author image, which Milo cannot load
 // because the devblog uses dynamic author pages with no <img> tag.
+import { toSlug } from '../../scripts/devblog/authors.js';
 import { setLibs, getLibs } from '../../scripts/devblog/devblog.js';
 import { SITE } from '../../scripts/devblog/devblog.js';
 
@@ -28,7 +29,8 @@ export default async function init(blockEl) {
   }
 
   const authorName = authorLink.textContent.trim();
-  const authorImageFilename = authorName.replace(/[^0-9a-z]/gi, '-').toLowerCase();
+  const authorSlug = toSlug(authorName);
+  const authorImageFilename = authorSlug;
   const imageSrc = `/images/authors/${authorImageFilename}.png`;
 
   const img = document.createElement('img');

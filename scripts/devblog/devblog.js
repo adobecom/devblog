@@ -14,7 +14,7 @@
 
 import { setupDefaultImages } from './default-images.js';
 import { setupTaxonomyProxy } from './taxonomy-proxy.js';
-import { getAuthorInfoFromPathAndHash, getAuthorPagePath } from './authors.js';
+import { getAuthorInfoFromPathAndHash, getAuthorPagePath, toSlug } from './authors.js';
 
 // The defaultImages values must be set this according to the contents of the default images folder
 export const SITE = {
@@ -374,15 +374,15 @@ function buildTopicPage(mainEl) {
   document.title = title;
 }
 
-function buildAuthorPage(mainEl) {
+async function buildAuthorPage(mainEl) {
 
   // Replace author markers in the generic page
   // If we get a specific page it should be built with the
   // correct template to get the author's bio and feed
-  const { authorName, authorImageFilename } = getAuthorInfoFromPathAndHash(`${window.location.pathname}${window.location.hash}`);
+  const { authorName, authorImageFilename } = await getAuthorInfoFromPathAndHash(`${window.location.pathname}${window.location.hash}`);
   document.title = authorName;
-  document.querySelectorAll('body *').forEach(e => {
-    if(e.childElementCount == 0) {
+  mainEl.querySelectorAll('*').forEach(e => {
+    if(e.childElementCount === 0 && e.textContent.includes('$AUTHOR$')) {
       e.textContent = e.textContent.replace(/\$AUTHOR\$/, authorName);
     }
   })
@@ -462,9 +462,10 @@ async function buildArticleHeader(el) {
   const category = tag || 'News';
   const author = getMetadata('author') || SITE.team;
   const { codeRoot } = getConfig();
-  const authorURL = getMetadata('author-url') || getAuthorPagePath(codeRoot, author);
+  const authorSlug = toSlug(author);
+  const authorURL = `/en/authors/${authorSlug}`;
   const publicationDate = getMetadata('publication-date');
-  const authorImageFilename = author.replace(/[^0-9a-z]/gi, '-').toLowerCase();
+  const authorImageFilename = authorSlug;
   const categoryTag = getLinkForTopic(category);
 
   const articleHeaderBlockEl = buildBlock('article-header', [
@@ -611,7 +612,7 @@ export async function buildDevblogAutoBlocks() {
   }
 
   // No specific doc → fallback to generic
-    buildAuthorPage(mainEl);
+    await buildAuthorPage(mainEl);
   } else if(window.location.pathname.match(/\/topics\//)) {
     buildTopicPage(mainEl);
   } else if(window.location.pathname.match(/\/tagged\//)) {
