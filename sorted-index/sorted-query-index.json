@@ -1,8 +1,27 @@
 {
-  "total": 83,
+  "total": 84,
   "offset": 0,
-  "limit": 83,
+  "limit": 84,
   "data": [
+    {
+      "path": "/en/publish/2026/04/adobe-express-add-on-platform-updates-spring-2026-digest",
+      "image": "/en/publish/2026/04/media_107b46ab1fb6666cbf897902114b766dca1bd13bc.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Adobe Express Add-on Platform Updates: Spring 2026 Digest",
+      "author": "Taylor Krusen",
+      "description": "Spring 2026 brought an interesting set of updates that may look incremental in isolation but together represent a bigger shift. Adobe Express add-ons have moved ...",
+      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1776674712",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1776643200",
+      "sortDate": "2026-04-20",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "",
+      "adobeApp": ""
+    },
     {
       "path": "/en/publish/2026/04/uxp-hybrid-plugins-now-available-for-premiere",
       "image": "/en/publish/2026/04/media_12455fb0265b248f716b9853d39e20451f8da9df9.png?width=1200&format=pjpg&optimize=medium",
@@ -1601,5 +1620,5 @@
     "adobeApp"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-04-16T06:07:28.481Z"
+  "generatedAt": "2026-04-20T09:11:03.621Z"
 }
