@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2026 22:38:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 08:45:12 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Adobe Express Add-on Platform Updates: Spring 2026 Digest]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/04/adobe-express-add-on-platform-updates-spring-2026-digest</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/04/adobe-express-add-on-platform-updates-spring-2026-digest</guid>
+      <description><![CDATA[Spring 2026 brought an interesting set of updates that may look incremental in isolation but together represent a bigger shift. Adobe Express add-ons have moved ...]]></description>
+      <dc:creator><![CDATA[Taylor Krusen]]></dc:creator>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/04/media_107b46ab1fb6666cbf897902114b766dca1bd13bc.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/04/media_107b46ab1fb6666cbf897902114b766dca1bd13bc.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[UXP Hybrid Plugins Now Available for Premiere]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/04/uxp-hybrid-plugins-now-available-for-premiere</link>
