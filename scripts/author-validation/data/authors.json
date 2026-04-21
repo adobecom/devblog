@@ -23,21 +23,21 @@
     "name": "Aishwarya Khandelwal",
     "slug": "aishwarya-khandelwal",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/aishwarya-khandelwal",
-    "title": "",
-    "linkedin": "",
+    "title": "I translate business challenges into scalable digital wins.",
+    "linkedin": "https://www.linkedin.com/in/aishwarya2khandelwal/",
     "links": [],
-    "isAdobeEmployee": false,
+    "isAdobeEmployee": true,
     "isDeveloperChampion": false,
-    "hasDoc": false,
+    "hasDoc": true,
     "docUrl": "/en/authors/aishwarya-khandelwal",
-    "docImage": "",
+    "docImage": "./media_1de31d5834786b91424c6ec13488e2f2e31feeae7.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
     "image": "/images/authors/aishwarya-khandelwal.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
       "title": "Design Meets DAM: AEM Assets x Figma – A Turnkey Connector Is Here",
       "date": "2025-08-21"
     },
-    "isComplete": false
+    "isComplete": true
   },
   {
     "name": "Alex Castanheira",

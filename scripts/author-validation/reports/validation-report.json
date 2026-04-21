@@ -12,9 +12,9 @@
     ]
   },
   {
-    "name": "Ash Ryan Arnwine",
-    "slug": "ash-ryan-arnwine",
-    "docUrl": "/en/authors/ash-ryan-arnwine",
+    "name": "Steve Kwak",
+    "slug": "steve-kwak",
+    "docUrl": "/en/authors/steve-kwak",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -24,9 +24,9 @@
     ]
   },
   {
-    "name": "Steve Kwak",
-    "slug": "steve-kwak",
-    "docUrl": "/en/authors/steve-kwak",
+    "name": "Ash Ryan Arnwine",
+    "slug": "ash-ryan-arnwine",
+    "docUrl": "/en/authors/ash-ryan-arnwine",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -48,18 +48,6 @@
     ]
   },
   {
-    "name": "Mike Zahorik",
-    "slug": "mike-zahorik",
-    "docUrl": "/en/authors/mike-zahorik",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Sharayoo Jog",
     "slug": "sharayoo-jog",
     "docUrl": "/en/authors/sharayoo-jog",
@@ -72,9 +60,33 @@
     ]
   },
   {
+    "name": "Ashikka Gupta",
+    "slug": "ashikka-gupta",
+    "docUrl": "/en/authors/ashikka-gupta",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
     "name": "Ayan Choudhary",
     "slug": "ayan-choudhary",
     "docUrl": "/en/authors/ayan-choudhary",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Mike Zahorik",
+    "slug": "mike-zahorik",
+    "docUrl": "/en/authors/mike-zahorik",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -108,9 +120,9 @@
     ]
   },
   {
-    "name": "Eugen Pflueger",
-    "slug": "eugen-pflueger",
-    "docUrl": "/en/authors/eugen-pflueger",
+    "name": "Namita Krishnan",
+    "slug": "namita-krishnan",
+    "docUrl": "/en/authors/namita-krishnan",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -120,9 +132,9 @@
     ]
   },
   {
-    "name": "Namita Krishnan",
-    "slug": "namita-krishnan",
-    "docUrl": "/en/authors/namita-krishnan",
+    "name": "Eugen Pflueger",
+    "slug": "eugen-pflueger",
+    "docUrl": "/en/authors/eugen-pflueger",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -168,18 +180,6 @@
     ]
   },
   {
-    "name": "Ashikka Gupta",
-    "slug": "ashikka-gupta",
-    "docUrl": "/en/authors/ashikka-gupta",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Honwai Wong",
     "slug": "honwai-wong",
     "docUrl": "/en/authors/honwai-wong",
@@ -207,18 +207,6 @@
     "name": "Alex Castanheira",
     "slug": "alex-castanheira",
     "docUrl": "/en/authors/alex-castanheira",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Aishwarya Khandelwal",
-    "slug": "aishwarya-khandelwal",
-    "docUrl": "/en/authors/aishwarya-khandelwal",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
