@@ -1,0 +1,777 @@
+[
+  {
+    "name": "Abhishek Jain",
+    "slug": "abhishek-jain",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/abhishek-jain",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/abhishek-jain",
+    "docImage": "",
+    "image": "/images/authors/abhishek-jain.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Troubleshoot Issues Installing Extensions and Add-ons for Creative Cloud apps",
+      "date": "2019-11-29"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Aishwarya Khandelwal",
+    "slug": "aishwarya-khandelwal",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/aishwarya-khandelwal",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/aishwarya-khandelwal",
+    "docImage": "",
+    "image": "/images/authors/aishwarya-khandelwal.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Design Meets DAM: AEM Assets x Figma – A Turnkey Connector Is Here",
+      "date": "2025-08-21"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Alex Castanheira",
+    "slug": "alex-castanheira",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/alex-castanheira",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/alex-castanheira",
+    "docImage": "",
+    "image": "/images/authors/alex-castanheira.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Get Funding to Build Adobe Express Add-Ons",
+      "date": "2024-04-10"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Arvind Sridhar",
+    "slug": "arvind-sridhar",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/arvind-sridhar",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/arvind-sridhar",
+    "docImage": "",
+    "image": "/images/authors/arvind-sridhar.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "UXP Arrives in Premiere: A New Era for Plugin Development",
+      "date": "2025-12-16"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Ash Ryan Arnwine",
+    "slug": "ash-ryan-arnwine",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/ash-ryan-arnwine",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/ash-ryan-arnwine",
+    "docImage": "",
+    "image": "/images/authors/ash-ryan-arnwine.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Using ES2015 template strings in CEP",
+      "date": "2018-02-08"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Ashikka Gupta",
+    "slug": "ashikka-gupta",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/ashikka-gupta",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/ashikka-gupta",
+    "docImage": "",
+    "image": "/images/authors/ashikka-gupta.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Building an Image Search Plugin for Photoshop",
+      "date": "2021-12-31"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Aubrey Cattell",
+    "slug": "aubrey-cattell",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/aubrey-cattell",
+    "title": "VP Product &#x26; Partnerships at Adobe | ex Autodesk",
+    "linkedin": "https://www.linkedin.com/in/acattell/",
+    "links": [],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/aubrey-cattell",
+    "docImage": "./media_1b9130ba012fc24c225edbeca7bab49749c57c735.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/aubrey-cattell.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Adobe Express Platform Updates for MAX 2024: New Developer Capabilities and Explosive Growth of Our Partner Ecosystem",
+      "date": "2024-10-11"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Ayan Choudhary",
+    "slug": "ayan-choudhary",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/ayan-choudhary",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/ayan-choudhary",
+    "docImage": "",
+    "image": "/images/authors/ayan-choudhary.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Developing an OAuth Sample for Adobe Photoshop",
+      "date": "2021-05-18"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Carlos A. Cabrera",
+    "slug": "carlos-a-cabrera",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/carlos-a-cabrera",
+    "title": "Senior Software Engineer",
+    "linkedin": "https://www.linkedin.com/in/carlosacabrera/",
+    "links": [
+      {
+        "url": "https://fnhipster.com",
+        "label": "Portfolio"
+      }
+    ],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/carlos-a-cabrera",
+    "docImage": "./media_1ee7fa7cb6a44ddf198334d45d4f6fd90b8ed57bd.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/carlos-a-cabrera.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Edge Delivery Services for Commerce: A New Storefront Has Dropped",
+      "date": "2024-12-13"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Colene Chow",
+    "slug": "colene-chow",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/colene-chow",
+    "title": "Sr. Product Marketing manager with over 15 years experience in strategic marketing and communications roles defining product marketing strategy on cross-functional teams.",
+    "linkedin": "https://www.linkedin.com/in/colenechow/",
+    "links": [],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/colene-chow",
+    "docImage": "./media_1894533e9282cfcb063843ec28514df93bd5816c4.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/colene-chow.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Introducing the Adobe Express Add-on Dev MCP Server (Beta)",
+      "date": "2025-09-02"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "David Sankel",
+    "slug": "david-sankel",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/david-sankel",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/david-sankel",
+    "docImage": "",
+    "image": "/images/authors/david-sankel.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Trip Report: Winter ISO C++ Standards Meeting in Tokyo",
+      "date": "2024-04-26"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Davide Barranca",
+    "slug": "davide-barranca",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/davide-barranca",
+    "title": "Sr. Developer Relations Engineer",
+    "linkedin": "https://www.linkedin.com/in/davide-barranca-2891b4a/",
+    "links": [
+      {
+        "url": "https://www.davidebarranca.com/",
+        "label": "Personal Blog"
+      }
+    ],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": true,
+    "hasDoc": true,
+    "docUrl": "/en/authors/davide-barranca",
+    "docImage": "./media_1ed3fef8d4cc80eb4bec79d1d6992c1d5921347bb.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
+    "image": "/images/authors/davide-barranca.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "UXP Hybrid Plugins Now Available for Premiere",
+      "date": "2026-04-16"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Drew Robinson",
+    "slug": "drew-robinson",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/drew-robinson",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/drew-robinson",
+    "docImage": "",
+    "image": "/images/authors/drew-robinson.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Launching Workflows from the AEM Content Fragment Editor with UI Extensibility",
+      "date": "2025-06-04"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Erin Finnegan",
+    "slug": "erin-finnegan",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/erin-finnegan",
+    "title": "Engineering Program Manager | Developer Experience | Product Management",
+    "linkedin": "https://www.linkedin.com/in/erinefinnegan/",
+    "links": [
+      {
+        "url": "https://erinfinnegan.com/",
+        "label": "Profile"
+      }
+    ],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/erin-finnegan",
+    "docImage": "./media_16bc09ca1732bd80edb5f76087ec8cbbdc2304af9.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/erin-finnegan.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Introducing the Creative Cloud Developer Champion Program",
+      "date": "2025-01-13"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Eugen Pflueger",
+    "slug": "eugen-pflueger",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/eugen-pflueger",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/eugen-pflueger",
+    "docImage": "",
+    "image": "/images/authors/eugen-pflueger.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "How to Market and Monetize Adobe Express Add-ons",
+      "date": "2025-02-07"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Honwai Wong",
+    "slug": "honwai-wong",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/honwai-wong",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/honwai-wong",
+    "docImage": "",
+    "image": "/images/authors/honwai-wong.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Powering Adobe MAX with App Builder and I/O Runtime",
+      "date": "2022-01-17"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Ingo Eichel",
+    "slug": "ingo-eichel",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/ingo-eichel",
+    "title": "I run developer community for Adobe Express &#x26; Creative Cloud",
+    "linkedin": "https://www.linkedin.com/in/ingoeichel/",
+    "links": [
+      {
+        "url": "https://developer.adobe.com/developers-live",
+        "label": "Developers Live"
+      }
+    ],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/ingo-eichel",
+    "docImage": "./media_1e72319dfc9824fea8a3a3e6be1aee18a95603e6c.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/ingo-eichel.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Introducing Webview UI in Bolt UXP: Build Richer Adobe Plugins Faster",
+      "date": "2026-03-06"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Kalyan Dechiraju",
+    "slug": "kalyan-dechiraju",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/kalyan-dechiraju",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/kalyan-dechiraju",
+    "docImage": "",
+    "image": "/images/authors/kalyan-dechiraju.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Build Faster with the Adobe Express Developer MCP Server",
+      "date": "2026-03-16"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Kelvin Xu",
+    "slug": "kelvin-xu",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/kelvin-xu",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/kelvin-xu",
+    "docImage": "",
+    "image": "/images/authors/kelvin-xu.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Adobe Developer App Builder — The Power of Scaling at Your Fingertips",
+      "date": "2022-05-13"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Kerri Shotts",
+    "slug": "kerri-shotts",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/kerri-shotts",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/kerri-shotts",
+    "docImage": "",
+    "image": "/images/authors/kerri-shotts.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Adobe Express Add-ons: What’s New and Coming Up for Developers",
+      "date": "2025-06-27"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Keshav Kumar",
+    "slug": "keshav-kumar",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/keshav-kumar",
+    "title": "Full-Stack Developer | Developing Creative and Immersive Software",
+    "linkedin": "https://www.linkedin.com/in/keshav-ku/",
+    "links": [
+      {
+        "url": "https://mekeshav.netlify.app/",
+        "label": "Portfolio"
+      }
+    ],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/keshav-kumar",
+    "docImage": "./media_1e7de889021292a10dee05f86920bdb206316d7eb.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
+    "image": "/images/authors/keshav-kumar.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Building Adobe Express Add‑ons in 24 Hours: Pixel Pluck’s Hackathon Story",
+      "date": "2026-02-24"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Madhur Sharma",
+    "slug": "madhur-sharma",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/madhur-sharma",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/madhur-sharma",
+    "docImage": "",
+    "image": "/images/authors/madhur-sharma.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Self-Service Public Profile Management for Adobe Developers",
+      "date": "2025-12-16"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Manik Jindal",
+    "slug": "manik-jindal",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/manik-jindal",
+    "title": "Senior Product Manager | Adobe Developer Platform",
+    "linkedin": "https://www.linkedin.com/in/themanikjindal",
+    "links": [],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": true,
+    "hasDoc": true,
+    "docUrl": "/en/authors/manik-jindal",
+    "docImage": "./media_1942cea8b6a0ac896a194d04c9d2288d636fdfca3.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/manik-jindal.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "How to Forward Adobe Developer App Builder Application Logs",
+      "date": "2022-01-27"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Michael S. Scherotter",
+    "slug": "michael-s-scherotter",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/michael-s-scherotter",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/michael-s-scherotter",
+    "docImage": "",
+    "image": "/images/authors/michael-s-scherotter.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "How to Create Telemetry Dashboards for Adobe Express Add-ons",
+      "date": "2025-04-01"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Mike Zahorik",
+    "slug": "mike-zahorik",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/mike-zahorik",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/mike-zahorik",
+    "docImage": "",
+    "image": "/images/authors/mike-zahorik.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Power from the People: InDesign Scripting",
+      "date": "2020-10-01"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Namita Krishnan",
+    "slug": "namita-krishnan",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/namita-krishnan",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/namita-krishnan",
+    "docImage": "",
+    "image": "/images/authors/namita-krishnan.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Show, Don’t Tell: Multimodal Answers in AI Assistant in Adobe Experience Platform",
+      "date": "2025-06-13"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Pratibha Sharma & Asim Chatterjee",
+    "slug": "pratibha-sharma-asim-chatterjee",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/pratibha-sharma-asim-chatterjee",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/pratibha-sharma-asim-chatterjee",
+    "docImage": "",
+    "image": "/images/authors/pratibha-sharma-asim-chatterjee.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Leveraging Propensity Models: Marketing that Thinks Like Your Customer",
+      "date": "2025-06-09"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Raymond Camden",
+    "slug": "raymond-camden",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/raymond-camden",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/raymond-camden",
+    "docImage": "",
+    "image": "/images/authors/raymond-camden.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Help Preview the Adobe Export and Import Form Data API",
+      "date": "2024-08-28"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Renae Kang",
+    "slug": "renae-kang",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/renae-kang",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/renae-kang",
+    "docImage": "",
+    "image": "/images/authors/renae-kang.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Behind the Scenes with Ammar Alim, DevSecOps Leader",
+      "date": "2024-12-05"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Rohan Kapoor",
+    "slug": "rohan-kapoor",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/rohan-kapoor",
+    "title": "Product manager specializing in internal and external developer platforms, from developer portals and CI/CD orchestration to observability and diagnostics. Increasingly focused on AI-powered tooling that helps developers write, diagnose, and deploy code faster, turning natural language into production-ready applications.",
+    "linkedin": "https://www.linkedin.com/in/rohankapoor/",
+    "links": [],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/rohan-kapoor",
+    "docImage": "./media_1a3d6af116499549eb8cc1d9e539eb6b922619f2f.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
+    "image": "/images/authors/rohan-kapoor.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "New App Builder Console Features: Logs UI and CDN Management",
+      "date": "2026-02-27"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Ruben Rincon",
+    "slug": "ruben-rincon",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/ruben-rincon",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/ruben-rincon",
+    "docImage": "",
+    "image": "/images/authors/ruben-rincon.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "From Idea to Product: Learnings from Vibe Coding with Cursor and the Adobe Express Add-On MCP Server",
+      "date": "2025-10-20"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Sayan Jain",
+    "slug": "sayan-jain",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/sayan-jain",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/sayan-jain",
+    "docImage": "",
+    "image": "/images/authors/sayan-jain.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Inside AI Collaborate's 24-Hour Adobe Express Add-On Hackathon",
+      "date": "2025-08-28"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Sharayoo Jog",
+    "slug": "sharayoo-jog",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/sharayoo-jog",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/sharayoo-jog",
+    "docImage": "",
+    "image": "/images/authors/sharayoo-jog.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
+      "date": "2021-11-30"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Sherrie Rohde",
+    "slug": "sherrie-rohde",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/sherrie-rohde",
+    "title": "Developer Relations, AEM",
+    "linkedin": "https://www.linkedin.com/in/sherrierohde/",
+    "links": [
+      {
+        "url": "https://developer.adobe.com/experience-manager",
+        "label": "Aem Developers"
+      }
+    ],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/sherrie-rohde",
+    "docImage": "./media_131e575e09b1f89a1f60b85483aba407b36c86d1b.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/sherrie-rohde.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "How the Experience Modernization Agent Migrates Sites to Edge Delivery Services",
+      "date": "2026-03-16"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Steve Kwak",
+    "slug": "steve-kwak",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/steve-kwak",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/steve-kwak",
+    "docImage": "",
+    "image": "/images/authors/steve-kwak.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "How to Customize Your Adobe Creative Cloud Extension Package",
+      "date": "2018-08-21"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Taylor Krusen",
+    "slug": "taylor-krusen",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/taylor-krusen",
+    "title": "Senior Developer Advocate",
+    "linkedin": "https://www.linkedin.com/in/taylor-krusen/",
+    "links": [
+      {
+        "url": "https://developer.adobe.com/developers-live",
+        "label": "Developers Live"
+      }
+    ],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/taylor-krusen",
+    "docImage": "./media_143f1b311750e7a4a13ee3903fd32be8f40512845.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/taylor-krusen.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Adobe Express Add-on Platform Updates: Spring 2026 Digest",
+      "date": "2026-04-20"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Thomas Zagler",
+    "slug": "thomas-zagler",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/thomas-zagler",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/thomas-zagler",
+    "docImage": "",
+    "image": "/images/authors/thomas-zagler.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Learning by Doing: Porting “Free Stock Search” from CEP to UXP in Adobe XD",
+      "date": "2020-02-12"
+    },
+    "isComplete": false
+  }
+]
