@@ -99,8 +99,8 @@ export default async function decorate(block) {
     header.className = 'authors-header';
     header.innerHTML = `
       <div class="authors-header-inner">
-        <h1>Authors</h1>
-        <p>Meet the experts sharing insights, tutorials, and innovations on Adobe Developers Blog.</p>
+        <h1>Meet the authors of the Adobe Developers Blog</h1>
+        <p>These internal and external experts share their knowledge and provide insights into our technology. Read about what's new and relevant, and what's coming. (Sorted by latest articles on the blog)</p>
       </div>
     `;
 

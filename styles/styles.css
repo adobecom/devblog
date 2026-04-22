@@ -327,8 +327,8 @@ main + footer .feds-regionPicker-wrapper > .fragment p strong > a::after {
     outline: 2px solid #fa802f;
     outline-offset: 2px;
   }
-  
-  .feds-brand-container > .feds-brand {
+
+  .feds-brand-container>.feds-brand {
     margin-left: 12px;
   }
 
@@ -341,6 +341,15 @@ main + footer .feds-regionPicker-wrapper > .fragment p strong > a::after {
 
   .feds-nav .feds-navItem .feds-navLink {
     margin-top: 5px;
+  }
+
+  /* To fix the border issue on gnav */
+  .feds-navItem--active>.feds-navLink:before {
+    border-bottom: none !important;
+  }
+
+  .feds-navItem--active>.feds-navLink {
+    font-weight: 500 !important;
   }
 }
 
