@@ -72,9 +72,9 @@
     ]
   },
   {
-    "name": "Ayan Choudhary",
-    "slug": "ayan-choudhary",
-    "docUrl": "/en/authors/ayan-choudhary",
+    "name": "Mike Zahorik",
+    "slug": "mike-zahorik",
+    "docUrl": "/en/authors/mike-zahorik",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -84,9 +84,9 @@
     ]
   },
   {
-    "name": "Mike Zahorik",
-    "slug": "mike-zahorik",
-    "docUrl": "/en/authors/mike-zahorik",
+    "name": "Ayan Choudhary",
+    "slug": "ayan-choudhary",
+    "docUrl": "/en/authors/ayan-choudhary",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -108,30 +108,6 @@
     ]
   },
   {
-    "name": "Thomas Zagler",
-    "slug": "thomas-zagler",
-    "docUrl": "/en/authors/thomas-zagler",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Namita Krishnan",
-    "slug": "namita-krishnan",
-    "docUrl": "/en/authors/namita-krishnan",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Eugen Pflueger",
     "slug": "eugen-pflueger",
     "docUrl": "/en/authors/eugen-pflueger",
@@ -144,9 +120,9 @@
     ]
   },
   {
-    "name": "Michael S. Scherotter",
-    "slug": "michael-s-scherotter",
-    "docUrl": "/en/authors/michael-s-scherotter",
+    "name": "Namita Krishnan",
+    "slug": "namita-krishnan",
+    "docUrl": "/en/authors/namita-krishnan",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -219,18 +195,6 @@
     "name": "Sayan Jain",
     "slug": "sayan-jain",
     "docUrl": "/en/authors/sayan-jain",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Ruben Rincon",
-    "slug": "ruben-rincon",
-    "docUrl": "/en/authors/ruben-rincon",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",

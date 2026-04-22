@@ -30,7 +30,7 @@
     "isDeveloperChampion": false,
     "hasDoc": true,
     "docUrl": "/en/authors/aishwarya-khandelwal",
-    "docImage": "./media_1de31d5834786b91424c6ec13488e2f2e31feeae7.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
+    "docImage": "./media_178c3cc492e71c702179a99be4850ccb4a153c2a1.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
     "image": "/images/authors/aishwarya-khandelwal.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
@@ -237,7 +237,7 @@
       }
     ],
     "isAdobeEmployee": true,
-    "isDeveloperChampion": true,
+    "isDeveloperChampion": false,
     "hasDoc": true,
     "docUrl": "/en/authors/davide-barranca",
     "docImage": "./media_1ed3fef8d4cc80eb4bec79d1d6992c1d5921347bb.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
@@ -472,7 +472,7 @@
     "linkedin": "https://www.linkedin.com/in/themanikjindal",
     "links": [],
     "isAdobeEmployee": true,
-    "isDeveloperChampion": true,
+    "isDeveloperChampion": false,
     "hasDoc": true,
     "docUrl": "/en/authors/manik-jindal",
     "docImage": "./media_1942cea8b6a0ac896a194d04c9d2288d636fdfca3.png?width=750&#x26;format=png&#x26;optimize=medium",
@@ -488,21 +488,26 @@
     "name": "Michael S. Scherotter",
     "slug": "michael-s-scherotter",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/michael-s-scherotter",
-    "title": "",
-    "linkedin": "",
-    "links": [],
+    "title": "Innovation Technologist: artistry at the intersection of creativity and technology. Creative Systems Architect at Strata, ex-Microsoft creative experience engineer &#x26; technical program manager, founder of Galeryst.com, artist, author, and Adobe Creative Cloud Developer Champion.",
+    "linkedin": "https://www.linkedin.com/in/mscherotter/",
+    "links": [
+      {
+        "url": "https://travelartjournalist.myportfolio.com/",
+        "label": "Portfolio"
+      }
+    ],
     "isAdobeEmployee": false,
-    "isDeveloperChampion": false,
-    "hasDoc": false,
+    "isDeveloperChampion": true,
+    "hasDoc": true,
     "docUrl": "/en/authors/michael-s-scherotter",
-    "docImage": "",
+    "docImage": "./media_1ea381fb5d41712555285ecc058fbd23f676b8238.png?width=750&#x26;format=png&#x26;optimize=medium",
     "image": "/images/authors/michael-s-scherotter.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
       "title": "How to Create Telemetry Dashboards for Adobe Express Add-ons",
       "date": "2025-04-01"
     },
-    "isComplete": false
+    "isComplete": true
   },
   {
     "name": "Mike Zahorik",
@@ -628,21 +633,21 @@
     "name": "Ruben Rincon",
     "slug": "ruben-rincon",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/ruben-rincon",
-    "title": "",
-    "linkedin": "",
+    "title": "Group Product Manager, Developer Experience",
+    "linkedin": "https://www.linkedin.com/in/rubenrincon/",
     "links": [],
-    "isAdobeEmployee": false,
+    "isAdobeEmployee": true,
     "isDeveloperChampion": false,
-    "hasDoc": false,
+    "hasDoc": true,
     "docUrl": "/en/authors/ruben-rincon",
-    "docImage": "",
+    "docImage": "./media_12412f48dc4dd3ecf6b9480fc12a0d09f18605739.png?width=750&#x26;format=png&#x26;optimize=medium",
     "image": "/images/authors/ruben-rincon.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
       "title": "From Idea to Product: Learnings from Vibe Coding with Cursor and the Adobe Express Add-On MCP Server",
       "date": "2025-10-20"
     },
-    "isComplete": false
+    "isComplete": true
   },
   {
     "name": "Sayan Jain",
@@ -758,20 +763,25 @@
     "name": "Thomas Zagler",
     "slug": "thomas-zagler",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/thomas-zagler",
-    "title": "",
-    "linkedin": "",
-    "links": [],
+    "title": "Plugin Developer for Adobe Apps / Graphic Designer",
+    "linkedin": "https://www.linkedin.com/in/tomzag/",
+    "links": [
+      {
+        "url": "https://plugins.pixelsucht.net/",
+        "label": "Portfolio"
+      }
+    ],
     "isAdobeEmployee": false,
     "isDeveloperChampion": false,
-    "hasDoc": false,
+    "hasDoc": true,
     "docUrl": "/en/authors/thomas-zagler",
-    "docImage": "",
+    "docImage": "./media_1141f6c0fd6db5f30ad1936753de725810e9e9670.png?width=750&#x26;format=png&#x26;optimize=medium",
     "image": "/images/authors/thomas-zagler.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
       "title": "Learning by Doing: Porting “Free Stock Search” from CEP to UXP in Adobe XD",
       "date": "2020-02-12"
     },
-    "isComplete": false
+    "isComplete": true
   }
 ]
