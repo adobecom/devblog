@@ -298,21 +298,26 @@
     "name": "Eugen Pflueger",
     "slug": "eugen-pflueger",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/eugen-pflueger",
-    "title": "",
-    "linkedin": "",
-    "links": [],
+    "title": "Building AI tools for Creatives",
+    "linkedin": "https://www.linkedin.com/in/eugenpflueger/",
+    "links": [
+      {
+        "url": "https://omata.io",
+        "label": "Omata.io"
+      }
+    ],
     "isAdobeEmployee": false,
-    "isDeveloperChampion": false,
-    "hasDoc": false,
+    "isDeveloperChampion": true,
+    "hasDoc": true,
     "docUrl": "/en/authors/eugen-pflueger",
-    "docImage": "",
+    "docImage": "./media_1655f3d6b5d0c0ff63535fc5346108eb27cbace76.png?width=750&#x26;format=png&#x26;optimize=medium",
     "image": "/images/authors/eugen-pflueger.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
       "title": "How to Market and Monetize Adobe Express Add-ons",
       "date": "2025-02-07"
     },
-    "isComplete": false
+    "isComplete": true
   },
   {
     "name": "Honwai Wong",
