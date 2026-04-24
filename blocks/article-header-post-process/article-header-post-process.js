@@ -2,8 +2,7 @@
 // block to inject the author image, which Milo cannot load
 // because the devblog uses dynamic author pages with no <img> tag.
 import { toSlug } from '../../scripts/devblog/authors.js';
-import { setLibs, getLibs } from '../../scripts/devblog/devblog.js';
-import { SITE } from '../../scripts/devblog/devblog.js';
+import { setLibs, getLibs, SITE } from '../../scripts/devblog/devblog.js';
 
 setLibs(SITE.prodLibsPath);
 
@@ -21,26 +20,31 @@ export default async function init(blockEl) {
 
   if (!authorImgDiv || !authorLink) return;
 
-  // Exit if Milo already added image
-  const existingImg = authorImgDiv.querySelector('img');
-  if (existingImg) {
-    authorImgDiv.style.backgroundImage = 'none';
-    return;
-  }
+  // If Milo already added an image, nothing to do.
+  if (authorImgDiv.querySelector('img')) return;
 
   const authorName = authorLink.textContent.trim();
   const authorSlug = toSlug(authorName);
-  const authorImageFilename = authorSlug;
-  const imageSrc = `/images/authors/${authorImageFilename}.png`;
+  const imageSrc = `/images/authors/${authorSlug}.png`;
 
   const img = document.createElement('img');
   img.alt = authorName;
+  img.setAttribute('data-devblog-author-img', '1');
   img.src = imageSrc;
 
+  // If Milo adds its own image after ours, remove ours to avoid duplicates.
+  const observer = new MutationObserver(() => {
+    if (authorImgDiv.querySelectorAll('img').length > 1) {
+      authorImgDiv.querySelector('img[data-devblog-author-img]')?.remove();
+      observer.disconnect();
+    }
+  });
+  observer.observe(authorImgDiv, { childList: true, subtree: true });
+
   img.addEventListener('load', () => {
-    // Re-check to avoid duplicate if Milo added image
-    if (authorImgDiv.querySelector('img')) {
-      authorImgDiv.style.backgroundImage = 'none';
+    // Check again just before appending — Milo may have finished while image was loading.
+    if (authorImgDiv.querySelector('img:not([data-devblog-author-img])')) {
+      observer.disconnect();
       return;
     }
     authorImgDiv.style.backgroundImage = 'none';
@@ -48,8 +52,7 @@ export default async function init(blockEl) {
   });
 
   img.addEventListener('error', () => {
-    if (!img.src.endsWith('.jpg')) {
-      img.src = imageSrc.replace('.png', '.jpg');
-    }
+    // Fallback to .jpg if .png not found.
+    if (!img.src.endsWith('.jpg')) img.src = imageSrc.replace('.png', '.jpg');
   });
 }
