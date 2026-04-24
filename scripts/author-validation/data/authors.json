@@ -43,21 +43,21 @@
     "name": "Alex Castanheira",
     "slug": "alex-castanheira",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/alex-castanheira",
-    "title": "",
-    "linkedin": "",
+    "title": "Director Platform Partnerships",
+    "linkedin": "https://www.linkedin.com/in/alexandredelimacastanheira/",
     "links": [],
-    "isAdobeEmployee": false,
+    "isAdobeEmployee": true,
     "isDeveloperChampion": false,
-    "hasDoc": false,
+    "hasDoc": true,
     "docUrl": "/en/authors/alex-castanheira",
-    "docImage": "",
+    "docImage": "./media_1847d9b68b54ec49c54e9dfe0c146b3ec053c5d90.png?width=750&#x26;format=png&#x26;optimize=medium",
     "image": "/images/authors/alex-castanheira.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
       "title": "Get Funding to Build Adobe Express Add-Ons",
       "date": "2024-04-10"
     },
-    "isComplete": false
+    "isComplete": true
   },
   {
     "name": "Arvind Sridhar",
@@ -448,21 +448,21 @@
     "name": "Madhur Sharma",
     "slug": "madhur-sharma",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/madhur-sharma",
-    "title": "",
-    "linkedin": "",
+    "title": "Senior Product Manager | AWS Cloud Practitioner | Google Certified Data Analyst",
+    "linkedin": "https://www.linkedin.com/in/hellomadhur/",
     "links": [],
-    "isAdobeEmployee": false,
+    "isAdobeEmployee": true,
     "isDeveloperChampion": false,
-    "hasDoc": false,
+    "hasDoc": true,
     "docUrl": "/en/authors/madhur-sharma",
-    "docImage": "",
+    "docImage": "./media_1c0c2075766691892504ad5a9b8dd8d2e2acbe3bf.png?width=750&#x26;format=png&#x26;optimize=medium",
     "image": "/images/authors/madhur-sharma.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
       "title": "Self-Service Public Profile Management for Adobe Developers",
       "date": "2025-12-16"
     },
-    "isComplete": false
+    "isComplete": true
   },
   {
     "name": "Manik Jindal",
