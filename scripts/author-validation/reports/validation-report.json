@@ -36,30 +36,6 @@
     ]
   },
   {
-    "name": "Abhishek Jain",
-    "slug": "abhishek-jain",
-    "docUrl": "/en/authors/abhishek-jain",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Ashikka Gupta",
-    "slug": "ashikka-gupta",
-    "docUrl": "/en/authors/ashikka-gupta",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Sharayoo Jog",
     "slug": "sharayoo-jog",
     "docUrl": "/en/authors/sharayoo-jog",
@@ -84,9 +60,33 @@
     ]
   },
   {
+    "name": "Ashikka Gupta",
+    "slug": "ashikka-gupta",
+    "docUrl": "/en/authors/ashikka-gupta",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
     "name": "Mike Zahorik",
     "slug": "mike-zahorik",
     "docUrl": "/en/authors/mike-zahorik",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Abhishek Jain",
+    "slug": "abhishek-jain",
+    "docUrl": "/en/authors/abhishek-jain",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -111,18 +111,6 @@
     "name": "Namita Krishnan",
     "slug": "namita-krishnan",
     "docUrl": "/en/authors/namita-krishnan",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Drew Robinson",
-    "slug": "drew-robinson",
-    "docUrl": "/en/authors/drew-robinson",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -180,9 +168,9 @@
     ]
   },
   {
-    "name": "Arvind Sridhar",
-    "slug": "arvind-sridhar",
-    "docUrl": "/en/authors/arvind-sridhar",
+    "name": "David Sankel",
+    "slug": "david-sankel",
+    "docUrl": "/en/authors/david-sankel",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -192,9 +180,9 @@
     ]
   },
   {
-    "name": "David Sankel",
-    "slug": "david-sankel",
-    "docUrl": "/en/authors/david-sankel",
+    "name": "Arvind Sridhar",
+    "slug": "arvind-sridhar",
+    "docUrl": "/en/authors/arvind-sridhar",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
