@@ -3,6 +3,24 @@ export default async function decorate(block) {
   const DEFAULT_FALLBACK_IMAGE = 'https://main--milo--adobecom.aem.live/libs/blocks/article-header/adobe-logo.svg';
   const AUTHOR_IMAGE_BASE      = '/images/authors/';
 
+  let cachedPageContent = null;
+
+  async function getPageContent() {
+    if (cachedPageContent) return cachedPageContent;
+    try {
+      const res = await fetch('/en/authors/index.plain.html', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+      cachedPageContent = {
+        heading:     doc.querySelector('h1, h2')?.textContent?.trim() || '',
+        description: doc.querySelector('p')?.textContent?.trim()      || '',
+      };
+    } catch {
+      return null;
+    }
+    return cachedPageContent;
+  }
+
   const getAuthorImage = ({ docImage, image, slug }) =>
   docImage?.trim() || image?.trim() || `${AUTHOR_IMAGE_BASE}${slug}.png`;
 
@@ -95,16 +113,20 @@ export default async function decorate(block) {
 
     block.textContent = '';
 
-    const header = document.createElement('div');
-    header.className = 'authors-header';
-    header.innerHTML = `
-      <div class="authors-header-inner">
-        <h1>Meet the authors of the Adobe Developers Blog</h1>
-        <p>These internal and external experts share their knowledge and provide insights into our technology. Read about what's new and relevant, and what's coming. (Sorted by latest articles on the blog)</p>
-      </div>
-    `;
+    // Fetch heading/description from doc — shown only if present.
 
-    block.appendChild(header);
+    const pageContent = await getPageContent();
+    if (pageContent) {
+      const header = document.createElement('div');
+      header.className = 'authors-header';
+      header.innerHTML = `
+        <div class="authors-header-inner">
+          ${pageContent.heading     ? `<h1>${pageContent.heading}</h1>`         : ''}
+          ${pageContent.description ? `<p>${pageContent.description}</p>`       : ''}
+        </div>
+      `;
+      block.appendChild(header);
+    }
     block.appendChild(container);
 
   } catch (error) {

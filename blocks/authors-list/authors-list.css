@@ -165,7 +165,7 @@
 }
 
 .authors-header-inner {
-  max-width: 800px;
+  max-width: 1025px;
   margin: 0 auto;
 }
 
@@ -195,6 +195,14 @@
 }
 
 @media (max-width: 768px) {
+  .authors-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .authors-header p {
+    font-size: 0.95rem;
+  }
+
   .authors-list-container {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 28px;
@@ -207,6 +215,10 @@
 }
 
 @media (max-width: 480px) {
+  .authors-header h1 {
+    font-size: 1.5rem;
+  }
+
   .authors-list-container {
     grid-template-columns: 1fr;
     gap: 24px;
