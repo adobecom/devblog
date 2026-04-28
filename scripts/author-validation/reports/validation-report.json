@@ -12,18 +12,6 @@
     ]
   },
   {
-    "name": "Steve Kwak",
-    "slug": "steve-kwak",
-    "docUrl": "/en/authors/steve-kwak",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Ash Ryan Arnwine",
     "slug": "ash-ryan-arnwine",
     "docUrl": "/en/authors/ash-ryan-arnwine",
@@ -36,9 +24,33 @@
     ]
   },
   {
+    "name": "Steve Kwak",
+    "slug": "steve-kwak",
+    "docUrl": "/en/authors/steve-kwak",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
     "name": "Abhishek Jain",
     "slug": "abhishek-jain",
     "docUrl": "/en/authors/abhishek-jain",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Sharayoo Jog",
+    "slug": "sharayoo-jog",
+    "docUrl": "/en/authors/sharayoo-jog",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -75,18 +87,6 @@
     "name": "Mike Zahorik",
     "slug": "mike-zahorik",
     "docUrl": "/en/authors/mike-zahorik",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Sharayoo Jog",
-    "slug": "sharayoo-jog",
-    "docUrl": "/en/authors/sharayoo-jog",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
