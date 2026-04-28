@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 08:45:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 18:59:22 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Adobe Developers Blog Reloaded: What’s New and What’s Coming Next]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/04/adobe-developers-blog-reloaded</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/04/adobe-developers-blog-reloaded</guid>
+      <description><![CDATA[Developers need to find the right answers quickly, they need content they can trust, and they need to know when something has shipped or been ...]]></description>
+      <dc:creator><![CDATA[Ingo Eichel]]></dc:creator>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/04/media_1a7a397f869a563930ba8c29335a24a90273d72be.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/04/media_1a7a397f869a563930ba8c29335a24a90273d72be.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[Adobe Express Add-on Platform Updates: Spring 2026 Digest]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/04/adobe-express-add-on-platform-updates-spring-2026-digest</link>
