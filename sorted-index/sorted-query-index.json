@@ -1,8 +1,27 @@
 {
-  "total": 84,
+  "total": 85,
   "offset": 0,
-  "limit": 84,
+  "limit": 85,
   "data": [
+    {
+      "path": "/en/publish/2026/04/adobe-developers-blog-reloaded",
+      "image": "/en/publish/2026/04/media_1a7a397f869a563930ba8c29335a24a90273d72be.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Adobe Developers Blog Reloaded: What’s New and What’s Coming Next",
+      "author": "Ingo Eichel",
+      "description": "Developers need to find the right answers quickly, they need content they can trust, and they need to know when something has shipped or been ...",
+      "tags": "[\"Adobe-developers\",\"developers-blog\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1777402762",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1777334400",
+      "sortDate": "2026-04-28",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "",
+      "adobeApp": ""
+    },
     {
       "path": "/en/publish/2026/04/adobe-express-add-on-platform-updates-spring-2026-digest",
       "image": "/en/publish/2026/04/media_107b46ab1fb6666cbf897902114b766dca1bd13bc.jpg?width=1200&format=pjpg&optimize=medium",
@@ -1620,5 +1639,5 @@
     "adobeApp"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-04-20T09:11:03.621Z"
+  "generatedAt": "2026-04-28T20:21:57.172Z"
 }
