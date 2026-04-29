@@ -1,1 +1,3 @@
-/* No CSS here yet, but this file is required */
+main .figure figure img {
+  max-height: none;
+}
