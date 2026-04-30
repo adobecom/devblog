@@ -18,6 +18,7 @@ export default async function init(blockEl) {
 
   let isAdobeEmployee = false;
   let isDeveloperChampion = false;
+  const championLink = 'https://developer.adobe.com/developer-champion/';
   const ul = createTag('ul', { class: 'author-more-list' });
 
   if (socialBlock) {
@@ -70,7 +71,21 @@ export default async function init(blockEl) {
     if (badgeIconSrc) {
       const badge = createTag('span', { class: badgeClass });
       badge.append(createTag('img', { class: 'author-name-badge-text-logo', src: badgeIconSrc, alt: altText }));
-      title.append(badge);
+
+      if (isDeveloperChampion && championLink) {
+        const badgeLink = createTag('a', {
+          href: championLink,
+          target: '_blank',
+          rel: 'noopener noreferrer',
+          class: 'champion-badge-link',
+          'aria-label': 'Adobe Developer Champion',
+          style: 'display:inline-flex;margin:0;padding:0;line-height:0;',
+        });
+        badgeLink.append(badge);
+        title.append(badgeLink);
+      } else {
+        title.append(badge);
+      }
     }
   }
   const wrapper = blockEl.querySelector('.author-header-bio');
