@@ -364,8 +364,8 @@
     "image": "/images/authors/ingo-eichel.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
-      "title": "Introducing Webview UI in Bolt UXP: Build Richer Adobe Plugins Faster",
-      "date": "2026-03-06"
+      "title": "Adobe Developers Blog Reloaded: What’s New and What’s Coming Next",
+      "date": "2026-04-28"
     },
     "isComplete": true
   },
@@ -773,7 +773,7 @@
     "name": "Thomas Zagler",
     "slug": "thomas-zagler",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/thomas-zagler",
-    "title": "Plugin Developer for Adobe Apps / Graphic Designer",
+    "title": "Plugin Developer for Adobe Apps | Graphic Designer",
     "linkedin": "https://www.linkedin.com/in/tomzag/",
     "links": [
       {
