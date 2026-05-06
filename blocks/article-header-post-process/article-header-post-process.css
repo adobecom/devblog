@@ -1,3 +1,39 @@
 main .figure figure img {
   max-height: none;
 }
+
+.article-feature-video {
+  max-width: 1200px !important;   
+  margin: 32px auto !important;
+  padding: 0 16px !important;
+}
+
+
+.article-feature-video iframe,
+.article-feature-video video,
+.article-feature-video img {
+  width: 100%;
+  max-height: 580px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
+  display: block;
+}
+
+.hero-video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.hero-video-wrapper lite-youtube,
+.hero-video-wrapper iframe,
+.hero-video-wrapper video,
+.hero-video-wrapper img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}

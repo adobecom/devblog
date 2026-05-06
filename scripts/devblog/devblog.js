@@ -95,6 +95,10 @@ export function addDevBlogBlockOverrides(overrides) {
     milo: 'authors-list',
     blog: 'authors-list',
   });
+  overrides.push({
+    milo: 'featured-article',
+    blog: 'featured-article-post-process',
+  });
   return overrides;
 }
 
