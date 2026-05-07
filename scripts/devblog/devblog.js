@@ -603,6 +603,24 @@ function buildAuthorsListPage(mainEl) {
   mainEl.append(section);
 }
 
+/**
+ * Portrait image fix — called after decorateContent() so all .figure blocks exist.
+ * Reads the actual width/height attrs on each img and if portrait,
+ * caps the img's max-width to its natural pixel width.
+ */
+export function fixPortraitImages() {
+  document.querySelectorAll('main .figure figure picture img[width][height]').forEach((img) => {
+    const w = parseInt(img.getAttribute('width'), 10);
+    const h = parseInt(img.getAttribute('height'), 10);
+    if (w > 0 && (h > w)) {
+      // Portrait: pin max-width to natural pixel width so it doesn't stretch
+      img.style.maxWidth = `${w}px`;
+      img.style.maxHeight = '600px';
+      img.style.width = 'auto';
+    }
+  });
+}
+
 export async function buildDevblogAutoBlocks() {
   fixImportedContent();
   addLangRoot();

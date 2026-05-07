@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import { SITE, decorateContent, setLibs, buildDevblogAutoBlocks, addDevBlogBlockOverrides } from './devblog/devblog.js';
+import { SITE, decorateContent, setLibs, buildDevblogAutoBlocks, addDevBlogBlockOverrides, fixPortraitImages } from './devblog/devblog.js';
 
 // Add project-wide styles here.
 const STYLES = ['/styles/styles.css', '/styles/articles.css'];
@@ -324,7 +324,7 @@ const { loadArea, setConfig, getMetadata } = await import(`${miloLibs}/utils/uti
   await buildDevblogAutoBlocks();
   overrideMiloBlocks();
   await loadArea();
-
+  fixPortraitImages();
   const logoLink = document.querySelector('a.feds-logo');
   if (logoLink) {
     logoLink.href = '/';
