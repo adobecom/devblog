@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 May 2026 15:16:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 09:43:51 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Help Your Adobe Express Add-on Reach Enterprise Users with Granular Admin Approvals]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/05/help-your-adobe-express-add-on-reach-enterprise-users-with-granular-admin-approvals</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/05/help-your-adobe-express-add-on-reach-enterprise-users-with-granular-admin-approvals</guid>
+      <description><![CDATA[Enterprise and education customers can now approve individual Adobe Express add-ons instead of choosing all or nothing. For developers, that means a trusted add-on has ...]]></description>
+      <dc:creator><![CDATA[Chris Zhang]]></dc:creator>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/05/media_13a4c9d41e9648c8c0ec28d344e35261ef47f9038.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/05/media_13a4c9d41e9648c8c0ec28d344e35261ef47f9038.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[Adobe Developers Blog Reloaded: What’s New and What’s Coming Next]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/04/adobe-developers-blog-reloaded</link>
