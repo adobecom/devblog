@@ -190,6 +190,26 @@
     "isComplete": true
   },
   {
+    "name": "Chris Zhang",
+    "slug": "chris-zhang",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/chris-zhang",
+    "title": "Product Manager | Creative Cloud Extensibility: Extending Adobe Express through add-ons and integrations",
+    "linkedin": "https://www.linkedin.com/in/christopher-zhang-ii/",
+    "links": [],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/chris-zhang",
+    "docImage": "./media_19461cfc1917c295398a623d885eba5ecb33797f5.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/chris-zhang.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Help Your Adobe Express Add-on Reach Enterprise Users with Granular Admin Approvals",
+      "date": "2026-05-07"
+    },
+    "isComplete": true
+  },
+  {
     "name": "Colene Chow",
     "slug": "colene-chow",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/colene-chow",
