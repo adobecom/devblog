@@ -10,145 +10,154 @@ const miloBlock = await import(`${getLibs()}/blocks/article-header/article-heade
 const { loadStyle } = await import(`${getLibs()}/utils/utils.js`);
 
 export default async function init(blockEl) {
+  try {
 
-  await miloBlock.default(blockEl);
-
-  // Fetch .plain.html and detect hero media 
+  // Helpers - Fetches the article's .plain.html and If the first paragraph immediately after <h1> , contains a single YouTube / MP4 / WebM link, treat it as hero media instead of article body content.
   async function getHeroMediaUrl() {
     try {
-      const path = window.location.pathname.replace(/\/$/, '');
-      const res = await fetch(`${path}.plain.html`, { cache: 'no-store' });
+      const res = await fetch(
+        `${window.location.pathname.replace(/\/$/, '')}.plain.html`,
+        { cache: 'no-store' },
+      );
       if (!res.ok) return null;
-
       const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
-      const h1 = doc.querySelector('h1');
-      if (!h1) return null;
-
-      const heroP = h1.nextElementSibling;
+      const heroP = doc.querySelector('h1')?.nextElementSibling;
       if (!heroP || heroP.tagName !== 'P') return null;
-
-      // First meaningful child node must be the media <a>
       let firstNode = null;
       for (const node of heroP.childNodes) {
         if (node.nodeType === Node.TEXT_NODE && !node.textContent.trim()) continue;
-        firstNode = node;
-        break;
+        firstNode = node; break;
       }
-
-      if (!firstNode || firstNode.nodeName !== 'A') return null;
-
-      const href = firstNode.getAttribute('href');
-      const isMedia = href.includes('youtube.com') || href.includes('youtu.be')
-        || /\.(mp4|webm|gif)(\?|$)/i.test(href);
-
-      return isMedia ? href : null;
+      const href = firstNode?.nodeName === 'A' ? firstNode.getAttribute('href') : null;
+      if (!href) return null;
+      // Return the URL only if it is a recognised media type.
+      return href.includes('youtube.com') || href.includes('youtu.be') || /\.(mp4|webm)(\?|$)/i.test(href)
+        ? href : null;
     } catch (e) {
-      console.warn('Error reading plain.html:', e);
-      return null;
+      console.error('PLAIN HTML ERROR:', e); return null;
     }
   }
 
-  const mediaUrl = await getHeroMediaUrl();
-
-  // Extract YouTube video ID
-  const videoId = mediaUrl?.match(
-    /(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/
-  )?.[1] ?? null;
-
-  // Build media element 
-  function createMediaElement(url) {
-    if (!url) return null;
-    if (videoId) {
-      const iframe = document.createElement('iframe');
-      iframe.src = `https://www.youtube.com/embed/${videoId}`;
-      iframe.setAttribute('frameborder', '0');
-      iframe.setAttribute('allowfullscreen', '');
-      iframe.setAttribute('loading', 'lazy');
-      return iframe;
-    }
-    if (/\.(mp4|webm)(\?|$)/i.test(url)) {
-      const video = document.createElement('video');
-      video.src = url; video.controls = true; video.muted = true; video.loop = true;
-      return video;
-    }
-    if (/\.gif(\?|$)/i.test(url)) {
-      const img = document.createElement('img');
-      img.src = url;
-      return img;
-    }
+  // Extracts the YouTube video ID from both youtu.be and youtube.com URLs.
+  function extractYouTubeId(url = '') {
+    try {
+      const p = new URL(url);
+      if (p.hostname.includes('youtu.be')) return p.pathname.replace('/', '').split('?')[0];
+      if (p.hostname.includes('youtube.com')) return p.searchParams.get('v');
+    } catch { /* noop */ }
     return null;
   }
 
-  const mediaEl = createMediaElement(mediaUrl);
-
-  // Inject media into hero 
-  const heroContainer = blockEl.querySelector('.article-feature-video, .article-feature-image');
-
-  if (heroContainer && mediaEl && !heroContainer.querySelector('picture')) {
-    const figure = document.createElement('figure');
-    figure.className = 'figure-feature';
-    figure.appendChild(mediaEl);
-    heroContainer.replaceChildren(figure);
-    heroContainer.classList.remove('article-feature-image');
-    heroContainer.classList.add('article-feature-video');
+  // Remove only the raw media anchor + trailing <br>s from the article body.
+  function removeHeroMediaLink(url) {
+    if (!url) return;
+    document.querySelectorAll('main a[href]').forEach((a) => {
+      if (blockEl.contains(a) || a.getAttribute('href') !== url) return;
+      let next = a.nextSibling;
+      while (next && (next.nodeName === 'BR' || (next.nodeType === Node.TEXT_NODE && !next.textContent.trim()))) {
+        const del = next; next = next.nextSibling; del.remove();
+      }
+      a.remove();
+    });
   }
 
-  function extractYouTubeId(url = '') {
-    const match = url.match(
-      /(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/
-    );
-    return match ? match[1] : null;
-  }
-
-  // Remove ONLY duplicate hero YouTube link & Keep all other YouTube links (like section 2 Milo videos)
-
-  if (videoId && mediaUrl) {
-
-    function isSameAsHero(href = '') {
-      return extractYouTubeId(href) === videoId;
+  // Remove the orphaned caption Milo injects below the hero.
+  function removeMiloCaption() {
+    const hero = blockEl.querySelector('.article-feature-image, .article-feature-video');
+    hero?.querySelectorAll('figcaption, p').forEach((el) => el.remove());
+    let sib = hero?.nextElementSibling;
+    while (sib?.tagName === 'P') {
+      const next = sib.nextElementSibling;
+      const links = sib.querySelectorAll('a');
+      if (links.length && links[0].textContent.trim() === sib.textContent.trim()) sib.remove();
+      sib = next;
     }
+  }
 
-    function cleanDuplicateHeroLink() {
-      document.querySelectorAll('main .content p').forEach((p) => {
-        const a = p.querySelector('a[href]');
-        if (!a) return;
+  function runCleanup(url) {
+    removeHeroMediaLink(url);
+    removeMiloCaption();
+    setTimeout(() => { removeHeroMediaLink(url); removeMiloCaption(); }, 600);
+  }
 
-        const href = a.getAttribute('href') || '';
+  // Main flow 
 
-        if (!isSameAsHero(href)) return;
+  const mediaUrl = await getHeroMediaUrl();
+  await miloBlock.default(blockEl);
 
-        if (p.querySelector('lite-youtube, .milo-video')) return;
+  if (!mediaUrl) {
+    // Default Milo flow (image / GIF) — just clean up the orphaned caption.
+    runCleanup(null);
+  } else {
+    // Custom hero flow (YouTube / MP4 / WebM).
+    runCleanup(mediaUrl);
 
-        if (p.textContent.trim() === a.textContent.trim()) {
-          p.remove();
-          return;
-        }
-        a.remove();
+    // Remove the duplicate lite-youtube Milo renders in the body for the HERO, We match by video ID, not just any lite-youtube.
+    new MutationObserver(() => {
+      document.querySelectorAll('main .milo-video').forEach((w) => {
+        if (blockEl.contains(w)) return; // skip the hero block itself
+        const liteYt = w.querySelector('lite-youtube');
+        if (!liteYt) return;
+        // Only remove if this embed's video ID matches the hero video ID.
+        if (liteYt.getAttribute('videoid') === videoId) w.remove();
+      });
+    }).observe(document.querySelector('main'), { childList: true, subtree: true });
 
-        // cleanup <br>
-        while (p.firstChild && p.firstChild.nodeName === 'BR') {
-          p.firstChild.remove();
-        }
+    // Build the correct media element (iframe for YouTube, <video> for MP4)
+
+    const videoId = extractYouTubeId(mediaUrl);
+    const isVideo = videoId || /\.(mp4|webm)(\?|$)/i.test(mediaUrl);
+
+    let mediaEl = null;
+    if (videoId) {
+      mediaEl = Object.assign(document.createElement('iframe'), {
+        src: `https://www.youtube.com/embed/${videoId}`,
+        width: '100%', height: '100%', allowFullscreen: true, loading: 'lazy',
+      });
+      mediaEl.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      mediaEl.setAttribute('frameborder', '0');
+    } else if (/\.(mp4|webm)(\?|$)/i.test(mediaUrl)) {
+      mediaEl = Object.assign(document.createElement('video'), {
+        src: mediaUrl, controls: true, muted: true, loop: true, autoplay: true, playsInline: true,
       });
     }
+    // grab the image it may have "stolen" from the article body so we can restore it later.
+    const heroContainer = blockEl.querySelector('.article-feature-image, .article-feature-video');
+    const stolenPicture = blockEl.querySelector('.article-feature-image picture')?.cloneNode(true);
 
-    cleanDuplicateHeroLink()
+    const figure = document.createElement('figure');
+    figure.className = 'figure-feature';
+    if (mediaEl) figure.appendChild(mediaEl);
 
-    // Run again after Milo renders
-    const observer = new MutationObserver((_, obs) => {
-      if (document.querySelector('main lite-youtube, main .milo-video')) {
-        cleanDuplicateHeroLink();
-        obs.disconnect();
+    if (!heroContainer) {
+      // Milo didn't create a hero container — build one and insert it after the byline.
+      const wrapper = document.createElement('div');
+      wrapper.className = 'article-feature-video';
+      wrapper.appendChild(figure);
+      blockEl.querySelector('.article-byline')?.insertAdjacentElement('afterend', wrapper);
+    } else {
+      // Milo created a hero container — swap its contents for our media element.
+      if (isVideo) heroContainer.classList.replace('article-feature-image', 'article-feature-video');
+      heroContainer.replaceChildren(figure);
+
+      // Restore the image Milo "stole" into the now-empty body figure.
+      if (stolenPicture) {
+        setTimeout(() => {
+          const empty = [...document.querySelectorAll('.figure figure')]
+            .find((f) => {
+              const hasPicture = f.querySelector('picture');
+              const hasVideo = f.querySelector('iframe, video, lite-youtube');
+
+              return !hasPicture && !hasVideo;
+            });
+          empty?.appendChild(stolenPicture.cloneNode(true));
+        }, 300);
       }
-    });
-
-    observer.observe(document.querySelector('main'), {
-      childList: true,
-      subtree: true,
-    });
+    }
   }
 
-  // Inject author image
+  // Author image injection
+
   blockEl.classList.add('article-header');
   loadStyle(`${getLibs()}/blocks/article-header/article-header.css`);
 
@@ -160,12 +169,9 @@ export default async function init(blockEl) {
   // If Milo already added an image, nothing to do.
   if (authorImgDiv.querySelector('img')) return;
 
-  const authorName = authorLink.textContent.trim();
-  const authorSlug = toSlug(authorName);
+  const authorSlug = toSlug(authorLink.textContent.trim());
   const imageSrc = `/images/authors/${authorSlug}.png`;
-
-  const img = document.createElement('img');
-  img.alt = authorName;
+  const img = Object.assign(document.createElement('img'), { alt: authorLink.textContent.trim() });
   img.setAttribute('data-devblog-author-img', '1');
   img.src = imageSrc;
 
@@ -192,4 +198,8 @@ export default async function init(blockEl) {
     // Fallback to .jpg if .png not found.
     if (!img.src.endsWith('.jpg')) img.src = imageSrc.replace('.png', '.jpg');
   });
+
+  } catch (e) {
+    console.error('ARTICLE HEADER POST PROCESS CRASH:', e);
+  }
 }
