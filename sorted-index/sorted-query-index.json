@@ -697,7 +697,7 @@
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-creative-cloud\",\"extensibility\",\"developer\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1771238856",
+      "lastModified": "1778228501",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1729123200",
       "sortDate": "2024-10-17",
@@ -735,7 +735,7 @@
       "tags": "[\"adobe-document-cloud\",\"api\",\"adobe-acrobat\",\"pdf\",\"document\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1771238856",
+      "lastModified": "1778227828",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1724803200",
       "sortDate": "2024-08-28",
@@ -1628,7 +1628,7 @@
       "tags": "[\"creative-cloud\",\"developer\",\"adobe-cep\",\"api\",\"adobe-creative-cloud\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1771238856",
+      "lastModified": "1778227598",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1517270400",
       "sortDate": "2018-01-30",
@@ -1658,5 +1658,5 @@
     "adobeApp"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-05-08T07:54:45.889Z"
+  "generatedAt": "2026-05-08T09:45:46.306Z"
 }
