@@ -1434,11 +1434,11 @@
       "date": "",
       "title": "Image Cropping & Layout Behavior Test – 1280 × 720",
       "author": "Devblogs",
-      "description": "AI Assistant in Adobe Experience Platform represents a leap forward in building enterprise-grade applications in the Generative AI era. This article provides a behind-the-scenes account ...",
+      "description": "When analyzing the image behavior across the blog layout, the goal was not just to fix a visual issue — it was to understand how ...",
       "tags": "[]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778218763",
+      "lastModified": "1778220852",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1584748800",
       "sortDate": "2020-03-21",
@@ -1658,5 +1658,5 @@
     "adobeApp"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-05-08T06:03:03.170Z"
+  "generatedAt": "2026-05-08T07:54:45.889Z"
 }
