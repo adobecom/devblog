@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 May 2026 19:37:22 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 05:58:00 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -85,11 +85,11 @@
       <title><![CDATA[From Local to Live: How to Publish Your Adobe Express Add-on]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/03/from-local-to-live-how-to-publish-your-adobe-express-add-on</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/from-local-to-live-how-to-publish-your-adobe-express-add-on</guid>
-      <description><![CDATA[You’ve built your first Adobe Express add-on. It works perfectly on your local machine. Now comes the big question: How do you get it into ...]]></description>
+      <description><![CDATA[https://youtu.be/lm02Mowy9uo You’ve built your first Adobe Express add-on. It works perfectly on your local machine. Now comes the big question: How do you get it ...]]></description>
       <dc:creator><![CDATA[Ingo Eichel]]></dc:creator>
       <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_15642bf427efa32794786318ac9457e90f1aa632c.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_15642bf427efa32794786318ac9457e90f1aa632c.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/default-meta-image.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/default-meta-image.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[New App Builder Console Features: Logs UI and CDN Management]]></title>
