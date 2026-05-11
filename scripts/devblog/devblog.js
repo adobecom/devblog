@@ -92,10 +92,6 @@ export function addDevBlogBlockOverrides(overrides) {
     blog: 'author-header-post-process',
   });
   overrides.push({
-    milo: 'authors-list',
-    blog: 'authors-list',
-  });
-  overrides.push({
     milo: 'featured-article',
     blog: 'featured-article-post-process',
   });

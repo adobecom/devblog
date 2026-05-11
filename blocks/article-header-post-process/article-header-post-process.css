@@ -3,11 +3,10 @@ main .figure figure img {
 }
 
 .article-feature-video {
-  max-width: 1200px !important;   
+  max-width: 1110px !important;
   margin: 32px auto !important;
   padding: 0 16px !important;
 }
-
 
 .article-feature-video iframe,
 .article-feature-video video,
