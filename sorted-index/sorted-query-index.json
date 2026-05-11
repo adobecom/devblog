@@ -146,7 +146,7 @@
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778479080",
+      "lastModified": "1778500960",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1772582400",
       "sortDate": "2026-03-04",
@@ -1430,7 +1430,7 @@
     },
     {
       "path": "/en/publish/2026/03/image-behavior-test-1280-720",
-      "image": "/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2026/03/media_1132b2fc8795d85747eccfe6b212efcf2dc4bd1b7.gif?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Image Cropping & Layout Behavior Test – 1280 × 720",
       "author": "Devblogs",
@@ -1438,7 +1438,7 @@
       "tags": "[]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778220852",
+      "lastModified": "1778495340",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1584748800",
       "sortDate": "2020-03-21",
@@ -1658,5 +1658,5 @@
     "adobeApp"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-05-11T08:28:36.238Z"
+  "generatedAt": "2026-05-11T12:17:21.624Z"
 }
