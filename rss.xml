@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2026 11:55:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 13:48:25 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -768,8 +768,8 @@
       <description><![CDATA[When analyzing the image behavior across the blog layout, the goal was not just to fix a visual issue — it was to understand how ...]]></description>
       <dc:creator><![CDATA[Devblogs]]></dc:creator>
       <pubDate>Sat, 21 Mar 2020 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1132b2fc8795d85747eccfe6b212efcf2dc4bd1b7.gif?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/gif" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1132b2fc8795d85747eccfe6b212efcf2dc4bd1b7.gif?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_18b689c3baa8bdb171c55740c14de46233125c4b2.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_18b689c3baa8bdb171c55740c14de46233125c4b2.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Learning by Doing: Porting “Free Stock Search” from CEP to UXP in Adobe XD]]></title>
