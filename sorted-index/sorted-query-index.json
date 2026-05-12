@@ -1430,7 +1430,7 @@
     },
     {
       "path": "/en/publish/2026/03/image-behavior-test-1280-720",
-      "image": "/en/publish/2026/03/media_1132b2fc8795d85747eccfe6b212efcf2dc4bd1b7.gif?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2026/03/media_18b689c3baa8bdb171c55740c14de46233125c4b2.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Image Cropping & Layout Behavior Test – 1280 × 720",
       "author": "Devblogs",
@@ -1438,7 +1438,7 @@
       "tags": "[]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778495340",
+      "lastModified": "1778593705",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1584748800",
       "sortDate": "2020-03-21",
@@ -1658,5 +1658,5 @@
     "adobeApp"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-05-12T12:32:56.325Z"
+  "generatedAt": "2026-05-12T13:51:08.710Z"
 }
