@@ -138,15 +138,15 @@
     },
     {
       "path": "/en/publish/2026/03/from-local-to-live-how-to-publish-your-adobe-express-add-on",
-      "image": "/en/publish/2026/03/media_19b254cd86bffba9899c3f2c0853ae5ac6a512c62.gif?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2026/03/media_1109572fa9649e2a2f591c7ee96e5ef7f44e1cc85.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "From Local to Live: How to Publish Your Adobe Express Add-on",
       "author": "Ingo Eichel",
       "description": "You’ve built your first Adobe Express add-on. It works perfectly on your local machine. Now comes the big question: How do you get it into ...",
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\"]",
-      "imageAlt": "",
+      "imageAlt": "Picture",
       "robots": "",
-      "lastModified": "1778653479",
+      "lastModified": "1778653673",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1772582400",
       "sortDate": "2026-03-04",
@@ -1658,5 +1658,5 @@
     "adobeApp"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-05-13T06:26:00.608Z"
+  "generatedAt": "2026-05-13T06:29:58.015Z"
 }
