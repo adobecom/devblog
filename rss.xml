@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 07:38:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 09:26:03 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -78,8 +78,8 @@
       <description><![CDATA[Building modern, high‑quality user interfaces has long been one of the biggest challenges in UXP plugin development. Complex layouts, animations, and consistent behavior across hosts ...]]></description>
       <dc:creator><![CDATA[Ingo Eichel]]></dc:creator>
       <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_166d70d99b7026ca2a1b8706b326a68b82e0c19ae.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_166d70d99b7026ca2a1b8706b326a68b82e0c19ae.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/default-meta-image.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/default-meta-image.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[From Local to Live: How to Publish Your Adobe Express Add-on]]></title>
