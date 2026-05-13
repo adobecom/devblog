@@ -568,18 +568,84 @@ function formatLongMonthDate(date) {
  * @param {Element} article The article data to be placed in card.
  * @returns card Generated card
  */
-function buildArticleCard(article, type = 'article', eager = false) {
+function getYoutubeVideoId(url = '') {
+  if (url.includes('youtu.be/')) {
+    return url.split('youtu.be/')[1]?.split(/[?&]/)[0] || '';
+  }
+  return url.match(/[?&]v=([^&]+)/)?.[1] || '';
+}
+
+function buildMediaElement({description = '', image, imageAlt, title, eager}) {
+
+  // YouTube → thumbnail image
+
+  const youtubeMatch = description.match(
+    /(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/\S+/i,
+  );
+
+  if (youtubeMatch) {
+    const videoId = getYoutubeVideoId(youtubeMatch[0]);
+
+    if (videoId) {
+      const img = document.createElement('img');
+
+      img.src = `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
+      img.alt = imageAlt || title;
+      img.loading = eager ? 'eager' : 'lazy';
+      img.style.cssText = `width: 100%; height: 100%; object-fit: initial;`;
+      img.onerror = () => { if (!img.src.includes('hqdefault')) img.src = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`; };
+
+      return img;
+    }
+  }
+
+  // MP4 / WebM → native video first frame
+
+  const videoMatch = description.match(
+    /https?:\/\/\S+\.(mp4|webm)(\?\S*)?/i,
+  );
+
+  if (videoMatch) {
+    const video = document.createElement('video');
+
+    video.src = videoMatch[0];
+    video.muted = true;
+    video.preload = 'metadata';
+    video.playsInline = true;
+    video.disablePictureInPicture = true;
+    video.tabIndex = -1;
+
+    video.setAttribute('aria-hidden', 'true');
+
+    video.style.cssText = `width: 100%; height: 100%; object-fit: initial;`;
+    video.onerror = () => {
+      const n = getDefaultImageNumber(path);
+      imageContainer.replaceChildren(createOptimizedPicture(`${SITE.defaultImages.prefix}${n}.png`, imageAlt || title, eager, SITE.articleCard.breakpoints));
+    };
+
+    return video;
+  }
+  // Default CMS image
+  return createOptimizedPicture(image,imageAlt || title,eager,[{ width: '750' }]);
+}
+
+async function buildArticleCard(article, type = 'article', eager = false) {
   const {
     title, h1, description, image, imageAlt, sortDate, updatedDate
   } = article;
 
   const path = article.path.split('.')[0];
 
-  const picture = createOptimizedPicture(image, imageAlt || title, eager, [{ width: '750' }]);
-  const pictureTag = picture.outerHTML;
+  const mediaEl = buildMediaElement({description,image, imageAlt, title, eager});
+
   const card = document.createElement('a');
+
   card.className = `${type}-card`;
   card.href = path;
+
+  const imageDiv = document.createElement('div');
+  imageDiv.className = `${type}-card-image`;
+  imageDiv.append(mediaEl);
 
   const articleTax = getArticleTaxonomy(article);
   const categoryTag = getLinkForTopic(articleTax.category, path);
@@ -593,17 +659,25 @@ function buildArticleCard(article, type = 'article', eager = false) {
     dateDisplay = formatLongMonthDate(updatedDate);
   }
 
-  card.innerHTML = `<div class="${type}-card-image">
-      ${pictureTag}
-    </div>
-    <div class="${type}-card-body">
-      <p class="${type}-card-category">
-        ${categoryTag}
-      </p>
-      <h3>${h1 || title}</h3>
-      <p class="${type}-card-description">${description && description !== '0' ? description : ''}</p>
-      ${dateDisplay ? `<p class="${type}-card-date" style="text-transform: none;">${dateDisplay}</p>` : ''}
-    </div>`;
+  // Clean description
+
+  const cleanDescription = (description || '').replace(/^\s*https?:\/\/\S+\s*/i, '').trim();
+  const bodyDiv = document.createElement('div');
+  bodyDiv.className = `${type}-card-body`;
+  bodyDiv.innerHTML = `
+    <p class="${type}-card-category">
+      ${categoryTag}
+    </p>
+
+    <h3>${h1 || title}</h3>
+
+    <p class="${type}-card-description">${cleanDescription && cleanDescription !== '0' ? cleanDescription : ''}</p>
+
+    ${dateDisplay ? `<p class="${type}-card-date" style="text-transform: none;">${dateDisplay}</p>` : ''}
+  `;
+
+  card.append(imageDiv, bodyDiv);
+
   return card;
 }
 
@@ -653,7 +727,7 @@ async function decorateArticleFeed(
   const max = pageEnd > articles.length ? articles.length : pageEnd;
   for (let i = offset; i < max; i += 1) {
     const article = articles[i];
-    const card = buildArticleCard(article);
+    const card = await buildArticleCard(article);
     articleCards.append(card);
   }
   if (articles.length > pageEnd || !feed.complete) {
