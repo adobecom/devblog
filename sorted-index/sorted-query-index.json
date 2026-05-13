@@ -119,7 +119,7 @@
     },
     {
       "path": "/en/publish/2026/03/introducing-webview-ui-in-bolt-uxp-build-richer-adobe-plugins-faster",
-      "image": "/en/publish/2026/03/media_13de863f4a665d27537f3acc06d83d90f67a3c5f9.png?width=1200&format=pjpg&optimize=medium",
+      "image": "/default-meta-image.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Introducing Webview UI in Bolt UXP: Build Richer Adobe Plugins Faster",
       "author": "Ingo Eichel",
@@ -127,7 +127,7 @@
       "tags": "[\"Adobe-UXP\",\"adobe-creative-cloud-plugins\",\"plugin-development\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778678540",
+      "lastModified": "1778678988",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1772755200",
       "sortDate": "2026-03-06",
@@ -1658,5 +1658,5 @@
     "adobeApp"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-05-13T13:26:26.047Z"
+  "generatedAt": "2026-05-13T13:31:49.914Z"
 }
