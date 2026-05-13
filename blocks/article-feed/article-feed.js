@@ -618,10 +618,6 @@ function buildMediaElement({description = '', image, imageAlt, title, eager}) {
     video.setAttribute('aria-hidden', 'true');
 
     video.style.cssText = `width: 100%; height: 100%; object-fit: initial;`;
-    video.onerror = () => {
-      const n = getDefaultImageNumber(path);
-      imageContainer.replaceChildren(createOptimizedPicture(`${SITE.defaultImages.prefix}${n}.png`, imageAlt || title, eager, SITE.articleCard.breakpoints));
-    };
 
     return video;
   }
