@@ -123,11 +123,11 @@
       "date": "",
       "title": "Introducing Webview UI in Bolt UXP: Build Richer Adobe Plugins Faster",
       "author": "Ingo Eichel",
-      "description": "Building modern, high‑quality user interfaces has long been one of the biggest challenges in UXP plugin development. Complex layouts, animations, and consistent behavior across hosts ...",
+      "description": "https://youtu.be/yyQLXh-kCGY Building modern, high‑quality user interfaces has long been one of the biggest challenges in UXP plugin development. Complex layouts, animations, and consistent behavior across ...",
       "tags": "[\"Adobe-UXP\",\"adobe-creative-cloud-plugins\",\"plugin-development\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778678988",
+      "lastModified": "1778680774",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1772755200",
       "sortDate": "2026-03-06",
@@ -146,7 +146,7 @@
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778657939",
+      "lastModified": "1778680587",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1772582400",
       "sortDate": "2026-03-04",
@@ -1658,5 +1658,5 @@
     "adobeApp"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-05-13T13:53:33.899Z"
+  "generatedAt": "2026-05-13T14:04:14.069Z"
 }
