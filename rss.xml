@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 15:08:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 05:41:54 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -458,8 +458,8 @@
       <description><![CDATA[I delivered a keynote, C++ and the Next 30 Years, at the 2023 CPP-Summit conference in Beijing, China. Experiencing the culture, the people, and the ...]]></description>
       <dc:creator><![CDATA[David Sankel]]></dc:creator>
       <pubDate>Mon, 22 Apr 2024 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2024/02/media_1d05c99ec44fc0d706fd7f7b7fee20362cf47b844.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2024/02/media_1d05c99ec44fc0d706fd7f7b7fee20362cf47b844.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2024/02/media_1adae54b3b74fa17f6ed6bcf893761c61fbfa3793.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2024/02/media_1adae54b3b74fa17f6ed6bcf893761c61fbfa3793.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Important Cross-Origin Isolation Update for Adobe Express Add-on Developers]]></title>
