@@ -841,15 +841,15 @@
     },
     {
       "path": "/en/publish/2024/02/c-and-the-next-30-years",
-      "image": "/en/publish/2024/02/media_1adae54b3b74fa17f6ed6bcf893761c61fbfa3793.png?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2024/02/media_1d05c99ec44fc0d706fd7f7b7fee20362cf47b844.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "C++ and The Next 30 Years",
       "author": "David Sankel",
       "description": "I delivered a keynote, C++ and the Next 30 Years, at the 2023 CPP-Summit conference in Beijing, China. Experiencing the culture, the people, and the ...",
       "tags": "[\"Cpp\",\"cpp-at-adobe\",\"adobe-stlab\",\"adobe-engineering\",\"adobe\"]",
-      "imageAlt": "Chart percent usage of package managers",
+      "imageAlt": "Tokyo cityscape",
       "robots": "",
-      "lastModified": "1778824154",
+      "lastModified": "1778824163",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1713744000",
       "sortDate": "2024-04-22",
@@ -1658,5 +1658,5 @@
     "adobeApp"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-05-15T05:50:31.084Z"
+  "generatedAt": "2026-05-15T05:53:32.072Z"
 }
