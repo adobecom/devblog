@@ -13,7 +13,7 @@
       "tags": "[\"adobe-express\",\"add-on\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784554689",
+      "lastModified": "1784557912",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1784505600",
       "sortDate": "2026-07-20",
@@ -24,7 +24,7 @@
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
-      "newsletterPlanned": "July 2027",
+      "newsletterPlanned": "July 2026",
       "newsletterPublished": "",
       "importer": "",
       "isHeroVideo": false
@@ -1898,7 +1898,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1924,7 +1924,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1950,7 +1950,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1976,7 +1976,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2002,7 +2002,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2028,7 +2028,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2054,7 +2054,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2080,7 +2080,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2106,7 +2106,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2132,12 +2132,12 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
       "path": "/en/publish/2026/03/image-behavior-test-1080-720",
-      "image": "",
+      "image": "/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Image Cropping & Layout Behavior Test – 1080 × 720",
       "author": "Devblogs",
@@ -2145,7 +2145,7 @@
       "tags": "[\"Test value for Tags\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784290542",
+      "lastModified": "1784630955",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1584835200",
       "sortDate": "2020-03-22",
@@ -2210,7 +2210,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2236,7 +2236,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2262,7 +2262,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2288,7 +2288,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2314,7 +2314,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2340,7 +2340,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -2366,7 +2366,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2392,7 +2392,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2418,7 +2418,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2444,7 +2444,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     }
   ],
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-21T13:17:40.394Z"
+  "generatedAt": "2026-07-21T14:08:40.534Z"
 }
