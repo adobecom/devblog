@@ -988,7 +988,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -1014,7 +1014,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-21T12:30:39.715Z"
+  "generatedAt": "2026-07-21T12:31:42.698Z"
 }
