@@ -1118,7 +1118,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1144,7 +1144,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1170,7 +1170,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-21T13:08:51.693Z"
+  "generatedAt": "2026-07-21T13:09:48.304Z"
 }
