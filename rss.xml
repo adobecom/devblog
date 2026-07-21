@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 15:31:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 10:49:15 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -838,8 +838,8 @@
       <description><![CDATA[]]></description>
       <dc:creator><![CDATA[Devblogs]]></dc:creator>
       <pubDate>Wed, 22 Apr 2020 00:00:00 GMT</pubDate>
-      
-      
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Image Cropping & Layout Behavior Test – 1280 × 720]]></title>
