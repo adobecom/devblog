@@ -8,11 +8,11 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 10:49:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 21:16:47 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
-      <title><![CDATA[Large Document Support Is Coming to Adobe Express: What Add-on Developers Need to Know]]></title>
+      <title><![CDATA[Is Your Adobe Express Add-on Ready for Large Document Support?]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know</guid>
       <description><![CDATA[Large Document Support is an important capability for enterprise customers who want to work on bigger and more ambitious projects.]]></description>
