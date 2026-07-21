@@ -1508,7 +1508,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1534,7 +1534,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1560,7 +1560,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1586,7 +1586,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-21T13:13:42.940Z"
+  "generatedAt": "2026-07-21T13:14:45.692Z"
 }
