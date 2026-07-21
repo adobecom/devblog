@@ -128,14 +128,14 @@ indices:
           attribute(el, 'content')
 
       publicationDate:
-        select: head > meta[name="publication-date"]
+        select: head > meta[name="m_date"]
         value: |
           attribute(el, 'content')
 
       draft:
         select: none
         value: |
-          match(path, '\/drafts\/') ? 'x' : ''
+          match(path, '\/(drafts)\/')
 
       updatedDate:
         select: head > meta[name="updated_date"]
@@ -173,7 +173,7 @@ indices:
           attribute(el, 'content')
 
       newsletterHeroStory:
-        select: head > meta[name="newsletter_hero_story"]
+        select: head > meta[name="newsletter_hero-story"]
         value: |
           attribute(el, 'content')
 
