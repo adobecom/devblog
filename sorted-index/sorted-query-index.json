@@ -832,7 +832,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -845,7 +845,7 @@
       "tags": "[\"adobe-experience-platform\",\"real-time-cdp\",\"marketing\",\"customer-ai\",\"adobe-experience-cloud\"]",
       "imageAlt": "A person smiling and looking at a screen AI-generated content may be incorrect.",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1782804615",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1749427200",
       "sortDate": "2025-06-09",
@@ -858,7 +858,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-21T12:26:51.767Z"
+  "generatedAt": "2026-07-21T12:27:24.456Z"
 }
