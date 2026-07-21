@@ -108,7 +108,7 @@ indices:
           match(attribute(el, 'content'), 'https:\/\/[^/]+(\/.*)')
 
       title:
-        select: head > meta[name="og:title"]
+        select: head > meta[property="og:title"]
         value: |
           attribute(el, 'content')
 
