@@ -1,7 +1,7 @@
 {
-  "total": 95,
+  "total": 96,
   "offset": 0,
-  "limit": 95,
+  "limit": 96,
   "data": [
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-20T16:36:26.848Z"
+  "generatedAt": "2026-07-21T11:30:52.594Z"
 }
