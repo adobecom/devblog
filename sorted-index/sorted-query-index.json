@@ -260,7 +260,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-21T12:18:21.492Z"
+  "generatedAt": "2026-07-21T12:18:59.106Z"
 }
