@@ -221,7 +221,7 @@
       "tags": "[\"Admin console\",\"user role\",\"add-ons permission\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778220485",
+      "lastModified": "1782798724",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1778112000",
       "sortDate": "2026-05-07",
@@ -234,7 +234,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-21T12:17:04.217Z"
+  "generatedAt": "2026-07-21T12:18:21.492Z"
 }
