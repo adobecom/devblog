@@ -1,7 +1,7 @@
 {
-  "total": 96,
+  "total": 94,
   "offset": 0,
-  "limit": 96,
+  "limit": 94,
   "data": [
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
@@ -2136,58 +2136,6 @@
       "isHeroVideo": false
     },
     {
-      "path": "/en/publish/2026/03/image-behavior-test-1080-720",
-      "image": "/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "Image Cropping & Layout Behavior Test – 1080 × 720",
-      "author": "Devblogs",
-      "description": "",
-      "tags": "[\"Test value for Tags\"]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1784630955",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1584835200",
-      "sortDate": "2020-03-22",
-      "sortDateTimestampLegacy": "",
-      "updatedDate": "2020-04-22",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
-      "mediaUrl": "",
-      "metaTitle": "Image Layout Behavior Test",
-      "shortDescription": "Test articles short description",
-      "newsletterPlanned": "January 2026",
-      "newsletterPublished": "January 2026",
-      "importer": "v15june25",
-      "isHeroVideo": false
-    },
-    {
-      "path": "/en/publish/2026/03/image-behavior-test-1280-720",
-      "image": "/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "Image Cropping & Layout Behavior Test – 1280 × 720",
-      "author": "Devblogs",
-      "description": "Welcome Sonya P., a 2026 Adobe Developer Champion, software developer, and content creator, to the Adobe Developer Blog!",
-      "tags": "[]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1784029321",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1584748800",
-      "sortDate": "2020-03-21",
-      "sortDateTimestampLegacy": "",
-      "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
-      "mediaUrl": "",
-      "metaTitle": "",
-      "shortDescription": "",
-      "newsletterPlanned": "",
-      "newsletterPublished": "",
-      "importer": "v15june25",
-      "isHeroVideo": false
-    },
-    {
       "path": "/en/publish/2020/01/learning-by-doing-porting-free-stock-search-from-cep-to-uxp-in-adobe-xd",
       "image": "/en/publish/2020/01/media_1be9bb884297a103d4a863f66c766ac3349ee9194.jpeg?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -2474,5 +2422,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-22T13:22:58.708Z"
+  "generatedAt": "2026-07-22T13:28:29.609Z"
 }
