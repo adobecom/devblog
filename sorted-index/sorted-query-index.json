@@ -65,14 +65,14 @@
       "tags": "[\"Photoshop\",\"uxp\",\"UI\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784561492",
+      "lastModified": "1784723189",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782345600",
       "sortDate": "2026-06-25",
       "sortDateTimestampLegacy": "",
       "updatedDate": "2026-07-15",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Photoshop",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-22T12:28:24.372Z"
+  "generatedAt": "2026-07-22T12:32:01.313Z"
 }
