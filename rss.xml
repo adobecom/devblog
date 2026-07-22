@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 21:16:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 13:01:13 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -85,7 +85,7 @@
       <title><![CDATA[How to Get Your Adobe Express Add-on Approved: Avoiding Common Rejections]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/05/how-to-get-your-adobe-express-add-on-approved-avoiding-the-most-common-rejections</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/05/how-to-get-your-adobe-express-add-on-approved-avoiding-the-most-common-rejections</guid>
-      <description><![CDATA[Editor’s Note: Welcome Sonya P., a 2026 Adobe Developer Champion, software developer, and content creator, to the Adobe Developer Blog!]]></description>
+      <description><![CDATA[]]></description>
       <dc:creator><![CDATA[Sonya P]]></dc:creator>
       <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://i.ytimg.com/vi/hRNmOtOWna0/maxresdefault.jpg" type="image/jpeg" length="0"/>
@@ -95,7 +95,7 @@
       <title><![CDATA[Help Your Adobe Express Add-on Reach Enterprise Users with Granular Admin Approvals]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/05/help-your-adobe-express-add-on-reach-enterprise-users-with-granular-admin-approvals</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/05/help-your-adobe-express-add-on-reach-enterprise-users-with-granular-admin-approvals</guid>
-      <description><![CDATA[Enterprise and education customers can now approve individual Adobe Express add-ons instead of choosing all or nothing. For developers, that means a trusted add-on has ...]]></description>
+      <description><![CDATA[]]></description>
       <dc:creator><![CDATA[Chris Zhang]]></dc:creator>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/05/media_13a4c9d41e9648c8c0ec28d344e35261ef47f9038.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
@@ -830,26 +830,6 @@
       <pubDate>Thu, 07 May 2020 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/02/media_1a30025d75ad61dbc0e055ac6d41ade7c268c00ba.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2023/02/media_1a30025d75ad61dbc0e055ac6d41ade7c268c00ba.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[Image Cropping & Layout Behavior Test – 1080 × 720]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1080-720</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1080-720</guid>
-      <description><![CDATA[]]></description>
-      <dc:creator><![CDATA[Devblogs]]></dc:creator>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[Image Cropping & Layout Behavior Test – 1280 × 720]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1280-720</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1280-720</guid>
-      <description><![CDATA[Welcome Sonya P., a 2026 Adobe Developer Champion, software developer, and content creator, to the Adobe Developer Blog!]]></description>
-      <dc:creator><![CDATA[Devblogs]]></dc:creator>
-      <pubDate>Sat, 21 Mar 2020 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Learning by Doing: Porting “Free Stock Search” from CEP to UXP in Adobe XD]]></title>
