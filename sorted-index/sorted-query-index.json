@@ -191,18 +191,18 @@
       "date": "",
       "title": "How to Get Your Adobe Express Add-on Approved: Avoiding Common Rejections",
       "author": "Sonya P",
-      "description": "Editor’s Note: Welcome Sonya P., a 2026 Adobe Developer Champion, software developer, and content creator, to the Adobe Developer Blog!",
+      "description": "",
       "tags": "[\"add-on\",\"extensibility\",\"review process\",\"developer distribution\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784557841",
+      "lastModified": "1784724871",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1779148800",
       "sortDate": "2026-05-19",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-22T12:55:55.338Z"
+  "generatedAt": "2026-07-22T13:02:17.223Z"
 }
