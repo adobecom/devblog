@@ -39,14 +39,14 @@
       "tags": "[\"adobe-express\",\"add-on\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784553938",
+      "lastModified": "1784723051",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782777600",
       "sortDate": "2026-06-30",
       "sortDateTimestampLegacy": "",
       "updatedDate": "2026-07-16",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-22T12:21:53.788Z"
+  "generatedAt": "2026-07-22T12:28:24.372Z"
 }
