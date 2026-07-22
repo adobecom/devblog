@@ -143,14 +143,14 @@
       "tags": "[\"adobe-experience-cloud\",\"agentic-commerce\",\"adobe-commerce\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784554826",
+      "lastModified": "1784724033",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1781222400",
       "sortDate": "2026-06-12",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
+      "adobeCloud": "Experience Cloud",
+      "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2474,5 +2474,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-22T12:46:17.877Z"
+  "generatedAt": "2026-07-22T12:52:56.938Z"
 }
