@@ -217,11 +217,11 @@
       "date": "",
       "title": "Help Your Adobe Express Add-on Reach Enterprise Users with Granular Admin Approvals",
       "author": "Chris Zhang",
-      "description": "",
+      "description": "Enterprise and education customers can now approve individual Adobe Express add-ons instead of choosing all or nothing. For developers, that means a trusted add-on has ...",
       "tags": "[\"Admin console\",\"user role\",\"add-ons permission\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784725273",
+      "lastModified": "1784815246",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1778112000",
       "sortDate": "2026-05-07",
@@ -2422,5 +2422,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-23T14:00:48.499Z"
+  "generatedAt": "2026-07-23T14:01:53.768Z"
 }
