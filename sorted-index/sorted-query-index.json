@@ -1,30 +1,30 @@
 {
-  "total": 95,
+  "total": 94,
   "offset": 0,
-  "limit": 95,
+  "limit": 94,
   "data": [
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
       "image": "/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
-      "title": "Large Document Support Is Coming to Adobe Express: What Add-on Developers Need to Know",
+      "title": "Is Your Adobe Express Add-on Ready for Large Document Support?",
       "author": "Padma Krishnamoorthy",
       "description": "Large Document Support is an important capability for enterprise customers who want to work on bigger and more ambitious projects.",
       "tags": "[\"adobe-express\",\"add-on\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784554689",
+      "lastModified": "1784720313",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1784505600",
       "sortDate": "2026-07-20",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
-      "newsletterPlanned": "July 2027",
+      "newsletterPlanned": "July 2026",
       "newsletterPublished": "",
       "importer": "",
       "isHeroVideo": false
@@ -39,14 +39,14 @@
       "tags": "[\"adobe-express\",\"add-on\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784553938",
+      "lastModified": "1784723051",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782777600",
       "sortDate": "2026-06-30",
       "sortDateTimestampLegacy": "",
       "updatedDate": "2026-07-16",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -61,22 +61,22 @@
       "date": "",
       "title": "Upcoming Photoshop UI Changes: Test Your UXP Plugin Now",
       "author": "Cory Shubert",
-      "description": "If you develop UXP plugins for Photoshop, this article is for you. A recent Photoshop Beta build introduced an updated UI backend that may affect ...",
+      "description": "Test your Photoshop UXP plugin against the upcoming UI backend changes, identify compatibility issues, and prepare for the public release.",
       "tags": "[\"Photoshop\",\"uxp\",\"UI\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784297578",
+      "lastModified": "1784723189",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782345600",
       "sortDate": "2026-06-25",
       "sortDateTimestampLegacy": "",
       "updatedDate": "2026-07-15",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Photoshop",
       "mediaUrl": "",
-      "metaTitle": "Upcoming Photoshop UI Changes for UXP Plugins",
-      "shortDescription": "Test your Photoshop UXP plugin against the upcoming UI backend changes, identify compatibility issues, and prepare for the public release.",
-      "newsletterPlanned": "June  2026",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
       "newsletterPublished": "June  2026",
       "importer": "",
       "isHeroVideo": false
@@ -91,19 +91,19 @@
       "tags": "[\"developer resources\",\"Blog\",\"github\",\"links\",\"developer tools\",\"uxp\",\"express\",\"add-ons\",\"cep\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784554560",
+      "lastModified": "1784723476",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782259200",
       "sortDate": "2026-06-24",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
       "newsletterPlanned": "",
-      "newsletterPublished": "",
+      "newsletterPublished": "June 2026",
       "importer": "",
       "isHeroVideo": false
     },
@@ -117,14 +117,14 @@
       "tags": "[\"Uxp\",\"creative cloud\",\"team\"]",
       "imageAlt": "Kasi, Erin, and Karan",
       "robots": "",
-      "lastModified": "1784554447",
+      "lastModified": "1784723904",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1781481600",
       "sortDate": "2026-06-15",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -143,14 +143,14 @@
       "tags": "[\"adobe-experience-cloud\",\"agentic-commerce\",\"adobe-commerce\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784554771",
+      "lastModified": "1784724033",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1781222400",
       "sortDate": "2026-06-12",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
+      "adobeCloud": "Experience Cloud",
+      "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -169,14 +169,14 @@
       "tags": "[\"Vibe coding\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784553581",
+      "lastModified": "1784724742",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1780531200",
       "sortDate": "2026-06-04",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
+      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud",
+      "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -191,24 +191,24 @@
       "date": "",
       "title": "How to Get Your Adobe Express Add-on Approved: Avoiding Common Rejections",
       "author": "Sonya P",
-      "description": "Editor’s Note: Welcome Sonya P., a 2026 Adobe Developer Champion, software developer, and content creator, to the Adobe Developer Blog!",
+      "description": "",
       "tags": "[\"add-on\",\"extensibility\",\"review process\",\"developer distribution\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1780409974",
+      "lastModified": "1784724871",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1779148800",
       "sortDate": "2026-05-19",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
       "newsletterPlanned": "",
-      "newsletterPublished": "",
-      "importer": "",
+      "newsletterPublished": "June 2026",
+      "importer": "v15june25",
       "isHeroVideo": true
     },
     {
@@ -217,24 +217,24 @@
       "date": "",
       "title": "Help Your Adobe Express Add-on Reach Enterprise Users with Granular Admin Approvals",
       "author": "Chris Zhang",
-      "description": "Enterprise and education customers can now approve individual Adobe Express add-ons instead of choosing all or nothing. For developers, that means a trusted add-on has ...",
+      "description": "",
       "tags": "[\"Admin console\",\"user role\",\"add-ons permission\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778220485",
+      "lastModified": "1784725273",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1778112000",
       "sortDate": "2026-05-07",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -260,7 +260,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -286,7 +286,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -312,7 +312,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -364,7 +364,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -390,7 +390,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": true
     },
     {
@@ -416,7 +416,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": true
     },
     {
@@ -442,7 +442,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -468,7 +468,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -494,7 +494,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -520,7 +520,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -546,7 +546,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -572,7 +572,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -598,7 +598,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -624,7 +624,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -650,7 +650,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -676,7 +676,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -702,7 +702,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -728,7 +728,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -754,7 +754,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -780,7 +780,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -806,7 +806,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -832,7 +832,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -845,7 +845,7 @@
       "tags": "[\"adobe-experience-platform\",\"real-time-cdp\",\"marketing\",\"customer-ai\",\"adobe-experience-cloud\"]",
       "imageAlt": "A person smiling and looking at a screen AI-generated content may be incorrect.",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1782804615",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1749427200",
       "sortDate": "2025-06-09",
@@ -858,7 +858,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -884,7 +884,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -910,7 +910,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -936,7 +936,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -962,7 +962,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -988,7 +988,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -1014,7 +1014,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -1040,7 +1040,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -1066,7 +1066,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -1092,7 +1092,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1118,7 +1118,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1144,7 +1144,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1170,7 +1170,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v14",
       "isHeroVideo": false
     },
     {
@@ -1196,7 +1196,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1222,7 +1222,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1248,7 +1248,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1274,7 +1274,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1300,7 +1300,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1326,7 +1326,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1352,7 +1352,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1378,7 +1378,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1404,7 +1404,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1430,7 +1430,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1456,7 +1456,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1482,7 +1482,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1508,7 +1508,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1534,7 +1534,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1560,7 +1560,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1586,7 +1586,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1612,7 +1612,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1638,7 +1638,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1664,7 +1664,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1690,7 +1690,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1716,7 +1716,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1742,7 +1742,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1768,7 +1768,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1794,7 +1794,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1820,7 +1820,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1846,7 +1846,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -1872,7 +1872,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1898,7 +1898,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1924,7 +1924,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1950,7 +1950,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -1976,7 +1976,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2002,7 +2002,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2028,7 +2028,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2054,7 +2054,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2080,7 +2080,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2106,7 +2106,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2132,59 +2132,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
-      "isHeroVideo": false
-    },
-    {
-      "path": "/en/publish/2026/03/image-behavior-test-1080-720",
-      "image": "",
-      "date": "",
-      "title": "Image Cropping & Layout Behavior Test – 1080 × 720",
-      "author": "Devblogs",
-      "description": "",
-      "tags": "[\"Test value for Tags\"]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1784290542",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1584835200",
-      "sortDate": "2020-03-22",
-      "sortDateTimestampLegacy": "",
-      "updatedDate": "2020-04-22",
-      "adobeCloud": "Creative Cloud, Experience Cloud, Document Cloud, Test value Adobe Cloud",
-      "adobeApp": "Adobe Photoshop, Adobe Lightroom, Test value Adobe Apps",
-      "mediaUrl": "",
-      "metaTitle": "Image Layout Behavior Test",
-      "shortDescription": "Test articles short description",
-      "newsletterPlanned": "January 2026",
-      "newsletterPublished": "January 2026",
-      "importer": "v15june25",
-      "isHeroVideo": false
-    },
-    {
-      "path": "/en/publish/2026/03/image-behavior-test-1280-720",
-      "image": "/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "Image Cropping & Layout Behavior Test – 1280 × 720",
-      "author": "Devblogs",
-      "description": "Welcome Sonya P., a 2026 Adobe Developer Champion, software developer, and content creator, to the Adobe Developer Blog!",
-      "tags": "[]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1784029321",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1584748800",
-      "sortDate": "2020-03-21",
-      "sortDateTimestampLegacy": "",
-      "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
-      "mediaUrl": "",
-      "metaTitle": "",
-      "shortDescription": "",
-      "newsletterPlanned": "",
-      "newsletterPublished": "",
-      "importer": "v15june25",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2210,7 +2158,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2236,7 +2184,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2262,7 +2210,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2288,7 +2236,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2314,7 +2262,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2340,7 +2288,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -2366,7 +2314,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2392,7 +2340,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2418,7 +2366,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     },
     {
@@ -2444,7 +2392,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": "",
+      "importer": "v13",
       "isHeroVideo": false
     }
   ],
@@ -2474,5 +2422,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-20T13:41:43.648Z"
+  "generatedAt": "2026-07-23T10:37:05.323Z"
 }
