@@ -390,6 +390,26 @@
     "isComplete": true
   },
   {
+    "name": "Geoffrey Nwachukwu",
+    "slug": "geoffrey-nwachukwu",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/geoffrey-nwachukwu",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/geoffrey-nwachukwu",
+    "docImage": "",
+    "image": "/images/authors/geoffrey-nwachukwu.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Build Adobe Express Add-ons Faster with Agent Skills",
+      "date": "2026-07-21"
+    },
+    "isComplete": false
+  },
+  {
     "name": "Honwai Wong",
     "slug": "honwai-wong",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/honwai-wong",
@@ -684,8 +704,8 @@
     "image": "/images/authors/padma-krishnamoorthy.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
-      "title": "Dark Mode Is Coming to Adobe Express: What Add-on Developers Need to Know",
-      "date": "2026-06-30"
+      "title": "Is Your Adobe Express Add-on Ready for Large Document Support?",
+      "date": "2026-07-20"
     },
     "isComplete": true
   },

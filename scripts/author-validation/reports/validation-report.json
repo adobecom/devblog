@@ -68,31 +68,14 @@
     ]
   },
   {
-    "name": "Ashikka Gupta",
-    "slug": "ashikka-gupta",
+    "name": "Ayan Choudhary",
+    "slug": "ayan-choudhary",
     "latestArticle": {
-      "title": "Building an Image Search Plugin for Photoshop",
-      "date": "2021-12-31",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/03/building-an-image-search-plugin-for-photoshop"
+      "title": "Developing an OAuth Sample for Adobe Photoshop",
+      "date": "2021-05-18",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
     },
-    "docUrl": "/en/authors/ashikka-gupta",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Sharayoo Jog",
-    "slug": "sharayoo-jog",
-    "latestArticle": {
-      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
-      "date": "2021-11-30",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
-    },
-    "docUrl": "/en/authors/sharayoo-jog",
+    "docUrl": "/en/authors/ayan-choudhary",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -119,14 +102,31 @@
     ]
   },
   {
-    "name": "Ayan Choudhary",
-    "slug": "ayan-choudhary",
+    "name": "Ashikka Gupta",
+    "slug": "ashikka-gupta",
     "latestArticle": {
-      "title": "Developing an OAuth Sample for Adobe Photoshop",
-      "date": "2021-05-18",
-      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
+      "title": "Building an Image Search Plugin for Photoshop",
+      "date": "2021-12-31",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/03/building-an-image-search-plugin-for-photoshop"
     },
-    "docUrl": "/en/authors/ayan-choudhary",
+    "docUrl": "/en/authors/ashikka-gupta",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Sharayoo Jog",
+    "slug": "sharayoo-jog",
+    "latestArticle": {
+      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
+      "date": "2021-11-30",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
+    },
+    "docUrl": "/en/authors/sharayoo-jog",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -170,23 +170,6 @@
     ]
   },
   {
-    "name": "Pratibha Sharma",
-    "slug": "pratibha-sharma",
-    "latestArticle": {
-      "title": "Leveraging Propensity Models: Marketing that Thinks Like Your Customer",
-      "date": "2025-06-09",
-      "url": "https://blog.developer.adobe.com/en/publish/2025/06/leveraging-propensity-models-marketing-that-thinks-like-your-customer"
-    },
-    "docUrl": "/en/authors/pratibha-sharma",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Asim Chatterjee",
     "slug": "asim-chatterjee",
     "latestArticle": {
@@ -212,6 +195,23 @@
       "url": "https://blog.developer.adobe.com/en/publish/2022/00/powering-adobe-max-with-app-builder-io-runtime"
     },
     "docUrl": "/en/authors/honwai-wong",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Pratibha Sharma",
+    "slug": "pratibha-sharma",
+    "latestArticle": {
+      "title": "Leveraging Propensity Models: Marketing that Thinks Like Your Customer",
+      "date": "2025-06-09",
+      "url": "https://blog.developer.adobe.com/en/publish/2025/06/leveraging-propensity-models-marketing-that-thinks-like-your-customer"
+    },
+    "docUrl": "/en/authors/pratibha-sharma",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -289,6 +289,23 @@
     ]
   },
   {
+    "name": "Renae Kang",
+    "slug": "renae-kang",
+    "latestArticle": {
+      "title": "Behind the Scenes with Ammar Alim, DevSecOps Leader",
+      "date": "2024-12-05",
+      "url": "https://blog.developer.adobe.com/en/publish/2024/12/behind-the-scenes-with-ammar-alim-devsecops-leader"
+    },
+    "docUrl": "/en/authors/renae-kang",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
     "name": "Kalyan Dechiraju",
     "slug": "kalyan-dechiraju",
     "latestArticle": {
@@ -306,14 +323,14 @@
     ]
   },
   {
-    "name": "Renae Kang",
-    "slug": "renae-kang",
+    "name": "Geoffrey Nwachukwu",
+    "slug": "geoffrey-nwachukwu",
     "latestArticle": {
-      "title": "Behind the Scenes with Ammar Alim, DevSecOps Leader",
-      "date": "2024-12-05",
-      "url": "https://blog.developer.adobe.com/en/publish/2024/12/behind-the-scenes-with-ammar-alim-devsecops-leader"
+      "title": "Build Adobe Express Add-ons Faster with Agent Skills",
+      "date": "2026-07-21",
+      "url": "https://blog.developer.adobe.com/en/publish/2026/drafts/build-adobe-express-add-ons-faster-with-agent-skills"
     },
-    "docUrl": "/en/authors/renae-kang",
+    "docUrl": "/en/authors/geoffrey-nwachukwu",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
