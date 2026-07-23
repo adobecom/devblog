@@ -373,18 +373,18 @@
       "date": "",
       "title": "Introducing Webview UI in Bolt UXP: Build Richer Adobe Plugins Faster",
       "author": "Ingo Eichel",
-      "description": "Building modern, high‑quality user interfaces has long been one of the biggest challenges in UXP plugin development. Complex layouts, animations, and consistent behavior across hosts ...",
+      "description": "",
       "tags": "[\"Adobe-UXP\",\"adobe-creative-cloud-plugins\",\"plugin-development\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1779777558",
+      "lastModified": "1784808901",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1772755200",
       "sortDate": "2026-03-06",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
       "adobeCloud": "Creative Cloud",
-      "adobeApp": "Photoshop, Premiere Pro, InDesign",
+      "adobeApp": "Photoshop, Premiere, InDesign",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2422,5 +2422,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-22T13:28:29.609Z"
+  "generatedAt": "2026-07-23T12:16:58.190Z"
 }
