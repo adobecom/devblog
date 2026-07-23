@@ -351,6 +351,8 @@ const { loadArea, setConfig, getMetadata } = await import(`${miloLibs}/utils/uti
 
   console.log('Injecting search into navigation. Target element:', topNav);
   const searchElement = document.createElement('blog-search');
+  searchElement.classList.add('nav-search');
+  searchElement.setAttribute('data-source', '/sorted-index/sorted-query-index.json');
 
   const nav = document.querySelector('.feds-nav');
   const navWrapper = document.querySelector('.feds-nav-wrapper');
@@ -383,6 +385,24 @@ const { loadArea, setConfig, getMetadata } = await import(`${miloLibs}/utils/uti
 
   moveSearch(mq);
   mq.addEventListener('change', moveSearch);
+
+  function injectExploreFacets() {
+    // Author pages show only that author's articles; facets/search don't apply there.
+    if (window.location.pathname.includes('/authors/')) return;
+
+    const articleFeed = document.querySelector('main .article-feed, main .article-feed-post-process');
+    if (!articleFeed || document.querySelector('blog-search.explore-facets')) return;
+
+    const exploreFacets = document.createElement('blog-search');
+    exploreFacets.classList.add('explore-facets');
+    exploreFacets.setAttribute('variant', 'explore');
+    const dataSource = searchElement.getAttribute('data-source');
+    exploreFacets.setAttribute('data-source', dataSource || '/sorted-index/sorted-query-index.json');
+
+    articleFeed.parentElement.insertBefore(exploreFacets, articleFeed);
+  }
+
+  injectExploreFacets();
 
   initSidekick();
 
