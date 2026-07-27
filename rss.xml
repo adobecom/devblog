@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jul 2026 18:19:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 13:43:58 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -80,6 +80,16 @@
       <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/06/media_1a0f09fc50e451fb8b7cf688b7d6e71a810a1742d.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/06/media_1a0f09fc50e451fb8b7cf688b7d6e71a810a1742d.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[How to Fix CORS Errors in Your Adobe Express Add-on]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/05/how-to-fix-cors-errors-in-your-adobe-express-add-on</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/05/how-to-fix-cors-errors-in-your-adobe-express-add-on</guid>
+      <description><![CDATA[If you just built your first Adobe Express add-on and wired it up to a backend API, there’s a decent chance you’ve already hit this ...]]></description>
+      <dc:creator><![CDATA[Fardeen Mansoori]]></dc:creator>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/05/media_1fea7e12e5963bf99912490af7b786fa3f93bc4db.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/05/media_1fea7e12e5963bf99912490af7b786fa3f93bc4db.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[How to Get Your Adobe Express Add-on Approved: Avoiding Common Rejections]]></title>
