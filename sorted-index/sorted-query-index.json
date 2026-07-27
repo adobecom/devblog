@@ -504,17 +504,17 @@
       "title": "Building Adobe Express Add‑ons in 24 Hours: Pixel Pluck’s Hackathon Story",
       "author": "Keshav Kumar",
       "description": "When our team first saw the announcement of an Adobe Express Add-ons for Enterprise hackathon (check out Adobe’s post about the event) through our college’s ...",
-      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"hackathon\"]",
+      "tags": "[\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"hackathon\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778679976",
+      "lastModified": "1785158078",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1771891200",
       "sortDate": "2026-02-24",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2422,5 +2422,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-26T19:20:49.075Z"
+  "generatedAt": "2026-07-27T13:16:02.696Z"
 }
