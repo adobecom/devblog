@@ -322,10 +322,10 @@
       "title": "Build Faster with the Adobe Express Developer MCP Server",
       "author": "Kalyan Dechiraju",
       "description": "We’re excited to announce that the Adobe Express Developer MCP Server is officially out of beta and now stable and production-ready. This marks a huge ...",
-      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"mcp\",\"mcp-server\"]",
+      "tags": "[\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"mcp\",\"mcp-server\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784146931",
+      "lastModified": "1785158375",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1773619200",
       "sortDate": "2026-03-16",
@@ -2422,5 +2422,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-27T13:20:17.100Z"
+  "generatedAt": "2026-07-27T13:23:00.082Z"
 }
