@@ -426,17 +426,17 @@
       "title": "New App Builder Console Features: Logs UI and CDN Management",
       "author": "Rohan Kapoor",
       "description": "Building serverless integrations should be fast and simple. That's the core promise of Adobe App Builder: remove infrastructure complexity so developers can focus on building ...",
-      "tags": "[\"adobe-app-builder\",\"app-builder\",\"logging\",\"cdn\",\"cacaching\"]",
+      "tags": "[\"logging\",\"cdn\",\"caching\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785158202",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1772150400",
       "sortDate": "2026-02-27",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
       "adobeCloud": "",
-      "adobeApp": "",
+      "adobeApp": "Adobe Developer App Builder",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2422,5 +2422,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-27T13:16:39.181Z"
+  "generatedAt": "2026-07-27T13:17:58.339Z"
 }
