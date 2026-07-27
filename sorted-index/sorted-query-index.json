@@ -1,7 +1,7 @@
 {
-  "total": 95,
+  "total": 94,
   "offset": 0,
-  "limit": 95,
+  "limit": 94,
   "data": [
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
@@ -36,10 +36,10 @@
       "title": "Dark Mode Is Coming to Adobe Express: What Add-on Developers Need to Know",
       "author": "Padma Krishnamoorthy",
       "description": "Adobe Express is adding dark mode to the application experience, giving creators more flexibility to personalize their workspace and work comfortably in the environment that ...",
-      "tags": "[\"adobe-express\",\"add-on\",\"extensibility\"]",
+      "tags": "[\"add-on\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784723051",
+      "lastModified": "1785159452",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782777600",
       "sortDate": "2026-06-30",
@@ -2448,5 +2448,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-27T13:38:19.820Z"
+  "generatedAt": "2026-07-27T13:39:27.043Z"
 }
