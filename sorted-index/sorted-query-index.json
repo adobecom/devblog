@@ -62,10 +62,10 @@
       "title": "Upcoming Photoshop UI Changes: Test Your UXP Plugin Now",
       "author": "Cory Shubert",
       "description": "Test your Photoshop UXP plugin against the upcoming UI backend changes, identify compatibility issues, and prepare for the public release.",
-      "tags": "[\"Photoshop\",\"uxp\",\"UI\"]",
+      "tags": "[\"uxp\",\"UI\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1784723189",
+      "lastModified": "1785159709",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782345600",
       "sortDate": "2026-06-25",
@@ -2448,5 +2448,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-27T13:41:42.209Z"
+  "generatedAt": "2026-07-27T13:44:33.522Z"
 }
