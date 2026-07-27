@@ -348,17 +348,17 @@
       "title": "How the Experience Modernization Agent Migrates Sites to Edge Delivery Services",
       "author": "Sherrie Rohde",
       "description": "The destination is usually clear. The architectural benefits are understood. What burns time is the mechanical work: decomposing existing pages into reusable blocks, reconstructing a ...",
-      "tags": "[\"adobe-experience-manager\",\"aem\",\"edge-delivery-services\",\"adobe-experience-cloud\"]",
+      "tags": "[\"edge-delivery-services\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785158637",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1773619200",
       "sortDate": "2026-03-16",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
       "adobeCloud": "Experience Cloud",
-      "adobeApp": "Adobe Experience Manager",
+      "adobeApp": "Adobe Experience Manager (AEM)",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2422,5 +2422,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-27T13:25:06.859Z"
+  "generatedAt": "2026-07-27T13:25:29.350Z"
 }
