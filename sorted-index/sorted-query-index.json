@@ -296,17 +296,17 @@
       "title": "UXP Hybrid Plugins Now Available for Premiere",
       "author": "Davide Barranca",
       "description": "Extend Premiere plugins with high-performance C++ native code, joining Photoshop with this powerful new capability.",
-      "tags": "[\"uxp\",\"hybrid plugins\",\"C++\",\"native libraries\",\"premiere\",\"extensibility\",\"performance\"]",
+      "tags": "[\"uxp\",\"hybrid plugins\",\"C++\",\"native libraries\",\"extensibility\",\"performance\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778241440",
+      "lastModified": "1785159022",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1776297600",
       "sortDate": "2026-04-16",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
       "adobeCloud": "",
-      "adobeApp": "",
+      "adobeApp": "Premiere",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2422,5 +2422,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-27T13:31:25.788Z"
+  "generatedAt": "2026-07-27T13:32:37.896Z"
 }
