@@ -1,7 +1,7 @@
 {
-  "total": 94,
+  "total": 95,
   "offset": 0,
-  "limit": 94,
+  "limit": 95,
   "data": [
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
@@ -183,6 +183,32 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "",
+      "isHeroVideo": false
+    },
+    {
+      "path": "/en/publish/2026/05/how-to-fix-cors-errors-in-your-adobe-express-add-on",
+      "image": "/en/publish/2026/05/media_1fea7e12e5963bf99912490af7b786fa3f93bc4db.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "How to Fix CORS Errors in Your Adobe Express Add-on",
+      "author": "Fardeen Mansoori",
+      "description": "If you just built your first Adobe Express add-on and wired it up to a backend API, there’s a decent chance you’ve already hit this ...",
+      "tags": "[\"EAA\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1785159169",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1780185600",
+      "sortDate": "2026-05-31",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "",
+      "adobeApp": "",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "",
+      "importer": "v15june25",
       "isHeroVideo": false
     },
     {
@@ -2422,5 +2448,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-27T13:32:37.896Z"
+  "generatedAt": "2026-07-27T13:36:18.304Z"
 }
