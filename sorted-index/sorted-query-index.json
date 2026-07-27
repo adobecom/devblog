@@ -400,17 +400,17 @@
       "title": "From Local to Live: How to Publish Your Adobe Express Add-on",
       "author": "Ingo Eichel",
       "description": "You’ve built your first Adobe Express add-on. It works perfectly on your local machine. Now comes the big question: How do you get it into ...",
-      "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\"]",
+      "tags": "[\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1779777460",
+      "lastModified": "1785158527",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1772582400",
       "sortDate": "2026-03-04",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2422,5 +2422,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-27T13:23:00.082Z"
+  "generatedAt": "2026-07-27T13:25:06.859Z"
 }
