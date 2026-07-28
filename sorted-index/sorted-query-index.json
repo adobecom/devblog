@@ -325,13 +325,13 @@
       "tags": "[\"uxp\",\"hybrid plugins\",\"C++\",\"native libraries\",\"extensibility\",\"performance\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1785159022",
+      "lastModified": "1785219293",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1776297600",
       "sortDate": "2026-04-16",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Creative Cloud",
       "adobeApp": "Premiere",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2448,5 +2448,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-27T15:46:53.698Z"
+  "generatedAt": "2026-07-28T06:15:21.157Z"
 }
