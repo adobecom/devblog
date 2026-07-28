@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jul 2026 06:14:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 09:34:41 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -332,6 +332,16 @@
       <media:content url="https://blog.developer.adobe.com/en/publish/2025/06/media_1788269926af02e9aa638b94e2760d95ac4eb7b9c.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
+      <title><![CDATA[Finding Your Feet with Adobe Developer App Builder]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2021/08/finding-your-feet-with-adobe-developer-app-builder</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2021/08/finding-your-feet-with-adobe-developer-app-builder</guid>
+      <description><![CDATA[People discover new tools and platforms in a variety of different ways.]]></description>
+      <dc:creator><![CDATA[John Hill]]></dc:creator>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2021/08/media_13912a1c57637ac830b7e87976430a6a8e763a175.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2021/08/media_13912a1c57637ac830b7e87976430a6a8e763a175.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
       <title><![CDATA[Show, Don’t Tell: Multimodal Answers in AI Assistant in Adobe Experience Platform]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2025/06/show-dont-tell-multimodal-answers-in-ai-assistant-in-adobe-experience-platform</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2025/06/show-dont-tell-multimodal-answers-in-ai-assistant-in-adobe-experience-platform</guid>
@@ -522,6 +532,16 @@
       <media:content url="https://blog.developer.adobe.com/en/publish/2024/07/media_18a539ff5569ee1b913ce34baeae699ddb5dc4e74.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
+      <title><![CDATA[Generative AI Capabilities in Adobe Experience Manager and Assets Collaboration]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2024/07/generative-ai-capabilities-in-adobe-experience-manager-and-assets-collaboration</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2024/07/generative-ai-capabilities-in-adobe-experience-manager-and-assets-collaboration</guid>
+      <description><![CDATA[The task of managing content isn’t always as simple as it seems. It comes with its own set of challenges, such as the dreaded content ...]]></description>
+      <dc:creator><![CDATA[Arun Nagpal]]></dc:creator>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2024/07/media_1228678b1093ae89d7b12ed1cfed85ad31366979e.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2024/07/media_1228678b1093ae89d7b12ed1cfed85ad31366979e.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
       <title><![CDATA[How LINE Creative Lab Built an Adobe Express Integration with the Embed SDK]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2024/04/how-line-creative-lab-built-an-adobe-express-integration-with-the-embed-sdk</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2024/04/how-line-creative-lab-built-an-adobe-express-integration-with-the-embed-sdk</guid>
@@ -530,6 +550,16 @@
       <pubDate>Mon, 13 May 2024 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2024/04/media_1bfe598ce9d56761ea16f3a946a828b90830fe1b6.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2024/04/media_1bfe598ce9d56761ea16f3a946a828b90830fe1b6.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Edge Delivery Services, Generative AI, and Other Top Innovations in Adobe Experience Manager 2024]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2024/05/edge-delivery-services-generative-ai-and-other-top-innovations-in-adobe-experience-manager-2024</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2024/05/edge-delivery-services-generative-ai-and-other-top-innovations-in-adobe-experience-manager-2024</guid>
+      <description><![CDATA[Content is a very key and important aspect for any organization today — it’s a dynamic, evolving aspect of your brand that grows and adapts ...]]></description>
+      <dc:creator><![CDATA[Arun Nagpal]]></dc:creator>
+      <pubDate>Sun, 12 May 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2024/05/media_1494b4333acb664a88345ae17319c5821d67275a2.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2024/05/media_1494b4333acb664a88345ae17319c5821d67275a2.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Trip Report: Winter ISO C++ Standards Meeting in Tokyo]]></title>
@@ -632,6 +662,16 @@
       <media:content url="https://blog.developer.adobe.com/en/publish/2023/09/media_132f755d25f270bfcecdaa606ce5cd09e59f91a84.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
+      <title><![CDATA[Boosting Extensibility of Adobe Commerce with App Builder: Developer Best Practices]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2023/08/boosting-extensibility-of-adobe-commerce-with-app-builder-developer-best-practices</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/08/boosting-extensibility-of-adobe-commerce-with-app-builder-developer-best-practices</guid>
+      <description><![CDATA[Enterprise businesses often strive to create differentiated customer experiences by expanding functionality through integrations.]]></description>
+      <dc:creator><![CDATA[Oleg Posyniak]]></dc:creator>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/08/media_1f8083576721ca346ad8674b54f664b78835ffecc.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/08/media_1f8083576721ca346ad8674b54f664b78835ffecc.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
       <title><![CDATA[Adobe’s Open Developer Platform Principles]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/08/adobes-open-developer-platform-principles</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/08/adobes-open-developer-platform-principles</guid>
@@ -640,6 +680,26 @@
       <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/08/media_1b8a02134651a850cf60b03413a490e4c082ad907.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2023/08/media_1b8a02134651a850cf60b03413a490e4c082ad907.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[My Experience Building an Adobe Express Add-on]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2023/08/my-experience-building-an-adobe-express-add-on</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/08/my-experience-building-an-adobe-express-add-on</guid>
+      <description><![CDATA[Adobe recently announced that developers would be able to create add-ons for Adobe Express as part of their beta program.]]></description>
+      <dc:creator><![CDATA[Walter Kimaro]]></dc:creator>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/08/media_1764c19a86ad88e1700dfd987a1ec155e2ac0e590.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/08/media_1764c19a86ad88e1700dfd987a1ec155e2ac0e590.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Adobe Developer App Builder — Support for Setting Response Headers]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2023/07/adobe-developer-app-builder-support-for-setting-response-headers</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/07/adobe-developer-app-builder-support-for-setting-response-headers</guid>
+      <description><![CDATA[Adobe Developer App Builder provides a unified third-party extensibility framework for integrating and creating custom experiences to extend Adobe solutions.]]></description>
+      <dc:creator><![CDATA[Sandeep Paliwal]]></dc:creator>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/07/media_176b76144e1d061f7aa1aca1b8b144adc74450ad1.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/07/media_176b76144e1d061f7aa1aca1b8b144adc74450ad1.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Adobe Express Introduces Add-ons for Developers]]></title>
@@ -652,6 +712,26 @@
       <media:content url="https://blog.developer.adobe.com/en/publish/2023/06/media_129add0185b77f778327cfbad27cd905414800f3f.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
+      <title><![CDATA[Adobe Developer App Builder — Support for Setting Response Headers]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2023/06/adobe-developer-app-builder-support-for-setting-response-headers</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/06/adobe-developer-app-builder-support-for-setting-response-headers</guid>
+      <description><![CDATA[The introduction of Adobe Experience Manager (AEM) as a Cloud Service gives users the benefits of increased scalability and high availability.]]></description>
+      <dc:creator><![CDATA[Kelvin Xu]]></dc:creator>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/06/media_119b847fd0c94bc73e79c8e43adbe3c11aafad644.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/06/media_119b847fd0c94bc73e79c8e43adbe3c11aafad644.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[AEM Dispatcher — Create the Perfect Caching Architecture]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2023/05/aem-dispatcher-create-the-perfect-caching-architecture</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/05/aem-dispatcher-create-the-perfect-caching-architecture</guid>
+      <description><![CDATA[A few thoughts on why developers should think about caching as a vital part of application design…]]></description>
+      <dc:creator><![CDATA[Achim Koch]]></dc:creator>
+      <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/05/media_17c4233bb6d6b9e5639a0ae85794c8f9cb889d3d5.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/05/media_17c4233bb6d6b9e5639a0ae85794c8f9cb889d3d5.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
       <title><![CDATA[Tagging PDF Documents for Accessibility at Scale with Adobe Acrobat PDF Services]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/04/tagging-pdf-documents-for-accessibility-at-scale-with-adobe-acrobat-pdf-services</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/04/tagging-pdf-documents-for-accessibility-at-scale-with-adobe-acrobat-pdf-services</guid>
@@ -660,6 +740,26 @@
       <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/04/media_12490c5da542e11472945dcc691f7762f6561f68b.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2023/04/media_12490c5da542e11472945dcc691f7762f6561f68b.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Distributing Adobe Commerce Patches at Scale]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2023/05/distributing-adobe-commerce-patches-at-scale</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/05/distributing-adobe-commerce-patches-at-scale</guid>
+      <description><![CDATA[If you own only one Adobe Commerce installation, applying patches is simple. But the more patches you apply and the more installations you maintain, the ...]]></description>
+      <dc:creator><![CDATA[Tony Evers]]></dc:creator>
+      <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/05/media_17a509f5cf44800c22a6cd92a4d2c2997b74a3f66.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/05/media_17a509f5cf44800c22a6cd92a4d2c2997b74a3f66.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Find Out Why Your AEM Integration Is Not Working]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2023/04/find-out-why-your-aem-integration-is-not-working</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/04/find-out-why-your-aem-integration-is-not-working</guid>
+      <description><![CDATA[As AEM developers, we often encounter situations where third-party plugins are used to enhance the site’s functionality. Often you don’t have the plugin’s source code ...]]></description>
+      <dc:creator><![CDATA[Achim Koch]]></dc:creator>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/04/media_1c0ea0e4ac30cf2304a3cc01984a18b1f19e9ce70.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/04/media_1c0ea0e4ac30cf2304a3cc01984a18b1f19e9ce70.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Automating Image Workflows with the Photoshop API]]></title>
@@ -672,6 +772,16 @@
       <media:content url="https://blog.developer.adobe.com/en/publish/2023/05/media_1d57cdeb8334b8c49f939272d0167606e84fe3ec1.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
+      <title><![CDATA[Debugging Your AEM Dispatcher Configuration]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2023/03/debugging-your-aem-dispatcher-configuration</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/03/debugging-your-aem-dispatcher-configuration</guid>
+      <description><![CDATA[Earlier this year, Adobe Consulting released an easy-to-use Dispatcher in a Docker Container. This is an excellent opportunity for developers to learn how it works.]]></description>
+      <dc:creator><![CDATA[Achim Koch]]></dc:creator>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/03/media_12e6d46bb1a2591b0af14de21f3153d822001f896.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/03/media_12e6d46bb1a2591b0af14de21f3153d822001f896.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
       <title><![CDATA[Adobe Summit 2023: Everything Developers Need to Know]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/02/adobe-summit-2023-everything-developers-need-to-know</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/02/adobe-summit-2023-everything-developers-need-to-know</guid>
@@ -682,6 +792,36 @@
       <media:content url="https://blog.developer.adobe.com/en/publish/2023/02/media_1af4270c3d13b4c380f05e44348ccba9a7089d42c.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
+      <title><![CDATA[Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace</guid>
+      <description><![CDATA[This announcement is for UXP plugin developers who wish to create a new listing or update an existing listing in the Creative Cloud Marketplace on ...]]></description>
+      <dc:creator><![CDATA[Avanish Gandhi]]></dc:creator>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/03/media_18318b9bcb3792de87e396aba12bf053eae86b633.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/03/media_18318b9bcb3792de87e396aba12bf053eae86b633.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[How to Work with the Adobe Photoshop APIs]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2023/03/how-to-work-with-the-adobe-photoshop-apis</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/03/how-to-work-with-the-adobe-photoshop-apis</guid>
+      <description><![CDATA[We recently introduced you to the Adobe Photoshop APIs. In our previous article, we covered what the APIs are at a high level and gave ...]]></description>
+      <dc:creator><![CDATA[Raymond Camden]]></dc:creator>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/03/media_1266888e01d527d8496fa9f5cb1f2e6605b636d46.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/03/media_1266888e01d527d8496fa9f5cb1f2e6605b636d46.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Creative Cloud Plugin Marketplace Updates for Developers]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2022/09/creative-cloud-plugin-marketplace-updates-for-developers</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2022/09/creative-cloud-plugin-marketplace-updates-for-developers</guid>
+      <description><![CDATA[Editor’s Note: “Welcome Avanish Gandhi, a Senior Product Manager at Adobe to the Tech Blog! Avanish manages Marketplace and plugin developers Distribution experiences for plugins ...]]></description>
+      <dc:creator><![CDATA[Avanish Gandhi]]></dc:creator>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2022/09/media_16772c95378b1afdac6986cd6cd060542f5ef8da8.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2022/09/media_16772c95378b1afdac6986cd6cd060542f5ef8da8.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
       <title><![CDATA[Lightroom Classic Plugin Support for the Adobe Exchange for Creative Cloud]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2022/07/lightroom-classic-plugin-support-for-the-adobe-exchange-for-creative-cloud</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2022/07/lightroom-classic-plugin-support-for-the-adobe-exchange-for-creative-cloud</guid>
@@ -690,6 +830,16 @@
       <pubDate>Tue, 26 Jul 2022 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2022/07/media_1e5015554a658ce761fba1f12c443287d157be6ee.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2022/07/media_1e5015554a658ce761fba1f12c443287d157be6ee.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[How to Use the Adobe Developer App Builder Template Registry]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2022/11/how-to-use-the-adobe-developer-app-builder-template-registry</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2022/11/how-to-use-the-adobe-developer-app-builder-template-registry</guid>
+      <description><![CDATA[Adobe Developer App Builder’s Template Registry enables developers to discover and manage App Builder templates — essentially reusable code packages that can be utilized to ...]]></description>
+      <dc:creator><![CDATA[Pat Hyde]]></dc:creator>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2022/11/media_13bdf88579899a66104ace6058996a3c68919af77.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2022/11/media_13bdf88579899a66104ace6058996a3c68919af77.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Adobe Developer App Builder — The Power of Scaling at Your Fingertips]]></title>
@@ -750,6 +900,16 @@
       <pubDate>Tue, 30 Nov 2021 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2022/09/media_1b14dfdea3d3a32a018031dbda4fbece04c4cb5d9.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2022/09/media_1b14dfdea3d3a32a018031dbda4fbece04c4cb5d9.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Datafacts — An Adobe Developer App Builder Application for Adobe Experience Platform]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2021/09/datafacts-an-adobe-developer-app-builder-application-for-adobe-experience-platform</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2021/09/datafacts-an-adobe-developer-app-builder-application-for-adobe-experience-platform</guid>
+      <description><![CDATA[When we introduced Adobe Developer App Builder last year, we highlighted the advantages of this complete framework for building cloud native apps hosted on Adobe’s ...]]></description>
+      <dc:creator><![CDATA[Jeff Chasin]]></dc:creator>
+      <pubDate>Fri, 03 Sep 2021 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2021/09/media_17a631865005d18dbf3e4abde7d637543380eb759.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2021/09/media_17a631865005d18dbf3e4abde7d637543380eb759.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Developing an OAuth Sample for Adobe Photoshop]]></title>
