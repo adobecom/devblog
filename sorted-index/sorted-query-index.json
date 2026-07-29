@@ -1,8 +1,34 @@
 {
-  "total": 110,
+  "total": 111,
   "offset": 0,
-  "limit": 110,
+  "limit": 111,
   "data": [
+    {
+      "path": "/en/publish/2026/07/uxp-changelog-and-support-matrix",
+      "image": "/en/publish/2026/07/media_15f52e6ad8ce092233aed463d194cbee7ec7e0bf5.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "UXP Changelog and Product Support Matrix",
+      "author": "Kasi Viswanathan K",
+      "description": "Adobe's Unified eXtensibility Platform (UXP) continues to evolve with every release, bringing new capabilities, closer alignment with web standards, and important stability fixes to plugin ...",
+      "tags": "[\"UXP\",\"Changelog\"]",
+      "imageAlt": "New and old employees on the DevEx team",
+      "robots": "",
+      "lastModified": "1785364525",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1785283200",
+      "sortDate": "2026-07-29",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "InDesign, Photoshop, Premiere",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "July 2026",
+      "newsletterPublished": "",
+      "importer": "",
+      "isHeroVideo": false
+    },
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
       "image": "/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&format=pjpg&optimize=medium",
@@ -2864,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-29T09:42:04.607Z"
+  "generatedAt": "2026-07-29T22:38:06.312Z"
 }
