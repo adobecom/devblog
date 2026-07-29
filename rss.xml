@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jul 2026 07:37:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 22:35:25 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[UXP Changelog and Product Support Matrix]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/07/uxp-changelog-and-support-matrix</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/07/uxp-changelog-and-support-matrix</guid>
+      <description><![CDATA[Adobe's Unified eXtensibility Platform (UXP) continues to evolve with every release, bringing new capabilities, closer alignment with web standards, and important stability fixes to plugin ...]]></description>
+      <dc:creator><![CDATA[Kasi Viswanathan K]]></dc:creator>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/07/media_15f52e6ad8ce092233aed463d194cbee7ec7e0bf5.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/07/media_15f52e6ad8ce092233aed463d194cbee7ec7e0bf5.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[Is Your Adobe Express Add-on Ready for Large Document Support?]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know</link>
