@@ -1591,22 +1591,22 @@
     },
     {
       "path": "/en/publish/2023/10/integrating-the-photoshop-api-with-python",
-      "image": "/en/publish/2023/10/media_12f47c26e7a1f640b9f2ad41122b399b222fed990.jpeg?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2023/10/media_12f47c26e7a1f640b9f2ad41122b399b222fed990.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Integrating the Photoshop API with Python",
       "author": "Raymond Camden",
       "description": "The Photoshop API is an incredibly powerful REST-based API for performing Photoshop tasks in the cloud and at scale.",
-      "tags": "[\"python-programming\",\"adobe-photoshop\",\"api\",\"developer\",\"adobe-document-cloud\"]",
+      "tags": "[\"python-programming\",\"api\",\"developer\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785310621",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1699315200",
       "sortDate": "2023-11-07",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Document Cloud,Creative Cloud",
+      "adobeApp": "Photoshop",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2864,5 +2864,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-28T09:39:40.364Z"
+  "generatedAt": "2026-07-29T09:42:04.607Z"
 }
