@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jul 2026 09:34:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 07:37:01 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -628,8 +628,8 @@
       <description><![CDATA[The Photoshop API is an incredibly powerful REST-based API for performing Photoshop tasks in the cloud and at scale.]]></description>
       <dc:creator><![CDATA[Raymond Camden]]></dc:creator>
       <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/10/media_12f47c26e7a1f640b9f2ad41122b399b222fed990.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2023/10/media_12f47c26e7a1f640b9f2ad41122b399b222fed990.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/10/media_12f47c26e7a1f640b9f2ad41122b399b222fed990.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/10/media_12f47c26e7a1f640b9f2ad41122b399b222fed990.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[MAX 2023 Recap: Everything You Need to Know About Adobe Express Add-Ons]]></title>
