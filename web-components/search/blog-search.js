@@ -719,7 +719,39 @@ class BlogSearch extends HTMLElement {
       ? facetFilteredData
       : sortArticlesByPublicationDate(facetFilteredData);
     this.updateFilterCounts(facetFilteredData);
-    await renderExploreResults(this, this.config, orderedData, searchTerms);
+    await this.renderExplorePage(orderedData, 0, searchTerms);
+  }
+
+  async renderExplorePage(orderedData, offset, searchTerms) {
+    const PAGE_SIZE = 12;
+    const page = orderedData.slice(offset, offset + PAGE_SIZE);
+
+    if (offset === 0) {
+      await renderExploreResults(this, this.config, page, searchTerms);
+    } else {
+      const exploreResults = this.shadowRoot.querySelector('.explore-results');
+      if (!exploreResults) return;
+      await loadMiloUtils();
+      const headingTag = exploreResults.dataset.h;
+      const newItems = await Promise.all(
+        page.map((result) => renderResult(result, searchTerms, headingTag, { showDate: true })),
+      );
+      newItems.forEach((li) => exploreResults.append(li));
+    }
+
+    this.shadowRoot.querySelector('.explore-load-more')?.remove();
+    if (orderedData.length > offset + PAGE_SIZE) {
+      const loadMore = document.createElement('a');
+      loadMore.className = 'explore-load-more load-more con-button outline';
+      loadMore.href = '#';
+      loadMore.textContent = 'Load More';
+      loadMore.addEventListener('click', (e) => {
+        e.preventDefault();
+        loadMore.remove();
+        this.renderExplorePage(orderedData, offset + PAGE_SIZE, searchTerms);
+      });
+      this.shadowRoot.querySelector('.explore-results')?.insertAdjacentElement('afterend', loadMore);
+    }
   }
 
   applyFilterChange() {

@@ -758,6 +758,29 @@ header nav.has-blog-nav-search {
   display: none !important;
 }
 
+.explore-load-more {
+  background-color: transparent;
+  border-radius: 16px;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  display: block;
+  width: max-content;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 5px 14px;
+  text-decoration: none;
+  margin: 32px auto 0;
+  text-align: center;
+}
+
+.explore-load-more:hover {
+  background-color: var(--color-black);
+  border-color: var(--color-black);
+  color: var(--color-white);
+  text-decoration: none;
+}
 /* No results styling */
 /* .nav-search-container .search-results.no-results {
   display: block;
