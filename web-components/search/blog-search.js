@@ -725,18 +725,26 @@ class BlogSearch extends HTMLElement {
   async renderExplorePage(orderedData, offset, searchTerms) {
     const PAGE_SIZE = 12;
     const page = orderedData.slice(offset, offset + PAGE_SIZE);
+    const exploreResults = this.shadowRoot.querySelector('.explore-results');
+    if (!exploreResults) return;
+
+    await loadMiloUtils();
+    const headingTag = exploreResults.dataset.h;
+
+    // Build all new items off-DOM first to avoid mid-render blank frames
+    const newItems = await Promise.all(
+      page.map((result) => renderResult(result, searchTerms, headingTag, { showDate: true })),
+    );
 
     if (offset === 0) {
-      await renderExploreResults(this, this.config, page, searchTerms);
+      // Swap entire grid content in one operation — no blank flash
+      exploreResults.classList.remove('no-results');
+      exploreResults.replaceChildren(...newItems);
     } else {
-      const exploreResults = this.shadowRoot.querySelector('.explore-results');
-      if (!exploreResults) return;
-      await loadMiloUtils();
-      const headingTag = exploreResults.dataset.h;
-      const newItems = await Promise.all(
-        page.map((result) => renderResult(result, searchTerms, headingTag, { showDate: true })),
-      );
-      newItems.forEach((li) => exploreResults.append(li));
+      // Append next page in one operation — button already removed below
+      const fragment = document.createDocumentFragment();
+      newItems.forEach((li) => fragment.append(li));
+      exploreResults.append(fragment);
     }
 
     this.shadowRoot.querySelector('.explore-load-more')?.remove();
@@ -747,10 +755,12 @@ class BlogSearch extends HTMLElement {
       loadMore.textContent = 'Load More';
       loadMore.addEventListener('click', (e) => {
         e.preventDefault();
-        loadMore.remove();
+        loadMore.setAttribute('aria-busy', 'true');
+        loadMore.textContent = 'Loading…';
+        loadMore.style.pointerEvents = 'none';
         this.renderExplorePage(orderedData, offset + PAGE_SIZE, searchTerms);
       });
-      this.shadowRoot.querySelector('.explore-results')?.insertAdjacentElement('afterend', loadMore);
+      exploreResults.insertAdjacentElement('afterend', loadMore);
     }
   }
 

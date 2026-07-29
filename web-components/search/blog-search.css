@@ -773,6 +773,7 @@ header nav.has-blog-nav-search {
   text-decoration: none;
   margin: 32px auto 0;
   text-align: center;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s, opacity 0.2s;
 }
 
 .explore-load-more:hover {
@@ -780,6 +781,21 @@ header nav.has-blog-nav-search {
   border-color: var(--color-black);
   color: var(--color-white);
   text-decoration: none;
+}
+
+.explore-load-more[aria-busy="true"] {
+  opacity: 0.55;
+  cursor: default;
+  pointer-events: none;
+}
+
+@keyframes explore-card-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.explore-results > li {
+  animation: explore-card-in 0.2s ease both;
 }
 /* No results styling */
 /* .nav-search-container .search-results.no-results {
