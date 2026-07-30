@@ -2506,17 +2506,17 @@
       "title": "Power from the People: InDesign Scripting",
       "author": "Mike Zahorik",
       "description": "Are you a designer who’s looking for ways to increase productivity or up your InDesign game? Read on to learn about 16 new scripts that ...",
-      "tags": "[\"adobe-creative-cloud\",\"adobe-indesign\",\"scripting\",\"developer\"]",
+      "tags": "[\"scripting\",\"developer\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785406073",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1601510400",
       "sortDate": "2020-10-01",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "InDesign",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T10:08:35.678Z"
+  "generatedAt": "2026-07-30T10:10:52.916Z"
 }
