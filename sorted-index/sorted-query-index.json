@@ -2246,17 +2246,17 @@
       "title": "How to Forward Adobe Developer App Builder Application Logs",
       "author": "Manik Jindal",
       "description": "Adobe Developer App Builder enables developers to build custom applications that extend and integrate with Adobe Experience Manager and other Adobe solutions. App Builder became ...",
-      "tags": "[\"adobe-developer-app-builder\",\"adobe-experience-manager\",\"adobe-experience-cloud\",\"aio-cli\",\"log-forwarding\"]",
+      "tags": "[\"aio-cli\",\"log-forwarding\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785406598",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1643241600",
       "sortDate": "2022-01-27",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Experience Cloud",
+      "adobeApp": "Adobe Developer App Builder,Adobe Experience Manager (AEM)",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T10:17:15.920Z"
+  "generatedAt": "2026-07-30T10:18:01.240Z"
 }
