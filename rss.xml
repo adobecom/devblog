@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jul 2026 23:02:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 11:20:49 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -648,8 +648,8 @@
       <description><![CDATA[“The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...]]></description>
       <dc:creator><![CDATA[Colene Chow]]></dc:creator>
       <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/09/media_18da34cf479035c3984fcfe6dea33e07420c17404.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2023/09/media_18da34cf479035c3984fcfe6dea33e07420c17404.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/09/media_18da34cf479035c3984fcfe6dea33e07420c17404.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/09/media_18da34cf479035c3984fcfe6dea33e07420c17404.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Adobe Express at MAX 2023: The Next Step for Our Open Developer Platform]]></title>
@@ -748,8 +748,8 @@
       <description><![CDATA[Creating and sharing accessible documents is challenging, but also legally required in many cases. With the variety of ways that PDFs are created, ensuring they ...]]></description>
       <dc:creator><![CDATA[Raymond Camden]]></dc:creator>
       <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/04/media_12490c5da542e11472945dcc691f7762f6561f68b.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2023/04/media_12490c5da542e11472945dcc691f7762f6561f68b.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/04/media_12490c5da542e11472945dcc691f7762f6561f68b.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/04/media_12490c5da542e11472945dcc691f7762f6561f68b.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Distributing Adobe Commerce Patches at Scale]]></title>
@@ -778,8 +778,8 @@
       <description><![CDATA[Recently we discussed how developers could make use of the Photoshop API. In that post, we shared a simple Node.js script that would call one ...]]></description>
       <dc:creator><![CDATA[Raymond Camden]]></dc:creator>
       <pubDate>Mon, 03 Apr 2023 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/05/media_1d57cdeb8334b8c49f939272d0167606e84fe3ec1.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2023/05/media_1d57cdeb8334b8c49f939272d0167606e84fe3ec1.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/05/media_1d57cdeb8334b8c49f939272d0167606e84fe3ec1.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/05/media_1d57cdeb8334b8c49f939272d0167606e84fe3ec1.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Debugging Your AEM Dispatcher Configuration]]></title>
@@ -798,8 +798,8 @@
       <description><![CDATA[Adobe Summit is one of the world’s biggest digital experience conferences, and it’s just around the corner. Join us in Las Vegas or virtually from ...]]></description>
       <dc:creator><![CDATA[Colene Chow]]></dc:creator>
       <pubDate>Thu, 16 Mar 2023 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/02/media_1af4270c3d13b4c380f05e44348ccba9a7089d42c.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2023/02/media_1af4270c3d13b4c380f05e44348ccba9a7089d42c.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2023/02/media_1af4270c3d13b4c380f05e44348ccba9a7089d42c.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2023/02/media_1af4270c3d13b4c380f05e44348ccba9a7089d42c.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace]]></title>
@@ -838,8 +838,8 @@
       <description><![CDATA[If you distribute plugins, brushes, or preset packs for Lightroom Classic via the Adobe Exchange for Creative Cloud, (or you would like to do so), ...]]></description>
       <dc:creator><![CDATA[Erin Finnegan]]></dc:creator>
       <pubDate>Tue, 26 Jul 2022 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2022/07/media_1e5015554a658ce761fba1f12c443287d157be6ee.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2022/07/media_1e5015554a658ce761fba1f12c443287d157be6ee.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2022/07/media_1e5015554a658ce761fba1f12c443287d157be6ee.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2022/07/media_1e5015554a658ce761fba1f12c443287d157be6ee.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[How to Use the Adobe Developer App Builder Template Registry]]></title>
@@ -868,8 +868,8 @@
       <description><![CDATA[If you want to install UXP plugins from the command line tools, or you’re a long time user of ExManCmd, this post is for you.]]></description>
       <dc:creator><![CDATA[Erin Finnegan]]></dc:creator>
       <pubDate>Tue, 08 Mar 2022 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2022/03/media_1c4d633f40690ac57b39a0177f1d260d93f965836.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2022/03/media_1c4d633f40690ac57b39a0177f1d260d93f965836.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2022/03/media_1c4d633f40690ac57b39a0177f1d260d93f965836.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2022/03/media_1c4d633f40690ac57b39a0177f1d260d93f965836.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[How to Forward Adobe Developer App Builder Application Logs]]></title>
@@ -998,8 +998,8 @@
       <description><![CDATA[This article is for Adobe Exchange developers and partners creating solutions using InDesign Server. We’ll explain recent changes on how InDesign Server licenses are installed ...]]></description>
       <dc:creator><![CDATA[Mike Zahorik]]></dc:creator>
       <pubDate>Mon, 18 May 2020 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2021/06/media_11b32d5a6c1ae776bcd778e0d41b25cd8a69c1e62.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2021/06/media_11b32d5a6c1ae776bcd778e0d41b25cd8a69c1e62.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2021/06/media_11b32d5a6c1ae776bcd778e0d41b25cd8a69c1e62.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2021/06/media_11b32d5a6c1ae776bcd778e0d41b25cd8a69c1e62.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Adobe Developer App Builder: Build Custom Cloud Native Adobe Apps]]></title>
@@ -1018,8 +1018,8 @@
       <description><![CDATA[Our guest developer post this week is Thomas Zagler, founder and developer at pixelsucht (which means “pixel dependency” in German). In addition to working as ...]]></description>
       <dc:creator><![CDATA[Thomas Zagler]]></dc:creator>
       <pubDate>Wed, 12 Feb 2020 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2020/01/media_1be9bb884297a103d4a863f66c766ac3349ee9194.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2020/01/media_1be9bb884297a103d4a863f66c766ac3349ee9194.jpeg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2020/01/media_1be9bb884297a103d4a863f66c766ac3349ee9194.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2020/01/media_1be9bb884297a103d4a863f66c766ac3349ee9194.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Troubleshoot Issues Installing Extensions and Add-ons for Creative Cloud apps]]></title>
