@@ -1643,21 +1643,21 @@
     },
     {
       "path": "/en/publish/2023/09/max-2023-recap-everything-you-need-to-know-about-adobe-express-add-ons",
-      "image": "/en/publish/2023/09/media_18da34cf479035c3984fcfe6dea33e07420c17404.jpeg?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2023/09/media_18da34cf479035c3984fcfe6dea33e07420c17404.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "MAX 2023 Recap: Everything You Need to Know About Adobe Express Add-Ons",
       "author": "Colene Chow",
       "description": "“The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...",
-      "tags": "[\"adobe-max\",\"adobe-cloud-platform\",\"generative-ai-tools\",\"adobe-express-add-ons\",\"adobe-creative-cloud\"]",
+      "tags": "[\"adobe-max\",\"adobe-cloud-platform\",\"generative-ai-tools\",\"adobe-express-add-ons\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785410449",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1698624000",
       "sortDate": "2023-10-30",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Creative Cloud",
       "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T11:20:47.129Z"
+  "generatedAt": "2026-07-30T11:23:04.203Z"
 }
