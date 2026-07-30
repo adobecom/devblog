@@ -2636,16 +2636,16 @@
       "title": "Troubleshoot Issues Installing Extensions and Add-ons for Creative Cloud apps",
       "author": "Abhishek Jain",
       "description": "“This week’s guest post is co-authored by Abhishek Jain. Abhishek is a Lead Software Engineer who has been with Adobe since 2015.”",
-      "tags": "[\"addons\",\"installation-failed\",\"extension\",\"adobe-exchange\",\"adobe-creative-cloud\"]",
+      "tags": "[\"addons\",\"installation-failed\",\"extension\",\"adobe-exchange\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785409395",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1574985600",
       "sortDate": "2019-11-29",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Creative Cloud",
       "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T11:04:03.724Z"
+  "generatedAt": "2026-07-30T11:07:37.804Z"
 }
