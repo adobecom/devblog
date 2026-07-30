@@ -2605,22 +2605,22 @@
     },
     {
       "path": "/en/publish/2020/01/learning-by-doing-porting-free-stock-search-from-cep-to-uxp-in-adobe-xd",
-      "image": "/en/publish/2020/01/media_1be9bb884297a103d4a863f66c766ac3349ee9194.jpeg?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2020/01/media_1be9bb884297a103d4a863f66c766ac3349ee9194.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Learning by Doing: Porting “Free Stock Search” from CEP to UXP in Adobe XD",
       "author": "Thomas Zagler",
       "description": "Our guest developer post this week is Thomas Zagler, founder and developer at pixelsucht (which means “pixel dependency” in German). In addition to working as ...",
-      "tags": "[\"developer\",\"adobe-cep\",\"adobe-xd\",\"uxp\",\"adobe-creative-cloud\"]",
+      "tags": "[\"developer\",\"adobe-cep\",\"uxp\"]",
       "imageAlt": "︎Thomas Zagler of pixelsucht",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785405953",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1581465600",
       "sortDate": "2020-02-12",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe XD",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T00:06:35.144Z"
+  "generatedAt": "2026-07-30T10:08:35.678Z"
 }
