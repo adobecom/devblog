@@ -2480,16 +2480,16 @@
       "title": "In-App Extensibility Support for ARM/Apple Silicon Devices",
       "author": "Kerri Shotts",
       "description": "Update March 10th, 2021: Photoshop is now available natively for Apple silicon devices.",
-      "tags": "[\"arm\",\"apple-silicon\",\"cep\",\"uxp\",\"adobe-creative-cloud\"]",
+      "tags": "[\"arm\",\"apple-silicon\",\"cep\",\"uxp\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785406353",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1605744000",
       "sortDate": "2020-11-19",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Creative Cloud",
       "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T10:13:05.391Z"
+  "generatedAt": "2026-07-30T10:15:10.259Z"
 }
