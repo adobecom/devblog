@@ -2272,17 +2272,17 @@
       "title": "Powering Adobe MAX with App Builder and I/O Runtime",
       "author": "Honwai Wong",
       "description": "Now is an exciting time for extensibility at Adobe. We recently announced the general availability of Adobe Developer App Builder for all Adobe Experience Manager ...",
-      "tags": "[\"adobe-io-runtime\",\"adobe-app-builder\",\"adobe-max\",\"rest-api\",\"adobe-developer-app-builder\"]",
+      "tags": "[\"adobe-io-runtime\",\"adobe-max\",\"rest-api\"]",
       "imageAlt": "︎Card collection component showing personalized content via an integration with Target activities and Target Recommendations",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785406636",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1642377600",
       "sortDate": "2022-01-17",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
       "adobeCloud": "",
-      "adobeApp": "",
+      "adobeApp": "Adobe Developer App Builder",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T10:18:01.240Z"
+  "generatedAt": "2026-07-30T10:30:14.429Z"
 }
