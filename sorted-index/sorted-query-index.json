@@ -2428,17 +2428,17 @@
       "title": "An Illustrator 25.1 Update for Plugin Developers",
       "author": "Erin Finnegan",
       "description": "Are you a plugin developer who’s having trouble with Illustrator 25.1 (a.k.a. Illustrator 2021)? We’re here to help. This blog post covers two problems:",
-      "tags": "[\"adobe-creative-cloud\",\"adobe-illustrator\",\"c-programming\",\"applescript\",\"plugins\"]",
+      "tags": "[\"c-programming\",\"applescript\",\"plugins\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785406255",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1611705600",
       "sortDate": "2021-01-27",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Illustrator",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T10:11:34.962Z"
+  "generatedAt": "2026-07-30T10:13:05.391Z"
 }
