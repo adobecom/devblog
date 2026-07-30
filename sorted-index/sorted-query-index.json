@@ -2454,17 +2454,17 @@
       "title": "8 Steps to Your First Photoshop UXP Plugin",
       "author": "Davide Barranca",
       "description": "Editor’s Note: “ We’re happy to welcome Davide Barranca, a Photoshop retoucher and developer based in Italy, back to the Adobe Tech blog. Davide is ...",
-      "tags": "[\"adobe-photoshop\",\"adobe-creative-cloud\",\"uxp\",\"plugins\",\"developer\"]",
+      "tags": "[\"uxp\",\"plugins\",\"developer\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785406221",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1610755200",
       "sortDate": "2021-01-16",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Photoshop",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T10:10:52.916Z"
+  "generatedAt": "2026-07-30T10:11:34.962Z"
 }
