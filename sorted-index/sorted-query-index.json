@@ -1,8 +1,34 @@
 {
-  "total": 110,
+  "total": 111,
   "offset": 0,
-  "limit": 110,
+  "limit": 111,
   "data": [
+    {
+      "path": "/en/publish/2026/07/build-adobe-express-add-ons-faster-with-agent-skills",
+      "image": "/en/publish/2026/07/media_10f5f560e80931491ec2df3a67d7cea24c0e8ed2d.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Build Adobe Express Add-ons Faster with Agent Skills",
+      "author": "Geoffrey Nwachukwu",
+      "description": "Turn your AI assistant into a specialized Adobe Express architect. A Developer Champion's open-source Agent Skills collection — how it works and how to install it.",
+      "tags": "[\"skills\",\"agentic\",\"AI\",\"developer tools\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1785446425",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1785456000",
+      "sortDate": "2026-07-31",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "July 2026",
+      "newsletterPublished": "",
+      "importer": "",
+      "isHeroVideo": true
+    },
     {
       "path": "/en/publish/2026/07/uxp-changelog-and-support-matrix",
       "image": "/en/publish/2026/07/media_15f52e6ad8ce092233aed463d194cbee7ec7e0bf5.png?width=1200&format=pjpg&optimize=medium",
@@ -2864,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T12:48:13.642Z"
+  "generatedAt": "2026-07-30T23:12:26.322Z"
 }
