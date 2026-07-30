@@ -1903,21 +1903,21 @@
     },
     {
       "path": "/en/publish/2023/04/tagging-pdf-documents-for-accessibility-at-scale-with-adobe-acrobat-pdf-services",
-      "image": "/en/publish/2023/04/media_12490c5da542e11472945dcc691f7762f6561f68b.jpeg?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2023/04/media_12490c5da542e11472945dcc691f7762f6561f68b.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Tagging PDF Documents for Accessibility at Scale with Adobe Acrobat PDF Services",
       "author": "Raymond Camden",
       "description": "Creating and sharing accessible documents is challenging, but also legally required in many cases. With the variety of ways that PDFs are created, ensuring they ...",
-      "tags": "[\"adobe-document-cloud\",\"pdf\",\"accessibility\",\"api\",\"adobe-acrobat-services\"]",
+      "tags": "[\"pdf\",\"accessibility\",\"api\",\"adobe-acrobat-services\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785409901",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1684108800",
       "sortDate": "2023-05-15",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Document Cloud",
       "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2033,7 +2033,7 @@
     },
     {
       "path": "/en/publish/2023/02/adobe-summit-2023-everything-developers-need-to-know",
-      "image": "/en/publish/2023/02/media_1af4270c3d13b4c380f05e44348ccba9a7089d42c.jpeg?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2023/02/media_1af4270c3d13b4c380f05e44348ccba9a7089d42c.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Adobe Summit 2023: Everything Developers Need to Know",
       "author": "Colene Chow",
@@ -2041,7 +2041,7 @@
       "tags": "[\"developer\",\"adobe-summit\",\"platform\",\"headless\",\"extensibility\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1785409626",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1678924800",
       "sortDate": "2023-03-16",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T11:07:37.804Z"
+  "generatedAt": "2026-07-30T11:15:42.460Z"
 }
