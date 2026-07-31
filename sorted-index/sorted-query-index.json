@@ -1,11 +1,11 @@
 {
-  "total": 111,
+  "total": 110,
   "offset": 0,
-  "limit": 111,
+  "limit": 110,
   "data": [
     {
       "path": "/en/publish/2026/07/build-adobe-express-add-ons-faster-with-agent-skills",
-      "image": "/en/publish/2026/07/media_10f5f560e80931491ec2df3a67d7cea24c0e8ed2d.png?width=1200&format=pjpg&optimize=medium",
+      "image": "/vi/-K79P_corYU/maxresdefault.jpg",
       "date": "",
       "title": "Build Adobe Express Add-ons Faster with Agent Skills",
       "author": "Geoffrey Nwachukwu",
@@ -13,7 +13,7 @@
       "tags": "[\"skills\",\"agentic\",\"AI\",\"developer tools\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1785446425",
+      "lastModified": "1785475208",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1785456000",
       "sortDate": "2026-07-31",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-30T23:12:26.322Z"
+  "generatedAt": "2026-07-31T05:57:39.474Z"
 }
