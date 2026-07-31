@@ -61,11 +61,11 @@
       "date": "",
       "title": "Is Your Adobe Express Add-on Ready for Large Document Support?",
       "author": "Padma Krishnamoorthy",
-      "description": "Large Document Support is an important capability for enterprise customers who want to work on bigger and more ambitious projects.",
-      "tags": "[\"add-on\",\"extensibility\"]",
+      "description": "Adobe Express is rolling out Large Document Support. Here's how to check if your add-on is affected, and what the six-month transition window means for you.",
+      "tags": "[\"add-on\",\"extensibility\",\"Large Document Support\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1785159838",
+      "lastModified": "1785492970",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1784505600",
       "sortDate": "2026-07-20",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-31T09:48:58.452Z"
+  "generatedAt": "2026-07-31T10:26:09.246Z"
 }
