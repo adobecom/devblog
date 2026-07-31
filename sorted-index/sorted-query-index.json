@@ -87,11 +87,11 @@
       "date": "",
       "title": "Dark Mode Is Coming to Adobe Express: What Add-on Developers Need to Know",
       "author": "Padma Krishnamoorthy",
-      "description": "Adobe Express is adding dark mode to the application experience, giving creators more flexibility to personalize their workspace and work comfortably in the environment that ...",
-      "tags": "[\"add-on\",\"extensibility\"]",
+      "description": "Adobe Express is adding dark mode. Here's how the theme APIs change, whether you need to update your add-on, and when to resubmit.",
+      "tags": "[\"Add-on\",\"extensibility\",\"dark mode\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1785366163",
+      "lastModified": "1785493331",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782777600",
       "sortDate": "2026-06-30",
@@ -102,7 +102,7 @@
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
-      "newsletterPlanned": "August  2026",
+      "newsletterPlanned": "July  2026",
       "newsletterPublished": "",
       "importer": "",
       "isHeroVideo": false
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-31T10:26:09.246Z"
+  "generatedAt": "2026-07-31T10:51:33.091Z"
 }
