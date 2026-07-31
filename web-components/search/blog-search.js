@@ -523,6 +523,9 @@ function searchBox(component, config) {
 class BlogSearch extends HTMLElement {
   constructor() {
     super();
+    // Auto-scroll only once when the page is initially opened with URL filters.
+    this.hasAutoScrolled = false;
+    this.shouldAutoScroll = new URLSearchParams(window.location.search).toString() !== '';
     this.activeFilters = {
       cat: [],
       prod: [],
@@ -720,6 +723,23 @@ class BlogSearch extends HTMLElement {
       : sortArticlesByPublicationDate(facetFilteredData);
     this.updateFilterCounts(facetFilteredData);
     await this.renderExplorePage(orderedData, 0, searchTerms);
+    // Auto-scroll only once when the page is opened with filters in the URL.
+    this.scrollToResultsIfFiltered();
+  }
+
+  scrollToResultsIfFiltered() {
+    if (!this.shouldAutoScroll || this.hasAutoScrolled) {
+      return;
+    }
+
+    this.hasAutoScrolled = true;
+
+    requestAnimationFrame(() => {
+      this.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    });
   }
 
   async renderExplorePage(orderedData, offset, searchTerms) {

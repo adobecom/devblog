@@ -495,9 +495,38 @@ async function buildArticleHeader(el) {
   el.prepend(div);
 }
 
+function getMetaValues(name) {
+  return [...document.head.querySelectorAll(`meta[property="${name}"], meta[name="${name}"]`)]
+    .map((el) => el.getAttribute('content') || el.content || '')
+    .flatMap((value) => value.split(',').map((item) => item.trim()).filter(Boolean));
+}
+
+export function buildTagItems({
+  cloudValues = getMetaValues('adobe-cloud'),
+  appValues = getMetaValues('adobe-app'),
+  articleTagValues = getMetaValues('article:tag'),
+} = {}) {
+  const seen = new Set();
+  const items = [];
+
+  const addItem = (value, source) => {
+    const normalized = value.trim();
+    if (!normalized) return;
+    const key = normalized.toLowerCase();
+    if (seen.has(key)) return;
+    seen.add(key);
+    items.push({ value: normalized, source });
+  };
+
+  cloudValues.forEach((value) => addItem(value, 'cloud'));
+  appValues.forEach((value) => addItem(value, 'app'));
+  articleTagValues.forEach((value) => addItem(value, 'topic'));
+
+  return items;
+}
+
 function buildTagsBlock() {
-  const tagsArray = [...document.head.querySelectorAll('meta[property="article:tag"]')].map((el) => el.content) || [];
-  const tagsBlock = buildBlock('tags', tagsArray.join(', '));
+  const tagsBlock = buildBlock('tags', buildTagItems().map(({ value }) => value).join(', '));
   document.querySelector('main')?.lastElementChild.append(tagsBlock);
 }
 
