@@ -35,11 +35,11 @@
       "date": "",
       "title": "UXP Changelog and Product Support Matrix",
       "author": "Kasi Viswanathan K",
-      "description": "Adobe's Unified eXtensibility Platform (UXP) continues to evolve with every release, bringing new capabilities, closer alignment with web standards, and important stability fixes to plugin ...",
-      "tags": "[\"UXP\",\"Changelog\"]",
+      "description": "See what's new in UXP 9.0 through 9.4, including opt-in exception reporting, and check which UXP version ships with your Photoshop, Premiere, or InDesign build.",
+      "tags": "[\"UXP\",\"Changelog\",\"Plugin Development\"]",
       "imageAlt": "New and old employees on the DevEx team",
       "robots": "",
-      "lastModified": "1785364525",
+      "lastModified": "1785490231",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1785283200",
       "sortDate": "2026-07-29",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-31T05:57:39.474Z"
+  "generatedAt": "2026-07-31T09:48:58.452Z"
 }
