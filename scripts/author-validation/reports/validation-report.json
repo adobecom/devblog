@@ -17,23 +17,6 @@
     ]
   },
   {
-    "name": "Ash Ryan Arnwine",
-    "slug": "ash-ryan-arnwine",
-    "latestArticle": {
-      "title": "Using ES2015 template strings in CEP",
-      "date": "2018-02-08",
-      "url": "https://blog.developer.adobe.com/en/publish/2019/06/using-es2015-template-strings-in-cep"
-    },
-    "docUrl": "/en/authors/ash-ryan-arnwine",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Steve Kwak",
     "slug": "steve-kwak",
     "latestArticle": {
@@ -51,6 +34,23 @@
     ]
   },
   {
+    "name": "Ash Ryan Arnwine",
+    "slug": "ash-ryan-arnwine",
+    "latestArticle": {
+      "title": "Using ES2015 template strings in CEP",
+      "date": "2018-02-08",
+      "url": "https://blog.developer.adobe.com/en/publish/2019/06/using-es2015-template-strings-in-cep"
+    },
+    "docUrl": "/en/authors/ash-ryan-arnwine",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
     "name": "Abhishek Jain",
     "slug": "abhishek-jain",
     "latestArticle": {
@@ -59,6 +59,40 @@
       "url": "https://blog.developer.adobe.com/en/publish/2023/01/troubleshoot-issues-installing-extensions-and-add-ons-for-creative-cloud-apps"
     },
     "docUrl": "/en/authors/abhishek-jain",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Sharayoo Jog",
+    "slug": "sharayoo-jog",
+    "latestArticle": {
+      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
+      "date": "2021-11-30",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
+    },
+    "docUrl": "/en/authors/sharayoo-jog",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Ashikka Gupta",
+    "slug": "ashikka-gupta",
+    "latestArticle": {
+      "title": "Building an Image Search Plugin for Photoshop",
+      "date": "2021-12-31",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/03/building-an-image-search-plugin-for-photoshop"
+    },
+    "docUrl": "/en/authors/ashikka-gupta",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -93,40 +127,6 @@
       "url": "https://blog.developer.adobe.com/en/publish/2020/09/make-yourself-a-power-user-indesign-scripting"
     },
     "docUrl": "/en/authors/mike-zahorik",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Ashikka Gupta",
-    "slug": "ashikka-gupta",
-    "latestArticle": {
-      "title": "Building an Image Search Plugin for Photoshop",
-      "date": "2021-12-31",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/03/building-an-image-search-plugin-for-photoshop"
-    },
-    "docUrl": "/en/authors/ashikka-gupta",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Sharayoo Jog",
-    "slug": "sharayoo-jog",
-    "latestArticle": {
-      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
-      "date": "2021-11-30",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
-    },
-    "docUrl": "/en/authors/sharayoo-jog",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -187,23 +187,6 @@
     ]
   },
   {
-    "name": "Honwai Wong",
-    "slug": "honwai-wong",
-    "latestArticle": {
-      "title": "Powering Adobe MAX with App Builder and I/O Runtime",
-      "date": "2022-01-17",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/00/powering-adobe-max-with-app-builder-io-runtime"
-    },
-    "docUrl": "/en/authors/honwai-wong",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Pratibha Sharma",
     "slug": "pratibha-sharma",
     "latestArticle": {
@@ -221,12 +204,29 @@
     ]
   },
   {
+    "name": "Honwai Wong",
+    "slug": "honwai-wong",
+    "latestArticle": {
+      "title": "Powering Adobe MAX with App Builder and I/O Runtime",
+      "date": "2022-01-17",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/00/powering-adobe-max-with-app-builder-io-runtime"
+    },
+    "docUrl": "/en/authors/honwai-wong",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
     "name": "Kelvin Xu",
     "slug": "kelvin-xu",
     "latestArticle": {
-      "title": "Adobe Developer App Builder — The Power of Scaling at Your Fingertips",
-      "date": "2022-05-13",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/05/adobe-app-builder-the-power-of-scaling-at-your-fingertips-8ae1149b7ebd"
+      "title": "Adobe Developer App Builder — Support for Setting Response Headers",
+      "date": "2023-06-07",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/06/adobe-developer-app-builder-support-for-setting-response-headers"
     },
     "docUrl": "/en/authors/kelvin-xu",
     "hasDoc": false,
@@ -323,14 +323,167 @@
     ]
   },
   {
-    "name": "Geoffrey Nwachukwu",
-    "slug": "geoffrey-nwachukwu",
+    "name": "Oleg Posyniak",
+    "slug": "oleg-posyniak",
     "latestArticle": {
-      "title": "Build Adobe Express Add-ons Faster with Agent Skills",
-      "date": "2026-07-21",
-      "url": "https://blog.developer.adobe.com/en/publish/2026/drafts/build-adobe-express-add-ons-faster-with-agent-skills"
+      "title": "Boosting Extensibility of Adobe Commerce with App Builder: Developer Best Practices",
+      "date": "2023-08-29",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/08/boosting-extensibility-of-adobe-commerce-with-app-builder-developer-best-practices"
     },
-    "docUrl": "/en/authors/geoffrey-nwachukwu",
+    "docUrl": "/en/authors/oleg-posyniak",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Arun Nagpal",
+    "slug": "arun-nagpal",
+    "latestArticle": {
+      "title": "Generative AI Capabilities in Adobe Experience Manager and Assets Collaboration",
+      "date": "2024-07-22",
+      "url": "https://blog.developer.adobe.com/en/publish/2024/07/generative-ai-capabilities-in-adobe-experience-manager-and-assets-collaboration"
+    },
+    "docUrl": "/en/authors/arun-nagpal",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Walter Kimaro",
+    "slug": "walter-kimaro",
+    "latestArticle": {
+      "title": "My Experience Building an Adobe Express Add-on",
+      "date": "2023-08-04",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/08/my-experience-building-an-adobe-express-add-on"
+    },
+    "docUrl": "/en/authors/walter-kimaro",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Sandeep Paliwal",
+    "slug": "sandeep-paliwal",
+    "latestArticle": {
+      "title": "Adobe Developer App Builder — Support for Setting Response Headers",
+      "date": "2023-07-21",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/07/adobe-developer-app-builder-support-for-setting-response-headers"
+    },
+    "docUrl": "/en/authors/sandeep-paliwal",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Achim Koch",
+    "slug": "achim-koch",
+    "latestArticle": {
+      "title": "AEM Dispatcher — Create the Perfect Caching Architecture",
+      "date": "2023-05-23",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/05/aem-dispatcher-create-the-perfect-caching-architecture"
+    },
+    "docUrl": "/en/authors/achim-koch",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Avanish Gandhi",
+    "slug": "avanish-gandhi",
+    "latestArticle": {
+      "title": "Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace",
+      "date": "2023-02-23",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace"
+    },
+    "docUrl": "/en/authors/avanish-gandhi",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Tony Evers",
+    "slug": "tony-evers",
+    "latestArticle": {
+      "title": "Distributing Adobe Commerce Patches at Scale",
+      "date": "2023-05-08",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/05/distributing-adobe-commerce-patches-at-scale"
+    },
+    "docUrl": "/en/authors/tony-evers",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Pat Hyde",
+    "slug": "pat-hyde",
+    "latestArticle": {
+      "title": "How to Use the Adobe Developer App Builder Template Registry",
+      "date": "2022-07-11",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/11/how-to-use-the-adobe-developer-app-builder-template-registry"
+    },
+    "docUrl": "/en/authors/pat-hyde",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Jeff Chasin",
+    "slug": "jeff-chasin",
+    "latestArticle": {
+      "title": "Datafacts — An Adobe Developer App Builder Application for Adobe Experience Platform",
+      "date": "2021-09-03",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/09/datafacts-an-adobe-developer-app-builder-application-for-adobe-experience-platform"
+    },
+    "docUrl": "/en/authors/jeff-chasin",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "John Hill",
+    "slug": "john-hill",
+    "latestArticle": {
+      "title": "Finding Your Feet with Adobe Developer App Builder",
+      "date": "2025-06-27",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/08/finding-your-feet-with-adobe-developer-app-builder"
+    },
+    "docUrl": "/en/authors/john-hill",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",

@@ -20,6 +20,26 @@
     "isComplete": false
   },
   {
+    "name": "Achim Koch",
+    "slug": "achim-koch",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/achim-koch",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/achim-koch",
+    "docImage": "",
+    "image": "/images/authors/achim-koch.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "AEM Dispatcher — Create the Perfect Caching Architecture",
+      "date": "2023-05-23"
+    },
+    "isComplete": false
+  },
+  {
     "name": "Aishwarya Khandelwal",
     "slug": "aishwarya-khandelwal",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/aishwarya-khandelwal",
@@ -63,6 +83,26 @@
       "date": "2024-04-10"
     },
     "isComplete": true
+  },
+  {
+    "name": "Arun Nagpal",
+    "slug": "arun-nagpal",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/arun-nagpal",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/arun-nagpal",
+    "docImage": "",
+    "image": "/images/authors/arun-nagpal.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Generative AI Capabilities in Adobe Experience Manager and Assets Collaboration",
+      "date": "2024-07-22"
+    },
+    "isComplete": false
   },
   {
     "name": "Arvind Sridhar",
@@ -163,6 +203,26 @@
       "date": "2024-10-11"
     },
     "isComplete": true
+  },
+  {
+    "name": "Avanish Gandhi",
+    "slug": "avanish-gandhi",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/avanish-gandhi",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/avanish-gandhi",
+    "docImage": "",
+    "image": "/images/authors/avanish-gandhi.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace",
+      "date": "2023-02-23"
+    },
+    "isComplete": false
   },
   {
     "name": "Ayan Choudhary",
@@ -390,24 +450,54 @@
     "isComplete": true
   },
   {
+    "name": "Fardeen Mansoori",
+    "slug": "fardeen-mansoori",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/fardeen-mansoori",
+    "title": "Adobe Developer Champion",
+    "linkedin": "https://www.linkedin.com/in/fardeenmansoori/",
+    "links": [
+      {
+        "url": "https://fardeen.me",
+        "label": "Portfolio"
+      }
+    ],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": true,
+    "hasDoc": true,
+    "docUrl": "/en/authors/fardeen-mansoori",
+    "docImage": "./media_1c0808aeb579ad9d4c30d0284b636f38e4d43a396.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
+    "image": "/images/authors/fardeen-mansoori.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "How to Fix CORS Errors in Your Adobe Express Add-on",
+      "date": "2026-05-31"
+    },
+    "isComplete": true
+  },
+  {
     "name": "Geoffrey Nwachukwu",
     "slug": "geoffrey-nwachukwu",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/geoffrey-nwachukwu",
-    "title": "",
-    "linkedin": "",
-    "links": [],
+    "title": "Design Engineer | I build tools that empower creative professionals to be productive in the AI era.",
+    "linkedin": "https://www.linkedin.com/in/geoffrey-nwachukwu-424251b0/",
+    "links": [
+      {
+        "url": "http://www.edgidesign.com",
+        "label": "Edgi"
+      }
+    ],
     "isAdobeEmployee": false,
-    "isDeveloperChampion": false,
-    "hasDoc": false,
+    "isDeveloperChampion": true,
+    "hasDoc": true,
     "docUrl": "/en/authors/geoffrey-nwachukwu",
-    "docImage": "",
+    "docImage": "./media_107944019546b9fa9eef1ebd43acc04dd8de2333f.png?width=750&#x26;format=png&#x26;optimize=medium",
     "image": "/images/authors/geoffrey-nwachukwu.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
       "title": "Build Adobe Express Add-ons Faster with Agent Skills",
-      "date": "2026-07-21"
+      "date": "2026-07-31"
     },
-    "isComplete": false
+    "isComplete": true
   },
   {
     "name": "Honwai Wong",
@@ -453,6 +543,46 @@
       "date": "2026-04-28"
     },
     "isComplete": true
+  },
+  {
+    "name": "Jeff Chasin",
+    "slug": "jeff-chasin",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/jeff-chasin",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/jeff-chasin",
+    "docImage": "",
+    "image": "/images/authors/jeff-chasin.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Datafacts — An Adobe Developer App Builder Application for Adobe Experience Platform",
+      "date": "2021-09-03"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "John Hill",
+    "slug": "john-hill",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/john-hill",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/john-hill",
+    "docImage": "",
+    "image": "/images/authors/john-hill.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Finding Your Feet with Adobe Developer App Builder",
+      "date": "2025-06-27"
+    },
+    "isComplete": false
   },
   {
     "name": "Justin Taylor",
@@ -514,8 +644,8 @@
     "image": "/images/authors/kasi-viswanathan-k.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
-      "title": "Meet the new team members who build, support, and improve UXP for third-party developers",
-      "date": "2026-06-15"
+      "title": "UXP Changelog and Product Support Matrix",
+      "date": "2026-07-29"
     },
     "isComplete": true
   },
@@ -534,8 +664,8 @@
     "image": "/images/authors/kelvin-xu.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
-      "title": "Adobe Developer App Builder — The Power of Scaling at Your Fingertips",
-      "date": "2022-05-13"
+      "title": "Adobe Developer App Builder — Support for Setting Response Headers",
+      "date": "2023-06-07"
     },
     "isComplete": false
   },
@@ -690,6 +820,26 @@
     "isComplete": false
   },
   {
+    "name": "Oleg Posyniak",
+    "slug": "oleg-posyniak",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/oleg-posyniak",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/oleg-posyniak",
+    "docImage": "",
+    "image": "/images/authors/oleg-posyniak.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Boosting Extensibility of Adobe Commerce with App Builder: Developer Best Practices",
+      "date": "2023-08-29"
+    },
+    "isComplete": false
+  },
+  {
     "name": "Padma Krishnamoorthy",
     "slug": "padma-krishnamoorthy",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/padma-krishnamoorthy",
@@ -708,6 +858,26 @@
       "date": "2026-07-20"
     },
     "isComplete": true
+  },
+  {
+    "name": "Pat Hyde",
+    "slug": "pat-hyde",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/pat-hyde",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/pat-hyde",
+    "docImage": "",
+    "image": "/images/authors/pat-hyde.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "How to Use the Adobe Developer App Builder Template Registry",
+      "date": "2022-07-11"
+    },
+    "isComplete": false
   },
   {
     "name": "Pratibha Sharma",
@@ -808,6 +978,26 @@
       "date": "2025-10-20"
     },
     "isComplete": true
+  },
+  {
+    "name": "Sandeep Paliwal",
+    "slug": "sandeep-paliwal",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/sandeep-paliwal",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/sandeep-paliwal",
+    "docImage": "",
+    "image": "/images/authors/sandeep-paliwal.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Adobe Developer App Builder — Support for Setting Response Headers",
+      "date": "2023-07-21"
+    },
+    "isComplete": false
   },
   {
     "name": "Sayan Jain",
@@ -983,5 +1173,45 @@
       "date": "2020-02-12"
     },
     "isComplete": true
+  },
+  {
+    "name": "Tony Evers",
+    "slug": "tony-evers",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/tony-evers",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/tony-evers",
+    "docImage": "",
+    "image": "/images/authors/tony-evers.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Distributing Adobe Commerce Patches at Scale",
+      "date": "2023-05-08"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Walter Kimaro",
+    "slug": "walter-kimaro",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/walter-kimaro",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/walter-kimaro",
+    "docImage": "",
+    "image": "/images/authors/walter-kimaro.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "My Experience Building an Adobe Express Add-on",
+      "date": "2023-08-04"
+    },
+    "isComplete": false
   }
 ]
