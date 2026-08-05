@@ -4,6 +4,32 @@
   "limit": 110,
   "data": [
     {
+      "path": "/en/publish/2026/07/uxp-changelog-and-support-matrix",
+      "image": "/en/publish/2026/07/media_15f52e6ad8ce092233aed463d194cbee7ec7e0bf5.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "UXP Changelog and Product Support Matrix",
+      "author": "Kasi Viswanathan K",
+      "description": "See what's new in UXP 9.0 through 9.4, including opt-in exception reporting, and check which UXP version ships with your Photoshop, Premiere, or InDesign build.",
+      "tags": "[\"UXP\",\"Changelog\",\"Plugin Development\"]",
+      "imageAlt": "New and old employees on the DevEx team",
+      "robots": "",
+      "lastModified": "1785923510",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1785283200",
+      "sortDate": "2026-07-29",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "2026-08-05",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "InDesign, Photoshop, Premiere",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "July 2026",
+      "newsletterPublished": "",
+      "importer": "",
+      "isHeroVideo": false
+    },
+    {
       "path": "/en/publish/2026/07/build-adobe-express-add-ons-faster-with-agent-skills",
       "image": "/vi/-K79P_corYU/maxresdefault.jpg",
       "date": "",
@@ -28,32 +54,6 @@
       "newsletterPublished": "",
       "importer": "",
       "isHeroVideo": true
-    },
-    {
-      "path": "/en/publish/2026/07/uxp-changelog-and-support-matrix",
-      "image": "/en/publish/2026/07/media_15f52e6ad8ce092233aed463d194cbee7ec7e0bf5.png?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "UXP Changelog and Product Support Matrix",
-      "author": "Kasi Viswanathan K",
-      "description": "See what's new in UXP 9.0 through 9.4, including opt-in exception reporting, and check which UXP version ships with your Photoshop, Premiere, or InDesign build.",
-      "tags": "[\"UXP\",\"Changelog\",\"Plugin Development\"]",
-      "imageAlt": "New and old employees on the DevEx team",
-      "robots": "",
-      "lastModified": "1785923370",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1785283200",
-      "sortDate": "2026-07-29",
-      "sortDateTimestampLegacy": "",
-      "updatedDate": "",
-      "adobeCloud": "Creative Cloud",
-      "adobeApp": "InDesign, Photoshop, Premiere",
-      "mediaUrl": "",
-      "metaTitle": "",
-      "shortDescription": "",
-      "newsletterPlanned": "July 2026",
-      "newsletterPublished": "",
-      "importer": "",
-      "isHeroVideo": false
     },
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-05T09:52:40.448Z"
+  "generatedAt": "2026-08-05T10:18:03.934Z"
 }
