@@ -5,15 +5,15 @@
   "data": [
     {
       "path": "/en/publish/2026/07/uxp-changelog-and-support-matrix",
-      "image": "/en/publish/2026/07/media_15f52e6ad8ce092233aed463d194cbee7ec7e0bf5.png?width=1200&format=pjpg&optimize=medium",
+      "image": "/en/publish/2026/07/media_1727b6adbcf5195d35acc0802988025c888bfa2cc.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "UXP Changelog and Product Support Matrix",
       "author": "Kasi Viswanathan K",
       "description": "See what's new in UXP 9.0 through 9.4, including opt-in exception reporting, and check which UXP version ships with your Photoshop, Premiere, or InDesign build.",
       "tags": "[\"UXP\",\"Changelog\",\"Plugin Development\"]",
-      "imageAlt": "New and old employees on the DevEx team",
+      "imageAlt": "",
       "robots": "",
-      "lastModified": "1785923510",
+      "lastModified": "1785925043",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1785283200",
       "sortDate": "2026-07-29",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-05T10:18:03.934Z"
+  "generatedAt": "2026-08-05T12:03:20.769Z"
 }
