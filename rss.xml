@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2026 10:17:23 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 05:24:21 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -28,8 +28,8 @@
       <description><![CDATA[Turn your AI assistant into a specialized Adobe Express architect. A Developer Champion's open-source Agent Skills collection — how it works and how to install it.]]></description>
       <dc:creator><![CDATA[Geoffrey Nwachukwu]]></dc:creator>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://i.ytimg.com/vi/-K79P_corYU/maxresdefault.jpg" type="image/jpeg" length="0"/>
-      <media:content url="https://i.ytimg.com/vi/-K79P_corYU/maxresdefault.jpg" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/07/media_17a0562f7cfafbba8d17e31cfc7d0be3ebf87868d.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/07/media_17a0562f7cfafbba8d17e31cfc7d0be3ebf87868d.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Is Your Adobe Express Add-on Ready for Large Document Support?]]></title>
