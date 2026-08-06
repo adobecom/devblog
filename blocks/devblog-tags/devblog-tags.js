@@ -27,7 +27,9 @@ export default async function init(blockEl) {
       params.set('prod', value);
       a.href = `${window.location.origin}/?${params.toString()}`;
     } else {
-      a.href = `${SITE.topicsRoot}/${value}`;
+      const params = new URLSearchParams();
+      params.set('cat', value);
+      a.href = `${window.location.origin}/?${params.toString()}`;
     }
 
     a.textContent = value;
