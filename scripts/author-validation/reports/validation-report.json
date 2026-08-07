@@ -17,14 +17,14 @@
     ]
   },
   {
-    "name": "Steve Kwak",
-    "slug": "steve-kwak",
+    "name": "Ash Ryan Arnwine",
+    "slug": "ash-ryan-arnwine",
     "latestArticle": {
-      "title": "How to Customize Your Adobe Creative Cloud Extension Package",
-      "date": "2018-08-21",
-      "url": "https://blog.developer.adobe.com/en/publish/2019/06/how-to-customize-your-adobe-creative-cloud-extension-package"
+      "title": "Using ES2015 template strings in CEP",
+      "date": "2018-02-08",
+      "url": "https://blog.developer.adobe.com/en/publish/2019/06/using-es2015-template-strings-in-cep"
     },
-    "docUrl": "/en/authors/steve-kwak",
+    "docUrl": "/en/authors/ash-ryan-arnwine",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -34,14 +34,14 @@
     ]
   },
   {
-    "name": "Ash Ryan Arnwine",
-    "slug": "ash-ryan-arnwine",
+    "name": "Steve Kwak",
+    "slug": "steve-kwak",
     "latestArticle": {
-      "title": "Using ES2015 template strings in CEP",
-      "date": "2018-02-08",
-      "url": "https://blog.developer.adobe.com/en/publish/2019/06/using-es2015-template-strings-in-cep"
+      "title": "How to Customize Your Adobe Creative Cloud Extension Package",
+      "date": "2018-08-21",
+      "url": "https://blog.developer.adobe.com/en/publish/2019/06/how-to-customize-your-adobe-creative-cloud-extension-package"
     },
-    "docUrl": "/en/authors/ash-ryan-arnwine",
+    "docUrl": "/en/authors/steve-kwak",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -68,14 +68,14 @@
     ]
   },
   {
-    "name": "Ayan Choudhary",
-    "slug": "ayan-choudhary",
+    "name": "Sharayoo Jog",
+    "slug": "sharayoo-jog",
     "latestArticle": {
-      "title": "Developing an OAuth Sample for Adobe Photoshop",
-      "date": "2021-05-18",
-      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
+      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
+      "date": "2021-11-30",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
     },
-    "docUrl": "/en/authors/ayan-choudhary",
+    "docUrl": "/en/authors/sharayoo-jog",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -102,14 +102,14 @@
     ]
   },
   {
-    "name": "Sharayoo Jog",
-    "slug": "sharayoo-jog",
+    "name": "Ayan Choudhary",
+    "slug": "ayan-choudhary",
     "latestArticle": {
-      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
-      "date": "2021-11-30",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
+      "title": "Developing an OAuth Sample for Adobe Photoshop",
+      "date": "2021-05-18",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
     },
-    "docUrl": "/en/authors/sharayoo-jog",
+    "docUrl": "/en/authors/ayan-choudhary",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -136,14 +136,14 @@
     ]
   },
   {
-    "name": "Kerri Shotts",
-    "slug": "kerri-shotts",
+    "name": "Namita Krishnan",
+    "slug": "namita-krishnan",
     "latestArticle": {
-      "title": "Adobe Express Add-ons: What’s New and Coming Up for Developers",
-      "date": "2025-06-27",
-      "url": "https://blog.developer.adobe.com/en/publish/2025/06/adobe-express-add-ons-whats-new-and-coming-up-for-developers"
+      "title": "Show, Don’t Tell: Multimodal Answers in AI Assistant in Adobe Experience Platform",
+      "date": "2025-06-13",
+      "url": "https://blog.developer.adobe.com/en/publish/2025/06/show-dont-tell-multimodal-answers-in-ai-assistant-in-adobe-experience-platform"
     },
-    "docUrl": "/en/authors/kerri-shotts",
+    "docUrl": "/en/authors/namita-krishnan",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -153,14 +153,14 @@
     ]
   },
   {
-    "name": "Namita Krishnan",
-    "slug": "namita-krishnan",
+    "name": "Kerri Shotts",
+    "slug": "kerri-shotts",
     "latestArticle": {
-      "title": "Show, Don’t Tell: Multimodal Answers in AI Assistant in Adobe Experience Platform",
-      "date": "2025-06-13",
-      "url": "https://blog.developer.adobe.com/en/publish/2025/06/show-dont-tell-multimodal-answers-in-ai-assistant-in-adobe-experience-platform"
+      "title": "Adobe Express Add-ons: What’s New and Coming Up for Developers",
+      "date": "2025-06-27",
+      "url": "https://blog.developer.adobe.com/en/publish/2025/06/adobe-express-add-ons-whats-new-and-coming-up-for-developers"
     },
-    "docUrl": "/en/authors/namita-krishnan",
+    "docUrl": "/en/authors/kerri-shotts",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -374,14 +374,14 @@
     ]
   },
   {
-    "name": "Achim Koch",
-    "slug": "achim-koch",
+    "name": "Sandeep Paliwal",
+    "slug": "sandeep-paliwal",
     "latestArticle": {
-      "title": "AEM Dispatcher — Create the Perfect Caching Architecture",
-      "date": "2023-05-23",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/05/aem-dispatcher-create-the-perfect-caching-architecture"
+      "title": "Adobe Developer App Builder — Support for Setting Response Headers",
+      "date": "2023-07-21",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/07/adobe-developer-app-builder-support-for-setting-response-headers"
     },
-    "docUrl": "/en/authors/achim-koch",
+    "docUrl": "/en/authors/sandeep-paliwal",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -391,14 +391,14 @@
     ]
   },
   {
-    "name": "Sandeep Paliwal",
-    "slug": "sandeep-paliwal",
+    "name": "Achim Koch",
+    "slug": "achim-koch",
     "latestArticle": {
-      "title": "Adobe Developer App Builder — Support for Setting Response Headers",
-      "date": "2023-07-21",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/07/adobe-developer-app-builder-support-for-setting-response-headers"
+      "title": "AEM Dispatcher — Create the Perfect Caching Architecture",
+      "date": "2023-05-23",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/05/aem-dispatcher-create-the-perfect-caching-architecture"
     },
-    "docUrl": "/en/authors/sandeep-paliwal",
+    "docUrl": "/en/authors/achim-koch",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -442,14 +442,14 @@
     ]
   },
   {
-    "name": "Pat Hyde",
-    "slug": "pat-hyde",
+    "name": "Jeff Chasin",
+    "slug": "jeff-chasin",
     "latestArticle": {
-      "title": "How to Use the Adobe Developer App Builder Template Registry",
-      "date": "2022-07-11",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/11/how-to-use-the-adobe-developer-app-builder-template-registry"
+      "title": "Datafacts — An Adobe Developer App Builder Application for Adobe Experience Platform",
+      "date": "2021-09-03",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/09/datafacts-an-adobe-developer-app-builder-application-for-adobe-experience-platform"
     },
-    "docUrl": "/en/authors/pat-hyde",
+    "docUrl": "/en/authors/jeff-chasin",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -459,14 +459,14 @@
     ]
   },
   {
-    "name": "Jeff Chasin",
-    "slug": "jeff-chasin",
+    "name": "Pat Hyde",
+    "slug": "pat-hyde",
     "latestArticle": {
-      "title": "Datafacts — An Adobe Developer App Builder Application for Adobe Experience Platform",
-      "date": "2021-09-03",
-      "url": "https://blog.developer.adobe.com/en/publish/2021/09/datafacts-an-adobe-developer-app-builder-application-for-adobe-experience-platform"
+      "title": "How to Use the Adobe Developer App Builder Template Registry",
+      "date": "2022-07-11",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/11/how-to-use-the-adobe-developer-app-builder-template-registry"
     },
-    "docUrl": "/en/authors/jeff-chasin",
+    "docUrl": "/en/authors/pat-hyde",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
