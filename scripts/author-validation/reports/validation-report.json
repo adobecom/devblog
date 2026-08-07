@@ -68,14 +68,14 @@
     ]
   },
   {
-    "name": "Sharayoo Jog",
-    "slug": "sharayoo-jog",
+    "name": "Ayan Choudhary",
+    "slug": "ayan-choudhary",
     "latestArticle": {
-      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
-      "date": "2021-11-30",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
+      "title": "Developing an OAuth Sample for Adobe Photoshop",
+      "date": "2021-05-18",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
     },
-    "docUrl": "/en/authors/sharayoo-jog",
+    "docUrl": "/en/authors/ayan-choudhary",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -102,14 +102,14 @@
     ]
   },
   {
-    "name": "Ayan Choudhary",
-    "slug": "ayan-choudhary",
+    "name": "Sharayoo Jog",
+    "slug": "sharayoo-jog",
     "latestArticle": {
-      "title": "Developing an OAuth Sample for Adobe Photoshop",
-      "date": "2021-05-18",
-      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
+      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
+      "date": "2021-11-30",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
     },
-    "docUrl": "/en/authors/ayan-choudhary",
+    "docUrl": "/en/authors/sharayoo-jog",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -170,14 +170,14 @@
     ]
   },
   {
-    "name": "Asim Chatterjee",
-    "slug": "asim-chatterjee",
+    "name": "Pratibha Sharma",
+    "slug": "pratibha-sharma",
     "latestArticle": {
       "title": "Leveraging Propensity Models: Marketing that Thinks Like Your Customer",
       "date": "2025-06-09",
       "url": "https://blog.developer.adobe.com/en/publish/2025/06/leveraging-propensity-models-marketing-that-thinks-like-your-customer"
     },
-    "docUrl": "/en/authors/asim-chatterjee",
+    "docUrl": "/en/authors/pratibha-sharma",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -187,14 +187,14 @@
     ]
   },
   {
-    "name": "Pratibha Sharma",
-    "slug": "pratibha-sharma",
+    "name": "Asim Chatterjee",
+    "slug": "asim-chatterjee",
     "latestArticle": {
       "title": "Leveraging Propensity Models: Marketing that Thinks Like Your Customer",
       "date": "2025-06-09",
       "url": "https://blog.developer.adobe.com/en/publish/2025/06/leveraging-propensity-models-marketing-that-thinks-like-your-customer"
     },
-    "docUrl": "/en/authors/pratibha-sharma",
+    "docUrl": "/en/authors/asim-chatterjee",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -323,14 +323,14 @@
     ]
   },
   {
-    "name": "Oleg Posyniak",
-    "slug": "oleg-posyniak",
+    "name": "Arun Nagpal",
+    "slug": "arun-nagpal",
     "latestArticle": {
-      "title": "Boosting Extensibility of Adobe Commerce with App Builder: Developer Best Practices",
-      "date": "2023-08-29",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/08/boosting-extensibility-of-adobe-commerce-with-app-builder-developer-best-practices"
+      "title": "Generative AI Capabilities in Adobe Experience Manager and Assets Collaboration",
+      "date": "2024-07-22",
+      "url": "https://blog.developer.adobe.com/en/publish/2024/07/generative-ai-capabilities-in-adobe-experience-manager-and-assets-collaboration"
     },
-    "docUrl": "/en/authors/oleg-posyniak",
+    "docUrl": "/en/authors/arun-nagpal",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -340,14 +340,14 @@
     ]
   },
   {
-    "name": "Arun Nagpal",
-    "slug": "arun-nagpal",
+    "name": "Oleg Posyniak",
+    "slug": "oleg-posyniak",
     "latestArticle": {
-      "title": "Generative AI Capabilities in Adobe Experience Manager and Assets Collaboration",
-      "date": "2024-07-22",
-      "url": "https://blog.developer.adobe.com/en/publish/2024/07/generative-ai-capabilities-in-adobe-experience-manager-and-assets-collaboration"
+      "title": "Boosting Extensibility of Adobe Commerce with App Builder: Developer Best Practices",
+      "date": "2023-08-29",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/08/boosting-extensibility-of-adobe-commerce-with-app-builder-developer-best-practices"
     },
-    "docUrl": "/en/authors/arun-nagpal",
+    "docUrl": "/en/authors/oleg-posyniak",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -374,23 +374,6 @@
     ]
   },
   {
-    "name": "Sandeep Paliwal",
-    "slug": "sandeep-paliwal",
-    "latestArticle": {
-      "title": "Adobe Developer App Builder — Support for Setting Response Headers",
-      "date": "2023-07-21",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/07/adobe-developer-app-builder-support-for-setting-response-headers"
-    },
-    "docUrl": "/en/authors/sandeep-paliwal",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Achim Koch",
     "slug": "achim-koch",
     "latestArticle": {
@@ -408,14 +391,14 @@
     ]
   },
   {
-    "name": "Avanish Gandhi",
-    "slug": "avanish-gandhi",
+    "name": "Sandeep Paliwal",
+    "slug": "sandeep-paliwal",
     "latestArticle": {
-      "title": "Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace",
-      "date": "2023-02-23",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace"
+      "title": "Adobe Developer App Builder — Support for Setting Response Headers",
+      "date": "2023-07-21",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/07/adobe-developer-app-builder-support-for-setting-response-headers"
     },
-    "docUrl": "/en/authors/avanish-gandhi",
+    "docUrl": "/en/authors/sandeep-paliwal",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -433,6 +416,23 @@
       "url": "https://blog.developer.adobe.com/en/publish/2023/05/distributing-adobe-commerce-patches-at-scale"
     },
     "docUrl": "/en/authors/tony-evers",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Avanish Gandhi",
+    "slug": "avanish-gandhi",
+    "latestArticle": {
+      "title": "Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace",
+      "date": "2023-02-23",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace"
+    },
+    "docUrl": "/en/authors/avanish-gandhi",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
