@@ -1807,13 +1807,13 @@
       "tags": "[\"response-header\",\"cli\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1785226600",
+      "lastModified": "1786454697",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1689897600",
       "sortDate": "2023-07-21",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Experience Cloud",
       "adobeApp": "Adobe Developer App Builder",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2171,13 +2171,13 @@
       "tags": "[\"yeoman\",\"api\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1785227187",
+      "lastModified": "1786454812",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1657497600",
       "sortDate": "2022-07-11",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Experience Cloud",
       "adobeApp": "Adobe Developer App Builder,Adobe Experience Manager (AEM)",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-11T13:25:24.194Z"
+  "generatedAt": "2026-08-11T13:27:21.943Z"
 }
