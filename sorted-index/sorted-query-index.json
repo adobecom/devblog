@@ -1024,16 +1024,16 @@
       "title": "Raising the Bar for AI Assistant in Adobe Experience Platform",
       "author": "Namita Krishnan",
       "description": "In a previous blog post, we explored how AI Assistant in Adobe Experience Platform is monitored and improved via an end-to-end evaluation framework, including how ...",
-      "tags": "[\"ai\",\"platform\",\"adobe-experience-platform\",\"enterprise-ai\",\"machine-learning\"]",
+      "tags": "[\"ai\",\"platform\",\"enterprise-ai\",\"machine-learning\"]",
       "imageAlt": "︎Some authors of the paper displaying the DSRI AI Incidents and Best Practices Paper Award won at the 39th Annual AAAI Conference on Artificial Intelligence.",
       "robots": "",
-      "lastModified": "1778225272",
+      "lastModified": "1786454351",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1743552000",
       "sortDate": "2025-04-02",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Experience Cloud",
       "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-11T13:19:37.344Z"
+  "generatedAt": "2026-08-11T13:22:20.684Z"
 }
