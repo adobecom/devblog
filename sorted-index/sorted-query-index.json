@@ -816,16 +816,16 @@
       "title": "Design Meets DAM: AEM Assets x Figma – A Turnkey Connector Is Here",
       "author": "Aishwarya Khandelwal",
       "description": "In a world where content is being created, personalized, and delivered faster than ever, one thing is clear — teams across design and development can’t ...",
-      "tags": "[\"aem-assets\",\"figma\",\"dam\",\"connector\"]",
+      "tags": "[\"Aem assets\",\"figma\",\"dam\",\"connector\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1785224011",
+      "lastModified": "1786454405",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1755734400",
       "sortDate": "2025-08-21",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Experience Cloud",
       "adobeApp": "Adobe Experience Manager (AEM)",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-11T13:22:20.684Z"
+  "generatedAt": "2026-08-11T13:24:25.047Z"
 }
