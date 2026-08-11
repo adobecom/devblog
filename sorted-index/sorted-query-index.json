@@ -2041,14 +2041,14 @@
       "tags": "[\"developer\",\"adobe-summit\",\"platform\",\"headless\",\"extensibility\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1785409626",
+      "lastModified": "1786453974",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1678924800",
       "sortDate": "2023-03-16",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
-      "adobeApp": "",
+      "adobeCloud": "Experience Cloud, Document Cloud",
+      "adobeApp": "Adobe Developer App Builder, Adobe Experience Manager (AEM)",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-11T13:14:24.610Z"
+  "generatedAt": "2026-08-11T13:15:42.480Z"
 }
