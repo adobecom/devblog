@@ -1102,16 +1102,16 @@
       "title": "AI Assistant in Adobe Experience Platform: Evaluation and Continual Improvement",
       "author": "Namita Krishnan",
       "description": "AI Assistant in Adobe Experience Platform represents a leap forward in building enterprise-grade applications in the Generative AI era. This article provides a behind-the-scenes account ...",
-      "tags": "[\"ai\",\"ai-assistant\",\"platform\",\"adobe-experience-platform\",\"generative-ai-tools\"]",
+      "tags": "[\"ai\",\"ai-assistant\",\"platform\",\"generative-ai-tools\"]",
       "imageAlt": "︎Image credits: Adobe Stock",
       "robots": "",
-      "lastModified": "1778224432",
+      "lastModified": "1786454224",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1738540800",
       "sortDate": "2025-02-03",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Experience Cloud",
       "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-11T13:17:45.900Z"
+  "generatedAt": "2026-08-11T13:19:37.344Z"
 }
