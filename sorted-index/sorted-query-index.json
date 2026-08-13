@@ -1595,11 +1595,11 @@
       "date": "",
       "title": "How WellSaid Labs Built Their Adobe Express Add-On",
       "author": "Colene Chow",
-      "description": "",
+      "description": "A trusted AI platform, WellSaid Labs enables users to turn text into voice-overs in seconds. They provide a simple and easy-to-understand UI through their Studio ...",
       "tags": "[\"add-ons\",\"wellsaid\",\"ai\"]",
       "imageAlt": "︎",
       "robots": "",
-      "lastModified": "1786598762",
+      "lastModified": "1786601601",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1702857600",
       "sortDate": "2023-12-18",
@@ -1881,11 +1881,11 @@
       "date": "",
       "title": "AEM Dispatcher — Create the Perfect Caching Architecture",
       "author": "Achim Koch",
-      "description": "",
+      "description": "A few thoughts on why developers should think about caching as a vital part of application design…",
       "tags": "[\"aem architect\",\"web performance\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1786463715",
+      "lastModified": "1786601639",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1684800000",
       "sortDate": "2023-05-23",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-13T06:11:16.711Z"
+  "generatedAt": "2026-08-13T06:14:58.533Z"
 }
