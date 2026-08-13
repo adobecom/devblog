@@ -177,35 +177,7 @@ indices:
         value: |
           attribute(el, 'content')
 
-      newsletterCaption:
-        select: head > meta[name="newsletter_caption"]
-        value: |
-          attribute(el, 'content')
 
-      linkedinCaption:
-        select: head > meta[name="linkedin_caption"]
-        value: |
-          attribute(el, 'content')
-
-      xCaption:
-        select: head > meta[name="x_caption"]
-        value: |
-          attribute(el, 'content')
-
-      expressDiscordCaption:
-        select: head > meta[name="express-discord_caption"]
-        value: |
-          attribute(el, 'content')
-
-      uxpForumsCaption:
-        select: head > meta[name="uxp-forums_caption"]
-        value: |
-          attribute(el, 'content')
-
-      devSlackCaption:
-        select: head > meta[name="devslack_caption"]
-        value: |
-          attribute(el, 'content')
 # The blog.a.c config includes multiple additional languages, similar to this:
 # french:
 #    <<: *default
