@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 15:56:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 06:15:41 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -548,8 +548,8 @@
       <description><![CDATA[Watermarks provide an important feature for PDFs by allowing you to ‘mark’ a document. This can be used to signify who the document was created ...]]></description>
       <dc:creator><![CDATA[Raymond Camden]]></dc:creator>
       <pubDate>Mon, 29 Jul 2024 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2024/07/media_18a539ff5569ee1b913ce34baeae699ddb5dc4e74.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2024/07/media_18a539ff5569ee1b913ce34baeae699ddb5dc4e74.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2024/07/media_1afd40c1fa839f4bbaf2052014d0cb77caeff21c8.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2024/07/media_1afd40c1fa839f4bbaf2052014d0cb77caeff21c8.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Generative AI Capabilities in Adobe Experience Manager and Assets Collaboration]]></title>
@@ -665,7 +665,7 @@
       <title><![CDATA[Trip Report: Summer ISO C++ Standards Meeting]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/09/trip-report-summer-iso-c-standards-meeting</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/09/trip-report-summer-iso-c-standards-meeting</guid>
-      <description><![CDATA[The June 2023 ISO/IEC C++ Varna meeting was my first in-person standards meeting since COVID.]]></description>
+      <description><![CDATA[]]></description>
       <dc:creator><![CDATA[David Sankel]]></dc:creator>
       <pubDate>Thu, 14 Sep 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/09/media_132f755d25f270bfcecdaa606ce5cd09e59f91a84.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
@@ -735,7 +735,7 @@
       <title><![CDATA[AEM Dispatcher — Create the Perfect Caching Architecture]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/05/aem-dispatcher-create-the-perfect-caching-architecture</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/05/aem-dispatcher-create-the-perfect-caching-architecture</guid>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[A few thoughts on why developers should think about caching as a vital part of application design…]]></description>
       <dc:creator><![CDATA[Achim Koch]]></dc:creator>
       <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/05/media_17c4233bb6d6b9e5639a0ae85794c8f9cb889d3d5.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
@@ -755,7 +755,7 @@
       <title><![CDATA[Distributing Adobe Commerce Patches at Scale]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/05/distributing-adobe-commerce-patches-at-scale</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/05/distributing-adobe-commerce-patches-at-scale</guid>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[If you own only one Adobe Commerce installation, applying patches is simple. But the more patches you apply and the more installations you maintain, the ...]]></description>
       <dc:creator><![CDATA[Tony Evers]]></dc:creator>
       <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/05/media_17a509f5cf44800c22a6cd92a4d2c2997b74a3f66.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
@@ -765,7 +765,7 @@
       <title><![CDATA[Find Out Why Your AEM Integration Is Not Working]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/04/find-out-why-your-aem-integration-is-not-working</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/04/find-out-why-your-aem-integration-is-not-working</guid>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[As AEM developers, we often encounter situations where third-party plugins are used to enhance the site’s functionality. Often you don’t have the plugin’s source code ...]]></description>
       <dc:creator><![CDATA[Achim Koch]]></dc:creator>
       <pubDate>Wed, 12 Apr 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/04/media_1c0ea0e4ac30cf2304a3cc01984a18b1f19e9ce70.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
@@ -825,7 +825,7 @@
       <title><![CDATA[Creative Cloud Plugin Marketplace Updates for Developers]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2022/09/creative-cloud-plugin-marketplace-updates-for-developers</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2022/09/creative-cloud-plugin-marketplace-updates-for-developers</guid>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[Editor’s Note: “Welcome Avanish Gandhi, a Senior Product Manager at Adobe to the Tech Blog! Avanish manages Marketplace and plugin developers Distribution experiences for plugins ...]]></description>
       <dc:creator><![CDATA[Avanish Gandhi]]></dc:creator>
       <pubDate>Thu, 22 Sep 2022 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2022/09/media_16772c95378b1afdac6986cd6cd060542f5ef8da8.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
