@@ -1933,11 +1933,11 @@
       "date": "",
       "title": "Distributing Adobe Commerce Patches at Scale",
       "author": "Tony Evers",
-      "description": "",
+      "description": "If you own only one Adobe Commerce installation, applying patches is simple. But the more patches you apply and the more installations you maintain, the ...",
       "tags": "[\"ecommerce\",\"php\",\"composer\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1786463766",
+      "lastModified": "1786601677",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1683504000",
       "sortDate": "2023-05-08",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-13T06:14:58.533Z"
+  "generatedAt": "2026-08-13T06:15:31.758Z"
 }
