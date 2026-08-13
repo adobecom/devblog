@@ -1959,11 +1959,11 @@
       "date": "",
       "title": "Find Out Why Your AEM Integration Is Not Working",
       "author": "Achim Koch",
-      "description": "",
+      "description": "As AEM developers, we often encounter situations where third-party plugins are used to enhance the site’s functionality. Often you don’t have the plugin’s source code ...",
       "tags": "[\"debugging\",\"integration architecture\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1786463650",
+      "lastModified": "1786601710",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1681257600",
       "sortDate": "2023-04-12",
@@ -2115,11 +2115,11 @@
       "date": "",
       "title": "Creative Cloud Plugin Marketplace Updates for Developers",
       "author": "Avanish Gandhi",
-      "description": "",
+      "description": "Editor’s Note: “Welcome Avanish Gandhi, a Senior Product Manager at Adobe to the Tech Blog! Avanish manages Marketplace and plugin developers Distribution experiences for plugins ...",
       "tags": "[\"plugins\",\"adobe exchange marketplace\",\"plugins marketplace\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1786463146",
+      "lastModified": "1786601741",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1663804800",
       "sortDate": "2022-09-22",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-13T06:15:31.758Z"
+  "generatedAt": "2026-08-13T06:20:39.984Z"
 }
