@@ -1031,6 +1031,19 @@ class BlogSearch extends HTMLElement {
     filterBar.querySelector('.filter-date-select')?.blur();
   }
 
+  reorderCheckedToTop(filterBar) {
+    filterBar.querySelectorAll('.filter-dropdown').forEach((dropdown) => {
+      const menu = dropdown.querySelector('ul');
+      if (!menu) return;
+      const checked = [...menu.querySelectorAll('li.facet-option')].filter((li) => li.querySelector('input')?.checked);
+      const unchecked = [...menu.querySelectorAll('li.facet-option')].filter((li) => !li.querySelector('input')?.checked);
+      const searchItem = menu.querySelector('.facet-search-item');
+      checked.forEach((li) => menu.append(li));
+      unchecked.forEach((li) => menu.append(li));
+      if (searchItem) menu.prepend(searchItem);
+    });
+  }
+
   renderFilterBar(facets, { explore = false } = {}) {
     const filterBar = document.createElement('div');
     filterBar.className = 'filter-bar';
@@ -1176,7 +1189,12 @@ class BlogSearch extends HTMLElement {
       facetSearchItem.append(facetSearchInput, facetClearBtn);
       menu.append(facetSearchItem);
 
-      values.forEach((value, index) => {
+      const sortedValues = [
+        ...values.filter((v) => (this.activeFilters[group] || []).includes(v)),
+        ...values.filter((v) => !(this.activeFilters[group] || []).includes(v)),
+      ];
+
+      sortedValues.forEach((value, index) => {
         const item = document.createElement('li');
 
         const checkboxId = `filter-${group}-${index}`;
@@ -1208,8 +1226,10 @@ class BlogSearch extends HTMLElement {
           return;
         }
         this.closeFacetPanels(filterBar);
+        this.reorderCheckedToTop(filterBar);
         toggle.setAttribute('aria-expanded', 'true');
         menu.classList.add('show');
+        menu.scrollTop = 0;
       });
 
       const dropdown = document.createElement('div');
