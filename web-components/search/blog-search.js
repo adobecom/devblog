@@ -1184,6 +1184,7 @@ class BlogSearch extends HTMLElement {
         checkbox.type = 'checkbox';
         checkbox.id = checkboxId;
         checkbox.value = value;
+        checkbox.checked = (this.activeFilters[group] || []).includes(value);
 
         const label = document.createElement('label');
         label.setAttribute('for', checkboxId);
