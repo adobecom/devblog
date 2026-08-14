@@ -1014,7 +1014,19 @@ class BlogSearch extends HTMLElement {
     filterBar.querySelectorAll('.filter-dropdown-toggle').forEach((toggle) => {
       if (toggle === exceptToggle) return;
       toggle.setAttribute('aria-expanded', 'false');
-      toggle.parentElement?.querySelector('ul')?.classList.remove('show');
+      const ul = toggle.parentElement?.querySelector('ul');
+      if (!ul) return;
+      ul.classList.remove('show');
+      // Reset facet-value search so the full list is shown on next open.
+      const facetInput = ul.querySelector('.facet-search-input');
+      if (facetInput && facetInput.value) {
+        facetInput.value = '';
+        ul.querySelectorAll('li.facet-option').forEach((li) => { li.hidden = false; });
+        const noMatch = ul.querySelector('.facet-no-match');
+        if (noMatch) noMatch.hidden = true;
+        const clearBtn = ul.querySelector('.facet-search-clear');
+        if (clearBtn) clearBtn.disabled = true;
+      }
     });
     filterBar.querySelector('.filter-date-select')?.blur();
   }
@@ -1109,6 +1121,61 @@ class BlogSearch extends HTMLElement {
 
       const menu = document.createElement('ul');
 
+      const facetSearchItem = document.createElement('li');
+      facetSearchItem.className = 'facet-search-item';
+      const facetSearchInput = document.createElement('input');
+      facetSearchInput.type = 'text';
+      facetSearchInput.className = 'facet-search-input';
+      facetSearchInput.placeholder = `Search ${baseLabel.toLowerCase()}…`;
+      facetSearchInput.setAttribute('aria-label', `Search ${baseLabel} values`);
+      // Stop space/enter from bubbling so the toggle button doesn't intercept them.
+      facetSearchInput.addEventListener('keydown', (e) => e.stopPropagation());
+      // Stop change from bubbling so the filter-bar change handler ignores it.
+      facetSearchInput.addEventListener('change', (e) => e.stopPropagation());
+      // Declare the clear button first so applyFacetFilter can reference it.
+      const facetClearBtn = document.createElement('button');
+      facetClearBtn.type = 'button';
+      facetClearBtn.className = 'facet-search-clear';
+      facetClearBtn.setAttribute('aria-label', 'Clear search');
+      facetClearBtn.textContent = '\u00d7';
+      facetClearBtn.disabled = true;
+
+      const applyFacetFilter = () => {
+        const term = facetSearchInput.value.toLowerCase();
+        let anyVisible = false;
+        menu.querySelectorAll('li.facet-option').forEach((li) => {
+          // Use the checkbox value (the original facet string) for matching —
+          // it is never mutated by updateFilterCounts, unlike the label DOM.
+          const val = (li.querySelector('input[type="checkbox"]')?.value || '').toLowerCase();
+          const visible = !term || val.includes(term);
+          li.hidden = !visible;
+          if (visible) anyVisible = true;
+        });
+        let noMatch = menu.querySelector('.facet-no-match');
+        if (!anyVisible && term) {
+          if (!noMatch) {
+            noMatch = document.createElement('li');
+            noMatch.className = 'facet-no-match';
+            noMatch.textContent = 'No matching values';
+            menu.append(noMatch);
+          }
+          noMatch.hidden = false;
+        } else if (noMatch) {
+          noMatch.hidden = true;
+        }
+        facetClearBtn.disabled = !term;
+      };
+
+      facetSearchInput.addEventListener('input', applyFacetFilter);
+      facetClearBtn.addEventListener('click', () => {
+        if (facetClearBtn.disabled) return;
+        facetSearchInput.value = '';
+        applyFacetFilter();
+        facetSearchInput.focus();
+      });
+      facetSearchItem.append(facetSearchInput, facetClearBtn);
+      menu.append(facetSearchItem);
+
       values.forEach((value, index) => {
         const item = document.createElement('li');
 
@@ -1122,6 +1189,7 @@ class BlogSearch extends HTMLElement {
         label.setAttribute('for', checkboxId);
         label.textContent = value;
 
+        item.className = 'facet-option';
         item.append(checkbox, label);
         item.addEventListener('click', (e) => {
           if (e.target.closest('input[type="checkbox"], label')) return;

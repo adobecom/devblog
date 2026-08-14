@@ -653,7 +653,7 @@ header nav.has-blog-nav-search {
   border: 1px solid #ddd;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgb(0 0 0 / 12%);
-  padding: 6px 0;
+  padding: 0 0 6px;
   margin: 0;
   list-style: none;
   z-index: 1010;
@@ -673,6 +673,10 @@ header nav.has-blog-nav-search {
   white-space: nowrap;
 }
 
+.filter-dropdown ul li[hidden] {
+  display: none;
+}
+
 .filter-dropdown ul li label {
   white-space: nowrap;
   cursor: pointer;
@@ -685,6 +689,75 @@ header nav.has-blog-nav-search {
 .filter-count {
   color: #888;
   font-size: 12px;
+}
+
+/* ── Facet-value search (inside each multi-select dropdown) ── */
+.facet-search-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+  border-bottom: 1px solid #eee;
+}
+
+.facet-search-item:hover {
+  background: #fff;
+}
+
+.facet-search-input {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #333;
+  background: #fafafa;
+  outline: none;
+}
+
+.facet-search-input:focus {
+  border-color: #0265dc;
+  background: #fff;
+}
+
+.facet-search-clear {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  color: #888;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.facet-search-clear:hover:not(:disabled) {
+  color: #333;
+  background: #f0f0f0;
+}
+
+.facet-search-clear:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.facet-no-match {
+  padding: 8px 18px;
+  font-size: 13px;
+  color: #888;
+  cursor: default;
+  white-space: normal;
+}
+
+.facet-no-match:hover {
+  background: transparent;
 }
 
 /* ── Date select ── */
