@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2026 06:15:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 14:12:38 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -25,7 +25,7 @@
       <title><![CDATA[Build Adobe Express Add-ons Faster with Agent Skills]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/07/build-adobe-express-add-ons-faster-with-agent-skills</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/07/build-adobe-express-add-ons-faster-with-agent-skills</guid>
-      <description><![CDATA[Turn your AI assistant into a specialized Adobe Express architect. A Developer Champion's open-source Agent Skills collection — how it works and how to install it.]]></description>
+      <description><![CDATA[Turn your AI assistant into an Adobe Express add-on architect with a free, community-built skills collection and MCP walkthrough.]]></description>
       <dc:creator><![CDATA[Geoffrey Nwachukwu]]></dc:creator>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/07/media_17a0562f7cfafbba8d17e31cfc7d0be3ebf87868d.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
@@ -35,7 +35,7 @@
       <title><![CDATA[Is Your Adobe Express Add-on Ready for Large Document Support?]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know</guid>
-      <description><![CDATA[Adobe Express is rolling out Large Document Support. Here's how to check if your add-on is affected, and what the six-month transition window means for you.]]></description>
+      <description><![CDATA[Check whether your Express add-on's patterns will need updating before Large Document Support rolls out and enforcement begins.]]></description>
       <dc:creator><![CDATA[Padma Krishnamoorthy]]></dc:creator>
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
