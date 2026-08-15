@@ -35,11 +35,11 @@
       "date": "",
       "title": "Build Adobe Express Add-ons Faster with Agent Skills",
       "author": "Geoffrey Nwachukwu",
-      "description": "Turn your AI assistant into a specialized Adobe Express architect. A Developer Champion's open-source Agent Skills collection — how it works and how to install it.",
-      "tags": "[\"skills\",\"agentic\",\"ai\",\"developer tools\"]",
+      "description": "Turn your AI assistant into an Adobe Express add-on architect with a free, community-built skills collection and MCP walkthrough.",
+      "tags": "[\"skills\",\"mcp server\",\"ai assistant\",\"agentic\",\"ai\",\"developer tools\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1786601318",
+      "lastModified": "1786803158",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1785456000",
       "sortDate": "2026-07-31",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-15T14:15:44.634Z"
+  "generatedAt": "2026-08-15T14:29:13.852Z"
 }
