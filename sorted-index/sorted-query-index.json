@@ -13,7 +13,7 @@
       "tags": "[\"uxp\",\"changelog\",\"plugin development\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1786601368",
+      "lastModified": "1786802656",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1785283200",
       "sortDate": "2026-07-29",
@@ -61,11 +61,11 @@
       "date": "",
       "title": "Is Your Adobe Express Add-on Ready for Large Document Support?",
       "author": "Padma Krishnamoorthy",
-      "description": "Adobe Express is rolling out Large Document Support. Here's how to check if your add-on is affected, and what the six-month transition window means for you.",
+      "description": "Check whether your Express add-on's patterns will need updating before Large Document Support rolls out and enforcement begins.",
       "tags": "[\"add-ons\",\"extensibility\",\"large document support\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1786601342",
+      "lastModified": "1786803005",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1784505600",
       "sortDate": "2026-07-20",
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-13T06:20:39.984Z"
+  "generatedAt": "2026-08-15T14:15:44.634Z"
 }
