@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Aug 2026 14:12:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 14:01:09 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Dark Mode Is Coming to Adobe Express: What Add-on Developers Need to Know]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/06/dark-mode-is-coming-to-adobe-express-what-add-on-developers-need-to-know</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/06/dark-mode-is-coming-to-adobe-express-what-add-on-developers-need-to-know</guid>
+      <description><![CDATA[Adobe Express is adding dark mode. Here's how the theme APIs change, whether you need to update your add-on, and when to resubmit.]]></description>
+      <dc:creator><![CDATA[Padma Krishnamoorthy]]></dc:creator>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/06/media_1b3df6ec4529661f88765ab154af3fb3ad876e4a0.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/06/media_1b3df6ec4529661f88765ab154af3fb3ad876e4a0.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[UXP Changelog and Product Support Matrix]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/07/uxp-changelog-and-support-matrix</link>
@@ -40,16 +50,6 @@
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[Dark Mode Is Coming to Adobe Express: What Add-on Developers Need to Know]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/06/dark-mode-is-coming-to-adobe-express-what-add-on-developers-need-to-know</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/06/dark-mode-is-coming-to-adobe-express-what-add-on-developers-need-to-know</guid>
-      <description><![CDATA[Adobe Express is adding dark mode. Here's how the theme APIs change, whether you need to update your add-on, and when to resubmit.]]></description>
-      <dc:creator><![CDATA[Padma Krishnamoorthy]]></dc:creator>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/06/media_1b3df6ec4529661f88765ab154af3fb3ad876e4a0.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/06/media_1b3df6ec4529661f88765ab154af3fb3ad876e4a0.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Upcoming Photoshop UI Changes: Test Your UXP Plugin Now]]></title>
