@@ -4,6 +4,32 @@
   "limit": 110,
   "data": [
     {
+      "path": "/en/publish/2026/06/dark-mode-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
+      "image": "/en/publish/2026/06/media_1b3df6ec4529661f88765ab154af3fb3ad876e4a0.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Dark Mode Is Coming to Adobe Express: What Add-on Developers Need to Know",
+      "author": "Padma Krishnamoorthy",
+      "description": "Adobe Express is adding dark mode. Here's how the theme APIs change, whether you need to update your add-on, and when to resubmit.",
+      "tags": "[\"add-ons\",\"extensibility\",\"dark mode\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1786975269",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1782777600",
+      "sortDate": "2026-06-30",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "2026-08-17",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "July  2026",
+      "newsletterPublished": "",
+      "importer": "",
+      "isHeroVideo": false
+    },
+    {
       "path": "/en/publish/2026/07/uxp-changelog-and-support-matrix",
       "image": "/en/publish/2026/07/media_1727b6adbcf5195d35acc0802988025c888bfa2cc.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -78,32 +104,6 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "July 2026",
-      "importer": "",
-      "isHeroVideo": false
-    },
-    {
-      "path": "/en/publish/2026/06/dark-mode-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
-      "image": "/en/publish/2026/06/media_1b3df6ec4529661f88765ab154af3fb3ad876e4a0.png?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "Dark Mode Is Coming to Adobe Express: What Add-on Developers Need to Know",
-      "author": "Padma Krishnamoorthy",
-      "description": "Adobe Express is adding dark mode. Here's how the theme APIs change, whether you need to update your add-on, and when to resubmit.",
-      "tags": "[\"add-ons\",\"extensibility\",\"dark mode\"]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1786601190",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1782777600",
-      "sortDate": "2026-06-30",
-      "sortDateTimestampLegacy": "",
-      "updatedDate": "2026-07-16",
-      "adobeCloud": "Creative Cloud",
-      "adobeApp": "Adobe Express",
-      "mediaUrl": "",
-      "metaTitle": "",
-      "shortDescription": "",
-      "newsletterPlanned": "July  2026",
-      "newsletterPublished": "",
       "importer": "",
       "isHeroVideo": false
     },
@@ -2890,5 +2890,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-15T14:29:13.852Z"
+  "generatedAt": "2026-08-17T14:08:12.515Z"
 }
