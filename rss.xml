@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 00:08:21 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 15:28:29 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[New ESLint Plugin Catches Common Premiere UXP Bugs]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/08/new-eslint-plugin-catches-common-premiere-uxp-bugs</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/08/new-eslint-plugin-catches-common-premiere-uxp-bugs</guid>
+      <description><![CDATA[Catch Premiere UXP mistakes, like bad Action scoping or missing transaction context, before they ship with Adobe's new ESLint plugin.]]></description>
+      <dc:creator><![CDATA[Cameron Legleiter]]></dc:creator>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/08/media_12b473d827cc51f459db510f40afcbc6c85e8f5db.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/08/media_12b473d827cc51f459db510f40afcbc6c85e8f5db.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[Bolt UXP 1.3 and Bolt Express 1.2 Bring Faster, More Powerful Plugin Development to Adobe Apps]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/08/building-plugins-faster-with-bolt-uxp-and-bolt-express</link>
