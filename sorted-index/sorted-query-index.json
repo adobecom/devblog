@@ -1,8 +1,34 @@
 {
-  "total": 111,
+  "total": 112,
   "offset": 0,
-  "limit": 111,
+  "limit": 112,
   "data": [
+    {
+      "path": "/en/publish/2026/08/new-eslint-plugin-catches-common-premiere-uxp-bugs",
+      "image": "/en/publish/2026/08/media_12b473d827cc51f459db510f40afcbc6c85e8f5db.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "New ESLint Plugin Catches Common Premiere UXP Bugs",
+      "author": "Cameron Legleiter",
+      "description": "Catch Premiere UXP mistakes, like bad Action scoping or missing transaction context, before they ship with Adobe's new ESLint plugin.",
+      "tags": "[\"eslint\",\"static analysis\",\"developer tools\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1787153222",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1787097600",
+      "sortDate": "2026-08-19",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Premiere",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "August 2026",
+      "newsletterPublished": "",
+      "importer": "",
+      "isHeroVideo": false
+    },
     {
       "path": "/en/publish/2026/08/building-plugins-faster-with-bolt-uxp-and-bolt-express",
       "image": "/en/publish/2026/08/media_1b4c7a51e2b0f2d030210fb10ae8165a1340bad02.png?width=1200&format=pjpg&optimize=medium",
@@ -2916,5 +2942,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-19T00:25:31.043Z"
+  "generatedAt": "2026-08-19T15:30:58.509Z"
 }
