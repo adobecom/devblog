@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 15:28:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 21:43:17 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Adobe Developers Live 2026: See Where the Platform Is Headed, and Build What's Next]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/08/adobe-developers-live-2026-free-sessions-sept-29-30</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/08/adobe-developers-live-2026-free-sessions-sept-29-30</guid>
+      <description><![CDATA[Join two free virtual days to hear Adobe's plans for Express and UXP development, ask questions live, and get answers straight from the product teams.]]></description>
+      <dc:creator><![CDATA[Ingo Eichel]]></dc:creator>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+      
+      
+    </item>
     <item>
       <title><![CDATA[New ESLint Plugin Catches Common Premiere UXP Bugs]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/08/new-eslint-plugin-catches-common-premiere-uxp-bugs</link>
