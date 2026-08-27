@@ -5,7 +5,7 @@
   "data": [
     {
       "path": "/en/publish/2026/08/adobe-developers-live-2026-free-sessions-sept-29-30",
-      "image": "",
+      "image": "/en/publish/2026/08/media_14407261c9a4cfa76f8878b14cc4cf96271ca5513.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Adobe Developers Live 2026: See Where the Platform Is Headed, and Build What's Next",
       "author": "Ingo Eichel",
@@ -13,7 +13,7 @@
       "tags": "[\"developers\",\"uxp\",\"add-ons\",\"extensibility\",\"virtual event\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1787697245",
+      "lastModified": "1787816734",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1787270400",
       "sortDate": "2026-08-21",
@@ -2968,5 +2968,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-25T23:29:49.764Z"
+  "generatedAt": "2026-08-27T07:46:36.416Z"
 }
