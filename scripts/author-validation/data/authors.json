@@ -245,6 +245,26 @@
     "isComplete": false
   },
   {
+    "name": "Cameron Legleiter",
+    "slug": "cameron-legleiter",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/cameron-legleiter",
+    "title": "Software Engineer working on Premiere's UXP APIs and tooling",
+    "linkedin": "https://www.linkedin.com/in/camlegleiter/",
+    "links": [],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/cameron-legleiter",
+    "docImage": "./media_1f5b18055a82b9b89c714e281462b5592e4dbf5b9.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/cameron-legleiter.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "New ESLint Plugin Catches Common Premiere UXP Bugs",
+      "date": "2026-08-19"
+    },
+    "isComplete": true
+  },
+  {
     "name": "Carlos A. Cabrera",
     "slug": "carlos-a-cabrera",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/carlos-a-cabrera",
@@ -539,8 +559,8 @@
     "image": "/images/authors/ingo-eichel.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
-      "title": "Adobe Developers Blog Reloaded: What’s New and What’s Coming Next",
-      "date": "2026-04-28"
+      "title": "Adobe Developers Live 2026: See Where the Platform Is Headed, and Build What's Next",
+      "date": "2026-08-21"
     },
     "isComplete": true
   },
@@ -604,8 +624,8 @@
     "image": "/images/authors/justin-taylor.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
-      "title": "3 Risk Checks for Developers Before Vibe Code Becomes a Production Problem",
-      "date": "2026-06-04"
+      "title": "Bolt UXP 1.3 and Bolt Express 1.2 Bring Faster, More Powerful Plugin Development to Adobe Apps",
+      "date": "2026-08-18"
     },
     "isComplete": true
   },
