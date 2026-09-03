@@ -11,12 +11,20 @@
  */
 
 const fs = require('fs');
+const os = require('os');
 const path = require('path');
 const https = require('https');
 const compareNumbersInPaths = require('./sort-paths.js');
 
 const QUERY_INDEX_URL = 'https://blog.developer.adobe.com/en/query-index.json';
 const OUT_FILE = 'sorted-index/sorted-query-index.json';
+
+// Written OUTSIDE the repo (OS tmp dir) so it never gets picked up by
+// `git add .` in the on-publish workflow and never needs to be committed.
+// Only produced when EMIT_NEW_ARTICLES=true (set by the on-publish workflow;
+// left unset by cron, so cron can never generate this file).
+const NEW_ARTICLES_FILE = path.join(os.tmpdir(), 'devblog-new-articles.json');
+const EMIT_NEW_ARTICLES = process.env.EMIT_NEW_ARTICLES === 'true';
 
 /**
  * Convert YYYY-MM-DD to Unix timestamp (seconds)
@@ -123,6 +131,32 @@ function deepEqual(obj1, obj2) {
   return JSON.stringify(obj1) === JSON.stringify(obj2);
 }
 
+/**
+ * Write the list of newly-discovered articles (if any) to NEW_ARTICLES_FILE,
+ * and expose a has_new_articles output for the workflow, when enabled.
+ * No-op entirely unless EMIT_NEW_ARTICLES=true, so cron runs (which never
+ * set that env var) can never produce this file.
+ */
+function emitNewArticles(newArticles) {
+  if (!EMIT_NEW_ARTICLES) return;
+
+  try {
+    fs.writeFileSync(NEW_ARTICLES_FILE, JSON.stringify(newArticles, null, 2));
+    console.log(`📝 Wrote ${newArticles.length} new article(s) to ${NEW_ARTICLES_FILE}`);
+  } catch (err) {
+    // Never let a notification-side failure break the indexing run.
+    console.warn(`Could not write ${NEW_ARTICLES_FILE}:`, err.message);
+  }
+
+  if (process.env.GITHUB_OUTPUT) {
+    try {
+      fs.appendFileSync(process.env.GITHUB_OUTPUT, `has_new_articles=${newArticles.length > 0}\n`);
+    } catch (err) {
+      console.warn('Could not write GITHUB_OUTPUT:', err.message);
+    }
+  }
+}
+
 async function fetchAndSort() {
   try {
     console.log(`Fetching ${QUERY_INDEX_URL}`);
@@ -158,9 +192,15 @@ async function fetchAndSort() {
 
     let fetchedCount = 0;
     let cachedCount = 0;
+    // Articles whose path was not found in the previously-persisted cache at
+    // all (as opposed to found-but-lastModified-changed) are genuinely new.
+    // Diffing against `cache` here — captured from disk before any writes
+    // this run — avoids misclassifying articles in a multi-article batch.
+    const newArticles = [];
 
     for (const article of blogData.data) {
       const cached = cache[article.path];
+      const isNew = !cached;
       const unchanged = cached && cached.lastModified === article.lastModified;
 
       if (unchanged) {
@@ -171,9 +211,18 @@ async function fetchAndSort() {
         fetchedCount++;
         console.log(`  ${article.path} → isHeroVideo: ${article.isHeroVideo} (${cached ? 'lastModified changed' : 'new article'})`);
       }
+
+      if (isNew) {
+        newArticles.push({
+          title: article.title,
+          path: article.path,
+          lastModified: article.lastModified,
+        });
+      }
     }
 
     console.log(`✅ Hero video check: ${fetchedCount} fetched, ${cachedCount} served from cache`);
+    console.log(`🆕 New articles detected: ${newArticles.length}`);
 
     blogData.data.sort((a, b) => {
       const tsA = getSortTimestamp(a);
@@ -213,7 +262,11 @@ async function fetchAndSort() {
     } else {
       console.log('📋 No changes detected, file is already up to date');
     }
-    
+
+    // Only articles we're confident are genuinely new (not just an index
+    // refresh with no real change) should ever trigger a Slack notification.
+    emitNewArticles(newArticles);
+
   } catch (error) {
     console.error('❌ Error sorting query index', error.message);
     process.exit(1);

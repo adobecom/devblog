@@ -12,6 +12,12 @@ jobs:
     if: startsWith(github.event.client_payload.path, '/en/publish/') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
+    # Avoid overlapping runs stepping on the same sorted-query-index.json /
+    # new-articles detection when publishes fire in quick succession.
+    concurrency:
+      group: sort-query-index-on-publish
+      cancel-in-progress: false
+
     permissions:
       contents: write
 
@@ -27,6 +33,10 @@ jobs:
           node-version: '24'
 
       - name: Run sorting scripts
+        env:
+          # Only set here (never in the cron workflow), so only on-publish
+          # runs can ever produce a new-articles list / Slack notification.
+          EMIT_NEW_ARTICLES: 'true'
         run: node sorted-index/sort-query-index.js
 
       - name: Commit and push changes if any
@@ -37,3 +47,12 @@ jobs:
           git add .
           git diff-index --quiet HEAD || git commit -am "Update sorted query index on publish- $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
           git push
+
+      # Runs after the index is committed and pushed, so a failure here
+      # never leaves the index in an uncommitted state, and a retry of this
+      # step alone can't cause a duplicate notification (the underlying
+      # new-articles file is only produced once per run of the script above).
+      - name: Notify Slack of new articles
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: node sorted-index/notify-slack.js
