@@ -1,7 +1,7 @@
 {
-  "total": 113,
+  "total": 114,
   "offset": 0,
-  "limit": 113,
+  "limit": 114,
   "data": [
     {
       "path": "/en/publish/2026/08/adobe-developers-live-2026-free-sessions-sept-29-30",
@@ -2682,6 +2682,32 @@
       "isHeroVideo": false
     },
     {
+      "path": "/en/publish/2026/03/image-behavior-test-1080-720",
+      "image": "/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Image Cropping & Layout Behavior Test – 1080 × 720",
+      "author": "Devblogs",
+      "description": "",
+      "tags": "[\"ai assistant\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1786436217",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1584835200",
+      "sortDate": "2020-03-22",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "2020-04-22",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Photoshop, Acrobat,",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "January 2026",
+      "newsletterPublished": "January 2026",
+      "importer": "v15june25",
+      "isHeroVideo": false
+    },
+    {
       "path": "/en/publish/2020/01/learning-by-doing-porting-free-stock-search-from-cep-to-uxp-in-adobe-xd",
       "image": "/en/publish/2020/01/media_1be9bb884297a103d4a863f66c766ac3349ee9194.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -2968,5 +2994,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-08-27T07:46:36.416Z"
+  "generatedAt": "2026-09-03T10:36:42.587Z"
 }
