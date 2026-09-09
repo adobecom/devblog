@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 10:38:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 15:16:21 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Build Your Own Commerce Storefront Block]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/09/build-your-own-commerce-storefront-block</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/09/build-your-own-commerce-storefront-block</guid>
+      <description><![CDATA[]]></description>
+      <dc:creator><![CDATA[Carlos Cabrera]]></dc:creator>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/09/media_15080f0cedb6aab17b0f4137bce81093b93cf0f94.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/09/media_15080f0cedb6aab17b0f4137bce81093b93cf0f94.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[Adobe Developers Live 2026: See Where the Platform Is Headed, and Build What's Next]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/08/adobe-developers-live-2026-free-sessions-sept-29-30</link>
@@ -190,6 +200,16 @@
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/04/media_12455fb0265b248f716b9853d39e20451f8da9df9.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/04/media_12455fb0265b248f716b9853d39e20451f8da9df9.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Image Cropping & Layout Behavior Test – 1364 × 640]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1364-640</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1364-640</guid>
+      <description><![CDATA[When analyzing the image behavior across the blog layout, the goal was not just to fix a visual issue — it was to understand how ...]]></description>
+      <dc:creator><![CDATA[Devblogs]]></dc:creator>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1b2da5ef873047cc35b4d671918003211c35fddd8.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1b2da5ef873047cc35b4d671918003211c35fddd8.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Build Faster with the Adobe Express Developer MCP Server]]></title>
@@ -1045,11 +1065,21 @@
       <title><![CDATA[Image Cropping & Layout Behavior Test – 1080 × 720]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1080-720</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1080-720</guid>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[When analyzing the image behavior across the blog layout, the goal was not just to fix a visual issue — it was to understand how ...]]></description>
       <dc:creator><![CDATA[Devblogs]]></dc:creator>
       <pubDate>Wed, 22 Apr 2020 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Image Cropping & Layout Behavior Test – 1280 × 720]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1280-720</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1280-720</guid>
+      <description><![CDATA[]]></description>
+      <dc:creator><![CDATA[Devblogs]]></dc:creator>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Learning by Doing: Porting “Free Stock Search” from CEP to UXP in Adobe XD]]></title>
