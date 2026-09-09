@@ -53,7 +53,7 @@ function getSortTimestamp(entry) {
       return updatedTs;
     }
   }
-  
+
   //  Primary: sortDateTimestamp
   if (entry.sortDateTimestamp != null && !isNaN(entry.sortDateTimestamp)) {
     return parseInt(entry.sortDateTimestamp, 10);
@@ -217,6 +217,8 @@ async function fetchAndSort() {
           title: article.title,
           path: article.path,
           lastModified: article.lastModified,
+          image: article.image || '',
+          description: article.description || '',
         });
       }
     }

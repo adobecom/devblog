@@ -11,7 +11,8 @@
  */
 
 // Reads the list of newly-discovered articles written by sort-query-index.js
-// and posts a Slack notification for each one via an Incoming Webhook.
+// and posts a rich Slack notification (hero image + title/link + description)
+// for each one via an Incoming Webhook.
 //
 // Designed to be safe to always call from the on-publish workflow:
 //  - No file, empty file, or empty array → exits quietly (exit 0).
@@ -19,6 +20,8 @@
 //    than failing the workflow (Slack delivery should never block indexing,
 //    which has already completed and been committed by the time this runs).
 //  - A failed Slack POST is logged but does not fail the workflow.
+//  - The temp file is deleted after a successful run so a stray re-run of
+//    just this script (without re-running the indexer) can't re-send.
 
 const fs = require('fs');
 const os = require('os');
@@ -42,19 +45,71 @@ function loadNewArticles() {
   }
 }
 
+/**
+ * Resolve an article's `image` field to an absolute URL Slack can fetch, or
+ * null if there's no usable image.
+ *
+ * Most entries store a path relative to the blog origin, e.g.
+ *   /en/publish/2026/08/media_xxx.png?width=1200...
+ * but some (articles with an embedded YouTube hero video) instead store a
+ * YouTube thumbnail path, e.g.
+ *   /vi/lm02Mowy9uo/maxresdefault.jpg
+ * which is relative to img.youtube.com, not the blog. Both are relative
+ * paths starting with "/", so we can't distinguish them by "already
+ * absolute vs not" alone — we detect the YouTube shape specifically.
+ */
+function resolveImageUrl(image) {
+  if (!image || typeof image !== 'string') return null;
+
+  const trimmed = image.trim();
+  if (!trimmed) return null;
+
+  // Already an absolute URL (defensive — not seen in current data, but safe).
+  if (/^https?:\/\//i.test(trimmed)) {
+    return trimmed;
+  }
+
+  // YouTube thumbnail path, e.g. /vi/<videoId>/maxresdefault.jpg
+  if (/^\/vi\/[^/]+\/[^/]+\.(jpg|jpeg|png|webp)$/i.test(trimmed)) {
+    return `https://img.youtube.com${trimmed}`;
+  }
+
+  // Otherwise assume it's relative to the blog origin.
+  return `${SITE_ORIGIN}${trimmed}`;
+}
+
 function buildMessage(article) {
   const url = `${SITE_ORIGIN}${article.path}`;
+  const imageUrl = resolveImageUrl(article.image);
+  const description = (article.description || '').trim();
+
+  const blocks = [
+    {
+      type: 'section',
+      text: { type: 'mrkdwn', text: '📝 *New blog article published*' },
+    },
+  ];
+
+  if (imageUrl) {
+    blocks.push({
+      type: 'image',
+      image_url: imageUrl,
+      alt_text: article.title || 'Article hero image',
+    });
+  }
+
+  const titleAndDescription = description
+    ? `*<${url}|${article.title}>*\n${description}`
+    : `*<${url}|${article.title}>*`;
+
+  blocks.push({
+    type: 'section',
+    text: { type: 'mrkdwn', text: titleAndDescription },
+  });
+
   return {
     text: `📝 New blog article published: ${article.title}`, // fallback for notifications
-    blocks: [
-      {
-        type: 'section',
-        text: {
-          type: 'mrkdwn',
-          text: `📝 *New blog article published*\n*<${url}|${article.title}>*`,
-        },
-      },
-    ],
+    blocks,
   };
 }
 
@@ -96,6 +151,13 @@ async function main() {
       // or fail the workflow (index already committed at this point).
       console.warn(`⚠️ Failed to notify Slack for "${article.title}":`, err.message);
     }
+  }
+
+  // Clean up so a stray re-run of just this script can't re-send.
+  try {
+    fs.unlinkSync(NEW_ARTICLES_FILE);
+  } catch (err) {
+    console.warn(`Could not remove ${NEW_ARTICLES_FILE}:`, err.message);
   }
 }
 
