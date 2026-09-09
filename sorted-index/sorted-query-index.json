@@ -1,7 +1,7 @@
 {
-  "total": 116,
+  "total": 117,
   "offset": 0,
-  "limit": 116,
+  "limit": 117,
   "data": [
     {
       "path": "/en/publish/2026/09/build-your-own-commerce-storefront-block",
@@ -489,6 +489,32 @@
       "updatedDate": "",
       "adobeCloud": "Creative Cloud",
       "adobeApp": "Premiere",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "",
+      "importer": "v15june25",
+      "isHeroVideo": false
+    },
+    {
+      "path": "/en/publish/2026/03/image-behavior-test-1364-640",
+      "image": "/en/publish/2026/03/media_1b2da5ef873047cc35b4d671918003211c35fddd8.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Image Cropping & Layout Behavior Test – 1364 × 640",
+      "author": "Devblogs",
+      "description": "When analyzing the image behavior across the blog layout, the goal was not just to fix a visual issue — it was to understand how ...",
+      "tags": "[]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1788966981",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1774051200",
+      "sortDate": "2026-03-21",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "",
+      "adobeApp": "",
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
@@ -3046,5 +3072,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-09-09T14:20:34.373Z"
+  "generatedAt": "2026-09-09T15:18:04.519Z"
 }
