@@ -8,12 +8,12 @@
       "image": "/en/publish/2026/09/media_15080f0cedb6aab17b0f4137bce81093b93cf0f94.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "Build Your Own Commerce Storefront Block",
-      "author": "Carlos Cabrera",
+      "author": "Carlos A. Cabrera",
       "description": "The new Adobe Commerce Storefront is meant to be extended, not just configured. This post walks through building your own commerce block at three levels ...",
       "tags": "[\"adobe-commerce\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1789019103",
+      "lastModified": "1789026709",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1788912000",
       "sortDate": "2026-09-09",
@@ -3046,5 +3046,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-09-10T07:05:15.710Z"
+  "generatedAt": "2026-09-10T09:31:37.378Z"
 }
