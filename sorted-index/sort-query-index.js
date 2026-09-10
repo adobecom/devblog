@@ -19,17 +19,6 @@ const compareNumbersInPaths = require('./sort-paths.js');
 const QUERY_INDEX_URL = 'https://blog.developer.adobe.com/en/query-index.json';
 const OUT_FILE = 'sorted-index/sorted-query-index.json';
 
-// Permanent record of every article path that has been SUCCESSFULLY
-// notified to Slack. This script only ever READS this file — it never
-// writes to it, under any trigger (on-publish, manual, or cron). Only
-// notify-slack.js writes to it, and only after a confirmed successful
-// Slack delivery for a given article. This guarantees:
-//   - cron can never mark an article as notified, since cron never calls
-//     notify-slack.js and this script performs no writes here at all.
-//   - an article is never considered "notified" before Slack actually
-//     confirms delivery for it.
-const NOTIFIED_ARTICLES_FILE = 'sorted-index/notified-articles.json';
-
 // Written OUTSIDE the repo (OS tmp dir) so it never gets picked up by
 // `git add .` in the on-publish workflow and never needs to be committed.
 // Only produced when EMIT_NEW_ARTICLES=true (set by the on-publish workflow;
@@ -143,28 +132,10 @@ function deepEqual(obj1, obj2) {
 }
 
 /**
- * Read-only load of the set of article paths already confirmed-notified.
- * This script never writes this file — see NOTIFIED_ARTICLES_FILE comment
- * above. Missing/corrupt file is treated as "nothing notified yet" rather
- * than failing the run.
- */
-function loadNotifiedPaths() {
-  if (!fs.existsSync(NOTIFIED_ARTICLES_FILE)) return new Set();
-
-  try {
-    const parsed = JSON.parse(fs.readFileSync(NOTIFIED_ARTICLES_FILE, 'utf8'));
-    return new Set(Array.isArray(parsed.paths) ? parsed.paths : []);
-  } catch (err) {
-    console.log(`Could not read ${NOTIFIED_ARTICLES_FILE}, treating as empty:`, err.message);
-    return new Set();
-  }
-}
-
-/**
- * Write the list of newly-discovered (not-yet-notified) articles, if any,
- * to NEW_ARTICLES_FILE, and expose a has_new_articles output for the
- * workflow, when enabled. No-op entirely unless EMIT_NEW_ARTICLES=true, so
- * cron runs (which never set that env var) can never produce this file.
+ * Write the list of newly-discovered articles (if any) to NEW_ARTICLES_FILE,
+ * and expose a has_new_articles output for the workflow, when enabled.
+ * No-op entirely unless EMIT_NEW_ARTICLES=true, so cron runs (which never
+ * set that env var) can never produce this file.
  */
 function emitNewArticles(newArticles) {
   if (!EMIT_NEW_ARTICLES) return;
@@ -205,10 +176,6 @@ async function fetchAndSort() {
     // Build cache keyed by path from the existing sorted JSON.
     // Each cached entry stores { isHeroVideo, lastModified } so we can detect
     // whether the article has changed since the last run.
-    // NOTE: this cache is used ONLY for the isHeroVideo reuse decision below
-    // — it is NOT used for new-article detection (see notifiedPaths further
-    // down), since it mirrors OUT_FILE and can lose an entry entirely if an
-    // article is temporarily unpublished.
     const cache = {};
     if (fs.existsSync(OUT_FILE)) {
       try {
@@ -223,19 +190,17 @@ async function fetchAndSort() {
       }
     }
 
-    // Read-only lookup of every path already confirmed-notified. "New" (for
-    // Slack purposes) means "not yet confirmed-notified" — NOT "not
-    // currently in the live sorted index" — so an unpublish/republish never
-    // re-triggers a notification for a path that was already delivered.
-    const notifiedPaths = loadNotifiedPaths();
-
     let fetchedCount = 0;
     let cachedCount = 0;
+    // Articles whose path was not found in the previously-persisted cache at
+    // all (as opposed to found-but-lastModified-changed) are genuinely new.
+    // Diffing against `cache` here — captured from disk before any writes
+    // this run — avoids misclassifying articles in a multi-article batch.
     const newArticles = [];
 
     for (const article of blogData.data) {
       const cached = cache[article.path];
-      const isNew = !notifiedPaths.has(article.path);
+      const isNew = !cached;
       const unchanged = cached && cached.lastModified === article.lastModified;
 
       if (unchanged) {
@@ -259,7 +224,7 @@ async function fetchAndSort() {
     }
 
     console.log(`✅ Hero video check: ${fetchedCount} fetched, ${cachedCount} served from cache`);
-    console.log(`🆕 Not-yet-notified articles detected: ${newArticles.length}`);
+    console.log(`🆕 New articles detected: ${newArticles.length}`);
 
     blogData.data.sort((a, b) => {
       const tsA = getSortTimestamp(a);
@@ -300,9 +265,8 @@ async function fetchAndSort() {
       console.log('📋 No changes detected, file is already up to date');
     }
 
-    // NOTE: this script does NOT write to NOTIFIED_ARTICLES_FILE, under any
-    // trigger. Only notify-slack.js does, and only after a confirmed
-    // successful Slack send per article.
+    // Only articles we're confident are genuinely new (not just an index
+    // refresh with no real change) should ever trigger a Slack notification.
     emitNewArticles(newArticles);
 
   } catch (error) {
