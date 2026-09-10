@@ -10,24 +10,27 @@
  * governing permissions and limitations under the License.
  */
 
-// Reads the list of newly-discovered articles written by sort-query-index.js
+// Reads the list of not-yet-notified articles written by sort-query-index.js
 // and posts a rich Slack notification (hero image + title/link + description)
 // for each one via an Incoming Webhook.
 //
-// Designed to be safe to always call from the on-publish workflow:
-//  - No file, empty file, or empty array → exits quietly (exit 0).
-//  - Missing SLACK_WEBHOOK_URL → logs a warning and exits quietly rather
-//    than failing the workflow (Slack delivery should never block indexing,
-//    which has already completed and been committed by the time this runs).
-//  - A failed Slack POST is logged but does not fail the workflow.
-//  - The temp file is deleted after a successful run so a stray re-run of
-//    just this script (without re-running the indexer) can't re-send.
+// This is the ONLY script that writes to NOTIFIED_ARTICLES_FILE, and it only
+// adds a path AFTER a confirmed successful Slack delivery for that specific
+// article. A failed send leaves the path out of the ledger entirely, so the
+// next workflow run will naturally see that article as still not-yet-
+// notified (via sort-query-index.js's read-only check) and retry it — no
+// separate retry queue needed.
+//
+// Cron never calls this script, so cron can never mark anything as
+// notified — combined with sort-query-index.js never writing this file
+// itself, the ledger can only ever be updated by a confirmed Slack send.
 
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
 
 const NEW_ARTICLES_FILE = path.join(os.tmpdir(), 'devblog-new-articles.json');
+const NOTIFIED_ARTICLES_FILE = 'sorted-index/notified-articles.json';
 const SITE_ORIGIN = 'https://blog.developer.adobe.com';
 
 function loadNewArticles() {
@@ -45,18 +48,43 @@ function loadNewArticles() {
   }
 }
 
+function loadNotifiedPaths() {
+  if (!fs.existsSync(NOTIFIED_ARTICLES_FILE)) return new Set();
+
+  try {
+    const parsed = JSON.parse(fs.readFileSync(NOTIFIED_ARTICLES_FILE, 'utf8'));
+    return new Set(Array.isArray(parsed.paths) ? parsed.paths : []);
+  } catch (err) {
+    console.warn(`Could not read ${NOTIFIED_ARTICLES_FILE}, treating as empty:`, err.message);
+    return new Set();
+  }
+}
+
+function ensureDirectory(filePath) {
+  const dir = path.dirname(filePath);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+}
+
+/**
+ * Persist the notified-paths ledger, only writing when it actually grew.
+ * Called once at the end, after attempting all sends, so a single
+ * filesystem write captures every successful delivery from this run.
+ */
+function saveNotifiedPaths(notifiedPaths, changed) {
+  if (!changed) return;
+  ensureDirectory(NOTIFIED_ARTICLES_FILE);
+  const sortedPaths = Array.from(notifiedPaths).sort();
+  fs.writeFileSync(NOTIFIED_ARTICLES_FILE, JSON.stringify({ paths: sortedPaths }, null, 2));
+  console.log(`📚 Updated ${NOTIFIED_ARTICLES_FILE} (${sortedPaths.length} confirmed-notified paths)`);
+}
+
 /**
  * Resolve an article's `image` field to an absolute URL Slack can fetch, or
- * null if there's no usable image.
- *
- * Most entries store a path relative to the blog origin, e.g.
- *   /en/publish/2026/08/media_xxx.png?width=1200...
- * but some (articles with an embedded YouTube hero video) instead store a
- * YouTube thumbnail path, e.g.
- *   /vi/lm02Mowy9uo/maxresdefault.jpg
- * which is relative to img.youtube.com, not the blog. Both are relative
- * paths starting with "/", so we can't distinguish them by "already
- * absolute vs not" alone — we detect the YouTube shape specifically.
+ * null if there's no usable image. Handles both blog-relative paths and the
+ * YouTube-thumbnail-shaped paths seen for articles with an embedded video
+ * hero (e.g. /vi/<id>/maxresdefault.jpg, relative to img.youtube.com).
  */
 function resolveImageUrl(image) {
   if (!image || typeof image !== 'string') return null;
@@ -64,17 +92,14 @@ function resolveImageUrl(image) {
   const trimmed = image.trim();
   if (!trimmed) return null;
 
-  // Already an absolute URL (defensive — not seen in current data, but safe).
   if (/^https?:\/\//i.test(trimmed)) {
     return trimmed;
   }
 
-  // YouTube thumbnail path, e.g. /vi/<videoId>/maxresdefault.jpg
   if (/^\/vi\/[^/]+\/[^/]+\.(jpg|jpeg|png|webp)$/i.test(trimmed)) {
     return `https://img.youtube.com${trimmed}`;
   }
 
-  // Otherwise assume it's relative to the blog origin.
   return `${SITE_ORIGIN}${trimmed}`;
 }
 
@@ -86,7 +111,7 @@ function buildMessage(article) {
   const blocks = [
     {
       type: 'section',
-      text: { type: 'mrkdwn', text: '📝 *New blog article published*' },
+      text: { type: 'mrkdwn', text: ' *New blog article published*' },
     },
   ];
 
@@ -108,7 +133,7 @@ function buildMessage(article) {
   });
 
   return {
-    text: `📝 New blog article published: ${article.title}`, // fallback for notifications
+    text: ` New blog article published: ${article.title}`, // fallback for notifications
     blocks,
   };
 }
@@ -136,24 +161,41 @@ async function main() {
 
   const webhookUrl = process.env.SLACK_WEBHOOK_URL;
   if (!webhookUrl) {
-    console.warn('⚠️ SLACK_WEBHOOK_URL is not set — skipping Slack notification.');
+    console.warn('⚠️ SLACK_WEBHOOK_URL is not set — skipping Slack notification. Nothing will be marked as notified, so this will be retried on the next run.');
     return;
   }
 
-  console.log(`Sending Slack notification(s) for ${newArticles.length} new article(s)`);
+  const notifiedPaths = loadNotifiedPaths();
+  let notifiedPathsChanged = false;
+
+  console.log(`Attempting Slack notification(s) for ${newArticles.length} candidate article(s)`);
 
   for (const article of newArticles) {
+    // Defensive re-check: if this path was already confirmed-notified
+    // (e.g. by an overlapping run), don't send it again.
+    if (notifiedPaths.has(article.path)) {
+      console.log(`Skipping "${article.title}" — already confirmed-notified.`);
+      continue;
+    }
+
     try {
       await postToSlack(webhookUrl, buildMessage(article));
       console.log(`✅ Notified Slack: ${article.title}`);
+      // Only mark as notified AFTER the send succeeds.
+      notifiedPaths.add(article.path);
+      notifiedPathsChanged = true;
     } catch (err) {
-      // Log and continue — one failed notification shouldn't block others
-      // or fail the workflow (index already committed at this point).
-      console.warn(`⚠️ Failed to notify Slack for "${article.title}":`, err.message);
+      // Do NOT add to notifiedPaths on failure — this article stays
+      // eligible to be retried on the next run that reaches this script.
+      console.warn(`⚠️ Failed to notify Slack for "${article.title}":`, err.message, '— will retry on next run.');
     }
   }
 
-  // Clean up so a stray re-run of just this script can't re-send.
+  saveNotifiedPaths(notifiedPaths, notifiedPathsChanged);
+
+  // The temp candidate list is transient per-run either way — the
+  // persistent ledger above (not this file) is what determines what still
+  // needs to be (re)sent on the next run.
   try {
     fs.unlinkSync(NEW_ARTICLES_FILE);
   } catch (err) {

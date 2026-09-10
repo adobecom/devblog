@@ -32,27 +32,57 @@ jobs:
         with:
           node-version: '24'
 
+      # AEM's repository_dispatch fires at publish time, but query-index.json
+      # is regenerated asynchronously and may not yet include the article
+      # when this step runs. Poll for it (bounded) so the sorting step below
+      # has the best chance of seeing it in THIS run. Skipped for manual
+      # workflow_dispatch, which has no specific client_payload.path to wait
+      # for. Never fails the workflow on timeout — see wait-for-publish.js.
+      - name: Wait for AEM index to reflect the published article
+        if: github.event_name == 'repository_dispatch'
+        env:
+          ARTICLE_PATH: ${{ github.event.client_payload.path }}
+        run: node sorted-index/wait-for-publish.js
+
       - name: Run sorting scripts
         env:
           # Only set here (never in the cron workflow), so only on-publish
-          # runs can ever produce a new-articles list / Slack notification.
+          # (and manual) runs can ever produce a new-articles candidate
+          # list. This script never writes the notification ledger itself
+          # regardless of this flag — see sorted-index/notified-articles.json
+          # comments in sort-query-index.js.
           EMIT_NEW_ARTICLES: 'true'
         run: node sorted-index/sort-query-index.js
 
-      - name: Commit and push changes if any
+      - name: Commit and push sorted index changes if any
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action (sort query index)"
           git pull
-          git add .
-          git diff-index --quiet HEAD || git commit -am "Update sorted query index on publish- $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          git add sorted-index/sorted-query-index.json
+          git diff-index --quiet HEAD -- sorted-index/sorted-query-index.json || git commit -m "Update sorted query index on publish- $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
           git push
 
-      # Runs after the index is committed and pushed, so a failure here
-      # never leaves the index in an uncommitted state, and a retry of this
-      # step alone can't cause a duplicate notification (the underlying
-      # new-articles file is only produced once per run of the script above).
+      # Runs after the sorted index is committed and pushed, so a Slack
+      # failure never puts the index at risk. This step is the ONLY place
+      # that marks an article as notified, and only after a confirmed
+      # successful Slack send for that specific article — a failed send
+      # leaves it out of the ledger so it's retried on the next run.
       - name: Notify Slack of new articles
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: node sorted-index/notify-slack.js
+
+      # Separate commit for the notification ledger, since notify-slack.js
+      # runs after the index commit above and writes a different file
+      # (sorted-index/notified-articles.json). Only commits if that file
+      # actually changed (i.e. at least one article was confirmed-notified
+      # this run).
+      - name: Commit notification history if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action (sort query index)"
+          git pull
+          git add sorted-index/notified-articles.json
+          git diff-index --quiet HEAD -- sorted-index/notified-articles.json || git commit -m "Update notified-articles ledger - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          git push
