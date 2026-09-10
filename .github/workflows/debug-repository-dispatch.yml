@@ -1,0 +1,20 @@
+name: Debug Repository Dispatch
+
+on:
+  repository_dispatch:
+    types:
+      - resource-published
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show repository dispatch payload
+        run: |
+          echo "Event name:"
+          echo '${{ github.event_name }}'
+
+          echo ""
+          echo "Client payload:"
+          echo '${{ toJson(github.event.client_payload) }}'
