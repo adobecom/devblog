@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2026 14:51:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 13:56:13 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Introducing Connected Enterprise: Helping enterprise users access Adobe products and services more seamlessly]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/09/introducing-connected-enterprise-helping-enterprise-users-access-adobe-products-and-services-more-seamlessly</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/09/introducing-connected-enterprise-helping-enterprise-users-access-adobe-products-and-services-more-seamlessly</guid>
+      <description><![CDATA[Connected Enterprise is changing how enterprise users access Adobe products and services. Here’s what Adobe Express add-on and desktop plugin developers need to know about user IDs and the transition.]]></description>
+      <dc:creator><![CDATA[Padma Krishnamoorthy]]></dc:creator>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/09/media_1a8ee262dc5e8ed46cf545c612f3c54b73fdedda2.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/09/media_1a8ee262dc5e8ed46cf545c612f3c54b73fdedda2.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[Build Your Own Commerce Storefront Block]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/09/build-your-own-commerce-storefront-block</link>
