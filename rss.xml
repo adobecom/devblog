@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 13:56:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 14:30:55 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[The UXP Hub: One Place to Learn UXP Plugins, from Building to Distribution]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/09/introducing-the-uxp-hub</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/09/introducing-the-uxp-hub</guid>
+      <description><![CDATA[Find UXP guides, API docs, and migration guidance for CEP extensions in one place, from your first plugin to publishing on Marketplace.]]></description>
+      <dc:creator><![CDATA[Karan Singh Chandel]]></dc:creator>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+      
+      
+    </item>
     <item>
       <title><![CDATA[Introducing Connected Enterprise: Helping enterprise users access Adobe products and services more seamlessly]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/09/introducing-connected-enterprise-helping-enterprise-users-access-adobe-products-and-services-more-seamlessly</link>
