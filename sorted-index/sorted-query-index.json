@@ -5,7 +5,7 @@
   "data": [
     {
       "path": "/en/publish/2026/09/introducing-the-uxp-hub",
-      "image": "",
+      "image": "/en/publish/2026/09/media_109c8394ac951a6922d0dcebec269a2d69df64e84.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
       "title": "The UXP Hub: One Place to Learn UXP Plugins, from Building to Distribution",
       "author": "Karan Singh Chandel",
@@ -13,7 +13,7 @@
       "tags": "[\"uxp\",\"cep\",\"plugin development\",\"extensibility\",\"developers\"]",
       "imageAlt": "UXP HUB Banner Image",
       "robots": "",
-      "lastModified": "1789569055",
+      "lastModified": "1789623155",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1789516800",
       "sortDate": "2026-09-16",
@@ -3098,5 +3098,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-09-16T19:56:54.922Z"
+  "generatedAt": "2026-09-17T05:34:54.599Z"
 }
