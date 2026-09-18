@@ -1,0 +1,89 @@
+.upcoming-events {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 35px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0 35px;
+  box-sizing: border-box;
+}
+
+main .section:has(.upcoming-events) {
+  background: #e8e8e8;
+}
+
+main .section:has(.upcoming-events) h2 {
+  margin-top: 0;
+  font-family: var(--body-font-family);
+  font-size: 32px;
+  text-align: center;
+}
+
+.upcoming-events-card {
+  display: block;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.upcoming-events-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  object-fit: cover;
+}
+
+.upcoming-events-date {
+  display: block;
+  padding: 7px 8px;
+  background: #fff;
+  font-size: 18px;
+  font-family: var(--body-font-family);
+  line-height: 1.3;
+  color: #000;
+}
+
+.upcoming-events-card:hover {
+  text-decoration: none;
+}
+
+.upcoming-events-card:hover .upcoming-events-date {
+  text-decoration: underline;
+}
+
+@media (max-width: 1100px) {
+  .upcoming-events {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 800px) {
+  main .section:has(.upcoming-events) h2 {
+    font-size: 24px;
+  }
+
+  .upcoming-events {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px 24px;
+  }
+
+  .upcoming-events-date {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  main .section:has(.upcoming-events) h2 {
+    font-size: 20px;
+  }
+
+  .upcoming-events {
+    grid-template-columns: 1fr;
+  }
+
+  .upcoming-events-date {
+    font-size: 14px;
+  }
+}
