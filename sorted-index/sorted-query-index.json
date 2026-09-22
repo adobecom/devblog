@@ -1,7 +1,7 @@
 {
-  "total": 119,
+  "total": 120,
   "offset": 0,
-  "limit": 119,
+  "limit": 120,
   "data": [
     {
       "path": "/en/publish/2026/09/introducing-the-uxp-hub",
@@ -563,6 +563,32 @@
       "Removed from Medium?": "",
       "sortDateTimestamp": "1774051200",
       "sortDate": "2026-03-21",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "",
+      "adobeApp": "",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "",
+      "importer": "v15june25",
+      "isHeroVideo": false
+    },
+    {
+      "path": "/en/publish/2026/03/image-behavior-test-2000x938",
+      "image": "/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Image Cropping & Layout Behavior Test – 2000× 938",
+      "author": "Devblogs",
+      "description": "",
+      "tags": "[]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1784704708",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1773964800",
+      "sortDate": "2026-03-20",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
       "adobeCloud": "",
@@ -3124,5 +3150,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-09-22T07:53:22.969Z"
+  "generatedAt": "2026-09-22T07:57:19.857Z"
 }
