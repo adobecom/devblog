@@ -232,6 +232,16 @@
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1b2da5ef873047cc35b4d671918003211c35fddd8.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
+      <title><![CDATA[Image Cropping & Layout Behavior Test – 2000× 938]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-2000x938</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-2000x938</guid>
+      <description><![CDATA[]]></description>
+      <dc:creator><![CDATA[Devblogs]]></dc:creator>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
       <title><![CDATA[Build Faster with the Adobe Express Developer MCP Server]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/03/build-faster-with-the-adobe-express-developer-mcp-server</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/build-faster-with-the-adobe-express-developer-mcp-server</guid>
@@ -1090,6 +1100,16 @@
       <pubDate>Wed, 22 Apr 2020 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Image Cropping & Layout Behavior Test – 1280 × 720]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1280-720</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-1280-720</guid>
+      <description><![CDATA[]]></description>
+      <dc:creator><![CDATA[Devblogs]]></dc:creator>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Learning by Doing: Porting “Free Stock Search” from CEP to UXP in Adobe XD]]></title>
