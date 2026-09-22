@@ -1,7 +1,7 @@
 {
-  "total": 117,
+  "total": 118,
   "offset": 0,
-  "limit": 117,
+  "limit": 118,
   "data": [
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
@@ -2760,6 +2760,32 @@
       "isHeroVideo": false
     },
     {
+      "path": "/en/publish/2026/03/image-behavior-test-1080-720",
+      "image": "/en/publish/2026/03/media_1830fdf4c961b518843868ce4d3f3cf3dc8657858.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Image Cropping & Layout Behavior Test – 1080 × 720",
+      "author": "Devblogs",
+      "description": "When analyzing the image behavior across the blog layout, the goal was not just to fix a visual issue — it was to understand how ...",
+      "tags": "[\"ai assistant\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1790083633",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1584835200",
+      "sortDate": "2020-03-22",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "2020-04-22",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Photoshop, Acrobat,",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "January 2026",
+      "newsletterPublished": "January 2026",
+      "importer": "v15june25",
+      "isHeroVideo": false
+    },
+    {
       "path": "/en/publish/2026/03/image-behavior-test-1280-720",
       "image": "/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -3072,5 +3098,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-09-22T13:34:55.713Z"
+  "generatedAt": "2026-09-22T13:37:31.416Z"
 }
