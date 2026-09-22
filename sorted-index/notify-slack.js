@@ -14,14 +14,18 @@
 // and posts a rich Slack notification (hero image + title/link + description)
 // for each one via an Incoming Webhook.
 //
+// After a successful notification, the article path is appended to the
+// committed `notified-articles.json` tracking file so that future runs (and
+// concurrent runs on the same runner queue) never re-notify the same article.
+//
 // Designed to be safe to always call from the on-publish workflow:
 //  - No file, empty file, or empty array → exits quietly (exit 0).
 //  - Missing SLACK_WEBHOOK_URL → logs a warning and exits quietly rather
 //    than failing the workflow (Slack delivery should never block indexing,
 //    which has already completed and been committed by the time this runs).
 //  - A failed Slack POST is logged but does not fail the workflow.
-//  - The temp file is deleted after a successful run so a stray re-run of
-//    just this script (without re-running the indexer) can't re-send.
+//  - The temp file is deleted after processing so a stray re-run of just
+//    this script (without re-running the indexer) can't re-send.
 
 const fs = require('fs');
 const os = require('os');
@@ -29,6 +33,10 @@ const path = require('path');
 
 const NEW_ARTICLES_FILE = path.join(os.tmpdir(), 'devblog-new-articles.json');
 const SITE_ORIGIN = 'https://blog.developer.adobe.com';
+
+// Committed tracking file — updated here and committed by the workflow step
+// that follows, so future runs (and re-queued concurrent runs) never re-notify.
+const NOTIFIED_ARTICLES_FILE = path.join(__dirname, 'notified-articles.json');
 
 function loadNewArticles() {
   if (!fs.existsSync(NEW_ARTICLES_FILE)) {
@@ -42,6 +50,35 @@ function loadNewArticles() {
   } catch (err) {
     console.warn(`Could not parse ${NEW_ARTICLES_FILE}:`, err.message);
     return [];
+  }
+}
+
+/**
+ * Load the current set of already-notified article paths from the committed
+ * tracking file. Returns a Set<string> for O(1) lookups.
+ */
+function loadNotifiedPaths() {
+  try {
+    if (!fs.existsSync(NOTIFIED_ARTICLES_FILE)) return new Set();
+    const parsed = JSON.parse(fs.readFileSync(NOTIFIED_ARTICLES_FILE, 'utf8'));
+    return new Set(Array.isArray(parsed) ? parsed : []);
+  } catch (err) {
+    console.warn(`Could not read ${NOTIFIED_ARTICLES_FILE}:`, err.message);
+    return new Set();
+  }
+}
+
+/**
+ * Append a newly-notified path to the committed tracking file.
+ * Errors here are non-fatal — a warning is logged and the workflow continues.
+ */
+function markAsNotified(articlePath, currentNotifiedPaths) {
+  currentNotifiedPaths.add(articlePath);
+  try {
+    const sorted = Array.from(currentNotifiedPaths).sort();
+    fs.writeFileSync(NOTIFIED_ARTICLES_FILE, JSON.stringify(sorted, null, 2));
+  } catch (err) {
+    console.warn(`Could not update ${NOTIFIED_ARTICLES_FILE}:`, err.message);
   }
 }
 
@@ -70,7 +107,9 @@ function resolveImageUrl(image) {
   }
 
   // YouTube thumbnail path, e.g. /vi/<videoId>/maxresdefault.jpg
-  if (/^\/vi\/[^/]+\/[^/]+\.(jpg|jpeg|png|webp)$/i.test(trimmed)) {
+  // Intentionally lenient about the filename extension to handle any
+  // YouTube thumbnail format.
+  if (/^\/vi\/[^/]+\/[^/]+$/i.test(trimmed)) {
     return `https://img.youtube.com${trimmed}`;
   }
 
@@ -140,12 +179,29 @@ async function main() {
     return;
   }
 
-  console.log(`Sending Slack notification(s) for ${newArticles.length} new article(s)`);
+  // Load the current notified set once; we'll update it in-memory and persist
+  // after each successful send so a mid-run crash doesn't lose progress.
+  const notifiedPaths = loadNotifiedPaths();
 
-  for (const article of newArticles) {
+  // Guard: filter out any articles that somehow slipped through (e.g., a
+  // concurrent run already committed an update to notified-articles.json after
+  // sort-query-index.js ran but before we got here).
+  const articlesToNotify = newArticles.filter((a) => !notifiedPaths.has(a.path));
+
+  if (articlesToNotify.length === 0) {
+    console.log('All articles already recorded in notified-articles.json — nothing to send.');
+    return;
+  }
+
+  console.log(`Sending Slack notification(s) for ${articlesToNotify.length} new article(s)`);
+
+  for (const article of articlesToNotify) {
     try {
       await postToSlack(webhookUrl, buildMessage(article));
       console.log(`✅ Notified Slack: ${article.title}`);
+      // Persist immediately after each successful send so a partial failure
+      // on a later article doesn't cause already-sent ones to be re-sent.
+      markAsNotified(article.path, notifiedPaths);
     } catch (err) {
       // Log and continue — one failed notification shouldn't block others
       // or fail the workflow (index already committed at this point).
@@ -153,7 +209,8 @@ async function main() {
     }
   }
 
-  // Clean up so a stray re-run of just this script can't re-send.
+  // Clean up the temp file so a stray re-run of just this script
+  // (without re-running the indexer) can't re-send.
   try {
     fs.unlinkSync(NEW_ARTICLES_FILE);
   } catch (err) {

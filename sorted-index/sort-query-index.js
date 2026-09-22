@@ -19,12 +19,32 @@ const compareNumbersInPaths = require('./sort-paths.js');
 const QUERY_INDEX_URL = 'https://blog.developer.adobe.com/en/query-index.json';
 const OUT_FILE = 'sorted-index/sorted-query-index.json';
 
-// Written OUTSIDE the repo (OS tmp dir) so it never gets picked up by
-// `git add .` in the on-publish workflow and never needs to be committed.
-// Only produced when EMIT_NEW_ARTICLES=true (set by the on-publish workflow;
-// left unset by cron, so cron can never generate this file).
+// Written to OS tmp dir so it is never picked up by `git add .` in the
+// on-publish workflow. Only produced when EMIT_NEW_ARTICLES=true (set by
+// the on-publish workflow; left unset by cron so cron can never generate it).
 const NEW_ARTICLES_FILE = path.join(os.tmpdir(), 'devblog-new-articles.json');
 const EMIT_NEW_ARTICLES = process.env.EMIT_NEW_ARTICLES === 'true';
+
+// Committed file that tracks every article path we have already notified
+// Slack about. Reading it (not the isHeroVideo cache) is the authoritative
+// way to decide whether an article is "new". Lives in the repo so the check
+// survives across runner instances and re-deploys.
+const NOTIFIED_ARTICLES_FILE = path.join(__dirname, 'notified-articles.json');
+
+/**
+ * Load the set of already-notified article paths from the committed tracking
+ * file. Returns a Set<string> for O(1) lookups.
+ */
+function loadNotifiedPaths() {
+  try {
+    if (!fs.existsSync(NOTIFIED_ARTICLES_FILE)) return new Set();
+    const parsed = JSON.parse(fs.readFileSync(NOTIFIED_ARTICLES_FILE, 'utf8'));
+    return new Set(Array.isArray(parsed) ? parsed : []);
+  } catch (err) {
+    console.warn(`Could not read ${NOTIFIED_ARTICLES_FILE}:`, err.message);
+    return new Set();
+  }
+}
 
 /**
  * Convert YYYY-MM-DD to Unix timestamp (seconds)
@@ -190,17 +210,19 @@ async function fetchAndSort() {
       }
     }
 
+    // Load the set of already-notified paths BEFORE processing, so the check
+    // is against durable committed state — not ephemeral in-memory state.
+    // This prevents floods on first deploy and protects against concurrent runs.
+    const notifiedPaths = EMIT_NEW_ARTICLES ? loadNotifiedPaths() : new Set();
+
     let fetchedCount = 0;
     let cachedCount = 0;
-    // Articles whose path was not found in the previously-persisted cache at
-    // all (as opposed to found-but-lastModified-changed) are genuinely new.
-    // Diffing against `cache` here — captured from disk before any writes
-    // this run — avoids misclassifying articles in a multi-article batch.
+    // An article is "new" only if its path is absent from the committed
+    // notified-articles.json. This is decoupled from the isHeroVideo cache.
     const newArticles = [];
 
     for (const article of blogData.data) {
       const cached = cache[article.path];
-      const isNew = !cached;
       const unchanged = cached && cached.lastModified === article.lastModified;
 
       if (unchanged) {
@@ -212,7 +234,8 @@ async function fetchAndSort() {
         console.log(`  ${article.path} → isHeroVideo: ${article.isHeroVideo} (${cached ? 'lastModified changed' : 'new article'})`);
       }
 
-      if (isNew) {
+      // Only collect new-article data when we will actually emit it.
+      if (EMIT_NEW_ARTICLES && !notifiedPaths.has(article.path)) {
         newArticles.push({
           title: article.title,
           path: article.path,

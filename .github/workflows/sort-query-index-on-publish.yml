@@ -34,12 +34,13 @@ jobs:
 
       - name: Run sorting scripts
         env:
-          # Only set here (never in the cron workflow), so only on-publish
-          # runs can ever produce a new-articles list / Slack notification.
-          EMIT_NEW_ARTICLES: 'true'
+          # Only set to 'true' for real publish events — never for manual
+          # workflow_dispatch triggers — so manual runs cannot accidentally
+          # produce a new-articles list or fire Slack notifications.
+          EMIT_NEW_ARTICLES: ${{ github.event_name == 'repository_dispatch' && 'true' || 'false' }}
         run: node sorted-index/sort-query-index.js
 
-      - name: Commit and push changes if any
+      - name: Commit and push index changes if any
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action (sort query index)"
@@ -49,10 +50,22 @@ jobs:
           git push
 
       # Runs after the index is committed and pushed, so a failure here
-      # never leaves the index in an uncommitted state, and a retry of this
-      # step alone can't cause a duplicate notification (the underlying
-      # new-articles file is only produced once per run of the script above).
+      # never leaves the index in an uncommitted state.
+      # The notified-articles.json update (written by this script) is
+      # committed in the next step so future runs can use it immediately.
       - name: Notify Slack of new articles
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: node sorted-index/notify-slack.js
+
+      # Commit the updated notified-articles.json so future runs (and queued
+      # concurrent runs) know which articles have already been notified and
+      # won't send duplicate Slack messages.
+      - name: Commit updated notified-articles tracking file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action (sort query index)"
+          git pull
+          git add sorted-index/notified-articles.json
+          git diff-index --quiet HEAD -- sorted-index/notified-articles.json || git commit -m "Update Slack-notified articles tracking - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          git push
