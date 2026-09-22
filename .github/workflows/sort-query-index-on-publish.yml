@@ -38,6 +38,7 @@ jobs:
           # workflow_dispatch triggers — so manual runs cannot accidentally
           # produce a new-articles list or fire Slack notifications.
           EMIT_NEW_ARTICLES: ${{ github.event_name == 'repository_dispatch' && 'true' || 'false' }}
+          PUBLISHED_PATH: ${{ github.event.client_payload.path }}
         run: node sorted-index/sort-query-index.js
 
       - name: Commit and push index changes if any

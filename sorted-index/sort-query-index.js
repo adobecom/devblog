@@ -24,6 +24,7 @@ const OUT_FILE = 'sorted-index/sorted-query-index.json';
 // the on-publish workflow; left unset by cron so cron can never generate it).
 const NEW_ARTICLES_FILE = path.join(os.tmpdir(), 'devblog-new-articles.json');
 const EMIT_NEW_ARTICLES = process.env.EMIT_NEW_ARTICLES === 'true';
+const PUBLISHED_PATH = (process.env.PUBLISHED_PATH || '').replace(/\.md$/i, '').trim();
 
 // Committed file that tracks every article path we have already notified
 // Slack about. Reading it (not the isHeroVideo cache) is the authoritative
@@ -44,6 +45,40 @@ function loadNotifiedPaths() {
     console.warn(`Could not read ${NOTIFIED_ARTICLES_FILE}:`, err.message);
     return new Set();
   }
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function pollForPublishedPath(
+  retryIntervalMs = 30_000,
+  maxRetries = 10,
+) {
+
+  if (!EMIT_NEW_ARTICLES) return;
+
+  if (!PUBLISHED_PATH) return;
+
+  console.log(`Polling query index for published path: ${PUBLISHED_PATH}`);
+
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      const raw = await fetchData(QUERY_INDEX_URL);
+      const { data } = JSON.parse(raw);
+      if (Array.isArray(data) && data.some((a) => a.path === PUBLISHED_PATH)) {
+        console.log(`Published path found in query index after attempt ${attempt}.`);
+        return;
+      }
+      console.log(`  Attempt ${attempt}/${maxRetries}: path not yet in index. Waiting ${retryIntervalMs / 1000}s…`);
+    } catch (err) {
+      console.warn(`  Attempt ${attempt}/${maxRetries}: fetch failed — ${err.message}. Waiting ${retryIntervalMs / 1000}s…`);
+    }
+
+    if (attempt < maxRetries) await sleep(retryIntervalMs);
+  }
+
+  console.warn(`⚠️ Published path "${PUBLISHED_PATH}" did not appear in query index after ${maxRetries} attempts. Proceeding anyway.`);
 }
 
 /**
@@ -179,6 +214,9 @@ function emitNewArticles(newArticles) {
 
 async function fetchAndSort() {
   try {
+
+    await pollForPublishedPath();
+
     console.log(`Fetching ${QUERY_INDEX_URL}`);
     const response = await fetchData(QUERY_INDEX_URL);
     const blogData = JSON.parse(response);
