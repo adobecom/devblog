@@ -1,7 +1,7 @@
 {
-  "total": 116,
+  "total": 117,
   "offset": 0,
-  "limit": 116,
+  "limit": 117,
   "data": [
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
@@ -2760,6 +2760,32 @@
       "isHeroVideo": false
     },
     {
+      "path": "/en/publish/2026/03/image-behavior-test-1280-720",
+      "image": "/en/publish/2026/03/media_1cef1057f851524593726d1f2be9f0959e13f8f58.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Image Cropping & Layout Behavior Test – 1280 × 720",
+      "author": "Devblogs",
+      "description": "Welcome Sonya P., a 2026 Adobe Developer Champion, software developer, and content creator, to the Adobe Developer Blog!",
+      "tags": "[]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1790083600",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1584748800",
+      "sortDate": "2020-03-21",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "",
+      "adobeApp": "",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "",
+      "importer": "v15june25",
+      "isHeroVideo": false
+    },
+    {
       "path": "/en/publish/2020/01/learning-by-doing-porting-free-stock-search-from-cep-to-uxp-in-adobe-xd",
       "image": "/en/publish/2020/01/media_1be9bb884297a103d4a863f66c766ac3349ee9194.jpg?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -3046,5 +3072,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-09-22T13:32:53.593Z"
+  "generatedAt": "2026-09-22T13:34:55.713Z"
 }
