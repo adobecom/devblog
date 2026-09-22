@@ -4,6 +4,32 @@
   "limit": 120,
   "data": [
     {
+      "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
+      "image": "/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Is Your Adobe Express Add-on Ready for Large Document Support?",
+      "author": "Padma Krishnamoorthy",
+      "description": "Check whether your Express add-on's patterns will need updating before Large Document Support rolls out and enforcement begins.",
+      "tags": "[\"add-ons\",\"extensibility\",\"large document support\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1790073920",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1784505600",
+      "sortDate": "2026-07-20",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "2026-09-22",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "July 2026",
+      "importer": "",
+      "isHeroVideo": false
+    },
+    {
       "path": "/en/publish/2026/09/introducing-the-uxp-hub",
       "image": "/en/publish/2026/09/media_109c8394ac951a6922d0dcebec269a2d69df64e84.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -236,32 +262,6 @@
       "newsletterPublished": "",
       "importer": "",
       "isHeroVideo": true
-    },
-    {
-      "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
-      "image": "/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "Is Your Adobe Express Add-on Ready for Large Document Support?",
-      "author": "Padma Krishnamoorthy",
-      "description": "Check whether your Express add-on's patterns will need updating before Large Document Support rolls out and enforcement begins.",
-      "tags": "[\"add-ons\",\"extensibility\",\"large document support\"]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1786803005",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1784505600",
-      "sortDate": "2026-07-20",
-      "sortDateTimestampLegacy": "",
-      "updatedDate": "",
-      "adobeCloud": "Creative Cloud",
-      "adobeApp": "Adobe Express",
-      "mediaUrl": "",
-      "metaTitle": "",
-      "shortDescription": "",
-      "newsletterPlanned": "",
-      "newsletterPublished": "July 2026",
-      "importer": "",
-      "isHeroVideo": false
     },
     {
       "path": "/en/publish/2026/06/upcoming-photoshop-ui-changes-test-your-uxp-plugin-now",
@@ -3150,5 +3150,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-09-22T07:57:19.857Z"
+  "generatedAt": "2026-09-22T11:43:16.152Z"
 }
