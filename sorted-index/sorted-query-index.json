@@ -1,8 +1,34 @@
 {
-  "total": 118,
+  "total": 119,
   "offset": 0,
-  "limit": 118,
+  "limit": 119,
   "data": [
+    {
+      "path": "/en/publish/2026/09/investing-in-the-future-of-creative-cloud-extensibility-uxp-comes-to-our-flagship-applications",
+      "image": "/en/publish/2026/09/media_12f63b10bd7a0682a8985913d56e6e9b868249c16.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Investing in the Future of Creative Cloud Extensibility: UXP Comes to Our Flagship Applications",
+      "author": "Aubrey Cattell",
+      "description": "Move your Creative Cloud plugins to UXP before CEP is phased out. Key dates for Photoshop, After Effects, Illustrator, and more.",
+      "tags": "[\"uxp\",\"cep\",\"plugins\",\"hybrid-plugins\",\"extensibility\",\"plugin development\",\"migration\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1790260897",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1790208000",
+      "sortDate": "2026-09-24",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Photoshop, InDesign, Premiere, After Effects, Illustrator, Adobe Media Encoder",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "September 2026",
+      "importer": "",
+      "isHeroVideo": false
+    },
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
       "image": "/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&format=pjpg&optimize=medium",
@@ -3098,5 +3124,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-09-22T15:45:55.976Z"
+  "generatedAt": "2026-09-24T14:44:07.150Z"
 }
