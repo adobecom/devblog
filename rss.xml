@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2026 13:27:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 14:41:37 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Investing in the Future of Creative Cloud Extensibility: UXP Comes to Our Flagship Applications]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/09/investing-in-the-future-of-creative-cloud-extensibility-uxp-comes-to-our-flagship-applications</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/09/investing-in-the-future-of-creative-cloud-extensibility-uxp-comes-to-our-flagship-applications</guid>
+      <description><![CDATA[Move your Creative Cloud plugins to UXP before CEP is phased out. Key dates for Photoshop, After Effects, Illustrator, and more.]]></description>
+      <dc:creator><![CDATA[Aubrey Cattell]]></dc:creator>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/09/media_12f63b10bd7a0682a8985913d56e6e9b868249c16.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/09/media_12f63b10bd7a0682a8985913d56e6e9b868249c16.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[Is Your Adobe Express Add-on Ready for Large Document Support?]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know</link>
