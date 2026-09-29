@@ -236,13 +236,14 @@ function getImageCaption(picture) {
   if (caption) return caption;
 
   // If the parent element doesn't have a caption, check if the next sibling does
-  const parentSiblingEl = parentEl.nextElementSibling;
-  caption = parentSiblingEl
-    && !parentSiblingEl.querySelector('picture')
-    && parentSiblingEl.firstChild?.tagName === 'EM'
-    ? parentSiblingEl.querySelector('em')
-    : undefined;
-  return caption;
+  // This logic is currently disabled to prevent italic text from being incorrectly treated as image captions
+  // const parentSiblingEl = parentEl.nextElementSibling;
+  // caption = parentSiblingEl
+  //   && !parentSiblingEl.querySelector('picture')
+  //   && parentSiblingEl.firstChild?.tagName === 'EM'
+  //   ? parentSiblingEl.querySelector('em')
+  //   : undefined;
+  // return caption;
 }
 
 /*
