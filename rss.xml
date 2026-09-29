@@ -12,6 +12,16 @@
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
+      <title><![CDATA[Introducing Translate Connectors: Bring Your Organization’s Translation Service into Adobe Express]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/09/translate-connectors-bring-your-organization-s-approved-translation-service-into-adobe-express</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/09/translate-connectors-bring-your-organization-s-approved-translation-service-into-adobe-express</guid>
+      <description><![CDATA[Connect your organization's approved translation service to Adobe Express so teams translate without leaving the design, no exporting or waiting on a queue.]]></description>
+      <dc:creator><![CDATA[Padma Krishnamoorthy]]></dc:creator>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/09/media_1fd1a586959673f63c0300c56659bc74ff143715c.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/09/media_1fd1a586959673f63c0300c56659bc74ff143715c.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
       <title><![CDATA[Investing in the Future of Creative Cloud Extensibility: UXP Comes to Our Flagship Applications]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/09/investing-in-the-future-of-creative-cloud-extensibility-uxp-comes-to-our-flagship-applications</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/09/investing-in-the-future-of-creative-cloud-extensibility-uxp-comes-to-our-flagship-applications</guid>
