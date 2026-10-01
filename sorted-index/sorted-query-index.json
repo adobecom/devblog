@@ -1,8 +1,34 @@
 {
-  "total": 120,
+  "total": 122,
   "offset": 0,
-  "limit": 120,
+  "limit": 122,
   "data": [
+    {
+      "path": "/en/publish/2026/10/build-time-wasm-module-splitting-ship-more-features-without-growing-your-startup-bundle",
+      "image": "/en/publish/2026/10/media_161ecd6254cd7304cc63217bf76f934447bd4989c.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Build-Time Wasm Module Splitting: Ship More Features Without Growing Your Startup Bundle",
+      "author": "Sumit Kumar",
+      "description": "Cut your WebAssembly startup load without repeated profiling. See the build-time technique that keeps your Wasm module lean as your app grows.",
+      "tags": "[\"pdf\",\"webassembly\",\"cpp\",\"performance\",\"developer tools\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1790868892",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1790812800",
+      "sortDate": "2026-10-01",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Document Cloud",
+      "adobeApp": "Acrobat",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "September 2026",
+      "importer": "",
+      "isHeroVideo": false
+    },
     {
       "path": "/en/publish/2026/09/translate-connectors-bring-your-organization-s-approved-translation-service-into-adobe-express",
       "image": "/en/publish/2026/09/media_1fd1a586959673f63c0300c56659bc74ff143715c.png?width=1200&format=pjpg&optimize=medium",
@@ -26,6 +52,32 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "October 2026",
+      "importer": "",
+      "isHeroVideo": false
+    },
+    {
+      "path": "/en/publish/2026/09/build-time-wasm-module-splitting-ship-more-features-without-growing-your-startup-bundle",
+      "image": "/en/publish/2026/09/media_161ecd6254cd7304cc63217bf76f934447bd4989c.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Build-Time Wasm Module Splitting: Ship More Features Without Growing Your Startup Bundle",
+      "author": "Sumit Kumar",
+      "description": "Cut your WebAssembly startup load without repeated profiling. See the build-time technique that keeps your Wasm module lean as your app grows.",
+      "tags": "[\"pdf\",\"webassembly\",\"cpp\",\"performance\",\"developer tools\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1790859316",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1790553600",
+      "sortDate": "2026-09-28",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Document Cloud",
+      "adobeApp": "Acrobat",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "September 2026",
       "importer": "",
       "isHeroVideo": false
     },
@@ -3150,5 +3202,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-09-30T13:32:12.518Z"
+  "generatedAt": "2026-10-01T15:36:45.900Z"
 }
