@@ -199,8 +199,8 @@
     "image": "/images/authors/aubrey-cattell.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
-      "title": "Adobe Express Platform Updates for MAX 2024: New Developer Capabilities and Explosive Growth of Our Partner Ecosystem",
-      "date": "2024-10-11"
+      "title": "Investing in the Future of Creative Cloud Extensibility: UXP Comes to Our Flagship Applications",
+      "date": "2026-09-24"
     },
     "isComplete": true
   },
@@ -284,8 +284,8 @@
     "image": "/images/authors/carlos-a-cabrera.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
-      "title": "Edge Delivery Services for Commerce: A New Storefront Has Dropped",
-      "date": "2024-12-13"
+      "title": "Build Your Own Commerce Storefront Block",
+      "date": "2026-09-09"
     },
     "isComplete": true
   },
@@ -650,6 +650,31 @@
     "isComplete": false
   },
   {
+    "name": "Karan Singh Chandel",
+    "slug": "karan-singh-chandel",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/karan-singh-chandel",
+    "title": "Developer Relations Engineer",
+    "linkedin": "https://www.linkedin.com/in/karan-chandel/",
+    "links": [
+      {
+        "url": "https://github.com/karan0207",
+        "label": "Github"
+      }
+    ],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/karan-singh-chandel",
+    "docImage": "./media_1994ef0a52ca31b143471b520d06e164ca1b5df17.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
+    "image": "/images/authors/karan-singh-chandel.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "The UXP Hub: One Place to Learn UXP Plugins, from Building to Distribution",
+      "date": "2026-09-16"
+    },
+    "isComplete": true
+  },
+  {
     "name": "Kasi Viswanathan K",
     "slug": "kasi-viswanathan-k",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/kasi-viswanathan-k",
@@ -874,8 +899,8 @@
     "image": "/images/authors/padma-krishnamoorthy.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
-      "title": "Is Your Adobe Express Add-on Ready for Large Document Support?",
-      "date": "2026-07-20"
+      "title": "Introducing Translate Connectors: Bring Your Organization’s Translation Service into Adobe Express",
+      "date": "2026-09-29"
     },
     "isComplete": true
   },
@@ -1121,6 +1146,26 @@
     "latestArticle": {
       "title": "How to Customize Your Adobe Creative Cloud Extension Package",
       "date": "2018-08-21"
+    },
+    "isComplete": false
+  },
+  {
+    "name": "Sumit Kumar",
+    "slug": "sumit-kumar",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/sumit-kumar",
+    "title": "",
+    "linkedin": "",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": false,
+    "docUrl": "/en/authors/sumit-kumar",
+    "docImage": "",
+    "image": "/images/authors/sumit-kumar.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "Build-Time Wasm Module Splitting: Ship More Features Without Growing Your Startup Bundle",
+      "date": "2026-10-01"
     },
     "isComplete": false
   },

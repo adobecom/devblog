@@ -51,14 +51,14 @@
     ]
   },
   {
-    "name": "Abhishek Jain",
-    "slug": "abhishek-jain",
+    "name": "Ashikka Gupta",
+    "slug": "ashikka-gupta",
     "latestArticle": {
-      "title": "Troubleshoot Issues Installing Extensions and Add-ons for Creative Cloud apps",
-      "date": "2019-11-29",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/01/troubleshoot-issues-installing-extensions-and-add-ons-for-creative-cloud-apps"
+      "title": "Building an Image Search Plugin for Photoshop",
+      "date": "2021-12-31",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/03/building-an-image-search-plugin-for-photoshop"
     },
-    "docUrl": "/en/authors/abhishek-jain",
+    "docUrl": "/en/authors/ashikka-gupta",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -76,23 +76,6 @@
       "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
     },
     "docUrl": "/en/authors/sharayoo-jog",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Ashikka Gupta",
-    "slug": "ashikka-gupta",
-    "latestArticle": {
-      "title": "Building an Image Search Plugin for Photoshop",
-      "date": "2021-12-31",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/03/building-an-image-search-plugin-for-photoshop"
-    },
-    "docUrl": "/en/authors/ashikka-gupta",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -170,14 +153,14 @@
     ]
   },
   {
-    "name": "Pratibha Sharma",
-    "slug": "pratibha-sharma",
+    "name": "Abhishek Jain",
+    "slug": "abhishek-jain",
     "latestArticle": {
-      "title": "Leveraging Propensity Models: Marketing that Thinks Like Your Customer",
-      "date": "2025-06-09",
-      "url": "https://blog.developer.adobe.com/en/publish/2025/06/leveraging-propensity-models-marketing-that-thinks-like-your-customer"
+      "title": "Troubleshoot Issues Installing Extensions and Add-ons for Creative Cloud apps",
+      "date": "2019-11-29",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/01/troubleshoot-issues-installing-extensions-and-add-ons-for-creative-cloud-apps"
     },
-    "docUrl": "/en/authors/pratibha-sharma",
+    "docUrl": "/en/authors/abhishek-jain",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -187,14 +170,14 @@
     ]
   },
   {
-    "name": "Asim Chatterjee",
-    "slug": "asim-chatterjee",
+    "name": "Pratibha Sharma",
+    "slug": "pratibha-sharma",
     "latestArticle": {
       "title": "Leveraging Propensity Models: Marketing that Thinks Like Your Customer",
       "date": "2025-06-09",
       "url": "https://blog.developer.adobe.com/en/publish/2025/06/leveraging-propensity-models-marketing-that-thinks-like-your-customer"
     },
-    "docUrl": "/en/authors/asim-chatterjee",
+    "docUrl": "/en/authors/pratibha-sharma",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -229,6 +212,23 @@
       "url": "https://blog.developer.adobe.com/en/publish/2023/06/adobe-developer-app-builder-support-for-setting-response-headers"
     },
     "docUrl": "/en/authors/kelvin-xu",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Asim Chatterjee",
+    "slug": "asim-chatterjee",
+    "latestArticle": {
+      "title": "Leveraging Propensity Models: Marketing that Thinks Like Your Customer",
+      "date": "2025-06-09",
+      "url": "https://blog.developer.adobe.com/en/publish/2025/06/leveraging-propensity-models-marketing-that-thinks-like-your-customer"
+    },
+    "docUrl": "/en/authors/asim-chatterjee",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -484,6 +484,23 @@
       "url": "https://blog.developer.adobe.com/en/publish/2021/08/finding-your-feet-with-adobe-developer-app-builder"
     },
     "docUrl": "/en/authors/john-hill",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Sumit Kumar",
+    "slug": "sumit-kumar",
+    "latestArticle": {
+      "title": "Build-Time Wasm Module Splitting: Ship More Features Without Growing Your Startup Bundle",
+      "date": "2026-10-01",
+      "url": "https://blog.developer.adobe.com/en/publish/2026/10/build-time-wasm-module-splitting-ship-more-features-without-growing-your-startup-bundle"
+    },
+    "docUrl": "/en/authors/sumit-kumar",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
