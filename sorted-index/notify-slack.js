@@ -125,7 +125,7 @@ function buildMessage(article) {
   const blocks = [
     {
       type: 'section',
-      text: { type: 'mrkdwn', text: '📝 *New blog article published*' },
+      text: { type: 'mrkdwn', text: '*New blog article published*' },
     },
   ];
 
@@ -147,7 +147,7 @@ function buildMessage(article) {
   });
 
   return {
-    text: `📝 New blog article published: ${article.title}`, // fallback for notifications
+    text: `New blog article published: ${article.title}`, // fallback for notifications
     blocks,
   };
 }
