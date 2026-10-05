@@ -1153,21 +1153,21 @@
     "name": "Sumit Kumar",
     "slug": "sumit-kumar",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/sumit-kumar",
-    "title": "",
-    "linkedin": "",
+    "title": "Making Acrobat fly on the web with WebAssembly",
+    "linkedin": "https://www.linkedin.com/in/ravisumit33/",
     "links": [],
-    "isAdobeEmployee": false,
+    "isAdobeEmployee": true,
     "isDeveloperChampion": false,
-    "hasDoc": false,
+    "hasDoc": true,
     "docUrl": "/en/authors/sumit-kumar",
-    "docImage": "",
+    "docImage": "./media_11d637d9455a7e05065b2988b2f48d248225bbb69.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
     "image": "/images/authors/sumit-kumar.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
       "title": "Build-Time Wasm Module Splitting: Ship More Features Without Growing Your Startup Bundle",
       "date": "2026-10-01"
     },
-    "isComplete": false
+    "isComplete": true
   },
   {
     "name": "Surya Lamech",
