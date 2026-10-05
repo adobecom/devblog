@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2026 15:34:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 06:45:48 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -30,16 +30,6 @@
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/09/media_1fd1a586959673f63c0300c56659bc74ff143715c.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/09/media_1fd1a586959673f63c0300c56659bc74ff143715c.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[Build-Time Wasm Module Splitting: Ship More Features Without Growing Your Startup Bundle]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/09/build-time-wasm-module-splitting-ship-more-features-without-growing-your-startup-bundle</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/09/build-time-wasm-module-splitting-ship-more-features-without-growing-your-startup-bundle</guid>
-      <description><![CDATA[Cut your WebAssembly startup load without repeated profiling. See the build-time technique that keeps your Wasm module lean as your app grows.]]></description>
-      <dc:creator><![CDATA[Sumit Kumar]]></dc:creator>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/09/media_161ecd6254cd7304cc63217bf76f934447bd4989c.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/09/media_161ecd6254cd7304cc63217bf76f934447bd4989c.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Investing in the Future of Creative Cloud Extensibility: UXP Comes to Our Flagship Applications]]></title>
