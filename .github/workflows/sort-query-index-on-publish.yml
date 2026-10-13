@@ -59,14 +59,14 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: node sorted-index/notify-slack.js
 
-      # Commit the updated notified-articles.json so future runs (and queued
-      # concurrent runs) know which articles have already been notified and
-      # won't send duplicate Slack messages.
+      # Commit both tracking files so future runs (and queued concurrent runs)
+      # know which articles and updates have already been notified to Slack.
       - name: Commit updated notified-articles tracking file
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action (sort query index)"
           git pull
           git add sorted-index/notified-articles.json
-          git diff-index --quiet HEAD -- sorted-index/notified-articles.json || git commit -m "Update Slack-notified articles tracking - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          git add sorted-index/notified-updates.json
+          git diff-index --quiet HEAD -- sorted-index/notified-articles.json sorted-index/notified-updates.json || git commit -m "Update Slack-notified articles tracking - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
           git push

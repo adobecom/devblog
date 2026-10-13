@@ -32,6 +32,11 @@ const PUBLISHED_PATH = (process.env.PUBLISHED_PATH || '').replace(/\.md$/i, '').
 // survives across runner instances and re-deploys.
 const NOTIFIED_ARTICLES_FILE = path.join(__dirname, 'notified-articles.json');
 
+// Tracks which updatedDate was last Slack-notified per article path.
+// Format: { "<path>": "<updatedDate>" }
+// An update is "new" only when the article's updatedDate differs from this value.
+const NOTIFIED_UPDATES_FILE = path.join(__dirname, 'notified-updates.json');
+
 /**
  * Load the set of already-notified article paths from the committed tracking
  * file. Returns a Set<string> for O(1) lookups.
@@ -44,6 +49,21 @@ function loadNotifiedPaths() {
   } catch (err) {
     console.warn(`Could not read ${NOTIFIED_ARTICLES_FILE}:`, err.message);
     return new Set();
+  }
+}
+
+/**
+ * Load the map of already-notified update dates from the committed tracking
+ * file. Returns a plain object { path: updatedDate } for O(1) lookups.
+ */
+function loadNotifiedUpdates() {
+  try {
+    if (!fs.existsSync(NOTIFIED_UPDATES_FILE)) return {};
+    const parsed = JSON.parse(fs.readFileSync(NOTIFIED_UPDATES_FILE, 'utf8'));
+    return (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) ? parsed : {};
+  } catch (err) {
+    console.warn(`Could not read ${NOTIFIED_UPDATES_FILE}:`, err.message);
+    return {};
   }
 }
 
@@ -192,20 +212,23 @@ function deepEqual(obj1, obj2) {
  * No-op entirely unless EMIT_NEW_ARTICLES=true, so cron runs (which never
  * set that env var) can never produce this file.
  */
-function emitNewArticles(newArticles) {
+function emitNewArticles(newArticles, updatedArticles) {
   if (!EMIT_NEW_ARTICLES) return;
 
   try {
-    fs.writeFileSync(NEW_ARTICLES_FILE, JSON.stringify(newArticles, null, 2));
-    console.log(`📝 Wrote ${newArticles.length} new article(s) to ${NEW_ARTICLES_FILE}`);
+    const payload = { newArticles, updatedArticles };
+    fs.writeFileSync(NEW_ARTICLES_FILE, JSON.stringify(payload, null, 2));
+    console.log(`Wrote ${newArticles.length} new + ${updatedArticles.length} updated article(s) to ${NEW_ARTICLES_FILE}`);
   } catch (err) {
     // Never let a notification-side failure break the indexing run.
     console.warn(`Could not write ${NEW_ARTICLES_FILE}:`, err.message);
   }
 
   if (process.env.GITHUB_OUTPUT) {
+    
     try {
-      fs.appendFileSync(process.env.GITHUB_OUTPUT, `has_new_articles=${newArticles.length > 0}\n`);
+      const hasAny = newArticles.length > 0 || updatedArticles.length > 0;
+      fs.appendFileSync(process.env.GITHUB_OUTPUT, `has_new_articles=${hasAny}\n`);
     } catch (err) {
       console.warn('Could not write GITHUB_OUTPUT:', err.message);
     }
@@ -248,16 +271,18 @@ async function fetchAndSort() {
       }
     }
 
-    // Load the set of already-notified paths BEFORE processing, so the check
-    // is against durable committed state — not ephemeral in-memory state.
-    // This prevents floods on first deploy and protects against concurrent runs.
-    const notifiedPaths = EMIT_NEW_ARTICLES ? loadNotifiedPaths() : new Set();
+    // Load both tracking structures BEFORE processing, so checks are against
+    // durable committed state — not ephemeral in-memory state.
+    const notifiedPaths   = EMIT_NEW_ARTICLES ? loadNotifiedPaths()   : new Set();
+    const notifiedUpdates = EMIT_NEW_ARTICLES ? loadNotifiedUpdates() : {};
 
     let fetchedCount = 0;
     let cachedCount = 0;
-    // An article is "new" only if its path is absent from the committed
-    // notified-articles.json. This is decoupled from the isHeroVideo cache.
+    // An article is "new" only if its path is absent from notified-articles.json.
     const newArticles = [];
+    // An article is "updated" only if it's already published (in notifiedPaths)
+    // and its updatedDate is set and differs from the last notified updatedDate.
+    const updatedArticles = [];
 
     for (const article of blogData.data) {
       const cached = cache[article.path];
@@ -282,10 +307,29 @@ async function fetchAndSort() {
           description: article.description || '',
         });
       }
+
+      // Detect updated articles: already published + has a new updatedDate.
+      // Only flag when updatedDate is non-empty and differs from last notified.
+      const hasUpdatedDate = article.updatedDate && article.updatedDate.trim() !== '';
+      const alreadyPublished = notifiedPaths.has(article.path);
+      const lastNotifiedUpdate = notifiedUpdates[article.path];
+      const isNewUpdate = hasUpdatedDate && alreadyPublished && lastNotifiedUpdate !== article.updatedDate;
+
+      if (EMIT_NEW_ARTICLES && isNewUpdate) {
+        updatedArticles.push({
+          title: article.title,
+          path: article.path,
+          updatedDate: article.updatedDate,
+          updateNote: (article.updateNote || '').trim(),
+          image: article.image || '',
+          description: article.description || '',
+        });
+      }
     }
 
     console.log(`✅ Hero video check: ${fetchedCount} fetched, ${cachedCount} served from cache`);
     console.log(`🆕 New articles detected: ${newArticles.length}`);
+    console.log(`Updated articles detected: ${updatedArticles.length}`);
 
     blogData.data.sort((a, b) => {
       const tsA = getSortTimestamp(a);
@@ -326,9 +370,8 @@ async function fetchAndSort() {
       console.log('📋 No changes detected, file is already up to date');
     }
 
-    // Only articles we're confident are genuinely new (not just an index
-    // refresh with no real change) should ever trigger a Slack notification.
-    emitNewArticles(newArticles);
+    // Emit both new and updated articles for Slack notification.
+    emitNewArticles(newArticles, updatedArticles);
 
   } catch (error) {
     console.error('❌ Error sorting query index', error.message);
