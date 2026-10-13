@@ -40,12 +40,12 @@
       "tags": "[]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1791872563",
+      "lastModified": "1791873010",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1773964800",
       "sortDate": "2026-03-20",
       "sortDateTimestampLegacy": "",
-      "updatedDate": "2026-10-13",
+      "updatedDate": "2026-10-12",
       "adobeCloud": "",
       "adobeApp": "",
       "mediaUrl": "",
@@ -54,7 +54,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
-      "updateNote": "Testing",
+      "updateNote": "Testing purpose",
       "isHeroVideo": false
     },
     {
@@ -3352,5 +3352,5 @@
     "updateNote"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-10-13T06:30:43.458Z"
+  "generatedAt": "2026-10-13T06:38:52.227Z"
 }
