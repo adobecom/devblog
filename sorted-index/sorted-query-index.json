@@ -1,7 +1,7 @@
 {
-  "total": 121,
+  "total": 122,
   "offset": 0,
-  "limit": 121,
+  "limit": 122,
   "data": [
     {
       "path": "/en/publish/2026/10/build-time-wasm-module-splitting-ship-more-features-without-growing-your-startup-bundle",
@@ -27,6 +27,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "September 2026",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -53,6 +54,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "October 2026",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -79,6 +81,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "September 2026",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -105,6 +108,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "July 2026",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -131,6 +135,7 @@
       "newsletterPlanned": "September 2026",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -157,6 +162,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -183,6 +189,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "September 2026",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -209,6 +216,7 @@
       "newsletterPlanned": "August 2026",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -235,6 +243,7 @@
       "newsletterPlanned": "August 2026",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -261,6 +270,7 @@
       "newsletterPlanned": "August 2026",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": true
     },
     {
@@ -287,6 +297,7 @@
       "newsletterPlanned": "July  2026",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -313,6 +324,7 @@
       "newsletterPlanned": "July 2026",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -339,6 +351,7 @@
       "newsletterPlanned": "July 2026",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": true
     },
     {
@@ -365,6 +378,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "June  2026",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -391,6 +405,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "June 2026",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -417,6 +432,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -443,6 +459,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -469,6 +486,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -495,6 +513,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -521,6 +540,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "June 2026",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": true
     },
     {
@@ -547,6 +567,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -573,6 +594,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -599,6 +621,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -625,6 +648,34 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
+      "isHeroVideo": false
+    },
+    {
+      "path": "/en/publish/2026/03/image-behavior-test-1364-640",
+      "image": "/en/publish/2026/03/media_1b2da5ef873047cc35b4d671918003211c35fddd8.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Image Cropping & Layout Behavior Test – 1364 × 640",
+      "author": "Devblogs",
+      "description": "When analyzing the image behavior across the blog layout, the goal was not just to fix a visual issue — it was to understand how ...",
+      "tags": "[]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1788966981",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1774051200",
+      "sortDate": "2026-03-21",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "",
+      "adobeApp": "",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "",
+      "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -651,6 +702,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -677,6 +729,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -703,6 +756,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": true
     },
     {
@@ -729,6 +783,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": true
     },
     {
@@ -755,6 +810,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -781,6 +837,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -807,6 +864,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -833,6 +891,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -859,6 +918,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -885,6 +945,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -911,6 +972,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -937,6 +999,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -963,6 +1026,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -989,6 +1053,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1015,6 +1080,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1041,6 +1107,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1067,6 +1134,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1093,6 +1161,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1119,6 +1188,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1145,6 +1215,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1171,6 +1242,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1197,6 +1269,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1223,6 +1296,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1249,6 +1323,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1275,6 +1350,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1301,6 +1377,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1327,6 +1404,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1353,6 +1431,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1379,6 +1458,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1405,6 +1485,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1431,6 +1512,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1457,6 +1539,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1483,6 +1566,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1509,6 +1593,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v14",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1535,6 +1620,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1561,6 +1647,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1587,6 +1674,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1613,6 +1701,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1639,6 +1728,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1665,6 +1755,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1691,6 +1782,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1717,6 +1809,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1743,6 +1836,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1769,6 +1863,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1795,6 +1890,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1821,6 +1917,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1847,6 +1944,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1873,6 +1971,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1899,6 +1998,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1925,6 +2025,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1951,6 +2052,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -1977,6 +2079,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2003,6 +2106,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2029,6 +2133,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2055,6 +2160,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2081,6 +2187,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2107,6 +2214,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2133,6 +2241,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2159,6 +2268,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2185,6 +2295,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2211,6 +2322,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2237,6 +2349,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2263,6 +2376,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2289,6 +2403,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2315,6 +2430,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2341,6 +2457,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2367,6 +2484,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v29july25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2393,6 +2511,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2419,6 +2538,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2445,6 +2565,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2471,6 +2592,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2497,6 +2619,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2523,6 +2646,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2549,6 +2673,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2575,6 +2700,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2601,6 +2727,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2627,6 +2754,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2653,6 +2781,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2679,6 +2808,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2705,6 +2835,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2731,6 +2862,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2757,6 +2889,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2783,6 +2916,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2809,6 +2943,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2835,6 +2970,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2861,6 +2997,7 @@
       "newsletterPlanned": "January 2026",
       "newsletterPublished": "January 2026",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2887,6 +3024,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2913,6 +3051,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2939,6 +3078,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2965,6 +3105,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -2991,6 +3132,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -3017,6 +3159,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -3043,6 +3186,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -3069,6 +3213,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -3095,6 +3240,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -3121,6 +3267,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -3147,6 +3294,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v13",
+      "updateNote": "",
       "isHeroVideo": false
     }
   ],
@@ -3173,8 +3321,9 @@
     "shortDescription",
     "newsletterPlanned",
     "newsletterPublished",
-    "importer"
+    "importer",
+    "updateNote"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-10-12T17:40:50.445Z"
+  "generatedAt": "2026-10-13T05:56:48.996Z"
 }
