@@ -588,11 +588,19 @@ async function eagerLoadCssForLCP() {
   })
 }
 
-// Prevent links which contain a specific text
+// Prevent links which contain a specific text or point to a channel
 // from being converted to blocks. Used to have
 // plain youtube links in text for example, without
 // creating a video player for them
 function watchAutoLinks() {
+  const isChannel = (url) => {
+    try {
+      return /(?:youtube\.com|youtu\.be)\/(?:@|channel\/|c\/|user\/)/i.test(decodeURI(url));
+    } catch {
+      return false;
+    }
+  };
+
   const observer = new MutationObserver((mutationsList) => {
     for (const mutation of mutationsList) {
       if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
@@ -600,8 +608,8 @@ function watchAutoLinks() {
         if (target.tagName === 'A') {
           const text = target.textContent.trim().toLowerCase();
           const textMatch = SITE.disableAutoLinksText.find(t => text === t);
-          if(textMatch) {
-            console.debug(`Link text [${textMatch}] disables auto-blocking on a.href=${target.href}`);
+          if (textMatch || isChannel(target.href)) {
+            console.debug(`Disables auto-blocking on a.href=${target.href}`);
             target.removeAttribute('class');
           }
         }
@@ -611,6 +619,9 @@ function watchAutoLinks() {
 
   // Observe all existing <a> elements
   document.querySelectorAll('a').forEach((a) => {
+    if (isChannel(a.href)) {
+      if (!a.href.includes('#_dnb')) a.href = `${a.href.trim()}#_dnb`;
+    }
     observer.observe(a, {
       attributes: true,
       attributeFilter: ['class'],
