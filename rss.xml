@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2026 12:56:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 14:41:44 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -18,8 +18,8 @@
       <description><![CDATA[Watch the recordings, see how developers voted on UXP priorities, and find the CEP deprecation roadmap, Express updates, and next steps.]]></description>
       <dc:creator><![CDATA[Ingo Eichel]]></dc:creator>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      
-      
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/10/media_1962ecb547745b95227bb86d937ac6789ab238ba4.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/10/media_1962ecb547745b95227bb86d937ac6789ab238ba4.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Build-Time Wasm Module Splitting: Ship More Features Without Growing Your Startup Bundle]]></title>
