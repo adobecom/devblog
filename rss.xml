@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 09:47:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 12:56:47 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Adobe Developers Live 2026 Recap: CEP to UXP Migration, Express Connectors, and Our Next Steps]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/10/adobe-developers-live-2026-recap-cep-to-uxp-migration-express-connectors-and-what-we-publish-next</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/10/adobe-developers-live-2026-recap-cep-to-uxp-migration-express-connectors-and-what-we-publish-next</guid>
+      <description><![CDATA[Watch the recordings, see how developers voted on UXP priorities, and find the CEP deprecation roadmap, Express updates, and next steps.]]></description>
+      <dc:creator><![CDATA[Ingo Eichel]]></dc:creator>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      
+      
+    </item>
     <item>
       <title><![CDATA[Build-Time Wasm Module Splitting: Ship More Features Without Growing Your Startup Bundle]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/10/build-time-wasm-module-splitting-ship-more-features-without-growing-your-startup-bundle</link>
@@ -735,7 +745,7 @@
       <title><![CDATA[MAX 2023 Recap: Everything You Need to Know About Adobe Express Add-Ons]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/09/max-2023-recap-everything-you-need-to-know-about-adobe-express-add-ons</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/09/max-2023-recap-everything-you-need-to-know-about-adobe-express-add-ons</guid>
-      <description><![CDATA[���The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...]]></description>
+      <description><![CDATA[“The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...]]></description>
       <dc:creator><![CDATA[Colene Chow]]></dc:creator>
       <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/09/media_18da34cf479035c3984fcfe6dea33e07420c17404.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
