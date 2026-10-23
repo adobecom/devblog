@@ -11,6 +11,18 @@
  */
 
 import { SITE, decorateContent, setLibs, buildDevblogAutoBlocks, addDevBlogBlockOverrides, fixPortraitImages } from './devblog/devblog.js';
+import {
+  setupHeaderSignIn,
+  getSubscribeItem,
+  loadIms,
+  globalSignIn,
+  hideSpinner,
+  showSpinner,
+  hideSignIn,
+  showSignIn,
+} from './ims.js';
+
+
 
 // Add project-wide styles here.
 const STYLES = ['/styles/styles.css', '/styles/articles.css'];
@@ -157,7 +169,8 @@ function initRSS() {
 
 initRSS();
 
-export { enhanceRSSLink };
+export { enhanceRSSLink, setupHeaderSignIn, loadIms, globalSignIn, hideSpinner, showSpinner, hideSignIn, showSignIn };
+
 
 /*
  * ------------------------------------------------------------
@@ -378,6 +391,17 @@ const { loadArea, setConfig, getMetadata } = await import(`${miloLibs}/utils/uti
       } else if (!rssItem && searchElement.parentElement !== nav) {
         nav.appendChild(searchElement);
       }
+
+      const subscribeItem = getSubscribeItem(nav);
+      const spinner = document.querySelector('#nav-spinner');
+      const signIn = document.querySelector('#nav-sign-in') || document.querySelector('.nav-profile');
+      if (subscribeItem && spinner && signIn) {
+        const isBeforeOther = subscribeItem.nextElementSibling !== spinner
+          && subscribeItem.nextElementSibling !== signIn;
+        if (isBeforeOther) {
+          subscribeItem.after(spinner, signIn);
+        }
+      }
     }
 
     if (header) header.classList.add('nav-ready');
@@ -385,6 +409,7 @@ const { loadArea, setConfig, getMetadata } = await import(`${miloLibs}/utils/uti
 
   moveSearch(mq);
   mq.addEventListener('change', moveSearch);
+  setupHeaderSignIn();
 
   function injectExploreFacets() {
     // Author pages show only that author's articles; facets/search don't apply there.

@@ -180,7 +180,7 @@ main .embed-instagram iframe.instagram-media {
  * Footer styles
 */
 
-main + footer .feds-regionPicker:hover {
+main+footer .feds-regionPicker:hover {
   color: var(--color-gray-500);
   border-color: var(--color-gray-500);
   fill: var(--color-gray-500);
@@ -511,12 +511,22 @@ pre {
 
 @media (min-width: 900px) {
   .feds-nav .feds-navItem:has(> a[href*="rss.xml"]),
-  .feds-nav .feds-navItem:has(> button[daa-ll^="Subscribe"]) {
+  .feds-nav .feds-navItem:has(> button[daa-ll^="Subscribe"]),
+  .feds-nav .nav-sign-in,
+  .feds-nav .nav-profile {
     display: none;
   }
 
   header.nav-ready .feds-nav .feds-navItem:has(> a[href*="rss.xml"]),
-  header.nav-ready .feds-nav .feds-navItem:has(> button[daa-ll^="Subscribe"]) {
+  header.nav-ready .feds-nav .feds-navItem:has(> button[daa-ll^="Subscribe"]),
+  header.nav-ready .feds-nav .nav-sign-in[style*="display: block"],
+  header.nav-ready .feds-nav .nav-sign-in:not([style*="display: none"]),
+  header.nav-ready .feds-nav .nav-profile {
+    display: flex;
+    align-items: center;
+  }
+
+  header.nav-ready .feds-nav .nav-spinner-container[style*="display: block"] {
     display: flex;
     align-items: center;
   }
@@ -525,6 +535,234 @@ pre {
     margin-left: auto;
   }
 }
+
+/* ==========================================================================
+   IMS SIGN-IN, SPINNER & PROFILE (HEADER)
+   ========================================================================== */
+/* stylelint-disable selector-class-pattern, no-descending-specificity */
+
+.nav-spinner-container {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(4 105 227);
+  border-top: 2px solid rgb(230 230 230);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-sign-in {
+  display: none;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.spectrum-ActionButton {
+  border-radius: 4px;
+  border: 1px solid rgb(177 177 177);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.spectrum-ActionButton:hover {
+  background-color: rgb(230 230 230);
+  color: black;
+}
+
+.spectrum-ActionButton--sizeM {
+  height: 32px;
+  padding: 1px 11px;
+}
+
+.spectrum-ActionButton--quiet {
+  border-color: transparent;
+  background-color: transparent;
+  color: rgb(75 75 75);
+}
+
+.spectrum-ActionButton--quiet:hover {
+  background-color: rgb(0 0 0 / 6%);
+  color: #000;
+}
+
+.spectrum-ActionButton-label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.spectrum-Icon {
+  display: inline-block;
+  fill: currentcolor;
+}
+
+.spectrum-Icon--sizeM {
+  width: 20px;
+  height: 20px;
+}
+
+/* User Profile Dropdown */
+.nav-profile {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+#nav-profile-dropdown-button {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#nav-profile-dropdown-button:hover {
+  background-color: rgb(0 0 0 / 6%);
+}
+
+.nav-profile-popover-avatar-button>img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+div#nav-profile-dropdown-popover {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  width: 280px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 15%);
+  border: 1px solid #e1e1e1;
+  z-index: 1000;
+  padding: 24px 16px;
+  box-sizing: border-box;
+}
+
+div#nav-profile-dropdown-popover.is-open {
+  display: block;
+}
+
+.nav-profile-popover-innerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-profile-popover-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #f4f4f4;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-profile-popover-avatar>img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+
+.nav-profile-popover-name {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.nav-profile-popover-name h1,
+.nav-profile-popover-name .spectrum-Heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin: 0;
+  word-break: break-word;
+}
+
+.nav-profile-popover-divider {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.nav-profile-popover-divider hr {
+  border: none;
+  border-top: 1px solid #eaeaea;
+  margin: 0;
+}
+
+.nav-profile-popover-edit,
+.nav-profile-popover-sign-out {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background-color 130ms ease, color 130ms ease, border-color 130ms ease;
+}
+
+.nav-profile-popover-edit {
+  color: #1473e6;
+  border: 1px solid #1473e6;
+  background: transparent;
+}
+
+.nav-profile-popover-edit:hover {
+  background: rgb(20 115 230 / 8%);
+}
+
+.nav-profile-popover-sign-out {
+  color: #4b4b4b;
+  border: 1px solid #d5d5d5;
+  background: transparent;
+  margin-bottom: 0;
+}
+
+.nav-profile-popover-sign-out:hover {
+  background: #f4f4f4;
+  color: #000;
+}
+/* stylelint-enable selector-class-pattern, no-descending-specificity */
+
 /* Play button overlay — used by article-feed and recommended-articles */
 
 .media-play-wrapper {
