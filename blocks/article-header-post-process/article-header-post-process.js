@@ -45,6 +45,72 @@ function injectUpdatedNote(blockEl) {
   }
 }
 
+function loadGooglePublisherScript() {
+  if (document.querySelector('script[src*="news.google.com/swg/js/v1/publisher.js"]')) return;
+  const script = document.createElement('script');
+  script.src = 'https://news.google.com/swg/js/v1/publisher.js';
+  script.async = true;
+  script.setAttribute('preferred-sources-control', 'manual');
+  document.head.appendChild(script);
+
+  window.PREFERRED_SOURCE = window.PREFERRED_SOURCE || [];
+  window.PREFERRED_SOURCE.push((preferredSource) => {
+    try {
+      preferredSource.init({ theme: 'light', lang: 'en' });
+      window.preferredSourceInstance = preferredSource;
+    } catch {
+      console.error("Script loading failed")
+    }
+  });
+}
+
+function injectGooglePreferredSource() {
+  if (document.querySelector('.prefer-google-source-container')) return;
+
+  const s2 = document.querySelector('main > div.section:nth-of-type(2)');
+  if (!s2) return;
+
+  const container = document.createElement('p');
+  container.className = 'prefer-google-source-container';
+  container.innerHTML = `
+    <a href="https://www.google.com/preferences/source?q=blog.developer.adobe.com"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="prefer-google-source-link"
+       title="Add Adobe Developer Blog as a preferred source on Google">
+      <svg class="prefer-google-source-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 8v11a2 2 0 0 0 2 2h11"></path>
+        <rect x="8" y="3" width="13" height="14" rx="1.5"></rect>
+        <polygon points="14.5 6.2 15.5 8.5 17.8 8.8 16.1 10.5 16.6 12.8 14.5 11.6 12.4 12.8 12.9 10.5 11.2 8.8 13.5 8.5"></polygon>
+      </svg>
+      <span class="prefer-google-source-text">Add Adobe Developer Blog as a preferred source on Google</span>
+    </a>
+  `;
+
+  const updatedNote = s2.querySelector('.article-updated-note');
+  if (updatedNote) {
+    updatedNote.insertAdjacentElement('afterend', container);
+  } else {
+    s2.insertAdjacentElement('afterbegin', container);
+  }
+
+  const link = container.querySelector('.prefer-google-source-link');
+  if (link) {
+    link.addEventListener('click', (e) => {
+      if (window.preferredSourceInstance && typeof window.preferredSourceInstance.addPreferredSource === 'function') {
+        try {
+          e.preventDefault();
+          window.preferredSourceInstance.addPreferredSource();
+        } catch (err) {
+          console.error(err)
+        }
+      }
+    });
+  }
+
+  loadGooglePublisherScript();
+}
+
 export default async function init(blockEl) {
   try {
 
@@ -256,6 +322,7 @@ export default async function init(blockEl) {
     }
   }
     injectUpdatedNote(blockEl);
+    injectGooglePreferredSource()
   // Author image injection
 
   blockEl.classList.add('article-header');

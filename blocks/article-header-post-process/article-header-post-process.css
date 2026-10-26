@@ -55,3 +55,57 @@ main .figure figure img {
   border: 0;
   border-radius: 12px;
 }
+
+/* Google Preferred Sources */
+.prefer-google-source-container {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 24px auto;
+
+}
+
+@media screen and (max-width: 800px) {
+  .prefer-google-source-container {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+main .section .prefer-google-source-link,
+main .section .prefer-google-source-link:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #505050;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out;
+}
+
+main .section .prefer-google-source-link:hover,
+main .section .prefer-google-source-link:focus-visible {
+  color: #1473e6;
+}
+
+.prefer-google-source-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  stroke: currentcolor;
+  fill: none;
+  vertical-align: middle;
+}
+
+.prefer-google-source-text {
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
