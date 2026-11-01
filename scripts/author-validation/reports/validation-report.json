@@ -51,14 +51,14 @@
     ]
   },
   {
-    "name": "Abhishek Jain",
-    "slug": "abhishek-jain",
+    "name": "Sharayoo Jog",
+    "slug": "sharayoo-jog",
     "latestArticle": {
-      "title": "Troubleshoot Issues Installing Extensions and Add-ons for Creative Cloud apps",
-      "date": "2019-11-29",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/01/troubleshoot-issues-installing-extensions-and-add-ons-for-creative-cloud-apps"
+      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
+      "date": "2021-11-30",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
     },
-    "docUrl": "/en/authors/abhishek-jain",
+    "docUrl": "/en/authors/sharayoo-jog",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -68,14 +68,14 @@
     ]
   },
   {
-    "name": "Sharayoo Jog",
-    "slug": "sharayoo-jog",
+    "name": "Ayan Choudhary",
+    "slug": "ayan-choudhary",
     "latestArticle": {
-      "title": "Check Out Our New Developer Resources, Plus a New Plugin Showcase Page on Behance",
-      "date": "2021-11-30",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/09/check-out-our-new-developer-resources-plus-a-new-plugin-showcase-page-on-behance"
+      "title": "Developing an OAuth Sample for Adobe Photoshop",
+      "date": "2021-05-18",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
     },
-    "docUrl": "/en/authors/sharayoo-jog",
+    "docUrl": "/en/authors/ayan-choudhary",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -119,14 +119,14 @@
     ]
   },
   {
-    "name": "Ayan Choudhary",
-    "slug": "ayan-choudhary",
+    "name": "Abhishek Jain",
+    "slug": "abhishek-jain",
     "latestArticle": {
-      "title": "Developing an OAuth Sample for Adobe Photoshop",
-      "date": "2021-05-18",
-      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
+      "title": "Troubleshoot Issues Installing Extensions and Add-ons for Creative Cloud apps",
+      "date": "2019-11-29",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/01/troubleshoot-issues-installing-extensions-and-add-ons-for-creative-cloud-apps"
     },
-    "docUrl": "/en/authors/ayan-choudhary",
+    "docUrl": "/en/authors/abhishek-jain",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -357,23 +357,6 @@
     ]
   },
   {
-    "name": "Walter Kimaro",
-    "slug": "walter-kimaro",
-    "latestArticle": {
-      "title": "My Experience Building an Adobe Express Add-on",
-      "date": "2023-08-04",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/08/my-experience-building-an-adobe-express-add-on"
-    },
-    "docUrl": "/en/authors/walter-kimaro",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Sandeep Paliwal",
     "slug": "sandeep-paliwal",
     "latestArticle": {
@@ -408,14 +391,14 @@
     ]
   },
   {
-    "name": "Tony Evers",
-    "slug": "tony-evers",
+    "name": "Walter Kimaro",
+    "slug": "walter-kimaro",
     "latestArticle": {
-      "title": "Distributing Adobe Commerce Patches at Scale",
-      "date": "2023-05-08",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/05/distributing-adobe-commerce-patches-at-scale"
+      "title": "My Experience Building an Adobe Express Add-on",
+      "date": "2023-08-04",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/08/my-experience-building-an-adobe-express-add-on"
     },
-    "docUrl": "/en/authors/tony-evers",
+    "docUrl": "/en/authors/walter-kimaro",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -425,14 +408,14 @@
     ]
   },
   {
-    "name": "Avanish Gandhi",
-    "slug": "avanish-gandhi",
+    "name": "Tony Evers",
+    "slug": "tony-evers",
     "latestArticle": {
-      "title": "Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace",
-      "date": "2023-02-23",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace"
+      "title": "Distributing Adobe Commerce Patches at Scale",
+      "date": "2023-05-08",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/05/distributing-adobe-commerce-patches-at-scale"
     },
-    "docUrl": "/en/authors/avanish-gandhi",
+    "docUrl": "/en/authors/tony-evers",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -459,14 +442,14 @@
     ]
   },
   {
-    "name": "Jeff Chasin",
-    "slug": "jeff-chasin",
+    "name": "Avanish Gandhi",
+    "slug": "avanish-gandhi",
     "latestArticle": {
-      "title": "Datafacts — An Adobe Developer App Builder Application for Adobe Experience Platform",
-      "date": "2021-09-03",
-      "url": "https://blog.developer.adobe.com/en/publish/2021/09/datafacts-an-adobe-developer-app-builder-application-for-adobe-experience-platform"
+      "title": "Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace",
+      "date": "2023-02-23",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace"
     },
-    "docUrl": "/en/authors/jeff-chasin",
+    "docUrl": "/en/authors/avanish-gandhi",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -484,6 +467,23 @@
       "url": "https://blog.developer.adobe.com/en/publish/2021/08/finding-your-feet-with-adobe-developer-app-builder"
     },
     "docUrl": "/en/authors/john-hill",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Jeff Chasin",
+    "slug": "jeff-chasin",
+    "latestArticle": {
+      "title": "Datafacts — An Adobe Developer App Builder Application for Adobe Experience Platform",
+      "date": "2021-09-03",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/09/datafacts-an-adobe-developer-app-builder-application-for-adobe-experience-platform"
+    },
+    "docUrl": "/en/authors/jeff-chasin",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
