@@ -11,7 +11,9 @@
     "lint:css": "stylelint 'blocks/**/*.css' 'styles/*.css'",
     "sort-index": "node sorted-index/sort-query-index.js",
     "generate-rss": "node scripts/devblog/generate-rss.js",
-    "generate-authors": "node scripts/author-validation/validateAuthors.js"
+    "generate-authors": "node scripts/author-validation/validateAuthors.js",
+    "generate-llms": "node scripts/devblog/generate-llms.js",
+    "watch:llms": "node scripts/devblog/generate-llms.js --watch"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-name: Generate RSS Feed
+name: Generate RSS Feed and LLMS File
 
 on:
   # Runs at :05 every hour — just after sort-query-index runs at :03
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-rss:
+  generate-feeds:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -22,13 +22,15 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Generate RSS feed
-        run: npm run generate-rss
-
-      - name: Commit and push rss.xml
+      - name: Generate RSS feed and LLMS file
         run: |
-          git config user.name "GitHub Action (RSS feed generator)"
+          npm run generate-rss
+          npm run generate-llms
+
+      - name: Commit and push rss.xml and llms.txt
+        run: |
+          git config user.name "GitHub Action (RSS feed and LLMS generator)"
           git config user.email "action@github.com"
-          git add rss.xml
-          git diff --staged --quiet || git commit -m "Update RSS feed - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          git add rss.xml llms.txt
+          git diff --staged --quiet || git commit -m "Update RSS feed and llms.txt - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
           git push

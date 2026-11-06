@@ -235,6 +235,21 @@ function emitNewArticles(newArticles, updatedArticles) {
   }
 }
 
+/**
+ * Update llms.txt when changes occur, or ensure it exists if missing.
+ */
+function syncLlmsTxt(articles, { force = false } = {}) {
+  const llmsPath = path.join(__dirname, '..', 'llms.txt');
+  if (!force && fs.existsSync(llmsPath)) return;
+
+  try {
+    const { generateLlmsFiles } = require('../scripts/devblog/generate-llms.js');
+    generateLlmsFiles(articles);
+  } catch (err) {
+    console.warn('⚠️ Could not sync llms.txt:', err.message);
+  }
+}
+
 async function fetchAndSort() {
   try {
 
@@ -369,6 +384,9 @@ async function fetchAndSort() {
     } else {
       console.log('📋 No changes detected, file is already up to date');
     }
+
+    // Keep llms.txt in sync whenever index has changes, or ensure it exists if missing
+    syncLlmsTxt(sortedData.data, { force: hasChanges });
 
     // Emit both new and updated articles for Slack notification.
     emitNewArticles(newArticles, updatedArticles);
