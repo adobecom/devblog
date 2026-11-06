@@ -343,6 +343,7 @@ main + footer .feds-regionPicker-wrapper > .fragment p strong > a::after {
     left: auto;
     min-width: 260px;
     margin-top: 12px;
+    z-index:100000;
   }
 
   .feds-nav .feds-navItem .feds-navLink {
