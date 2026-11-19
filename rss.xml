@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 09:31:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 21:29:21 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -18,8 +18,8 @@
       <description><![CDATA[Deliver personalized content at scale inside your own app. See how the Premier League pairs the Embed SDK with the Express API to do it.]]></description>
       <dc:creator><![CDATA[Colene Chow]]></dc:creator>
       <pubDate>Thu, 18 Nov 2027 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1dbc6d69f8419da6c0809b16014a4f9b9ea326ded.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1dbc6d69f8419da6c0809b16014a4f9b9ea326ded.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Adobe Developers Live 2026 Recap: CEP to UXP Migration, Express Connectors, and Our Next Steps]]></title>
