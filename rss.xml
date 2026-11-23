@@ -8,19 +8,9 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2026 20:02:54 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 14:02:58 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
-    <item>
-      <title><![CDATA[How the Premier League Puts Content Creation in the Hands of Millions of Fantasy Football Managers with the Adobe Express Embed SDK]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/11/how-the-premier-league-puts-content-creation-in-the-hands-of-millions-of-fantasy-football-managers-with-the-adobe-express-embeds-sdk</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/11/how-the-premier-league-puts-content-creation-in-the-hands-of-millions-of-fantasy-football-managers-with-the-adobe-express-embeds-sdk</guid>
-      <description><![CDATA[Deliver personalized content at scale inside your own app. See how the Premier League pairs the Embed SDK with the Express API to do it.]]></description>
-      <dc:creator><![CDATA[Colene Chow]]></dc:creator>
-      <pubDate>Thu, 18 Nov 2027 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
-    </item>
     <item>
       <title><![CDATA[UXP Changelog and Product Support Matrix]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/07/uxp-changelog-and-support-matrix</link>
@@ -40,6 +30,16 @@
       <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/09/media_109c8394ac951a6922d0dcebec269a2d69df64e84.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/09/media_109c8394ac951a6922d0dcebec269a2d69df64e84.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[How the Premier League Puts Content Creation in the Hands of Millions of Fantasy Football Managers with the Adobe Express Embed SDK]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/11/how-the-premier-league-puts-content-creation-in-the-hands-of-millions-of-fantasy-football-managers-with-the-adobe-express-embeds-sdk</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/11/how-the-premier-league-puts-content-creation-in-the-hands-of-millions-of-fantasy-football-managers-with-the-adobe-express-embeds-sdk</guid>
+      <description><![CDATA[Deliver personalized content at scale inside your own app. See how the Premier League pairs the Embed SDK with the Express API to do it.]]></description>
+      <dc:creator><![CDATA[Colene Chow]]></dc:creator>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Adobe Developers Live 2026 Recap: CEP to UXP Migration, Express Connectors, and Our Next Steps]]></title>
