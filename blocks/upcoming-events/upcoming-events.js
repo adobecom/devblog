@@ -60,4 +60,5 @@ export default function decorate(block) {
   }
 
   block.replaceChildren(...events);
+  block.dataset.count = events.length;
 }
