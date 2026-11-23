@@ -4,33 +4,6 @@
   "limit": 121,
   "data": [
     {
-      "path": "/en/publish/2026/11/how-the-premier-league-puts-content-creation-in-the-hands-of-millions-of-fantasy-football-managers-with-the-adobe-express-embeds-sdk",
-      "image": "/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "How the Premier League Puts Content Creation in the Hands of Millions of Fantasy Football Managers with the Adobe Express Embed SDK",
-      "author": "Colene Chow",
-      "description": "Deliver personalized content at scale inside your own app. See how the Premier League pairs the Embed SDK with the Express API to do it.",
-      "tags": "[\"Adobe express embed sdk\",\"case study\",\"api\",\"integrations\",\"extensibility\"]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1795037361",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1826496000",
-      "sortDate": "2027-11-18",
-      "sortDateTimestampLegacy": "",
-      "updatedDate": "",
-      "adobeCloud": "Creative Cloud",
-      "adobeApp": "Adobe Express",
-      "mediaUrl": "",
-      "metaTitle": "",
-      "shortDescription": "",
-      "newsletterPlanned": "November",
-      "newsletterPublished": "",
-      "importer": "",
-      "updateNote": "",
-      "isHeroVideo": false
-    },
-    {
       "path": "/en/publish/2026/07/uxp-changelog-and-support-matrix",
       "image": "/en/publish/2026/07/media_1727b6adbcf5195d35acc0802988025c888bfa2cc.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
@@ -82,6 +55,33 @@
       "newsletterPublished": "",
       "importer": "",
       "updateNote": "We have improved the UXP Hub across the board since we launched it in September. After Effects has joined the supported host applications, the changelog now covers UXP 9.5.0 and offers an RSS feed, and the compatibility matrix and API reference are up to date. The Migration Center now has expanded migration guides and a roadmap with the key CEP to UXP milestones across Adobe applications. Bookmark the UXP Hub as your starting point for everything around UXP migration and building new plugins.",
+      "isHeroVideo": false
+    },
+    {
+      "path": "/en/publish/2026/11/how-the-premier-league-puts-content-creation-in-the-hands-of-millions-of-fantasy-football-managers-with-the-adobe-express-embeds-sdk",
+      "image": "/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "How the Premier League Puts Content Creation in the Hands of Millions of Fantasy Football Managers with the Adobe Express Embed SDK",
+      "author": "Colene Chow",
+      "description": "Deliver personalized content at scale inside your own app. See how the Premier League pairs the Embed SDK with the Express API to do it.",
+      "tags": "[\"Adobe express embed sdk\",\"case study\",\"api\",\"integrations\",\"extensibility\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1795442578",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1794960000",
+      "sortDate": "2026-11-18",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "November",
+      "newsletterPublished": "",
+      "importer": "",
+      "updateNote": "",
       "isHeroVideo": false
     },
     {
@@ -3298,5 +3298,5 @@
     "updateNote"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-11-23T05:47:10.996Z"
+  "generatedAt": "2026-11-23T14:05:06.874Z"
 }
