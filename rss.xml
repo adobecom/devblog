@@ -8,7 +8,7 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 21:29:21 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 20:02:54 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -20,6 +20,26 @@
       <pubDate>Thu, 18 Nov 2027 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[UXP Changelog and Product Support Matrix]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/07/uxp-changelog-and-support-matrix</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/07/uxp-changelog-and-support-matrix</guid>
+      <description><![CDATA[See what's new in UXP 9.0 through 9.4, including opt-in exception reporting, and check which UXP version ships with your Photoshop, Premiere, or InDesign build.]]></description>
+      <dc:creator><![CDATA[Kasi Viswanathan K]]></dc:creator>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/07/media_1727b6adbcf5195d35acc0802988025c888bfa2cc.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/07/media_1727b6adbcf5195d35acc0802988025c888bfa2cc.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[The UXP Hub: One Place to Learn UXP Plugins, from Building to Distribution]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/09/introducing-the-uxp-hub</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/09/introducing-the-uxp-hub</guid>
+      <description><![CDATA[Find UXP guides, API docs, and migration guidance for CEP extensions in one place, from your first plugin to publishing on Marketplace.]]></description>
+      <dc:creator><![CDATA[Karan Singh Chandel]]></dc:creator>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/09/media_109c8394ac951a6922d0dcebec269a2d69df64e84.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/09/media_109c8394ac951a6922d0dcebec269a2d69df64e84.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Adobe Developers Live 2026 Recap: CEP to UXP Migration, Express Connectors, and Our Next Steps]]></title>
@@ -70,16 +90,6 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[The UXP Hub: One Place to Learn UXP Plugins, from Building to Distribution]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/09/introducing-the-uxp-hub</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/09/introducing-the-uxp-hub</guid>
-      <description><![CDATA[Find UXP guides, API docs, and migration guidance for CEP extensions in one place, from your first plugin to publishing on Marketplace.]]></description>
-      <dc:creator><![CDATA[Karan Singh Chandel]]></dc:creator>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/09/media_109c8394ac951a6922d0dcebec269a2d69df64e84.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/09/media_109c8394ac951a6922d0dcebec269a2d69df64e84.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Introducing Connected Enterprise: Helping enterprise users access Adobe products and services more seamlessly]]></title>
@@ -140,16 +150,6 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/06/media_1b3df6ec4529661f88765ab154af3fb3ad876e4a0.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/06/media_1b3df6ec4529661f88765ab154af3fb3ad876e4a0.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[UXP Changelog and Product Support Matrix]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/07/uxp-changelog-and-support-matrix</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/07/uxp-changelog-and-support-matrix</guid>
-      <description><![CDATA[See what's new in UXP 9.0 through 9.4, including opt-in exception reporting, and check which UXP version ships with your Photoshop, Premiere, or InDesign build.]]></description>
-      <dc:creator><![CDATA[Kasi Viswanathan K]]></dc:creator>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/07/media_1727b6adbcf5195d35acc0802988025c888bfa2cc.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/07/media_1727b6adbcf5195d35acc0802988025c888bfa2cc.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Build Adobe Express Add-ons Faster with Agent Skills]]></title>
@@ -755,7 +755,7 @@
       <title><![CDATA[MAX 2023 Recap: Everything You Need to Know About Adobe Express Add-Ons]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/09/max-2023-recap-everything-you-need-to-know-about-adobe-express-add-ons</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/09/max-2023-recap-everything-you-need-to-know-about-adobe-express-add-ons</guid>
-      <description><![CDATA[“The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...]]></description>
+      <description><![CDATA[���The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...]]></description>
       <dc:creator><![CDATA[Colene Chow]]></dc:creator>
       <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/09/media_18da34cf479035c3984fcfe6dea33e07420c17404.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
