@@ -8,9 +8,19 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2026 14:02:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 01:10:23 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[UXP Plugin Support Comes to After Effects: Public Beta Now Open]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/11/uxp-plugin-support-comes-to-after-effects-public-beta-now-open</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/11/uxp-plugin-support-comes-to-after-effects-public-beta-now-open</guid>
+      <description><![CDATA[Build your first After Effects UXP plugin in minutes from a starter template, and see which CEP dates matter while the public beta is open.]]></description>
+      <dc:creator><![CDATA[Harsha Ravi]]></dc:creator>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1e9474045c10a220f73d0da7bb50e19c9c3618de9.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1e9474045c10a220f73d0da7bb50e19c9c3618de9.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[UXP Changelog and Product Support Matrix]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/07/uxp-changelog-and-support-matrix</link>
