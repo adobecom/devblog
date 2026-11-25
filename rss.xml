@@ -8,9 +8,39 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:44:16 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 12:19:10 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Image Cropping & Layout Behavior Test – 2000× 938test1]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-2000x938</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-2000x938</guid>
+      <description><![CDATA[From initial observation, images across Featured Articles and Top Stories were being cropped inconsistently. The same image behaves differently depending on container orientation and breakpoint.To ...]]></description>
+      <dc:creator><![CDATA[Devblogs]]></dc:creator>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Slack notification test]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/03/test-notification-article</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/test-notification-article</guid>
+      <description><![CDATA[From initial observation, images across Featured Articles and Top Stories were being cropped inconsistently. The same image behaves differently depending on container orientation and breakpoint.To ...]]></description>
+      <dc:creator><![CDATA[Devblogs]]></dc:creator>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Slack notification 02]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/03/test-notification-02</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/test-notification-02</guid>
+      <description><![CDATA[From initial observation, images across Featured Articles and Top Stories were being cropped inconsistently. The same image behaves differently depending on container orientation and breakpoint.To ...]]></description>
+      <dc:creator><![CDATA[Devblogs]]></dc:creator>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1a294855bc3b352e7cc13f24e41426bc623cd64e7.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1a294855bc3b352e7cc13f24e41426bc623cd64e7.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[The Creative Coding Collective: A Free Community for Automating Adobe Creative Apps]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2026/11/the-creative-coding-collective-a-free-community-for-automating-adobe-creative-apps</link>
@@ -775,7 +805,7 @@
       <title><![CDATA[MAX 2023 Recap: Everything You Need to Know About Adobe Express Add-Ons]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/09/max-2023-recap-everything-you-need-to-know-about-adobe-express-add-ons</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/09/max-2023-recap-everything-you-need-to-know-about-adobe-express-add-ons</guid>
-      <description><![CDATA[��The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...]]></description>
+      <description><![CDATA[“The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...]]></description>
       <dc:creator><![CDATA[Colene Chow]]></dc:creator>
       <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/09/media_18da34cf479035c3984fcfe6dea33e07420c17404.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
