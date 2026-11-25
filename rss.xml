@@ -8,38 +8,18 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 12:19:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 19:01:38 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
-      <title><![CDATA[Image Cropping & Layout Behavior Test – 2000× 938test1]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-2000x938</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/image-behavior-test-2000x938</guid>
-      <description><![CDATA[From initial observation, images across Featured Articles and Top Stories were being cropped inconsistently. The same image behaves differently depending on container orientation and breakpoint.To ...]]></description>
-      <dc:creator><![CDATA[Devblogs]]></dc:creator>
+      <title><![CDATA[Adobe MAX in Miami: What Developers Told Us About Their Migration to UXP]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/11/adobe-max-in-miami-what-developers-told-us-about-their-migration-to-uxp</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/11/adobe-max-in-miami-what-developers-told-us-about-their-migration-to-uxp</guid>
+      <description><![CDATA[Find out how ready developers are to move from CEP to UXP, and what's holding some back, based on conversations at MAX in Miami.]]></description>
+      <dc:creator><![CDATA[Ingo Eichel]]></dc:creator>
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[Slack notification test]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/03/test-notification-article</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/test-notification-article</guid>
-      <description><![CDATA[From initial observation, images across Featured Articles and Top Stories were being cropped inconsistently. The same image behaves differently depending on container orientation and breakpoint.To ...]]></description>
-      <dc:creator><![CDATA[Devblogs]]></dc:creator>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[Slack notification 02]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/03/test-notification-02</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/03/test-notification-02</guid>
-      <description><![CDATA[From initial observation, images across Featured Articles and Top Stories were being cropped inconsistently. The same image behaves differently depending on container orientation and breakpoint.To ...]]></description>
-      <dc:creator><![CDATA[Devblogs]]></dc:creator>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/03/media_1a294855bc3b352e7cc13f24e41426bc623cd64e7.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/03/media_1a294855bc3b352e7cc13f24e41426bc623cd64e7.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1001d92ecf664b5d689bb61a8425f7b747ab54cc8.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1001d92ecf664b5d689bb61a8425f7b747ab54cc8.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[The Creative Coding Collective: A Free Community for Automating Adobe Creative Apps]]></title>
