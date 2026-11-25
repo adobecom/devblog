@@ -8,18 +8,28 @@
     <link>https://blog.developer.adobe.com</link>
     <description>The latest developer news, tutorials, and resources from Adobe.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2026 20:02:54 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:44:16 GMT</lastBuildDate>
     <atom:link href="https://blog.developer.adobe.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
-      <title><![CDATA[How the Premier League Puts Content Creation in the Hands of Millions of Fantasy Football Managers with the Adobe Express Embed SDK]]></title>
-      <link>https://blog.developer.adobe.com/en/publish/2026/11/how-the-premier-league-puts-content-creation-in-the-hands-of-millions-of-fantasy-football-managers-with-the-adobe-express-embeds-sdk</link>
-      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/11/how-the-premier-league-puts-content-creation-in-the-hands-of-millions-of-fantasy-football-managers-with-the-adobe-express-embeds-sdk</guid>
-      <description><![CDATA[Deliver personalized content at scale inside your own app. See how the Premier League pairs the Embed SDK with the Express API to do it.]]></description>
-      <dc:creator><![CDATA[Colene Chow]]></dc:creator>
-      <pubDate>Thu, 18 Nov 2027 00:00:00 GMT</pubDate>
-      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
-      <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+      <title><![CDATA[The Creative Coding Collective: A Free Community for Automating Adobe Creative Apps]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/11/the-creative-coding-collective-a-free-community-for-automating-adobe-creative-apps</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/11/the-creative-coding-collective-a-free-community-for-automating-adobe-creative-apps</guid>
+      <description><![CDATA[Get help from the scripters, plugin developers, and creatives who automate Adobe apps. Join this free, volunteer-run community of peers.]]></description>
+      <dc:creator><![CDATA[Kris Coppieters]]></dc:creator>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1a232098b5587e19fffa96d4d7ab93153a10b6c77.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1a232098b5587e19fffa96d4d7ab93153a10b6c77.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[UXP Plugin Support Comes to After Effects: Public Beta Now Open]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/11/uxp-plugin-support-comes-to-after-effects-public-beta-now-open</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/11/uxp-plugin-support-comes-to-after-effects-public-beta-now-open</guid>
+      <description><![CDATA[Build your first After Effects UXP plugin in minutes from a starter template, and see which CEP dates matter while the public beta is open.]]></description>
+      <dc:creator><![CDATA[Harsha Ravi]]></dc:creator>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1e9474045c10a220f73d0da7bb50e19c9c3618de9.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1e9474045c10a220f73d0da7bb50e19c9c3618de9.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[UXP Changelog and Product Support Matrix]]></title>
@@ -40,6 +50,16 @@
       <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2026/09/media_109c8394ac951a6922d0dcebec269a2d69df64e84.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
       <media:content url="https://blog.developer.adobe.com/en/publish/2026/09/media_109c8394ac951a6922d0dcebec269a2d69df64e84.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[How the Premier League Puts Content Creation in the Hands of Millions of Fantasy Football Managers with the Adobe Express Embed SDK]]></title>
+      <link>https://blog.developer.adobe.com/en/publish/2026/11/how-the-premier-league-puts-content-creation-in-the-hands-of-millions-of-fantasy-football-managers-with-the-adobe-express-embeds-sdk</link>
+      <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2026/11/how-the-premier-league-puts-content-creation-in-the-hands-of-millions-of-fantasy-football-managers-with-the-adobe-express-embeds-sdk</guid>
+      <description><![CDATA[Deliver personalized content at scale inside your own app. See how the Premier League pairs the Embed SDK with the Express API to do it.]]></description>
+      <dc:creator><![CDATA[Colene Chow]]></dc:creator>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/png" length="0"/>
+      <media:content url="https://blog.developer.adobe.com/en/publish/2026/11/media_1ea55e6e3167a412322750fb689559615b0b5f04f.png?width=1200&amp;format=pjpg&amp;optimize=medium" medium="image"/>
     </item>
     <item>
       <title><![CDATA[Adobe Developers Live 2026 Recap: CEP to UXP Migration, Express Connectors, and Our Next Steps]]></title>
@@ -755,7 +775,7 @@
       <title><![CDATA[MAX 2023 Recap: Everything You Need to Know About Adobe Express Add-Ons]]></title>
       <link>https://blog.developer.adobe.com/en/publish/2023/09/max-2023-recap-everything-you-need-to-know-about-adobe-express-add-ons</link>
       <guid isPermaLink="true">https://blog.developer.adobe.com/en/publish/2023/09/max-2023-recap-everything-you-need-to-know-about-adobe-express-add-ons</guid>
-      <description><![CDATA[“The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...]]></description>
+      <description><![CDATA[��The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...]]></description>
       <dc:creator><![CDATA[Colene Chow]]></dc:creator>
       <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://blog.developer.adobe.com/en/publish/2023/09/media_18da34cf479035c3984fcfe6dea33e07420c17404.jpg?width=1200&amp;format=pjpg&amp;optimize=medium" type="image/jpeg" length="0"/>
