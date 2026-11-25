@@ -1,8 +1,35 @@
 {
-  "total": 122,
+  "total": 123,
   "offset": 0,
-  "limit": 122,
+  "limit": 123,
   "data": [
+    {
+      "path": "/en/publish/2026/11/the-creative-coding-collective-a-free-community-for-automating-adobe-creative-apps",
+      "image": "/en/publish/2026/11/media_1a232098b5587e19fffa96d4d7ab93153a10b6c77.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "The Creative Coding Collective: A Free Community for Automating Adobe Creative Apps",
+      "author": "Kris Coppieters",
+      "description": "Get help from the scripters, plugin developers, and creatives who automate Adobe apps. Join this free, volunteer-run community of peers.",
+      "tags": "[\"community\",\"automation\",\"scripting\",\"developers\",\"plugins\",\"uxp\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1795567456",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1795478400",
+      "sortDate": "2026-11-24",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "InDesign, Photoshop, Illustrator, Premiere, After Effects, Media Encoder",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "November 2026",
+      "newsletterPublished": "",
+      "importer": "",
+      "updateNote": "",
+      "isHeroVideo": false
+    },
     {
       "path": "/en/publish/2026/11/uxp-plugin-support-comes-to-after-effects-public-beta-now-open",
       "image": "/en/publish/2026/11/media_1e9474045c10a220f73d0da7bb50e19c9c3618de9.png?width=1200&format=pjpg&optimize=medium",
@@ -2034,7 +2061,7 @@
       "date": "",
       "title": "MAX 2023 Recap: Everything You Need to Know About Adobe Express Add-Ons",
       "author": "Colene Chow",
-      "description": "“The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...",
+      "description": "��The Express ecosystem is growing really fast, helping you work seamlessly across the many tools and clouds that you use every day.” — Scott Belsky, ...",
       "tags": "[\"adobe max\",\"adobe-cloud-platform\",\"generative ai tools\",\"add-ons\"]",
       "imageAlt": "︎",
       "robots": "",
@@ -3325,5 +3352,5 @@
     "updateNote"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-11-24T17:24:51.153Z"
+  "generatedAt": "2026-11-25T02:09:32.434Z"
 }
