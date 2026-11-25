@@ -1,7 +1,7 @@
 {
-  "total": 125,
+  "total": 126,
   "offset": 0,
-  "limit": 125,
+  "limit": 126,
   "data": [
     {
       "path": "/en/publish/2026/03/image-behavior-test-2000x938",
@@ -41,6 +41,33 @@
       "imageAlt": "",
       "robots": "",
       "lastModified": "1795608449",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1795564800",
+      "sortDate": "2026-11-25",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "",
+      "adobeApp": "",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "",
+      "importer": "v15june25",
+      "updateNote": "",
+      "isHeroVideo": false
+    },
+    {
+      "path": "/en/publish/2026/03/test-notification-02",
+      "image": "/en/publish/2026/03/media_1a294855bc3b352e7cc13f24e41426bc623cd64e7.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Slack notification 02",
+      "author": "Devblogs",
+      "description": "From initial observation, images across Featured Articles and Top Stories were being cropped inconsistently. The same image behaves differently depending on container orientation and breakpoint.To ...",
+      "tags": "[]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1795608914",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1795564800",
       "sortDate": "2026-11-25",
@@ -3406,5 +3433,5 @@
     "updateNote"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-11-25T12:10:13.411Z"
+  "generatedAt": "2026-11-25T12:17:43.380Z"
 }
