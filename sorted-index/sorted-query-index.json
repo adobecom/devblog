@@ -169,7 +169,7 @@
       "path": "/en/publish/2026/03/image-behavior-test-2000x938",
       "image": "/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&format=pjpg&optimize=medium",
       "date": "",
-      "title": "Image Cropping & Layout Behavior Test – 2000× 938test",
+      "title": "Image Cropping & Layout Behavior Test – 2000× 938test1",
       "author": "Devblogs",
       "description": "From initial observation, images across Featured Articles and Top Stories were being cropped inconsistently. The same image behaves differently depending on container orientation and breakpoint.To ...",
       "tags": "[]",
@@ -3379,5 +3379,5 @@
     "updateNote"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-11-25T11:55:54.942Z"
+  "generatedAt": "2026-11-25T12:08:32.307Z"
 }
