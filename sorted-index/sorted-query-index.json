@@ -1,7 +1,7 @@
 {
-  "total": 123,
+  "total": 124,
   "offset": 0,
-  "limit": 123,
+  "limit": 124,
   "data": [
     {
       "path": "/en/publish/2026/11/the-creative-coding-collective-a-free-community-for-automating-adobe-creative-apps",
@@ -163,6 +163,33 @@
       "newsletterPublished": "",
       "importer": "",
       "updateNote": "",
+      "isHeroVideo": false
+    },
+    {
+      "path": "/en/publish/2026/03/image-behavior-test-2000x938",
+      "image": "/en/publish/2026/03/media_127e4ef555c8551d9f72163e0a11a51f7308241f0.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Image Cropping & Layout Behavior Test – 2000× 938test",
+      "author": "Devblogs",
+      "description": "From initial observation, images across Featured Articles and Top Stories were being cropped inconsistently. The same image behaves differently depending on container orientation and breakpoint.To ...",
+      "tags": "[]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1795607723",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1773964800",
+      "sortDate": "2026-03-20",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "2026-10-12",
+      "adobeCloud": "",
+      "adobeApp": "",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "",
+      "newsletterPublished": "",
+      "importer": "v15june25",
+      "updateNote": "Testing purpose",
       "isHeroVideo": false
     },
     {
@@ -3352,5 +3379,5 @@
     "updateNote"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-11-25T05:55:44.148Z"
+  "generatedAt": "2026-11-25T11:55:54.942Z"
 }
