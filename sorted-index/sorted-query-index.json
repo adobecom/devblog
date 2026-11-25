@@ -1,8 +1,35 @@
 {
-  "total": 123,
+  "total": 124,
   "offset": 0,
-  "limit": 123,
+  "limit": 124,
   "data": [
+    {
+      "path": "/en/publish/2026/11/adobe-max-in-miami-what-developers-told-us-about-their-migration-to-uxp",
+      "image": "/en/publish/2026/11/media_1001d92ecf664b5d689bb61a8425f7b747ab54cc8.jpg?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Adobe MAX in Miami: What Developers Told Us About Their Migration to UXP",
+      "author": "Ingo Eichel",
+      "description": "Find out how ready developers are to move from CEP to UXP, and what's holding some back, based on conversations at MAX in Miami.",
+      "tags": "[\"uxp\",\"cep\",\"plugins\",\"developers\",\"extensibility\",\"adobe max\",\"adobe exchange\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1795633298",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1795564800",
+      "sortDate": "2026-11-25",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Premiere, Media Encoder, After Effects, InDesign, Photoshop, Illustrator",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "November",
+      "newsletterPublished": "",
+      "importer": "",
+      "updateNote": "",
+      "isHeroVideo": false
+    },
     {
       "path": "/en/publish/2026/11/the-creative-coding-collective-a-free-community-for-automating-adobe-creative-apps",
       "image": "/en/publish/2026/11/media_1a232098b5587e19fffa96d4d7ab93153a10b6c77.png?width=1200&format=pjpg&optimize=medium",
@@ -13,7 +40,7 @@
       "tags": "[\"community\",\"automation\",\"scripting\",\"developers\",\"plugins\",\"uxp\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1795567456",
+      "lastModified": "1795616475",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1795478400",
       "sortDate": "2026-11-24",
@@ -3352,5 +3379,5 @@
     "updateNote"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-11-25T14:18:22.327Z"
+  "generatedAt": "2026-11-25T22:19:01.112Z"
 }
