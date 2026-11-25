@@ -16,7 +16,7 @@
 //
 // Safety guarantees:
 //  - No file, empty file, or empty arrays → exits quietly (exit 0).
-//  - Missing SLACK_WEBHOOK_URL → logs a warning and exits quietly.
+//  - Missing STAGE_SLACK_WEBHOOK_URL → logs a warning and exits quietly.
 //  - A failed Slack POST is logged but does not fail the workflow.
 //  - Tracking files (notified-articles.json, notified-updates.json) are
 //    updated immediately after each successful POST so a mid-run crash or
@@ -220,9 +220,9 @@ async function main() {
     return;
   }
 
-  const webhookUrl = process.env.SLACK_WEBHOOK_URL;
+  const webhookUrl = process.env.STAGE_SLACK_WEBHOOK_URL;
   if (!webhookUrl) {
-    console.warn('⚠️ SLACK_WEBHOOK_URL is not set — skipping Slack notification.');
+    console.warn('⚠️ STAGE_SLACK_WEBHOOK_URL is not set — skipping Slack notification.');
     return;
   }
 
