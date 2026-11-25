@@ -67,10 +67,10 @@
       "tags": "[]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1795608928",
+      "lastModified": "1795609150",
       "Removed from Medium?": "",
-      "sortDateTimestamp": "1795564800",
-      "sortDate": "2026-11-25",
+      "sortDateTimestamp": "1773964800",
+      "sortDate": "2026-03-20",
       "sortDateTimestampLegacy": "",
       "updatedDate": "2026-11-25",
       "adobeCloud": "",
@@ -81,7 +81,7 @@
       "newsletterPlanned": "",
       "newsletterPublished": "",
       "importer": "v15june25",
-      "updateNote": "For testing",
+      "updateNote": "Notification Testing purpose",
       "isHeroVideo": false
     },
     {
@@ -3433,5 +3433,5 @@
     "updateNote"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-11-25T12:22:28.007Z"
+  "generatedAt": "2026-11-25T12:28:57.288Z"
 }
