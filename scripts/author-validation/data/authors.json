@@ -780,6 +780,26 @@
     "isComplete": true
   },
   {
+    "name": "Kris Coppieters",
+    "slug": "kris-coppieters",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/kris-coppieters",
+    "title": "I'm a software development fixer. I specialize in Adobe workflow automation for enterprise document processes.",
+    "linkedin": "https://www.linkedin.com/in/kristiaan/",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/kris-coppieters",
+    "docImage": "./media_1726a9a5a71e069bf64be27807eea30d1c52fcacb.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/kris-coppieters.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "The Creative Coding Collective: A Free Community for Automating Adobe Creative Apps",
+      "date": "2026-11-24"
+    },
+    "isComplete": true
+  },
+  {
     "name": "Madhur Sharma",
     "slug": "madhur-sharma",
     "profileUrl": "https://blog.developer.adobe.com/en/authors/madhur-sharma",
