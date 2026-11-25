@@ -51,23 +51,6 @@
     ]
   },
   {
-    "name": "Abhishek Jain",
-    "slug": "abhishek-jain",
-    "latestArticle": {
-      "title": "Troubleshoot Issues Installing Extensions and Add-ons for Creative Cloud apps",
-      "date": "2019-11-29",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/01/troubleshoot-issues-installing-extensions-and-add-ons-for-creative-cloud-apps"
-    },
-    "docUrl": "/en/authors/abhishek-jain",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Sharayoo Jog",
     "slug": "sharayoo-jog",
     "latestArticle": {
@@ -102,14 +85,14 @@
     ]
   },
   {
-    "name": "Mike Zahorik",
-    "slug": "mike-zahorik",
+    "name": "Ayan Choudhary",
+    "slug": "ayan-choudhary",
     "latestArticle": {
-      "title": "Power from the People: InDesign Scripting",
-      "date": "2020-10-01",
-      "url": "https://blog.developer.adobe.com/en/publish/2020/09/make-yourself-a-power-user-indesign-scripting"
+      "title": "Developing an OAuth Sample for Adobe Photoshop",
+      "date": "2021-05-18",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
     },
-    "docUrl": "/en/authors/mike-zahorik",
+    "docUrl": "/en/authors/ayan-choudhary",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -119,14 +102,31 @@
     ]
   },
   {
-    "name": "Ayan Choudhary",
-    "slug": "ayan-choudhary",
+    "name": "Abhishek Jain",
+    "slug": "abhishek-jain",
     "latestArticle": {
-      "title": "Developing an OAuth Sample for Adobe Photoshop",
-      "date": "2021-05-18",
-      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
+      "title": "Troubleshoot Issues Installing Extensions and Add-ons for Creative Cloud apps",
+      "date": "2019-11-29",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/01/troubleshoot-issues-installing-extensions-and-add-ons-for-creative-cloud-apps"
     },
-    "docUrl": "/en/authors/ayan-choudhary",
+    "docUrl": "/en/authors/abhishek-jain",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Mike Zahorik",
+    "slug": "mike-zahorik",
+    "latestArticle": {
+      "title": "Power from the People: InDesign Scripting",
+      "date": "2020-10-01",
+      "url": "https://blog.developer.adobe.com/en/publish/2020/09/make-yourself-a-power-user-indesign-scripting"
+    },
+    "docUrl": "/en/authors/mike-zahorik",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -187,14 +187,14 @@
     ]
   },
   {
-    "name": "Honwai Wong",
-    "slug": "honwai-wong",
+    "name": "Asim Chatterjee",
+    "slug": "asim-chatterjee",
     "latestArticle": {
-      "title": "Powering Adobe MAX with App Builder and I/O Runtime",
-      "date": "2022-01-17",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/00/powering-adobe-max-with-app-builder-io-runtime"
+      "title": "Leveraging Propensity Models: Marketing that Thinks Like Your Customer",
+      "date": "2025-06-09",
+      "url": "https://blog.developer.adobe.com/en/publish/2025/06/leveraging-propensity-models-marketing-that-thinks-like-your-customer"
     },
-    "docUrl": "/en/authors/honwai-wong",
+    "docUrl": "/en/authors/asim-chatterjee",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -204,14 +204,14 @@
     ]
   },
   {
-    "name": "Asim Chatterjee",
-    "slug": "asim-chatterjee",
+    "name": "Honwai Wong",
+    "slug": "honwai-wong",
     "latestArticle": {
-      "title": "Leveraging Propensity Models: Marketing that Thinks Like Your Customer",
-      "date": "2025-06-09",
-      "url": "https://blog.developer.adobe.com/en/publish/2025/06/leveraging-propensity-models-marketing-that-thinks-like-your-customer"
+      "title": "Powering Adobe MAX with App Builder and I/O Runtime",
+      "date": "2022-01-17",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/00/powering-adobe-max-with-app-builder-io-runtime"
     },
-    "docUrl": "/en/authors/asim-chatterjee",
+    "docUrl": "/en/authors/honwai-wong",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -323,6 +323,23 @@
     ]
   },
   {
+    "name": "Walter Kimaro",
+    "slug": "walter-kimaro",
+    "latestArticle": {
+      "title": "My Experience Building an Adobe Express Add-on",
+      "date": "2023-08-04",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/08/my-experience-building-an-adobe-express-add-on"
+    },
+    "docUrl": "/en/authors/walter-kimaro",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
     "name": "Arun Nagpal",
     "slug": "arun-nagpal",
     "latestArticle": {
@@ -357,23 +374,6 @@
     ]
   },
   {
-    "name": "Walter Kimaro",
-    "slug": "walter-kimaro",
-    "latestArticle": {
-      "title": "My Experience Building an Adobe Express Add-on",
-      "date": "2023-08-04",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/08/my-experience-building-an-adobe-express-add-on"
-    },
-    "docUrl": "/en/authors/walter-kimaro",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Sandeep Paliwal",
     "slug": "sandeep-paliwal",
     "latestArticle": {
@@ -382,23 +382,6 @@
       "url": "https://blog.developer.adobe.com/en/publish/2023/07/adobe-developer-app-builder-support-for-setting-response-headers"
     },
     "docUrl": "/en/authors/sandeep-paliwal",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Tony Evers",
-    "slug": "tony-evers",
-    "latestArticle": {
-      "title": "Distributing Adobe Commerce Patches at Scale",
-      "date": "2023-05-08",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/05/distributing-adobe-commerce-patches-at-scale"
-    },
-    "docUrl": "/en/authors/tony-evers",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -425,14 +408,14 @@
     ]
   },
   {
-    "name": "Pat Hyde",
-    "slug": "pat-hyde",
+    "name": "Avanish Gandhi",
+    "slug": "avanish-gandhi",
     "latestArticle": {
-      "title": "How to Use the Adobe Developer App Builder Template Registry",
-      "date": "2022-07-11",
-      "url": "https://blog.developer.adobe.com/en/publish/2022/11/how-to-use-the-adobe-developer-app-builder-template-registry"
+      "title": "Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace",
+      "date": "2023-02-23",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace"
     },
-    "docUrl": "/en/authors/pat-hyde",
+    "docUrl": "/en/authors/avanish-gandhi",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -442,14 +425,31 @@
     ]
   },
   {
-    "name": "Avanish Gandhi",
-    "slug": "avanish-gandhi",
+    "name": "Tony Evers",
+    "slug": "tony-evers",
     "latestArticle": {
-      "title": "Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace",
-      "date": "2023-02-23",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace"
+      "title": "Distributing Adobe Commerce Patches at Scale",
+      "date": "2023-05-08",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/05/distributing-adobe-commerce-patches-at-scale"
     },
-    "docUrl": "/en/authors/avanish-gandhi",
+    "docUrl": "/en/authors/tony-evers",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Pat Hyde",
+    "slug": "pat-hyde",
+    "latestArticle": {
+      "title": "How to Use the Adobe Developer App Builder Template Registry",
+      "date": "2022-07-11",
+      "url": "https://blog.developer.adobe.com/en/publish/2022/11/how-to-use-the-adobe-developer-app-builder-template-registry"
+    },
+    "docUrl": "/en/authors/pat-hyde",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
