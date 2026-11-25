@@ -56,7 +56,7 @@ jobs:
       # committed in the next step so future runs can use it immediately.
       - name: Notify Slack of new articles
         env:
-          STAGE_SLACK_WEBHOOK_URL: ${{ secrets.STAGE_SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: node sorted-index/notify-slack.js
 
       # Commit both tracking files so future runs (and queued concurrent runs)
