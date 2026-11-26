@@ -321,6 +321,15 @@ export default async function init(blockEl) {
       }
     }
   }
+
+  setTimeout(() => {
+      document.querySelectorAll('main .figure').forEach((f) => {
+        if (!f.querySelector('picture, img, video, iframe, lite-youtube')) {
+          f.classList.add('article-content-wrapper');
+        }
+      });
+    }, 300);
+    
     injectUpdatedNote(blockEl);
     injectGooglePreferredSource()
   // Author image injection

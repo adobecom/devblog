@@ -8,6 +8,27 @@
   box-sizing: border-box;
 }
 
+/* 3 cards: 3 equal columns, larger cards, centered */
+.upcoming-events[data-count="3"],
+.upcoming-events:has(> .upcoming-events-card:nth-child(3):last-child) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 900px;
+}
+
+/* 2 cards: 2 equal columns, centered */
+.upcoming-events[data-count="2"],
+.upcoming-events:has(> .upcoming-events-card:nth-child(2):last-child) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 600px;
+}
+
+/* 1 card: 1 column, centered */
+.upcoming-events[data-count="1"],
+.upcoming-events:has(> .upcoming-events-card:only-child) {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 300px;
+}
+
 main .section:has(.upcoming-events) {
   background: #e8e8e8;
 }
@@ -64,13 +85,29 @@ main .section:has(.upcoming-events) h2 {
     font-size: 24px;
   }
 
-  .upcoming-events {
+  .upcoming-events,
+  .upcoming-events[data-count="3"],
+  .upcoming-events:has(> .upcoming-events-card:nth-child(3):last-child),
+  .upcoming-events[data-count="2"],
+  .upcoming-events:has(> .upcoming-events-card:nth-child(2):last-child) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 32px 24px;
+    max-width: 100%;
   }
 
   .upcoming-events-date {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 481px) {
+
+  .upcoming-events[data-count="3"]>.upcoming-events-card:last-child,
+  .upcoming-events:has(> .upcoming-events-card:nth-child(3):last-child)>.upcoming-events-card:last-child {
+    grid-column: 1 / -1;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -79,8 +116,15 @@ main .section:has(.upcoming-events) h2 {
     font-size: 20px;
   }
 
-  .upcoming-events {
+  .upcoming-events,
+  .upcoming-events[data-count="3"],
+  .upcoming-events:has(> .upcoming-events-card:nth-child(3):last-child),
+  .upcoming-events[data-count="2"],
+  .upcoming-events:has(> .upcoming-events-card:nth-child(2):last-child),
+  .upcoming-events[data-count="1"],
+  .upcoming-events:has(> .upcoming-events-card:only-child) {
     grid-template-columns: 1fr;
+    max-width: 100%;
   }
 
   .upcoming-events-date {

@@ -324,8 +324,8 @@
     "image": "/images/authors/colene-chow.png",
     "fallbackImage": "/images/default-images/default-image-1.png",
     "latestArticle": {
-      "title": "Introducing the Adobe Express Add-on Dev MCP Server (Beta)",
-      "date": "2025-09-02"
+      "title": "How the Premier League Puts Content Creation in the Hands of Millions of Fantasy Football Managers with the Adobe Express Embed SDK",
+      "date": "2026-11-18"
     },
     "isComplete": true
   },
@@ -516,6 +516,26 @@
     "latestArticle": {
       "title": "Build Adobe Express Add-ons Faster with Agent Skills",
       "date": "2026-07-31"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Harsha Ravi",
+    "slug": "harsha-ravi",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/harsha-ravi",
+    "title": "Product, After Effects. Helping lead extensibility for our video, motion and media encoder products at Adobe.",
+    "linkedin": "https://www.linkedin.com/in/harsha-ravi-66b96917/",
+    "links": [],
+    "isAdobeEmployee": true,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/harsha-ravi",
+    "docImage": "./media_1438372443b3a8a8d6ae72d7a834d6d28a58b9cb5.jpg?width=750&#x26;format=jpg&#x26;optimize=medium",
+    "image": "/images/authors/harsha-ravi.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "UXP Plugin Support Comes to After Effects: Public Beta Now Open",
+      "date": "2026-11-23"
     },
     "isComplete": true
   },
@@ -756,6 +776,26 @@
     "latestArticle": {
       "title": "Building Adobe Express Add‑ons in 24 Hours: Pixel Pluck’s Hackathon Story",
       "date": "2026-02-24"
+    },
+    "isComplete": true
+  },
+  {
+    "name": "Kris Coppieters",
+    "slug": "kris-coppieters",
+    "profileUrl": "https://blog.developer.adobe.com/en/authors/kris-coppieters",
+    "title": "I'm a software development fixer. I specialize in Adobe workflow automation for enterprise document processes.",
+    "linkedin": "https://www.linkedin.com/in/kristiaan/",
+    "links": [],
+    "isAdobeEmployee": false,
+    "isDeveloperChampion": false,
+    "hasDoc": true,
+    "docUrl": "/en/authors/kris-coppieters",
+    "docImage": "./media_1726a9a5a71e069bf64be27807eea30d1c52fcacb.png?width=750&#x26;format=png&#x26;optimize=medium",
+    "image": "/images/authors/kris-coppieters.png",
+    "fallbackImage": "/images/default-images/default-image-1.png",
+    "latestArticle": {
+      "title": "The Creative Coding Collective: A Free Community for Automating Adobe Creative Apps",
+      "date": "2026-11-24"
     },
     "isComplete": true
   },

@@ -17,14 +17,14 @@
     ]
   },
   {
-    "name": "Steve Kwak",
-    "slug": "steve-kwak",
+    "name": "Ash Ryan Arnwine",
+    "slug": "ash-ryan-arnwine",
     "latestArticle": {
-      "title": "How to Customize Your Adobe Creative Cloud Extension Package",
-      "date": "2018-08-21",
-      "url": "https://blog.developer.adobe.com/en/publish/2019/06/how-to-customize-your-adobe-creative-cloud-extension-package"
+      "title": "Using ES2015 template strings in CEP",
+      "date": "2018-02-08",
+      "url": "https://blog.developer.adobe.com/en/publish/2019/06/using-es2015-template-strings-in-cep"
     },
-    "docUrl": "/en/authors/steve-kwak",
+    "docUrl": "/en/authors/ash-ryan-arnwine",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -34,14 +34,14 @@
     ]
   },
   {
-    "name": "Ash Ryan Arnwine",
-    "slug": "ash-ryan-arnwine",
+    "name": "Steve Kwak",
+    "slug": "steve-kwak",
     "latestArticle": {
-      "title": "Using ES2015 template strings in CEP",
-      "date": "2018-02-08",
-      "url": "https://blog.developer.adobe.com/en/publish/2019/06/using-es2015-template-strings-in-cep"
+      "title": "How to Customize Your Adobe Creative Cloud Extension Package",
+      "date": "2018-08-21",
+      "url": "https://blog.developer.adobe.com/en/publish/2019/06/how-to-customize-your-adobe-creative-cloud-extension-package"
     },
-    "docUrl": "/en/authors/ash-ryan-arnwine",
+    "docUrl": "/en/authors/steve-kwak",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -68,23 +68,6 @@
     ]
   },
   {
-    "name": "Ayan Choudhary",
-    "slug": "ayan-choudhary",
-    "latestArticle": {
-      "title": "Developing an OAuth Sample for Adobe Photoshop",
-      "date": "2021-05-18",
-      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
-    },
-    "docUrl": "/en/authors/ayan-choudhary",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
     "name": "Ashikka Gupta",
     "slug": "ashikka-gupta",
     "latestArticle": {
@@ -102,14 +85,14 @@
     ]
   },
   {
-    "name": "Mike Zahorik",
-    "slug": "mike-zahorik",
+    "name": "Ayan Choudhary",
+    "slug": "ayan-choudhary",
     "latestArticle": {
-      "title": "Power from the People: InDesign Scripting",
-      "date": "2020-10-01",
-      "url": "https://blog.developer.adobe.com/en/publish/2020/09/make-yourself-a-power-user-indesign-scripting"
+      "title": "Developing an OAuth Sample for Adobe Photoshop",
+      "date": "2021-05-18",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/05/developing-an-oauth-sample-for-adobe-photoshop"
     },
-    "docUrl": "/en/authors/mike-zahorik",
+    "docUrl": "/en/authors/ayan-choudhary",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -127,6 +110,23 @@
       "url": "https://blog.developer.adobe.com/en/publish/2023/01/troubleshoot-issues-installing-extensions-and-add-ons-for-creative-cloud-apps"
     },
     "docUrl": "/en/authors/abhishek-jain",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
+    "name": "Mike Zahorik",
+    "slug": "mike-zahorik",
+    "latestArticle": {
+      "title": "Power from the People: InDesign Scripting",
+      "date": "2020-10-01",
+      "url": "https://blog.developer.adobe.com/en/publish/2020/09/make-yourself-a-power-user-indesign-scripting"
+    },
+    "docUrl": "/en/authors/mike-zahorik",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -323,6 +323,23 @@
     ]
   },
   {
+    "name": "Walter Kimaro",
+    "slug": "walter-kimaro",
+    "latestArticle": {
+      "title": "My Experience Building an Adobe Express Add-on",
+      "date": "2023-08-04",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/08/my-experience-building-an-adobe-express-add-on"
+    },
+    "docUrl": "/en/authors/walter-kimaro",
+    "hasDoc": false,
+    "issues": [
+      "No author landing page (Google Doc)",
+      "Missing headline/title",
+      "Missing LinkedIn URL",
+      "Missing image in author document"
+    ]
+  },
+  {
     "name": "Arun Nagpal",
     "slug": "arun-nagpal",
     "latestArticle": {
@@ -391,14 +408,14 @@
     ]
   },
   {
-    "name": "Walter Kimaro",
-    "slug": "walter-kimaro",
+    "name": "Avanish Gandhi",
+    "slug": "avanish-gandhi",
     "latestArticle": {
-      "title": "My Experience Building an Adobe Express Add-on",
-      "date": "2023-08-04",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/08/my-experience-building-an-adobe-express-add-on"
+      "title": "Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace",
+      "date": "2023-02-23",
+      "url": "https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace"
     },
-    "docUrl": "/en/authors/walter-kimaro",
+    "docUrl": "/en/authors/avanish-gandhi",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -442,14 +459,14 @@
     ]
   },
   {
-    "name": "Avanish Gandhi",
-    "slug": "avanish-gandhi",
+    "name": "Jeff Chasin",
+    "slug": "jeff-chasin",
     "latestArticle": {
-      "title": "Introducing a New Developer Distribution Portal for Listing UXP Plugins in the Creative Cloud Marketplace",
-      "date": "2023-02-23",
-      "url": "https://blog.developer.adobe.com/en/publish/2023/03/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-marketplace"
+      "title": "Datafacts — An Adobe Developer App Builder Application for Adobe Experience Platform",
+      "date": "2021-09-03",
+      "url": "https://blog.developer.adobe.com/en/publish/2021/09/datafacts-an-adobe-developer-app-builder-application-for-adobe-experience-platform"
     },
-    "docUrl": "/en/authors/avanish-gandhi",
+    "docUrl": "/en/authors/jeff-chasin",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
@@ -467,23 +484,6 @@
       "url": "https://blog.developer.adobe.com/en/publish/2021/08/finding-your-feet-with-adobe-developer-app-builder"
     },
     "docUrl": "/en/authors/john-hill",
-    "hasDoc": false,
-    "issues": [
-      "No author landing page (Google Doc)",
-      "Missing headline/title",
-      "Missing LinkedIn URL",
-      "Missing image in author document"
-    ]
-  },
-  {
-    "name": "Jeff Chasin",
-    "slug": "jeff-chasin",
-    "latestArticle": {
-      "title": "Datafacts — An Adobe Developer App Builder Application for Adobe Experience Platform",
-      "date": "2021-09-03",
-      "url": "https://blog.developer.adobe.com/en/publish/2021/09/datafacts-an-adobe-developer-app-builder-application-for-adobe-experience-platform"
-    },
-    "docUrl": "/en/authors/jeff-chasin",
     "hasDoc": false,
     "issues": [
       "No author landing page (Google Doc)",
